@@ -1,0 +1,96 @@
+ul{
+  list-style-type:none; /* 항목의 타입을 지움 */
+  overflow: hidden;  /* 내용이 넘치면 자르고, 자른 부분은 보이지 않는다. */
+  background-color: #666;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  float: left; /*항목을 왼쪽 정렬*/
+}
+
+li a{
+  color: white;
+  text-align:center;
+  padding:20px;
+  text-decoration:none; /* a태그의 밑줄을 없앤다. */
+}
+
+li a:hover { /*항목 위에 마우스를 올릴 시*/
+  background-color: #111111;
+}
+
+header {
+  background-color: #666;
+  padding: 1px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+table{
+  border-collapse: collapse; /*각각의 셀 테두리를 하나처럼 합쳐서 보임*/
+  width: 100%; /*상위 element인 div의 너비를 100% 활용*/
+}
+
+table td,
+table th {
+  border: 1px solid #aaa;
+  text-align: left; /*셀 안의 문자를 왼쪽 정렬*/
+  padding: 5px;
+}
+
+table tr:nth-child(even){ /*CSS선택자: 특정 순서에 있는 요소를 선택*/
+  background-color: #666;
+  color: white;
+}
+
+.div_1{
+  float: left; /*div element를 수평으로 나열*/
+  width: 50%;
+  padding: 10px 0px;
+}
+
+.div_2{
+  float: left;
+  background-color: #666;
+  color:white;
+  padding: 0px 8px;
+}
+
+* {
+  box-sizing: border-box; /*박스 사이즈를 테두리를 포함한 크기를 기준으로 한다.*/
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu a {
+  background-color:#e5e5e5;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:#e5e5e5;
+  float:left;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+@media only screen and (max-width:620px) { /*미디어 쿼리*/
+  .menu, .main, .right {
+    width:100%;
+  }
+}
