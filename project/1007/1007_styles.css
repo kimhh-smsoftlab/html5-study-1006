@@ -1,0 +1,46 @@
+#table1 {
+  border-collapse: collapse;
+}
+
+#table1 th,
+#table1 td{
+  border:1px solid black;
+  padding-right: 10px;
+}
+
+#table2 {
+  border-collapse: collapse;
+}
+
+#table2 th,
+#table2 td{
+  width: 32%;
+  border-bottom: 1px solid black;
+  text-align: left;
+  padding: 3px 0px 3px 0px;
+}
+
+#table_div{
+border: 1px solid black;
+width: 95%;
+}
+
+#table_head_div{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.div1{
+  border-bottom: 1px solid;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.div1 div{
+  display: inline-block;
+  width: 32%;
+  
+}
+
+
+
