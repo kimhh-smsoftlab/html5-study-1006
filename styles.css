@@ -1,27 +1,30 @@
+      .box{
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .box > div{
+        width: 100px;
+        height: 100px;
+        background-color: #81d4;
+        margin: 10px;
+        text-align: center;
+        line-height: 100px;
+        font-size: 19px;
+      }
+      .box div a{
+        color: white;
+        text-decoration: none;
+        padding: 40px 10px 40px 10px;
+      }
+
+      .box > div:hover{
+        background-color: #5d99c6;
+      }
+
       h1{
         background-color: #81d4fa;
         color: white;
         text-align: center;
         padding:10px;
       }
-
-      ul li{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        background-color: #f1f1f1;
-      }
-
-      li a{
-        display: block;
-        color: #000;
-        text-decoration: none;
-        padding: 8px 16px;
-      }
-
-      li a:hover {
-        background-color: #555;
-        color: white;
-      }
-
-      
