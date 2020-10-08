@@ -1,4 +1,4 @@
-# html5-study-1006
+# 김현호 HTML교육용 프로젝트 (2020년 10월 5일 ~ 2020년 12월 30일)
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/html5-css-javascript-study)
 
