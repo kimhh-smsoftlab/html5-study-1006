@@ -1,3 +1,18 @@
+.header{
+  width: 100%;
+  padding: 10px;
+  background-color: #81d4fa;;
+}
+
+.header a{
+  text-decoration: none;
+  color: white;
+  padding: 3px;
+}
+
+.header a:hover{
+  background-color: #5d99c6
+}
 #table1 {
   border-collapse: collapse;
 }
