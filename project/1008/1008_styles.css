@@ -156,3 +156,46 @@ strong{
 .main a:hover{
   text-decoration: underline; 
 }
+
+#gridview *{
+  box-sizing: border-box;
+}
+
+.header2 {
+  border: 1px solid red;
+  padding: 15px;
+}
+
+.menu2 {
+  width: 25%;
+  float:left;
+  padding:15px;
+  border: 1px solid red;
+}
+
+.main2 {
+  width: 75%;
+  float:left;
+  padding: 15px;
+  border: 1px solid red;
+  
+}
+
+.grid-container{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+  grid-gap: 30px;;
+}
+
+.grid-item{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.active{
+  background-color:#5d99c6 
+}
