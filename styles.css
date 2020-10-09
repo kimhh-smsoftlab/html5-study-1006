@@ -1,4 +1,33 @@
-      
+      .header{
+        background-color: #81d4fa;
+        min-width: 700px;
+        max-width: 1197px;
+      }
+      .header a{
+        text-decoration:none;
+        padding:20;
+        color: white;
+      }
+      .header a:hover{
+       background-color:#5d99c6;
+      }
+
+      .header span{
+        display:inline-flex;
+      }
+
+      #home_span{
+        float:right;
+      }
+
+      #home_span a{
+        background-color: #37b0e9;
+      }
+
+      #home_span a:hover{
+        background-color: #5d99c6;
+      }
+
       .box{
         display: flex;
         flex-wrap: wrap;
@@ -30,16 +59,36 @@
         text-align: center;
         padding:10px;
       }
-
-      #grid-containor {
-        display:grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        min-width: 750px;
+      .calendar .week_bar,
+      .calendar .days{
+        min-width: 703px;
         max-width: 1200px;
       }
+      .week_bar {
+        text-align: center;
+        margin:5px -1px 2px;
+        background-color: #81d4fa;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      }
 
-      .item{
-        border: 1px solid black;
+      .week_bar span{
+        border: 1px solid white;
+      }
+
+      .days{
+        text-align: center;
+        margin:-1px;
+        background-color: #81d4;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      }
+      .day{
+        height: 90px;
+      }
+
+      .days span{
+        border: 1px solid white;
       }
 
       *{
