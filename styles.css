@@ -1,3 +1,4 @@
+      
       .box{
         display: flex;
         flex-wrap: wrap;
@@ -28,4 +29,23 @@
         color: white;
         text-align: center;
         padding:10px;
+      }
+
+      #grid-containor {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        min-width: 750px;
+        max-width: 1200px;
+      }
+
+      .item{
+        border: 1px solid black;
+      }
+
+      *{
+        box-sizing: border-box;
+      }
+
+      body{
+        margin: 0px 30px;
       }
