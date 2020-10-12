@@ -1,3 +1,51 @@
+      @media only screen and {}
+      div.header{
+        background-color: #81d4fa;
+        display: flex;
+        justify-content: space-between;
+        height: 6vh;
+        align-items: center;
+        margin-top:20px;
+      }
+
+      ul.header_page{
+        display: flex;
+        list-style: none;
+        margin: 0px;
+        padding-left: 8px;
+      }
+      
+      ul.header_page a,
+      div.header_main a{
+        color: white;
+        display:block;
+        text-align: center;
+        border-radius: 4px;
+        height: 5vh;
+        line-height: 5vh;
+        text-decoration: none;
+      }
+      ul.header_page a{
+        width: 80px;
+      }
+
+      div.header_main > a{
+        width:100px;
+      }
+
+      ul.header_page a:hover{
+        background-color: #37b0e9;
+      }
+      div.header_main {
+        padding-right:8px;
+      }
+
+
+      div.header_main > a:hover {
+        background-color: #37b0e9;
+      }
+
+
       .calendar_1{
         display: flex;
         flex-direction: column;
@@ -52,23 +100,7 @@
       .days_1 > li > a:hover{
         background-color: #5d99c6;;
       }
-      .header{
-        background-color: #81d4fa;
-        min-width: 700px;
-        max-width: 1197px;
-      }
-      .header a{
-        text-decoration:none;
-        padding:20;
-        color: white;
-      }
-      .header a:hover{
-       background-color:#5d99c6;
-      }
 
-      .header span{
-        display:inline-flex;
-      }
 
       #home_span{
         float:right;
