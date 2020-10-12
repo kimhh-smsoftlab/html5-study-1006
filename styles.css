@@ -309,4 +309,64 @@
         grid-template-columns: auto auto auto auto;
       }
 
+      .navigationbar{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+      }
 
+      .navigationbar__link__items{
+        display: flex;
+        list-style: none;
+        padding:0px;
+      }
+      .navigationbar__link__items li{
+        padding:0px 20px;
+      }
+      .sidebar__table{
+        border: 1px solid;
+        width: 100%;
+      }
+      .sidebar__table tr td{
+        padding:5px 0px;
+      }
+
+      .sidebar{
+        width:300px;
+        overflow: auto;
+      }
+
+
+      .view-with-sidebar{
+        display: flex;
+        height: 70vh;
+        
+      }
+
+      .chartviewpage__top{
+        display:flex;
+        height: 20%;
+      }
+
+      .chartviewpage__content{
+        display: flex;
+        height: 80%;
+        
+      }
+
+      .chartviewpage{
+        width:80%;
+        
+      }
+
+      .chartviewpage__content__chart1{
+        width:70%;
+        background-color:  #37b0e9;
+      }
+      .chartviewpage__content__chart2{
+        width:30%;
+        background-color: #5d99c6;
+      }
+
+
+      
