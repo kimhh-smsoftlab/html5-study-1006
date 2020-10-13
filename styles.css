@@ -341,35 +341,44 @@
 
       .view-with-sidebar{
         display: flex;
-        height: 70vh;
+        height: 100vh;
         overflow: auto;
         
+      }
+      .chartviewpage{
+        width:100%;
       }
 
       .chartviewpage__top{
         display:flex;
-        height: 20%;
+        height: 10vh;
         background-color:  coral;
       }
 
       .chartviewpage__content{
-        display: flex;
-        height: 80%;
+        display: grid;
+        grid-template-columns: auto 300px;
+        height: 90vh;
         
       }
 
-      .chartviewpage{
-        width:100%;
-        
-      }
+      
 
       .chartviewpage__content__chart1{
         width:100%;
-        background-color:  #37b0e9;
+        background-color:  #f06292
       }
       .chartviewpage__content__chart2{
         width:300px;;
-        background-color: #5d99c6;
+        background-color: #ce93d8
+      }
+       .chartviewpage__content__chart3{
+        width:100%;
+        background-color:  #90caf9
+      }
+      .chartviewpage__content__chart4{
+        width:300px;;
+        background-color: #80cbc4
       }
 
       .res__div{
@@ -397,31 +406,41 @@
           height:auto;
         }
         .chartviewpage__content{
-          flex-direction:  column;
-          height:90%;
+          height: 160vh;
+          grid-template-columns: auto;
         }
         .chartviewpage{
-          height:1000px;
+          
         }
         .sidebar{
-          height:500px;
+          display:none;
         }
         .chartviewpage__top{
-          height:10%;
+          height:10vh;
         }
+
         .chartviewpage__content__chart1{
-          height: 50%;
+          height:40vh
         }
         .chartviewpage__content__chart2{
-          height: 50%;
-          width: 100%
+          width:auto;
+          height:40vh
+        }
+        
+        .chartviewpage__content__chart3{
+          height:40vh
+        }
+        .chartviewpage__content__chart4{
+          width:auto;
+          height:40vh
         }
         .navigationbar__link{
           display: none;
         }
         .navigationbar__logo{
           position: absolute;
-          left:45vw
+          left:45vw;
+          
         }
         .navigationbar__sub{
           display:none;
@@ -432,7 +451,8 @@
         }
         .navigationbar__toggle{
         display:block;
-}
+        }
+        
       }
 
       
