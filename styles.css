@@ -140,7 +140,7 @@
         background-color: #5d99c6;
       }
 
-      h1{
+      .index__header{
         background-color: #81d4fa;
         color: white;
         text-align: center;
@@ -182,8 +182,9 @@
         box-sizing: border-box;
       }
 
-      body{
+      #index__body{
         margin: 0px 30px;
+        background-color: #ebebeb;
       }
 
       .in_project{
@@ -409,9 +410,7 @@
           height: 160vh;
           grid-template-columns: auto;
         }
-        .chartviewpage{
-          
-        }
+
         .sidebar{
           display:none;
         }
