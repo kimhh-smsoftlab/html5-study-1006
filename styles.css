@@ -236,7 +236,7 @@
         line-height: 6vh;
       }
 
-      @media screen and (max-width:800px){
+      @media screen and (max-width:900px){
         .main_container{
           flex-direction: column;
         }
@@ -250,6 +250,7 @@
 
         div.box_container{
           grid-template-columns: 1fr 1fr;
+          row-gap: 2vh;
         }
 
         div.box2{
@@ -307,6 +308,7 @@
       .box_container{
         display: grid;
         grid-template-columns: auto auto auto auto;
+        margin-bottom:2vh;
       }
 
       .navigationbar{
