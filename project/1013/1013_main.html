@@ -18,11 +18,23 @@
 				<a title="첫 화면으로 이동합니다." href="/index.html">메인 페이지</a>
 			</div>
 		</div>
-			<h1 id="h1_tag">dfsdfasdf</h1>
-			<button type="button" onclick="document.getElementById('h1_tag').style.fontSize='35px'">Click Me!</button>
+      <div id="box"> 
+        <div class="box">체결시간</div>
+        <div>체결가격</div>
+        <div>체결금액(KRW)</div>
+      </div>
+      <div>
+        <div>체결시간</div>
+        <div>체결가격</div>
+        <div>체결금액(KRW)</div>
+      </div>
 		</div>
 
-
+    <script>
+      // document.getElementById("box").innerHTML = "Hello JavaScript";
+      var x = document.getElementsByClassName("box");
+      x[0].innerHTML = "new text";
+    </script>
 </body>
 
 </html>
