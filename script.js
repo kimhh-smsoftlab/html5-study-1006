@@ -6,6 +6,16 @@ let hour = today.getHours();
 let min = today.getMinutes();
 let now = month + "." + date + " " + hour + ":" + min;
 
+create_header();
+create_random_body();
+interval();
+
+var car = {
+  name: "Volvo",
+  age: 50,
+  color: "white"
+};
+
 //테이블 헤더 생성
 function create_header() {
   document.getElementById("table_header").innerHTML =
@@ -40,9 +50,11 @@ function getRndInteger(min, max) {
 
 //1초마다 새로운 데이터 생성
 
-function {
+function interval() {
   // setInterval(create_random_data, 1000);
-  setInterval(function(){create_random_data},1000);
+  setInterval(function() {
+    create_random_data();
+  }, 1000);
 }
 
 function create_random_data() {
@@ -59,10 +71,11 @@ function create_random_data() {
     "</div>" +
     "</div>";
 }
+
 //매수 매도 구분하기
-let buysell = ["buy", "sell"];
+//let buysell = ["buy", "sell"];
 //let pick = buysell[Math.floor(Math.random()*2)
-var x = document.getElementsByClassName("js_table_tr");
-for (var i = 0; i < x.length; i++) {
-  x[i].className = "js_table_tr flex_row";
-}
+//var x = document.getElementsByClassName("js_table_tr");
+//for (var i = 0; i < x.length; i++) {
+// x[i].className = "js_table_tr flex_row";
+//}
