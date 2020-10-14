@@ -9,8 +9,22 @@
 
 .js_table_tr > div {
   width: 33.33%;
+  text-align: center;
 }
 
+.js_table_header {
+  background-color: #4f4f4f4f;
+}
+.js_table_body .js_table_tr:nth-child(odd) {
+  background-color: #eeeeee;
+}
+.js_table_body {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.js_table_body .js_table_tr > div:nth-child(3) {
+  text-align: right;
+}
 .header {
   background-color: #81d4fa;
   display: flex;
