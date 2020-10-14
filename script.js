@@ -6,7 +6,8 @@ let hour = today.getHours();
 let min = today.getMinutes();
 let now = month + "." + date + " " + hour + ":" + min;
 
-{
+//테이블 헤더 생성
+function create_header() {
   document.getElementById("table_header").innerHTML =
     '<div class="js_table_tr flex_row">' +
     "<div>체결시간</div>" +
@@ -14,8 +15,8 @@ let now = month + "." + date + " " + hour + ":" + min;
     "<div>체결금액(KRW)</div>" +
     "</div>";
 }
-
-{
+//100개의 랜덤 데이터 생성
+function create_random_body() {
   for (var i = 0; i < 100; i++) {
     document.getElementById("table_body").innerHTML +=
       '<div class="js_table_tr flex_row">' +
@@ -32,32 +33,35 @@ let now = month + "." + date + " " + hour + ":" + min;
   }
 }
 
+//랜덤 숫자 생성
 function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-{
-  setInterval(function() {
-    document.getElementById("table_body").innerHTML +=
-      '<div class="js_table_tr flex_row">' +
-      "<div>" +
-      now +
-      "</div>" +
-      "<div>" +
-      getRndInteger(12000000, 13000000) +
-      "</div>" +
-      "<div>" +
-      getRndInteger(20000, 40000000) +
-      "</div>" +
-      "</div>";
+//1초마다 새로운 데이터 생성
 
-      var objDiv = document.getElementById("table_body");
-      objDiv.scrollTop = objDiv.scrollHeight;
-  }, 1000);
+function {
+  // setInterval(create_random_data, 1000);
+  setInterval(function(){create_random_data},1000);
 }
 
-
-
+function create_random_data() {
+  document.getElementById("table_body").innerHTML +=
+    '<div class="js_table_tr flex_row">' +
+    "<div>" +
+    now +
+    "</div>" +
+    "<div>" +
+    getRndInteger(12000000, 13000000) +
+    "</div>" +
+    "<div>" +
+    getRndInteger(20000, 40000000) +
+    "</div>" +
+    "</div>";
+}
+//매수 매도 구분하기
+let buysell = ["buy", "sell"];
+//let pick = buysell[Math.floor(Math.random()*2)
 var x = document.getElementsByClassName("js_table_tr");
 for (var i = 0; i < x.length; i++) {
   x[i].className = "js_table_tr flex_row";
