@@ -36,10 +36,6 @@ function getRndInteger(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function addComma(num) {
-  var regexp = /\B(?=(\d{3})+(?!\d))/g;
-  return num.toString().replace(regexp, ",");
-}
 {
   setInterval(function() {
     document.getElementById("table_body").innerHTML +=
@@ -54,8 +50,13 @@ function addComma(num) {
       getRndInteger(20000, 40000000) +
       "</div>" +
       "</div>";
+
+      var objDiv = document.getElementById("table_body");
+      objDiv.scrollTop = objDiv.scrollHeight;
   }, 1000);
 }
+
+
 
 var x = document.getElementsByClassName("js_table_tr");
 for (var i = 0; i < x.length; i++) {

@@ -21,6 +21,8 @@
 .js_table_body {
   display: flex;
   flex-direction: column-reverse;
+  overflow: auto;
+  height: 600px;
 }
 .js_table_body .js_table_tr > div:nth-child(3) {
   text-align: right;
