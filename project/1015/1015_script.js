@@ -1,4 +1,11 @@
 "use strict";
+//json 파일 불러오기//
+let requestURL = "/project/1015/test.json";
+let request = new XMLHttpRequest();
+request.open("GET", requestURL);
+request.responseType = "json";
+request.send();
 
-let a = 10;
-console.log(a);
+// request.onload = function() {
+//   let data = request.response;
+// };
