@@ -1,15 +1,17 @@
 var data = window.mastercode;
+var table = document.getElementById(`find`);
+var tr;
 
 console.log(data[0]);
 console.log("name : ", data[0].name);
 
 //li항목을 생성하여 ul에 append
-const ul = document.getElementById(`find`);
-for (var x of data) {
-  var li = document.createElement("li");
-  li.innerHTML = x.name + "---<B>" + x.code;
-  ul.appendChild(li);
-}
+
+// for (var x of data) {
+//   var li = document.createElement("li");
+//   li.innerHTML = x.name + "---<B>" + x.code;
+//   ul.appendChild(li);
+// }
 
 var a = data[0].code;
 var b = data[1].code;
@@ -223,3 +225,40 @@ var citrus2 = fruits.slice(1);
 console.log("fruits ===>", fruits);
 console.log("fruits.slice(3) ===>", citrus1);
 console.log("fruits.slice(1) ===>", citrus2);
+
+console.clear();
+// for (var x of data) {
+//   //data = 오브젝트 모음 x = 오브젝트 1개
+//   var text = "";
+//   for (var y in x) {
+//     //x = 오브젝트 1개 y = 키
+//     text += `${y} : ${x[y]} / `;
+//   }
+//   console.log(text);
+// }
+
+//for (var x of data) {
+//data = 오브젝트 모음 x = 오브젝트 1개
+// var text = x.code;
+// console.log(text);
+//}
+
+viewAll();
+
+function viewAll() {
+  var data_1 = data[0];
+  tr = document.createElement("tr");
+  for (var x in data_1) {
+    tr.innerHTML += `<td>${x}</td>`;
+  }
+  table.appendChild(tr);
+  console.log(table);
+}
+
+//   var text = "";
+//   for (var y in x) {
+//     //x = 오브젝트 1개 y = 키
+//     text += `${y} : ${x[y]} / `;
+//   }
+//   console.log(text);
+// }
