@@ -249,16 +249,15 @@ function viewAll() {
   var data_1 = data[0];
   tr = document.createElement("tr");
   for (var x in data_1) {
-    tr.innerHTML += `<td>${x}</td>`;
+    tr.innerHTML += `<th>${x}</th>`;
   }
   table.appendChild(tr);
-  console.log(table);
-}
 
-//   var text = "";
-//   for (var y in x) {
-//     //x = 오브젝트 1개 y = 키
-//     text += `${y} : ${x[y]} / `;
-//   }
-//   console.log(text);
-// }
+  for (var x of data) {
+    tr = document.createElement("tr");
+    for (var y in x) {
+      tr.innerHTML += `<td>${x[y]}</td>`;
+    }
+    table.appendChild(tr);
+  }
+}
