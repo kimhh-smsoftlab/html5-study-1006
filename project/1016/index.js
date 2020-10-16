@@ -1,7 +1,5 @@
 var data = window.mastercode;
 var table = document.getElementById(`find`);
-var tr;
-
 console.log(data[0]);
 console.log("name : ", data[0].name);
 
@@ -226,7 +224,6 @@ console.log("fruits ===>", fruits);
 console.log("fruits.slice(3) ===>", citrus1);
 console.log("fruits.slice(1) ===>", citrus2);
 
-console.clear();
 // for (var x of data) {
 //   //data = 오브젝트 모음 x = 오브젝트 1개
 //   var text = "";
@@ -246,8 +243,10 @@ console.clear();
 viewAll();
 
 function viewAll() {
+  table.innerHTML = "";
   var data_1 = data[0];
-  tr = document.createElement("tr");
+
+  var tr = document.createElement("tr");
   for (var x in data_1) {
     tr.innerHTML += `<th>${x}</th>`;
   }
@@ -260,4 +259,34 @@ function viewAll() {
     }
     table.appendChild(tr);
   }
+}
+
+function viewCode() {
+  table.innerHTML = "";
+  var tr = document.createElement("tr");
+  tr.innerHTML += `<th>이름</th><th>코드</th>`;
+  table.appendChild(tr);
+
+  for (var x of data) {
+    tr = document.createElement("tr");
+    tr.innerHTML += `<td>${x.name}</td><td>${x.code}</td>`;
+    table.appendChild(tr);
+  }
+}
+
+function viewCsname() {
+  table.innerHTML = "";
+  var tr = document.createElement("tr");
+  tr.innerHTML += `<th>이름</th><th>초성</th>`;
+  table.appendChild(tr);
+
+  for (var x of data) {
+    tr = document.createElement("tr");
+    tr.innerHTML += `<td>${x.name}</td><td>${x.csname}</td>`;
+    table.appendChild(tr);
+  }
+}
+
+function allClear() {
+  table.innerHTML = "";
 }
