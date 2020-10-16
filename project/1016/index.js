@@ -154,7 +154,72 @@ console.log("change arr1[0] ===>", arr1[0]);
 //배열에 object 넣기
 var arr2 = [];
 var item = data[0];
-arr2 = [item.name, item.code, item.csname, item.mktgbcd];
+arr2 = [item.name, item.code, item.mktgbcd, item.csname];
 console.log("arr2 ===>", arr2);
 
-//배열 메소드
+//arr2.length
+console.log("arr2.length ===>", arr2.length);
+
+//마지막 인덱스 접근
+console.log("arr2[arr2.length -1] ===>", arr2[arr2.length - 1]);
+
+//배열 반복
+for (var a of arr2) {
+  console.log(a);
+}
+//forEach
+arr2.forEach(myfunction);
+function myfunction(value) {
+  console.log("arr2 in ===>", value);
+}
+
+//push
+arr2.push(item.upcode);
+console.log("arr2 ===>", arr2);
+
+//그외에 length에 추가하는 법
+arr2[arr2.length] = item.symbol;
+console.log("arr2 ===>", arr2);
+
+//pop()
+arr2.pop();
+console.log("arr2 ===>", arr2, "popping");
+
+//명명된 인덱스를 사용하는 경우 JavaScript는 배열을 표준 개체로 재정의합니다.
+var person = [];
+person["firstName"] = "John";
+person["lastName"] = "Doe";
+person["age"] = 46;
+var x = person.length;
+console.log("x ===>", x);
+var y = person[0];
+console.log("y ===>", y);
+
+//배열 toString()
+console.log(arr2);
+var arr_str = arr2.toString();
+console.log(arr_str);
+
+var item_str = item.toString(); //객체는 되지 않는다.
+console.log(item_str);
+//배열 join()
+var arr_str2 = arr2.join("!");
+console.log(arr_str2);
+
+//splice( 추가할 위치, 삭제할 개수, 추가할 데이터)
+console.log(arr2);
+var arr_spl = arr2.splice(2, 2, "lemon");
+console.log("arr2 ===>", arr2);
+console.log("splice arr ===>", arr_spl);
+
+//concat()
+var arr_merge = arr2.concat(arr_spl);
+console.log("arr2.concat(arr_spl) ===>", arr_merge);
+
+//slice()
+var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+var citrus1 = fruits.slice(3);
+var citrus2 = fruits.slice(1);
+console.log("fruits ===>", fruits);
+console.log("fruits.slice(3) ===>", citrus1);
+console.log("fruits.slice(1) ===>", citrus2);
