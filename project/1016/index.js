@@ -224,25 +224,26 @@ console.log("fruits ===>", fruits);
 console.log("fruits.slice(3) ===>", citrus1);
 console.log("fruits.slice(1) ===>", citrus2);
 
-// for (var x of data) {
-//   //data = 오브젝트 모음 x = 오브젝트 1개
-//   var text = "";
-//   for (var y in x) {
-//     //x = 오브젝트 1개 y = 키
-//     text += `${y} : ${x[y]} / `;
-//   }
-//   console.log(text);
-// }
+for (var x of data) {
+  //data = 오브젝트 모음 x = 오브젝트 1개
+  var text = "";
+  for (var y in x) {
+    //x = 오브젝트 1개 y = 키
+    text += `${y} : ${x[y]} / `;
+  }
+  console.log(text);
+}
 
-//for (var x of data) {
-//data = 오브젝트 모음 x = 오브젝트 1개
-// var text = x.code;
-// console.log(text);
-//}
+for (var x of data) {
+  //data = 오브젝트 모음 x = 오브젝트 1개
+  var text = x.code;
+  console.log(text);
+}
 
-viewAll();
+function createTable() {}
 
 function viewAll() {
+  table.style.display = "block";
   table.innerHTML = "";
   var data_1 = data[0];
 
@@ -288,5 +289,21 @@ function viewCsname() {
 }
 
 function allClear() {
-  table.innerHTML = "";
+  table.style.display = "none";
 }
+
+var btn1 = document.getElementById("btn1");
+btn1.textContent = "모든 항목보기";
+btn1.onclick = viewAll;
+
+var btn2 = document.getElementById("btn2");
+btn2.textContent = "코드 항목보기";
+btn2.onclick = viewCode;
+
+var btn3 = document.getElementById("btn3");
+btn3.textContent = "초성 항목보기";
+btn3.onclick = viewCsname;
+
+var btn4 = document.getElementById("btn4");
+btn4.textContent = "모든 지우기";
+btn4.onclick = allClear;
