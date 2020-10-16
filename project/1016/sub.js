@@ -3,7 +3,7 @@ var data = window.mastercode;
 var table;
 var head_title = ["이름", "코드", "symbol", "초성", "mktgbcd", "upcode"];
 ini();
-
+createTable();
 //함수 설정
 function createTable() {
   table = document.getElementById("find");
@@ -40,7 +40,7 @@ function createTableBody(table) {
 
 function viewAll() {
   table = document.getElementById("find");
-  table.style.display = "blok";
+  table.style.display = "block";
   var target0 = document.getElementsByClassName("item0");
   for (var x of target0) {
     x.style.display = "block";
@@ -69,7 +69,7 @@ function viewAll() {
 
 function viewCode() {
   table = document.getElementById("find");
-  table.style.display = "blok";
+  table.style.display = "block";
   var target0 = document.getElementsByClassName("item0");
   for (var x of target0) {
     x.style.display = "block";
@@ -98,10 +98,10 @@ function viewCode() {
 
 function viewCsname() {
   table = document.getElementById("find");
-  table.style.display = "blok";
+  table.style.display = "block";
   var target0 = document.getElementsByClassName("item0");
   for (var x of target0) {
-    x.style.display = "none";
+    x.style.display = "block";
   }
   var target1 = document.getElementsByClassName("item1");
   for (var x of target1) {
