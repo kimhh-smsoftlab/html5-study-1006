@@ -1,18 +1,26 @@
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Document</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8" />
-	<title>Document</title>
-</head>
-
-<body>
-	<script src="./objects.js"></script>
-	<script src="./index.js"></script>
-	<div class="article_post">
-    <ul id="find"></ul>
-  </div>
-
-  
-</body>
-
+  <body>
+    <script defer src="./objects.js"></script>
+    <script defer src="./index.js"></script>
+    <div class="header">
+      <ul class="header_page">
+        <li><a title="첫번째 페이지로 이동합니다." href="#">페이지 A</a></li>
+      </ul>
+      <div class="header_main">
+        <a title="첫 화면으로 이동합니다." href="/index.html">메인 페이지</a>
+      </div>
+    </div>
+    <div>
+      <button onclick="ul_clear()"></button>
+    </div>
+    <div class="article_post">
+      <ul id="find"></ul>
+    </div>
+  </body>
 </html>
