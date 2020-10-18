@@ -145,6 +145,6 @@ function ini() {
   btn3.onclick = viewCsname;
 
   var btn4 = document.getElementById("btn4");
-  btn4.textContent = "모든 지우기";
+  btn4.textContent = "모든 항목지우기";
   btn4.onclick = allClear;
 }
