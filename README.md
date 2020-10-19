@@ -15,9 +15,10 @@
         > - 객체의 childNodes를 이용하여 자식 요소 데이터 변경    
         > 
         ```
-        var tr_group_down = document.getElementsByClassName('down');
-        for(var i=0; i<tr_group_down.length; i++){
-          for(var j = 0; j< tr_group_down[i].childNodes.length; j++){
+        let tr_group_down = document.getElementsByClassName('down');
+        let i,j;
+        for(i=0; i<tr_group_down.length; i++){
+          for(j=0; j< tr_group_down[i].childNodes.length; j++){
             tr_group_down[i].childNodes[j].textContent = data[i][j];
           }
         }
