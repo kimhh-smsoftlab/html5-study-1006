@@ -6,7 +6,7 @@ ini();
 createTable();
 //함수 설정
 function createTable() {
-  table = document.getElementById("find");
+  table = document.getElementById("table");
   createTableHead(table);
   createTableBody(table);
 }
@@ -39,8 +39,9 @@ function createTableBody(table) {
 }
 
 function viewAll() {
-  table = document.getElementById("find");
+  table = document.getElementById("table");
   table.style.display = "block";
+  //모든 item0 class 요소들의 display를 block으로 한다.
   var target0 = document.getElementsByClassName("item0");
   for (var x of target0) {
     x.style.display = "block";
@@ -68,7 +69,7 @@ function viewAll() {
 }
 
 function viewCode() {
-  table = document.getElementById("find");
+  table = document.getElementById("table");
   table.style.display = "block";
   var target0 = document.getElementsByClassName("item0");
   for (var x of target0) {
@@ -97,7 +98,7 @@ function viewCode() {
 }
 
 function viewCsname() {
-  table = document.getElementById("find");
+  table = document.getElementById("table");
   table.style.display = "block";
   var target0 = document.getElementsByClassName("item0");
   for (var x of target0) {
@@ -126,7 +127,7 @@ function viewCsname() {
 }
 
 function allClear() {
-  table = document.getElementById("find");
+  table = document.getElementById("table");
   table.style.display = "none";
 }
 

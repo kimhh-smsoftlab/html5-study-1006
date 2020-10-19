@@ -1,5 +1,5 @@
 var data = window.mastercode;
-var table = document.getElementById(`find`);
+var table = document.getElementById(`table`);
 console.log(data[0]);
 console.log("name : ", data[0].name);
 

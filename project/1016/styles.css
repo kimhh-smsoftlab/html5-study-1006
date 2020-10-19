@@ -1,10 +1,10 @@
-#find > div {
+#table > div {
   display: flex;
   border-bottom: 1px solid black;
   padding: 4px;
 }
 
-#find > div > div {
+#table > div > div {
   width: 1fr;
 }
 
