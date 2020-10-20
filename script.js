@@ -1,9 +1,16 @@
-var days;
 
-inProject(20);
-//달력에 프로젝트를 삽입
-function inProject(day) {
-  // 해당 일자에 해당되는 숫자
-  days = document.getElementsByClassName(`day_${day}`);
-  days.forEach(element => console.log(element));
+// 날짜 Element.에 클래스 이름을 추가
+function createClass(){
+  
+}
+
+inProject('1020');
+
+//날짜를 받고 해당하는 날짜에 링크를 연결한다.
+function inProject(day) { // day : string
+  let days = document.getElementsByClassName(`day_${day}`);
+  Array.from(days).forEach(element => {
+    element.className += " in_project";
+    element.setAttribute('href', `/project/${day}/${day}_main.html`);
+  }); 
 }

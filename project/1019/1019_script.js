@@ -1,10 +1,10 @@
 let jsondata = window.xx;
-let table;
-let head_title = ["매도잔량", "가격", "매수잔량"];
-let chart_5;
-let chart_10;
-let format_data = formatData();
+let table,tr, chart_5, chart_10, format_data, head_title;
 
+
+
+// format_data = formatData();
+// head_title = ["매도잔량", "가격", "매수잔량"];
 createTable();
 insertData(format_data);
 interval();
@@ -17,10 +17,10 @@ function createTable() {
 }
 
 function createTableHead(table) {
-  let tr = document.createElement("tr");
+  tr = document.createElement("tr");
   tr.className = "table_header";
   for (let title of head_title) {
-    let td = document.createElement("th");
+    td = document.createElement("th");
     td.textContent = title;
     td.className = `flex_item item${head_title.indexOf(title)}`;
     tr.appendChild(td);
@@ -29,19 +29,18 @@ function createTableHead(table) {
 }
 
 function createTableBody(table) {
-  let body = document.createElement("tbody");
-  body.className = "table_body";
-  // for(row_data of jsondata){
-  for (var i = 0; i < 20; i++) {
-    let tr = document.createElement("tr");
+  body = document.getElementById("tbody");
+
+  for (let i = 0; i < 20; i++) {
+    tr = document.createElement("tr");
     if (i < 10) {
       if (i < 5) {
         tr.className = `down top5`;
       } else {
         tr.className = `down`;
       }
-      for (var j = 0; j < 3; j++) {
-        let td = document.createElement("td");
+      for (j = 0; j < 3; j++) {
+        td = document.createElement("td");
         td.className = "item" + j;
         tr.appendChild(td);
       }
@@ -51,7 +50,7 @@ function createTableBody(table) {
       } else {
         tr.className = `up top5`;
       }
-      for (var j = 0; j < 3; j++) {
+      for (let j = 0; j < 3; j++) {
         let td = document.createElement("td");
         td.className = "item" + j;
         tr.appendChild(td);
@@ -63,22 +62,22 @@ function createTableBody(table) {
 }
 
 function insertData(data) {
-  var tr_group_down = document.getElementsByClassName("down");
-  var tr_group_up = document.getElementsByClassName("up");
-  for (var i = 0; i < tr_group_down.length; i++) {
-    for (var j = 0; j < tr_group_down[i].childNodes.length; j++) {
+  let tr_group_down = document.getElementsByClassName("down");
+  let tr_group_up = document.getElementsByClassName("up");
+  for (let i = 0; i < tr_group_down.length; i++) {
+    for (let j = 0; j < tr_group_down[i].childNodes.length; j++) {
       tr_group_down[i].childNodes[j].textContent = data[i][j];
     }
   }
-  for (var i = 0; i < tr_group_up.length; i++) {
-    for (var j = 0; j < tr_group_up[9 - i].childNodes.length; j++) {
+  for (let i = 0; i < tr_group_up.length; i++) {
+    for (let j = 0; j < tr_group_up[9 - i].childNodes.length; j++) {
       tr_group_up[9 - i].childNodes[j].textContent = data[19 - i][j];
     }
   }
 }
 
 function formatData() {
-  var arr = [];
+  let arr = [];
   for (row_data of jsondata) {
     if (row_data.type == "sell") {
       arr.push([row_data.quantity, row_data.price, ""]);
@@ -116,7 +115,7 @@ function new_btn() {
 }
 
 function changeView(v) {
-  var x = document.getElementsByClassName("top5");
+  let x = document.getElementsByClassName("top5");
   if (v.textContent == "5호가") {
     for (y of x) {
       console.log(y);

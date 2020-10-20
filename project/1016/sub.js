@@ -1,131 +1,140 @@
 "use strict";
-var data = window.mastercode;
-var table;
-var head_title = ["이름", "코드", "symbol", "초성", "mktgbcd", "upcode"];
+let data = window.mastercode;
+let table, btn, titles, tr, td, target, item;
+
+//버튼 초기화
 ini();
+//테이블 초기화
 createTable();
-//함수 설정
+
+//테이블을 만들기위해 Head,Body 함수 호출
 function createTable() {
   table = document.getElementById("table");
   createTableHead(table);
   createTableBody(table);
 }
 
+//부모 객체를 받아 tablehead를 만들고 자식으로 추가
 function createTableHead(table) {
-  var tr = document.createElement("div");
+  titles = Object.keys(data[0]);
+  tr = document.createElement("div");
   tr.className = "table_header";
-  for (var title of head_title) {
-    var td = document.createElement("div");
+  for (let title of titles) {
+    td = document.createElement("div");
     td.textContent = title;
-    td.className = `flex_item item${head_title.indexOf(title)}`;
+    td.className = `flex_item item_${title}`;
     tr.appendChild(td);
   }
   table.appendChild(tr);
 }
 
+//테이블 body 생성
 function createTableBody(table) {
-  for (var row_data of data) {
-    var tr = document.createElement("div");
-    var i = 0;
-    for (var key in row_data) {
-      var td = document.createElement("div");
+  let row_data, key;
+  for(row_data of data) {
+    tr = document.createElement("div");
+    for(key in row_data) {
+      td = document.createElement("div");
       td.textContent = row_data[key];
-      td.className = `flex_item item${i}`;
+      td.className = `flex_item item_${key}`;
       tr.appendChild(td);
-      i++;
     }
     table.appendChild(tr);
   }
 }
 
+//모든 항목 보이기
 function viewAll() {
   table = document.getElementById("table");
-  table.style.display = "block";
-  //모든 item0 class 요소들의 display를 block으로 한다.
-  var target0 = document.getElementsByClassName("item0");
-  for (var x of target0) {
-    x.style.display = "block";
+  table.style.display = "block"; 
+  target = document.getElementsByClassName("item_name");
+  for (item of target) { //모든 item0 class 요소들의 display를 block으로 한다.
+    item.style.display = "block";
   }
-  var target1 = document.getElementsByClassName("item1");
-  for (var x of target1) {
-    x.style.display = "block";
+  target = document.getElementsByClassName("item_code");
+  target
+  for (item of target) {
+    item.style.display = "block";
   }
-  var target2 = document.getElementsByClassName("item2");
-  for (var x of target2) {
-    x.style.display = "block";
+  target = document.getElementsByClassName("item_symbol");
+  for (item of target) {
+    item.style.display = "block";
   }
-  var target3 = document.getElementsByClassName("item3");
-  for (var x of target3) {
-    x.style.display = "block";
+  target = document.getElementsByClassName("item_csname");
+  for (item of target) {
+    item.style.display = "block";
   }
-  var target4 = document.getElementsByClassName("item4");
-  for (var x of target4) {
-    x.style.display = "block";
+  target = document.getElementsByClassName("item_mktgbcd");
+  for (item of target) {
+    item.style.display = "block";
   }
-  var target5 = document.getElementsByClassName("item5");
-  for (var x of target5) {
-    x.style.display = "block";
+  target = document.getElementsByClassName("item_upcode");
+  for (item of target) {
+    item.style.display = "block";
   }
 }
 
+//code항목 보이기
 function viewCode() {
   table = document.getElementById("table");
-  table.style.display = "block";
-  var target0 = document.getElementsByClassName("item0");
-  for (var x of target0) {
-    x.style.display = "block";
+  table.style.display = "block"; 
+  target = document.getElementsByClassName("item_name");
+  for (item of target) { 
+    item.style.display = "block";
   }
-  var target1 = document.getElementsByClassName("item1");
-  for (var x of target1) {
-    x.style.display = "block";
+  target = document.getElementsByClassName("item_code");
+  for (item of target) {
+    item.style.display = "block";
   }
-  var target2 = document.getElementsByClassName("item2");
-  for (var x of target2) {
-    x.style.display = "none";
+  target = document.getElementsByClassName("item_symbol");
+  for (item of target) {
+    item.style.display = "none";
   }
-  var target3 = document.getElementsByClassName("item3");
-  for (var x of target3) {
-    x.style.display = "none";
+  target = document.getElementsByClassName("item_csname");
+  for (item of target) {
+    item.style.display = "none";
   }
-  var target4 = document.getElementsByClassName("item4");
-  for (var x of target4) {
-    x.style.display = "none";
+  target = document.getElementsByClassName("item_mktgbcd");
+  for (item of target) {
+    item.style.display = "none";
   }
-  var target5 = document.getElementsByClassName("item5");
-  for (var x of target5) {
-    x.style.display = "none";
+  target = document.getElementsByClassName("item_upcode");
+  for (item of target) {
+    item.style.display = "none";
   }
 }
 
+//csname 항목 보이기
 function viewCsname() {
   table = document.getElementById("table");
-  table.style.display = "block";
-  var target0 = document.getElementsByClassName("item0");
-  for (var x of target0) {
-    x.style.display = "block";
+  table.style.display = "block"; 
+  target = document.getElementsByClassName("item_name");
+  for (item of target) { 
+    item.style.display = "block";
   }
-  var target1 = document.getElementsByClassName("item1");
-  for (var x of target1) {
-    x.style.display = "none";
+  target = document.getElementsByClassName("item_code");
+  for (item of target) {
+    item.style.display = "none";
   }
-  var target2 = document.getElementsByClassName("item2");
-  for (var x of target2) {
-    x.style.display = "none";
+  target = document.getElementsByClassName("item_symbol");
+  for (item of target) {
+    item.style.display = "none";
   }
-  var target3 = document.getElementsByClassName("item3");
-  for (var x of target3) {
-    x.style.display = "block";
+  target = document.getElementsByClassName("item_csname");
+  for (item of target) {
+    item.style.display = "block";
   }
-  var target4 = document.getElementsByClassName("item4");
-  for (var x of target4) {
-    x.style.display = "none";
+  target = document.getElementsByClassName("item_mktgbcd");
+  for (item of target) {
+    item.style.display = "none";
   }
-  var target5 = document.getElementsByClassName("item5");
-  for (var x of target5) {
-    x.style.display = "none";
+  target = document.getElementsByClassName("item_upcode");
+  for (item of target) {
+    item.style.display = "none";
   }
 }
 
+//모든 항목 숨기기
 function allClear() {
   table = document.getElementById("table");
   table.style.display = "none";
@@ -133,19 +142,19 @@ function allClear() {
 
 //버튼 element 설정
 function ini() {
-  var btn1 = document.getElementById("btn1");
-  btn1.textContent = "모든 항목보기";
-  btn1.onclick = viewAll;
+  btn = document.getElementById("btn1");
+  btn.textContent = "모든 항목보기";
+  btn.onclick = viewAll;
 
-  var btn2 = document.getElementById("btn2");
-  btn2.textContent = "코드 항목보기";
-  btn2.onclick = viewCode;
+  btn = document.getElementById("btn2");
+  btn.textContent = "코드 항목보기";
+  btn.onclick = viewCode;
 
-  var btn3 = document.getElementById("btn3");
-  btn3.textContent = "초성 항목보기";
-  btn3.onclick = viewCsname;
+  btn = document.getElementById("btn3");
+  btn.textContent = "초성 항목보기";
+  btn.onclick = viewCsname;
 
-  var btn4 = document.getElementById("btn4");
-  btn4.textContent = "모든 항목지우기";
-  btn4.onclick = allClear;
+  btn = document.getElementById("btn4");
+  btn.textContent = "모든 항목지우기";
+  btn.onclick = allClear;
 }
