@@ -10,10 +10,9 @@
    - JSON, XML 형식 기본 개념과 상호 구조차이점, 작성법 연습하기
    
 # 학습내용
-   - ### 10월 학습
-     - #### 19일    
-        > - 객체의 childNodes를 이용하여 자식 요소 데이터 변경    
-        > 
+  - ### 10월 학습
+    - #### 19일    
+      - 객체의 childNodes를 이용하여 자식 요소 데이터 변경    
         ```
         let tr_group_down = document.getElementsByClassName('down');
         let i,j;
@@ -23,20 +22,15 @@
           }
         }
         ```   
-        > - 깃허브 markdown 학습  
-        > - [1019 - StackBlitz 프로젝트](https://stackblitz.com/edit/html5-css-javascript-study?file=project/1019/1019_script.js)
-     - 20일
-
-
-
-
-
-
-
-
-
-
-
-
-
+      - 깃허브 markdown 학습  
+      - [1019 - StackBlitz 프로젝트](https://stackblitz.com/edit/html5-css-javascript-study?file=project/1019/1019_script.js)    
+    - #### 20일
+      - array함수 학습
+        - find, findIndex, indexOf, lastIndexOf, forEach
+        - splice, slicepop, push, shift, unshift
+      - 에로우 함수의 장,단점
+      - filter( ), map( ) 함수의 원리 및 중요성
+      - 디버깅 방법 및 중요성 학습
+    - ### 21일
+      - filter( ), map( )함수 활용
 
