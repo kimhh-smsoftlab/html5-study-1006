@@ -60,57 +60,23 @@ function createTableBody(objects) {
 //arr.filter(callback(element[, index[, array]])[, thisArg])
 // callback 함수를 호출하고 true값을 반환하는 값만 포함된 새로운 배열을 생성한다.
 //string타입의 txt value 값을 받아와 object의 value값에 포함된 데이터를 찾고 배열로 리턴
-function searchData(text, checklist){
+function searchData(text, checklist){ 
+debugger;
+    //chkecklist = {part : true, rank : true, compony : true, revenuse : false, profits : false}
     text = text.toLowerCase(); //대소문자 구분을 없애기 위해 소문자로 변환
-    let result, arr;
-    //1. 부분검색 일 경우 -> includes 사용
-    // checklist = {radio1 radio2 check1 check2 check3 check4}
-    if(checklist[0]){
-        result = filter_data.filter(function(object, index, obj){ // function에서 true 값을 반환하는 객체들이 배열에 담기게 된다.
-            arr=[];
-            if(checklist[2]){ //체크가 되었으니 
-                arr.push(object.rank.toString().indexOf(text) == 0)
-            }
-            if(checklist[3]){
-                arr.push(object.company.toLowerCase().includes(text))
-            }
-            if(checklist[4]){
-                arr.push(object.revenues.toString().indexOf(text) == 0)
-            }
-            if(checklist[5]){
-                arr.push(object.profits.toString().indexOf(text) == 0)
-            }
-            let checktrue = arr.find(function(check){
-                return check === true;
-            });
-            return checktrue;
-        });
-        return result;    
-    }
+    let arr,
+    arItem=checklist.item;
 
-    //2. 일치검색 일 경우 == 사용
-    else{
-        result = filter_data.filter(function(object, index, obj){ // function에서 true 값을 반환하는 객체들이 배열에 담기게 된다.
-            arr=[];
-            if(checklist[2]){ //체크가 되었으니 
-                arr.push(object.rank == text)
-            }
-            if(checklist[3]){
-                arr.push(object.company.toLowerCase() == text)
-            }
-            if(checklist[4]){
-                arr.push(object.revenues == text)
-            }
-            if(checklist[5]){
-                arr.push(object.profits == text)
-            }
-            let checktrue = arr.find(function(check){
-                return check === true;
-            });
-            return checktrue;
-        });
-        return result;    
-    }
+    arr = filter_data.filter(function(obj){
+        let success;
+        success = arItem.filter(function(key){
+            let value = obj[key] ? obj[key] : "", find;
+            find = (checklist.serchType === 0 )? value == text : value.includes(text);
+            return find;  
+        })
+        return success;
+    });
+    return arr;
 }
 
 //arr.map(callback(currentValue[, index[, array]])[, thisArg])
@@ -119,21 +85,96 @@ function searchData(text, checklist){
 function filterData(jsondata){
     let copydata, filterdata;
     copydata = JSON.parse(JSON.stringify(jsondata)); //데이터복사
+    // return JSON.stringify( copydata, function(key, value){
+    //     if ( value.includes("pq_") === -1 ){
+
+    //     }
+    // }, 2);
     filterdata = copydata.map(function(object, index, obj){ // copydata의 요소들이 function에 정의된 내용을 수행 후
         delete object.pq_index; // 반환하는 객체들이 새로운 배열에 담기게 된다.
         delete object.pq_order;
+        object.rank = object.rank.toString();
+        object.revenues = object.revenues.toString();
+        object.profits = object.profits.toString();
         return object;
     })
     return filterdata;
+
 }
 
+// function getCheck(){
+//     let objChecklist = {sea:1, item:[]};
+//     objChecklist.item.push(item);
+//     checklist.part = document.getElementById('part');
+//     checklist.rank = document.getElementById('rank');
+//     checklist.compony = document.getElementById('compony');
+//     checklist.revenues = document.getElementById('revenues');
+//     checklist.profits = document.getElementById('profits');
+//     return objChecklist ;
+// }
+
 function getCheck(){
-    let div = document.getElementById("checklist");
-    let arr =[];
-    for(let child1 of div.children){
-        for(let child2 of child1.children){
-            arr.push(child2.checked); //{radio1 radio2 check1 check2 check3 check4}
-        }
+    debugger;
+    objects = document.getElementById('checklist');
+    let objChecklist = {sea : 0, item : []}, obj1 = [];
+    for(let x of objects.children){
+        obj1.push(x);
+    }    
+    if(obj1[0].children[0].checked){
+        objChecklist.sea = 1;
     }
-    return arr
+    else{
+        objChecklist.sea = 0;
+    }
+    for(let child of obj1[1].children){
+        objChecklist.item.push(child.checked);
+    }
+    return objChecklist ;
 }
+
+
+// if(checklist.part){
+//     result = filter_data.filter(function(object){ // function에서 true 값을 반환하는 객체들이 배열에 담기게 된다.
+//         arr=[];
+//         if(checklist.rank){ //체크가 되었으니 
+//             arr.push(object.rank.indexOf(text) == 0)
+//         }
+//         if(checklist.compony){
+//             arr.push(object.company.toLowerCase().includes(text))
+//         }
+//         if(checklist.revenues){
+//             arr.push(object.revenues.indexOf(text) == 0)
+//         }
+//         if(checklist.profits){
+//             arr.push(object.profits.indexOf(text) == 0)
+//         }
+//         let checktrue = arr.find(function(check){
+//             return check === true;
+//         });
+//         return checktrue;
+//     });
+//     return result;    
+// }
+// //2. 일치검색 일 경우 == 사용
+// else{
+//     result = filter_data.filter(function(object, index, obj){ // function에서 true 값을 반환하는 객체들이 배열에 담기게 된다.
+//         arr=[];
+//         if(checklist.rank){ //체크가 되었으니 
+//             arr.push(object.rank == text)
+//         }
+//         if(checklist.compony){
+//             arr.push(object.company.toLowerCase() == text)
+//         }
+//         if(checklist.revenues){
+//             arr.push(object.revenues == text)
+//         }
+//         if(checklist.profits){
+//             arr.push(object.profits == text)
+//         }
+//         let checktrue = arr.find(function(check){
+//             return check === true;
+//         });
+//         return checktrue;
+//     });
+//     return result;    
+// }

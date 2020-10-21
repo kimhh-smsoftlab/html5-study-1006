@@ -29,16 +29,15 @@
         <div>
             <div>검색 옵션 : </div>
             <div id="checklist">
-                
-                <div>
-                    <input type="radio" id="part_check" name='radio' checked>부분검색
-                    <input type="radio" id="all_check" name='radio'>일치검색
+                <div id="search_type">
+                    <input type="radio" value="part" name='radio' checked>부분검색
+                    <input type="radio" value="all" name='radio'>일치검색
                 </div>
-                <div class="flex_row">
-                    <input type="checkbox" id="rank_check" checked>Rank
-                    <input type="checkbox" checked>Company
-                    <input type="checkbox" checked>Revenues
-                    <input type="checkbox" checked>Profits
+                <div id="items" class="flex_row">
+                    <input type="checkbox" value="rank" checked>Rank
+                    <input type="checkbox" value="compony" checked>Company
+                    <input type="checkbox" value="revenues" checked>Revenues
+                    <input type="checkbox" value="profits" checked>Profits
                 </div>
             </div>
         </div>
