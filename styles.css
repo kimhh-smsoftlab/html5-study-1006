@@ -4,10 +4,12 @@
 .up > .item1{
   background-color: rgba(216,14,53,.08);
 }
-.table_header{
-  text-align: center;
-}
 
+.table_header {
+  background-color: #eeeeee;
+  font-weight: bold;
+  margin : 5px 0px;
+}
 .table_body .item0{
   text-align: right;
 }
@@ -38,11 +40,7 @@
   flex: 1;
 }
 
-.table_header {
-  background-color: #eeeeee;
-  font-weight: bold;
-  /* text-align: center; */
-}
+
 
 .flex_row {
   display: flex;

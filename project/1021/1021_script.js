@@ -2,19 +2,9 @@ let jsondata = window.mastercode;
 let filter_data = filterData(jsondata);
 let table, tr, td, new_objects, btn;
 
-function getCheck(){
-    let div = document.getElementById("checklist");
-    let arr =[];
-    for(let child1 of div.children){
-        for(let child2 of child1.children){
-            arr.push(child2.checked); //{radio1 radio2 check1 check2 check3 check4}
-        }
-    }
-    return arr
-}
-
 
 //초기 테이블 생성
+createTableHead(filter_data)
 createTableBody(filter_data);
 
 //검색 버튼 => textbox에서 value를 가져온다. 
@@ -33,6 +23,19 @@ btn = document.getElementById('btn3');
 btn.addEventListener("click", function(){
     createTableBody(filter_data);
 })
+
+function createTableHead(objects) {
+    table = document.getElementById('div1_head')
+    tr = document.createElement("div");
+    tr.className = "table_header flex_row";
+    for (let title in objects[0]) {
+        td = document.createElement("div");
+        td.textContent = title;
+        td.className = `flex_item item_${title}`;
+        tr.appendChild(td);
+    }
+    table.appendChild(tr);
+}
 
 //테이블 객체를 받아와 자식으로 셀들을 추가한다.
 function createTableBody(objects) {
@@ -122,4 +125,15 @@ function filterData(jsondata){
         return object;
     })
     return filterdata;
+}
+
+function getCheck(){
+    let div = document.getElementById("checklist");
+    let arr =[];
+    for(let child1 of div.children){
+        for(let child2 of child1.children){
+            arr.push(child2.checked); //{radio1 radio2 check1 check2 check3 check4}
+        }
+    }
+    return arr
 }
