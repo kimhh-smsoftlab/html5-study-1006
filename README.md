@@ -29,4 +29,4 @@
         > 2. checkbox를 통해 검색에 사용될 데이터 프로퍼티 선택 (부분검색/완전일치검색 등)
       - 구현된 코드 최적화 진행
     - ### 22일
-      - searchData() 함수 최적화 진행중
+      - searchData() 함수 최적화 진행 - [wiki](https://github.com/kimhh-smsoftlab/html5-study-1006/wiki/%ED%95%99%EC%8A%B5-%EB%85%B8%ED%8A%B8#searchdata--%EC%B5%9C%EC%A0%81%ED%99%94)
