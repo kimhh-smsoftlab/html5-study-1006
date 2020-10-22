@@ -29,4 +29,7 @@
         > 2. checkbox를 통해 검색에 사용될 데이터 프로퍼티 선택 (부분검색/완전일치검색 등)
       - 구현된 코드 최적화 진행
     - ### 22일
-      - searchData() 함수 최적화 진행 - [wiki](https://github.com/kimhh-smsoftlab/html5-study-1006/wiki/%ED%95%99%EC%8A%B5-%EB%85%B8%ED%8A%B8#searchdata--%EC%B5%9C%EC%A0%81%ED%99%94)
+      - searchData(), getCheck(), filterData() 최적화 진행 - [code 링크](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/a5fc5f7c0ab68b205e96e1179beb372054c924d9/project/1022/1022_script.js#L64) / [wiki 링크](https://github.com/kimhh-smsoftlab/html5-study-1006/wiki/%ED%95%99%EC%8A%B5-%EB%85%B8%ED%8A%B8#searchdata--%EC%B5%9C%EC%A0%81%ED%99%94)
+      - public, lib 폴더 생성 : 공용 데이터 관리
+      - JSON.stringify(value[, replacer[, space]])    
+       -> value : object / replacer() : 문자열화 동작 방식 변경 / space : 가독성을 목적으로 JSON 문자열 출력에 공백을 삽입
