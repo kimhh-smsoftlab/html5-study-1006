@@ -22,13 +22,13 @@
       - 에로우 함수의 장,단점
       - filter( ), map( ) 함수의 원리 및 중요성
       - 디버깅 방법 및 중요성 학습
-    - ### 21일
+    - #### 21일
       - filter( ), map( )함수 활용
       - 1020 실습프로젝트 추가기능 구현
         > 1. text입력을 받아 테이블에 표시할 데이터 필터기능
         > 2. checkbox를 통해 검색에 사용될 데이터 프로퍼티 선택 (부분검색/완전일치검색 등)
       - 구현된 코드 최적화 진행
-    - ### 22일
+    - #### 22일
       - searchData(), getCheck(), filterData() 최적화 진행 - [code 링크](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/a5fc5f7c0ab68b205e96e1179beb372054c924d9/project/1022/1022_script.js#L64) / [wiki 링크](https://github.com/kimhh-smsoftlab/html5-study-1006/wiki/%ED%95%99%EC%8A%B5-%EB%85%B8%ED%8A%B8#searchdata--%EC%B5%9C%EC%A0%81%ED%99%94)
       - public, lib 폴더 생성 : 공용 데이터 관리
       - JSON.stringify(value[, replacer[, space]])    
