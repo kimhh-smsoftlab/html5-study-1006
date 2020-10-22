@@ -3,8 +3,8 @@ let table,tr, chart_5, chart_10, format_data, head_title;
 
 
 
-// format_data = formatData();
-// head_title = ["매도잔량", "가격", "매수잔량"];
+format_data = formatData();
+head_title = ["매도잔량", "가격", "매수잔량"];
 createTable();
 insertData(format_data);
 interval();
