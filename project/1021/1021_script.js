@@ -60,24 +60,28 @@ function createTableBody(objects) {
 //arr.filter(callback(element[, index[, array]])[, thisArg])
 // callback 함수를 호출하고 true값을 반환하는 값만 포함된 새로운 배열을 생성한다.
 //string타입의 txt value 값을 받아와 object의 value값에 포함된 데이터를 찾고 배열로 리턴
+
 function searchData(text, checklist){ 
-debugger;
     //chkecklist = {part : true, rank : true, compony : true, revenuse : false, profits : false}
     text = text.toLowerCase(); //대소문자 구분을 없애기 위해 소문자로 변환
-    let arr,
+    let arr,success
     arItem=checklist.item;
-
+debugger;
     arr = filter_data.filter(function(obj){
-        let success;
-        success = arItem.filter(function(key){
-            let value = obj[key] ? obj[key] : "", find;
-            find = (checklist.serchType === 0 )? value == text : value.includes(text);
-            return find;  
+        success = arItem.filter(function(dataObj){
+            if(dataObj.value){
+                let value = obj[dataObj.id] ? obj[dataObj.id] : "", find;
+                find = (checklist.sea === 0 )? value == text : value.includes(text);
+                return find;  
+            }else{
+                return false
+            }
         })
-        return success;
+        return success.length > 0;
     });
     return arr;
 }
+
 
 //arr.map(callback(currentValue[, index[, array]])[, thisArg])
 //callback함수를 각각의 요소에 대해 한번씩 순서대로 불러 그 함수의 반환값으로 새로운 배열을 만든다. 
@@ -127,54 +131,54 @@ function getCheck(){
         objChecklist.sea = 0;
     }
     for(let child of obj1[1].children){
-        objChecklist.item.push(child.checked);
+        objChecklist.item.push({id: child.value, value:child.checked});
     }
     return objChecklist ;
 }
 
 
-// if(checklist.part){
-//     result = filter_data.filter(function(object){ // function에서 true 값을 반환하는 객체들이 배열에 담기게 된다.
-//         arr=[];
-//         if(checklist.rank){ //체크가 되었으니 
-//             arr.push(object.rank.indexOf(text) == 0)
-//         }
-//         if(checklist.compony){
-//             arr.push(object.company.toLowerCase().includes(text))
-//         }
-//         if(checklist.revenues){
-//             arr.push(object.revenues.indexOf(text) == 0)
-//         }
-//         if(checklist.profits){
-//             arr.push(object.profits.indexOf(text) == 0)
-//         }
-//         let checktrue = arr.find(function(check){
-//             return check === true;
-//         });
-//         return checktrue;
-//     });
-//     return result;    
-// }
-// //2. 일치검색 일 경우 == 사용
-// else{
-//     result = filter_data.filter(function(object, index, obj){ // function에서 true 값을 반환하는 객체들이 배열에 담기게 된다.
-//         arr=[];
-//         if(checklist.rank){ //체크가 되었으니 
-//             arr.push(object.rank == text)
-//         }
-//         if(checklist.compony){
-//             arr.push(object.company.toLowerCase() == text)
-//         }
-//         if(checklist.revenues){
-//             arr.push(object.revenues == text)
-//         }
-//         if(checklist.profits){
-//             arr.push(object.profits == text)
-//         }
-//         let checktrue = arr.find(function(check){
-//             return check === true;
-//         });
-//         return checktrue;
-//     });
-//     return result;    
-// }
+if(checklist.part){
+    result = filter_data.filter(function(object){ // function에서 true 값을 반환하는 객체들이 배열에 담기게 된다.
+        arr= [];
+        if(checklist.rank){ //체크가 되었으니 
+            arr.push(object.rank.indexOf(text) == 0)
+        }
+        if(checklist.compony){
+            arr.push(object.company.toLowerCase().includes(text))
+        }
+        if(checklist.revenues){
+            arr.push(object.revenues.indexOf(text) == 0)
+        }
+        if(checklist.profits){
+            arr.push(object.profits.indexOf(text) == 0)
+        }
+        let checktrue = arr.find(function(check){
+            return check === true;
+        });
+        return checktrue;
+    });
+    return result;    
+}
+//2. 일치검색 일 경우 == 사용
+else{
+    result = filter_data.filter(function(object, index, obj){ // function에서 true 값을 반환하는 객체들이 배열에 담기게 된다.
+        arr=[];
+        if(checklist.rank){ //체크가 되었으니 
+            arr.push(object.rank == text)
+        }
+        if(checklist.compony){
+            arr.push(object.company.toLowerCase() == text)
+        }
+        if(checklist.revenues){
+            arr.push(object.revenues == text)
+        }
+        if(checklist.profits){
+            arr.push(object.profits == text)
+        }
+        let checktrue = arr.find(function(check){
+            return check === true;
+        });
+        return checktrue;
+    });
+    return result;    
+}

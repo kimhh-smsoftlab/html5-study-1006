@@ -13,15 +13,6 @@
   - ### 10월 학습
     - #### 19일    
       - 객체의 childNodes를 이용하여 자식 요소 데이터 변경    
-        ```
-        let tr_group_down = document.getElementsByClassName('down');
-        let i,j;
-        for(i=0; i<tr_group_down.length; i++){
-          for(j=0; j< tr_group_down[i].childNodes.length; j++){
-            tr_group_down[i].childNodes[j].textContent = data[i][j];
-          }
-        }
-        ```   
       - 깃허브 markdown 학습  
       - [1019 - StackBlitz 프로젝트](https://stackblitz.com/edit/html5-css-javascript-study?file=project/1019/1019_script.js)    
     - #### 20일
@@ -33,4 +24,9 @@
       - 디버깅 방법 및 중요성 학습
     - ### 21일
       - filter( ), map( )함수 활용
-
+      - 1020 실습프로젝트 추가기능 구현
+        > 1. text입력을 받아 테이블에 표시할 데이터 필터기능
+        > 2. checkbox를 통해 검색에 사용될 데이터 프로퍼티 선택 (부분검색/완전일치검색 등)
+      - 구현된 코드 최적화 진행
+    - ### 22일
+      - searchData() 함수 최적화 진행중
