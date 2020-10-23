@@ -1,0 +1,56 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>1023_page</title>
+	<link rel="stylesheet" href="/styles.css">
+	<script defer src="/public/simple_object1.js"></script>
+    <script defer src="./1023_script.js"></script>
+    <script defer src="/lib/FileSaver.js"></script>
+	
+</head>
+
+<body>
+	<div class="header">
+		<ul class="header_page">
+		</ul>
+		<div class="header_main">
+			<a title="첫 화면으로 이동합니다." href="/index.html">메인 페이지</a>
+		</div>
+	</div>
+	<div id="search">
+        <div>
+            검색어: 
+            <input type="text" id="txt" placeholder="검색어를 입력하세요.">
+            <button id='search_btn'>검색</button>
+            <button id='clear_btn'>초기화</button>
+        </div>
+        <br>
+        <div>
+            <div>검색 옵션 : </div>
+            <div id="checklist">
+                <div id="search_type">
+                    <input type="radio" value="part" name='radio' checked>부분검색
+                    <input type="radio" value="all" name='radio'>일치검색
+                </div>
+                <div id="checkboxs" class="flex_row">
+                    <input type="checkbox" value="rank" name="checkbox" checked>Rank
+                    <input type="checkbox" value="company" name="checkbox" checked>Company
+                    <input type="checkbox" value="revenues" name="checkbox" checked>Revenues
+                    <input type="checkbox" value="profits" name="checkbox" checked>Profits
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="table_head"></div>
+	    <div id="table_body"></div>
+    </div>
+    <div class="flex_row"> 
+        <button id="save_btn">데이터 다운로드(file save)</button>
+        <p id="size_view">file size</p>
+    </div>
+</body>
+
+</html>
