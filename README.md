@@ -33,3 +33,7 @@
       - public, lib 폴더 생성 : 공용 데이터 관리
       - JSON.stringify(value[, replacer[, space]])    
        -> value : object / replacer() : 문자열화 동작 방식 변경 / space : 가독성을 목적으로 JSON 문자열 출력에 공백을 삽입
+    - #### 23일
+      - number타입 toString()과 + " " ; 공백 더하기 방법
+      - 프로젝트 FileSaver.js 라이브러리를 이용한 file 다운로드 기능 구현 => Blob(Binary Large Object)객체 활용
+      - Math 함수를 활용하여 byte 사이즈 단위 변환 기능 구현   
