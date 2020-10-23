@@ -1,14 +1,23 @@
 let jsondata = window.mastercode,
-table, tr, td, el_btn, blob, el_filesize;
+table, tr, td, el_btn, blob, el_filesize, el_byte_txt, result;
 
 //parseFalse -> text로 리턴 ParseTrue -> object로 리턴
 let _strText = filterData(jsondata,'pq_',false), // filterData(원본데이터, 필터텍스트, Parse여부 -> false시 text전달)
 filter_data = filterData(jsondata,'pq_',true);
-blob = new Blob([_strText], { type: "text/plain;charset=utf-8"});
 
 //file사이즈 표시
-el_filesize = document.getElementById('size_view');
-el_filesize.textContent = '- '+ formatBytes(blob.size);
+el_byte_txt = document.getElementById('byte_txt');
+el_byte_txt.addEventListener('change',function(){
+    if(el_byte_txt.value !== ""){
+        let result = formatBytes(parseInt(this.value));
+        el_size_view = document.getElementById('size_view');
+        el_size_view.textContent = result;
+    }
+    else{
+        el_size_view.textContent = "0 Byte";
+    }
+    
+});
 
 //초기 테이블 생성
 createTableHead(filter_data)
@@ -22,7 +31,7 @@ el_btn.addEventListener("click", function(){
         alert("검색어를 입력하세요");
     }
     else{
-        let result = searchData(txt.value, getCheck()); //검색어를 search 한다
+        result = searchData(txt.value, getCheck()); //검색어를 search 한다
         createTableBody(result); // result를 통해 테이블 재생성
         txt.value = '';
     }
@@ -35,10 +44,11 @@ el_btn.addEventListener("click", function(){
     document.getElementById('txt').value = '';
 })
 
+// JSON데이터 파일 다운로드
 el_btn = document.getElementById("save_btn");
 el_btn.addEventListener("click", function() {
-    // Blob 데이터의 크기(Byte) 및 MIME 타입을 알아내거나, 데이터를 송수신을 위한 작은 Blob 객체로 나누는 등의 작업에 사용
-    // Blob 형식으로 변환후, 해당유형으로 저장을 한다.
+    // Blob(Binary Large Object) 데이터의 크기(Byte) 및 MIME 타입을 알아내거나, 데이터를 송수신을 위한 작은 Blob 객체로 나누는 등의 작업에 사용
+    blob = new Blob([_strText], { type: "text/plain;charset=utf-8"});
     saveAs(blob, "text.json"); //2211byte
 });
 
@@ -46,8 +56,10 @@ el_btn.addEventListener("click", function() {
 let chkbox = document.getElementsByName("checkbox");
 chkbox.forEach(function(obj){
     obj.addEventListener('click',function(){
-        let chk_cnt, i = 0;
-        for(i; i<chkbox.length; i++){
+        
+        let chk_cnt = 0, i = 0,
+        l = chkbox.length;
+        for(i; i < l; i++){
             chkbox[i].checked && chk_cnt++;
         }
         if(chk_cnt == 0){
@@ -135,4 +147,6 @@ function getCheck(){
     }    
     return objChecklist ;
 }
+
+
 
