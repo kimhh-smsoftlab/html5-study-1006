@@ -1,5 +1,37 @@
-p {
-  margin: 0px;;
+* { box-sizing: border-box; }
+
+p, div { margin: 0px; }
+
+.table_div{ padding: 1rem 2rem;
+text-align: center;
+height: 500px;
+overflow: auto;}
+
+.table_div div{ padding: 0.2rem 0rem;
+}
+
+.margin_20{ margin: 20px 0px; }
+
+.padding_10{ padding: 10px; }
+
+.round_border{ border-radius: 20px; }
+
+.filename{ margin: 10px; }
+
+.txt_al_center{ text-align: center; }
+
+.filename{ text-align: right; }
+
+#table_body > div {
+  border-bottom: 2px solid #dfdfdf;
+}
+
+.back_col_gray{
+  background-color : #efefef
+}
+.back_col_white{
+  background-color :white;
+
 }
 .down > .item1{
   background-color: rgba(0,98,223,0.08);
@@ -9,22 +41,10 @@ p {
 }
 
 .table_header {
-  background-color: #eeeeee;
+  background-color: #aaaaaa;
   font-weight: bold;
-  margin : 5px 0px;
+  color: white;
 }
-.table_body .item0{
-  text-align: right;
-}
-
-.item1{
-  text-align: center;
-}
-
-.table_body .item2{
-  text-align: left;
-}
-
 
 #table {
   border: 1px solid #aaaaaa;
@@ -39,10 +59,18 @@ p {
   width: 1fr;
 }
 
-.flex_item {
+.item_rank{
   flex: 1;
 }
-
+.item_company{
+  flex: 3;
+}
+.item_revenues {
+  flex: 2;
+}
+.item_profits {
+  flex: 2;
+}
 .flex_row {
   display: flex;
 }
@@ -245,9 +273,6 @@ div.header_main > a:hover {
   border: 1px solid white;
 }
 
-* {
-  box-sizing: border-box;
-}
 
 #index__body {
   margin: 0px 30px;

@@ -1,13 +1,18 @@
 let jsondata = window.mastercode,
-table, tr, td, el_btn, blob, el_filesize, el_byte_txt, result;
+table, tr, td, el_btn, blob, el_filesize,result;
 
 //parseFalse -> text로 리턴 ParseTrue -> object로 리턴
 let _strText = filterData(jsondata,'pq_',false), // filterData(원본데이터, 필터텍스트, Parse여부 -> false시 text전달)
 filter_data = filterData(jsondata,'pq_',true);
+iniElement();
+//초기 테이블 생성
+createTableHead(filter_data)
+createTableBody(filter_data);
 
 //file사이즈 표시
-el_byte_txt = document.getElementById('byte_txt');
-el_byte_txt.addEventListener('change',function(){
+function iniElement() {
+    let el_byte_txt = document.getElementById('byte_txt');
+    el_byte_txt.addEventListener('change',function(){
     if(el_byte_txt.value !== ""){
         let result = formatBytes(parseInt(this.value));
         el_size_view = document.getElementById('size_view');
@@ -16,12 +21,18 @@ el_byte_txt.addEventListener('change',function(){
     else{
         el_size_view.textContent = "0 Byte";
     }
-    
 });
+}
 
-//초기 테이블 생성
-createTableHead(filter_data)
-createTableBody(filter_data);
+//bytes 단위를 크기게 맞게 단위 변환
+function formatBytes(bytes){
+    let sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
+    if(bytes == 0) return '0 Byte';
+    let i = Math.floor(Math.log(bytes) / Math.log(1000));
+    return (bytes / 1000 ** i).toFixed(2) + ' ' + sizes[i];
+}
+
+
 
 //검색 버튼 
 el_btn = document.getElementById('search_btn');
@@ -69,13 +80,6 @@ chkbox.forEach(function(obj){
     });
 })
 
-//bytes 단위를 크기게 맞게 단위 변환
-function formatBytes(bytes){
-    let sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
-    if(bytes == 0) return '0 Byte';
-    let i = Math.floor(Math.log(bytes) / Math.log(1000));
-    return (bytes / 1000 ** i).toFixed(2) + ' ' + sizes[i];
-}
 
 //테이블 해드 생성
 function createTableHead(objects) {
