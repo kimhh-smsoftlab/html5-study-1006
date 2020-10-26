@@ -5,9 +5,9 @@
 // 4. 62Line XMLSerializer() 
 // 5. css 스타일 변경
 // 6. 테이블 display 변경
+// 7. 다운로드 이름 입력받는 기능 추가
 
 let jsondata = window.mastercode, 
-
 //parseFalse -> text로 리턴 ParseTrue -> object로 리턴
 filter_data = filterData(jsondata,'pq_',true);
 
@@ -47,7 +47,6 @@ function iniElement(){
     //초기화버튼 리스너 등록 => + input text 초기화
     element = document.getElementById('clear_btn');
     element.addEventListener("click", function(){
-        debugger;
         //createTableBody(filter_data);
         //테이블의 모든 tr에 대해 showElement를 실행한다.
         showElements(document.getElementsByClassName('body_item'));
@@ -127,7 +126,6 @@ function createTableBody(objects) {
     //     table.removeChild(table.firstChild)
     // }
     for (object of objects) {  
-        debugger;
         tr = document.createElement("div");
         tr.className = `flex_row body_item`;
         for (const [key,value] of Object.entries(object)){
