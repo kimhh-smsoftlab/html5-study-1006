@@ -29,7 +29,7 @@ function iniElement(){
     //검색버튼 리스너 등록
     let element, json_filename, html_filename, txt;
     element = document.getElementById('search_btn');
-    element.addEventListener("click", function(){
+    element.addEventListener("click", function(e){
         txt = document.getElementById('txt');
         if (txt.value == ""){
             alert("검색어를 입력하세요");

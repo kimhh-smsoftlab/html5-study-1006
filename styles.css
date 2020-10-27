@@ -2,12 +2,14 @@
 
 p, div { margin: 0px; }
 
-.table_div{ padding: 1rem 2rem;
+#table_div{ padding: 1rem 2rem;
 text-align: center;
-height: 500px;
+height: 450px;
 overflow: auto;}
-
-.table_div div{ padding: 0.2rem 0rem;
+.grid{
+  display : grid;
+}
+#table_div div{ padding: 0.2rem 0rem;
 }
 
 .margin_20{ margin: 20px 0px; }
