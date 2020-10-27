@@ -41,4 +41,5 @@
       - 테이블을 반복적으로 제거,생성의 방식에서 Display값을 수정하여 테이터 화면 전환 방식으로 수정 => setDisplay(), showElement(), hideElement() 추가 / [code 링크](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/61be3bf63b240dedf8819d6100a007855d688de6/project/1026/1026_script.js#L71)
       - XMLSerializer() Web API를 사용하여 현재 웹페이지의 HTML파일 다운로드 기능 구현 / [참고자료 링크1](https://developer.mozilla.org/en-US/docs/Web/API/XMLSerializer),   [참고자료 링크2](https://eligrey.com/demos/FileSaver.js/)
       - 전역변수 사용 최소화 
-      
+    - #### 27일
+
