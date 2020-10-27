@@ -42,4 +42,5 @@
       - XMLSerializer() Web API를 사용하여 현재 웹페이지의 HTML파일 다운로드 기능 구현 / [참고자료 링크1](https://developer.mozilla.org/en-US/docs/Web/API/XMLSerializer),   [참고자료 링크2](https://eligrey.com/demos/FileSaver.js/)
       - 전역변수 사용 최소화 
     - #### 27일
-
+      - document에 리스너를 등록하여 여러개의 클릭 이벤트를 하나로 처리
+      - w3.js 라이브러리의 show, hide, toggle, addclass, filter 함수 학습 및 적용
