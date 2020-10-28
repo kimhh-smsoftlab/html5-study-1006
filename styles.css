@@ -5,22 +5,31 @@ p, div { margin: 0px; }
 #table_div{ padding: 1rem 2rem;
 text-align: center;
 height: 450px;
-overflow: auto;}
+}
+
+#table_body{
+  overflow:auto;
+  height: 350px;
+}
+.table_title{
+  cursor: pointer;
+}
 .grid{
   display : grid;
 }
 #table_div div{ padding: 0.2rem 0rem;
 }
-
-.margin_20{ margin: 20px 0px; }
-
-.padding_10{ padding: 10px; }
-
-.round_border{ border-radius: 20px; }
-
+.round_box{
+  border-radius: 20px;
+  padding: 10px;
+  margin: 20px 0px;
+  background-color: white;
+}
 .filename{ margin: 10px; }
 
 .txt_al_center{ text-align: center; }
+
+.txt_al_left{ text-align: left; }
 
 .filename{ text-align: right; }
 
@@ -31,10 +40,7 @@ overflow: auto;}
 .back_col_gray{
   background-color : #efefef
 }
-.back_col_white{
-  background-color :white;
 
-}
 .down > .item1{
   background-color: rgba(0,98,223,0.08);
 }
