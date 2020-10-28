@@ -2,7 +2,8 @@
 // DOMTokenList를 사용하여 w3.js 라이브러리 class 조작방법 변경
 // JSDoc -> 주석을 통해 설명문을 작성할 수 있다.
 // table_body만 overflow 조정
-
+// sort함수
+// sortElement
 let jsondata = window.mastercode, 
 //parseFalse -> text로 리턴 ParseTrue -> object로 리턴
 filter_data = filterData(jsondata,'pq_',true);
@@ -23,7 +24,7 @@ document.addEventListener('click',function(e){
     }
     else{
         let text_input;
-        switch(target.id){
+        switch(target.id){ 
             case 'search_btn': //검색버튼
                 clickSearchBtn();
                 break;
@@ -92,7 +93,7 @@ function clickClearbtn(){
 }
 
 
-
+//byte변환 함수
 function formatBytes(bytes){
     let sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
     if(bytes == 0) return '0 Byte';
@@ -304,6 +305,10 @@ function getOpt(e){
     return opt;
 };
 
+/**
+ * 정렬된 데이터를 통해 element의 위치를 변경한다.
+ * @param {object} data 
+ */
 //정렬된 데이터에 해당하는 각각의 tr(행)을 찾고 부모노드의 마지막으로 이동시킨다. 먼저 들어온게 가장 위로 
 function sortElement(data){
     data.forEach(function(obj){
