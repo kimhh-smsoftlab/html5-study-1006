@@ -44,11 +44,7 @@
     - #### 27일
       - document에 리스너를 등록하여 여러개의 클릭 이벤트를 하나로 처리
       - w3.js 라이브러리의 show, hide, toggle, addclass, filter 함수 학습 및 적용
-<<<<<<< HEAD
-=======
     - #### 28일
-      - DOMTokenList Web API 학습 및 활용 - [참고 링크](https://developer.mozilla.org/ko/docs/Web/API/DOMTokenList)
-      - JSDoc를 활용한 주석 작성법 학습 - [참고 링크](https://jsdoc.app/about-getting-started.html#getting-started)
-      - Node.insertBefore() 학습 및 활용 - [참고 링크](https://developer.mozilla.org/ko/docs/Web/API/Node/insertBefore)
-      
->>>>>>> e82aeb4609f21ecbefa3c6bfceea3a949468a5b5
+          - DOMTokenList Web API 학습 및 활용 - [참고 링크](https://developer.mozilla.org/ko/docs/Web/API/DOMTokenList)
+          - JSDoc를 활용한 주석 작성법 학습 - [참고 링크](https://jsdoc.app/about-getting-started.html#getting-started)
+          - Node.insertBefore() 학습 및 활용 - [참고 링크](https://developer.mozilla.org/ko/docs/Web/API/Node/insertBefore)
