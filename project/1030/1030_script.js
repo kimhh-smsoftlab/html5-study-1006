@@ -1,12 +1,6 @@
 // 변경사항 
-// sortData 값이 있을 경우 없을 경우, 값이 string으로 들어왔을 때 문자열과 숫자를 구분하여 toLowerCase() 실행
-// sortData에서 같은 값을 비교할 때 return 0
-// 현재 정렬기준을 th 옆에 표시하도록 기능 추가, 오름, 내림, 초기화 순서
-// Summary에 현재 보여지고 있는 데이터들의 합계를 계산하여 표시
-// 테이블 열 구분 
 
 let jsondata = window.mastercode, 
-//parseFalse -> text로 리턴 ParseTrue -> object로 리턴
 filter_data = filterData(jsondata,'pq_',true),
 result_data, // 화면에 보여지는 데이터
 opt = {sortType : 0, id : ""};
@@ -23,6 +17,8 @@ createTableBody(filter_data);
 /* w3 displayObject */
 let myObject = {"firstName" : "John", "lastName" : "Doe"};
 w3.displayObject("id02", myObject);
+
+
 
 //체크박스, 버튼, text 등 Element 이벤트 리스너 등록
 document.addEventListener('click',function(e){
@@ -90,8 +86,6 @@ table_text.addEventListener('keyup', function(){
     w3.filterHTML('#id01', '.item', this.value)
 });
 
-
-
 function clickSearchBtn(){
     txt = w3.getElement('#txt');
     if (txt.value == ""){
@@ -110,7 +104,6 @@ function clickClearbtn(){
     w3.getElement('#txt').value = '';
 }
 
-
 //byte변환 함수
 function formatBytes(bytes){
     let sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
@@ -118,7 +111,6 @@ function formatBytes(bytes){
     let i = Math.floor(Math.log(bytes) / Math.log(1024));
     return (bytes / 1024 ** i).toFixed(0) + ' ' + sizes[i];
 }
-
 
 // JSON데이터 파일 다운로드
 function clickSavedatabtn(){
@@ -164,8 +156,6 @@ function clickBytebtn(){
 }
 
 //테이블 해드 생성
-/* <i class='fas fa-chevron-down'></i> */
-
 function createTableHead(objects) {
     let title, tr, td, table = w3.getElement('#table_head')//document.getElementById('table_head');
     tr = document.createElement("div");
@@ -210,8 +200,6 @@ function createTableBody(objects) {
 
 //arr.filter(callback(element[, index[, array]])[, thisArg])
 //filter_data에서 검색어 탐색
-
-
 function searchData(input, checklist){ 
     let arr,success,value,
     arItem = checklist.item;
@@ -241,9 +229,8 @@ function filterData(jsondata, text, doParse){
     return doParse ? JSON.parse(srttext) : srttext
 }
 
-//화면의 checkbox에서 체크된 항목의 value를 받아온다. 
 /**
-    * JSON.stringify(value[, replacer[, space]])
+    * 화면의 checkbox에서 체크된 항목의 value를 받아온다. 
   */
 function getCheck(){
     let objChecklist = {searchType : 0, item : []},
@@ -267,7 +254,6 @@ function setDisplay(arElement, arObj){
         (findObj !== undefined) ? w3.showElement(node,'flex') : w3.hideElement(node)
     });
 }
-
 
 /**
  * 클릭된 th의 text값을 opt.id에 저장하고 정렬함수, Element위치변환, icon변경 함수를 호출한다.
@@ -299,31 +285,6 @@ function changeSortIcon(e){
     
 }
 
-/* 수정 전 함수 
-function sortData(data, opt){ // opb {id : "rank, company ...", sortType : 1,0}  // 0-> 내림 1-> 오름
-    if(opt.sortType === RESET){
-        return data
-    }
-    let copydata = data.slice();
-    return copydata.sort(function(a,b){
-        let par_a = parseInt(a[opt.id]),
-            par_b = parseInt(b[opt.id]),
-            aa = isNaN(par_a) ? a[opt.id].toLowerCase() : par_a,
-            bb = isNaN(par_b) ? b[opt.id].toLowerCase() : par_b;
-        // let aa = (typeof a[opt.id] === 'string') ? a[opt.id].toLowerCase() : a[opt.id],
-        //     bb = (typeof b[opt.id] === 'string') ? b[opt.id].toLowerCase() : b[opt.id];
-        if(aa < bb){
-            return (opt.sortType == UP) ? -1 : 1
-        }  
-        else if(aa > bb){
-            return (opt.sortType == UP)? 1 : -1
-        }
-        else{
-            return 0;
-        }
-    });
-}
- */
 /**
  * 데이터를 옵션을 기준으로 정렬한다.
  * @param {object} data 정렬되지 않은 search 데이터
@@ -331,22 +292,22 @@ function sortData(data, opt){ // opb {id : "rank, company ...", sortType : 1,0} 
  * @return {object} 정렬이 완료된 데이터
  */
 function sortData(data, opt){
-    if( opt.sortType === RESET){
+    if(opt.sortType === RESET){
         return data
     }
     let copydata = data.slice();
     return copydata.sort(function(a,b){
         /* 비어있는 값 하단으로 -> 항상 가장 높은 인덱스를 가지도록 한다. */
         let value_a =  a[opt.id],
-            value_b = b[opt.id];
+            value_b = b[opt.id],
+            aa,
+            bb;
         if(value_a === "" || value_a === null ){return 1;} 
         if(value_b === "" || value_b === null ){return -1;}
-        let par_a = parseFloat(value_a),
-            par_b = parseFloat(value_b),
-            aa = isNaN(par_a) ? value_a.toLowerCase() : par_a,
-            bb = isNaN(par_b) ? value_b.toLowerCase() : par_b;
-        // let aa = (typeof a[opt.id] === 'string') ? a[opt.id].toLowerCase() : a[opt.id],
-        //     bb = (typeof b[opt.id] === 'string') ? b[opt.id].toLowerCase() : b[opt.id];
+
+        aa = (opt.id === 'company') ? value_a.toLowerCase() : parseFloat(value_a);
+        bb = (opt.id === 'company') ? value_b.toLowerCase() : parseFloat(value_b);
+
         if(aa < bb){
             return (opt.sortType == UP) ? -1 : 1
         }  
@@ -358,8 +319,6 @@ function sortData(data, opt){
         }
     });
 }
-
-//
 /**
  * 정렬된 데이터에 해당하는 각각의 tr(행)을 순서대로 찾고 부모노드의 마지막으로 이동시킨다.
  * @param {object} data 정렬된 데이터
@@ -378,46 +337,52 @@ function sortElement(data){
     }); 
 }
 
-/**
- * 전달 받은 values의 키에 해당하는 search_data의 값들을 더해 values에 저장한다.
- * @param {object} search_data 현재 화면에 보여지는 테이블 데이터
- * @param {object} values {revenues : 0, profits : 0}
- * @return {object} 계산된 values
- */
-function sumValue(search_data, values){ 
-    if(search_data === undefined) {search_data = filter_data;}
-    for(key in values){
-        search_data.forEach(function(obj){
-            values[key] += (obj[key] === "" || obj[key] === null)? 0 : parseFloat(obj[key]);
-        });
-    }
-    return values;
-}
+
 
 /**
  * values 값을 화면에 표시한다.
  * @param {object} values { revenues : 0, profits : 0 }
  */
 function insertValue(values){ // values = {revenues : 0, profits : 0}
-    w3.getElement('.sum_div :nth-child(2)').textContent = values.revenues.toFixed(1);
-    w3.getElement('.sum_div :nth-child(3)').textContent = values.profits.toFixed(1);
+    ;
+    ;
+}
+
+
+/**
+ * 합계 구하기 버튼 클릭 시 revenues와 profits 합계를 구하여 element에 값을 입력한다.
+ */
+function clickSum(){
+    debugger;
+    let sum_list = {revenues : 0, profits : 0};
+    for(key in sum_list){
+        sum_list[key] = sumArray(makeArray(result_data, key));
+    }
+    w3.getElement('.sum_div :nth-child(2)').textContent = sum_list.revenues.toFixed(1);
+    w3.getElement('.sum_div :nth-child(3)').textContent = sum_list.profits.toFixed(1);
+}
+/**
+ * @param {object[]} arObject 
+ * @param {string} key 
+ * @return {string[]|number[]} 오브젝트의 key에 해당하는 값만 추출하여 배열로 리턴
+ */
+function makeArray(arObject, key){
+    debugger;
+    arObject = arObject || filter_data;
+    return arObject.map(function(obj){
+        return obj[key];
+    })
 }
 
 /**
- * 합계 구하기 버튼 클릭 시 
+ * @param {number[]} array
+ * @return {number} 배열 값들의 합계
  */
-function clickSum(){
-    let sum_list = {revenues : 0, profits : 0},
-    sum_objects = sumValue(result_data, sum_list);
-    insertValue(sum_objects);
+function sumArray(array){
+    debugger;
+    return array.reduce(function(sum, value){
+        sum = sum || 0;
+        value = value || 0;
+        return sum + value;
+    })
 }
-
-/* 빈 데이터 뒤로 가기 예제 */
-// function(array){
-//     array.sort(function(a, b){
-//         !a ? 1 
-//         : (!b ? -1 
-//         : (a.localeCompare(b)))
-//     });
-// }
-

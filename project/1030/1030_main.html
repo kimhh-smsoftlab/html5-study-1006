@@ -1,0 +1,191 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>1030_page</title>
+	<link rel="stylesheet" href="/styles.css">
+    <script defer src="/lib/FileSaver.js"></script>
+    <script defer src="/lib/w3.js"></script>
+    <script defer src="/public/simple_object1-1.js"></script>
+    <script defer src="./1030_script.js"></script>
+    <script src="https://kit.fontawesome.com/d07750b879.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="back_col_gray">
+    <div class="header round_border" >
+        <ul class="header_page">
+            <li><a title="테이블을 컨트롤 하는 페이지" href="#">테이블</a></li>
+            <li><a title="폴더 URL을 컨트롤 하는 페이지" href="1030_sub.html">폴더URL</a></li>
+        </ul>
+        <div class="header_main">
+            <a title="첫 화면으로 이동합니다." href="/index.html">메인 페이지</a>
+        </div>
+    </div>
+    
+    <div class="round_box txt_al_center">
+        <button id="show_btn">Show</button>
+        <button id="hide_btn">Hide</button>
+        <button id="toggleshow_btn">ToggleShow</button>
+        <button id="toggleclass_btn">ToggleClass</button>
+        <input id="class_input" type="text" placeholder="add className">
+        <button id="addclass_btn">AddClass</button>
+        <button id="removeclass_btn">Removeclass</button>
+    </div>
+    <div id="search" class="round_box txt_al_center toggleshow">
+        <div>
+            검색어: 
+            <input type="text" id="txt" placeholder="검색어를 입력하세요.">
+            <button id='search_btn'>검색</button>
+            <button id='clear_btn'>초기화</button>
+        </div>
+        <div>
+            <div id="checklist">
+                <div>
+                    <input id="search_type" type="radio" value="part" name='radio' checked>부분검색
+                    <input type="radio" value="all" name='radio'>일치검색
+                </div>
+                <div id="checkboxs">
+                    <input type="checkbox" value="rank" class="checkbox" checked>Rank
+                    <input type="checkbox" value="company" class="checkbox" checked>Company
+                    <input type="checkbox" value="revenues" class="checkbox" checked>Revenues
+                    <input type="checkbox" value="profits" class="checkbox" checked>Profits
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="table_div" class="round_box toggleshow">
+        <div class="txt_al_right">
+            <button id="sum_btn">합계 구하기</button>
+            <button id="clearsort_btn">정렬 초기화</button>
+        </div>
+        <div id="table_head"></div>
+        <div id="table_body"></div>
+        <div>
+            <div class="sum_div">
+                <div>합계</div>
+                <div>0</div>
+                <div>0</div>
+            </div>
+        </div>
+    </div>
+    <div class="round_box txt_al_center toggleshow">
+        <div> 
+            파일 이름:<input type="text" class="filename" id="json_filename" placeholder="json_filename"> .json
+            <button id="savedata_btn">전체 데이터 다운로드(file save)</button><br>
+            파일 이름:<input type="text" class="filename" id="html_filename" placeholder="html_filename"> .html
+            <button id="savehtml_btn">현재 웹페이지 문서 다운로드(file save)</button>
+        </div>
+        <div> 
+            bytes: <input type="number" class="filename" id="byte_txt">
+            <button id="byte_btn">확인</button>
+            <span id="size_view"></span>
+        </div>
+    </div>
+    <details class="txt_al_left">
+        <summary>w3 filterHTML, displayObject [클릭]</summary>
+        <div class="round_box grid">
+            <input type="text" id="table_text" placeholder="Search for names..">
+            <table id="id01" border="1">
+                <tr>
+                    <th>Customer</th>
+                    <th>City</th>
+                    <th>Country</th>
+                </tr>
+                <tr class="item">
+                    <td>Alfreds Futterkiste</td>
+                    <td>Berlin</td>
+                    <td>Germany</td>
+                </tr>
+                <tr class="item">
+                    <td>Berglunds snabbköp</td>
+                    <td>Lule </td>
+                    <td>Sweden</td>
+                </tr>
+                <tr class="item">
+                    <td>Centro comercial Moctezuma</td>
+                    <td>México D.F.</td>
+                    <td>Mexico</td>
+                </tr>
+                <tr class="item">
+                    <td>Ernst Handel</td>
+                    <td>Graz</td>
+                    <td>Austria</td>
+                </tr>
+                <tr class="item">
+                    <td>FISSA Fabrica Inter. Salchichas S.A.</td>
+                    <td>Madrid</td>
+                    <td>Spain</td>
+                </tr>
+                <tr class="item">
+                    <td>Galería del gastrónomo</td>
+                    <td>Barcelona</td>
+                    <td>Spain</td>
+                </tr>
+                <tr class="item">
+                    <td>Island Trading</td>
+                    <td>Cowes</td>
+                    <td>UK</td>
+                </tr>
+                <tr class="item">
+                    <td>Königlich Essen</td>
+                    <td>Brandenburg</td>
+                    <td>Germany</td>
+                </tr>
+                <tr class="item">
+                    <td>Laughing Bacchus Wine Cellars</td>
+                    <td>Vancouver</td>
+                    <td>Canada</td>
+                </tr>
+                <tr class="item">
+                    <td>Magazzini Alimentari Riuniti</td>
+                    <td>Bergamo</td>
+                    <td>Italy</td>
+                </tr>
+                <tr class="item">
+                    <td>North/South</td>
+                    <td>London</td>
+                    <td>UK</td>
+                </tr>
+                <tr class="item">
+                    <td>Paris spécialités</td>
+                    <td>Paris</td>
+                    <td>France</td>
+                </tr>
+                <tr class="item">
+                    <td>Rattlesnake Canyon Grocery</td>
+                    <td>Albuquerque</td>
+                    <td>USA</td>
+                </tr>
+                <tr class="item">
+                    <td>Simons bistro</td>
+                    <td>København</td>
+                    <td>Denmark</td>
+                </tr>
+                <tr class="item">
+                    <td>The Big Cheese</td>
+                    <td>Portland</td>
+                    <td>USA</td>
+                </tr>
+                <tr class="item">
+                    <td>Vaffeljernet</td>
+                    <td>Århus</td>
+                    <td>Denmark</td>
+                </tr>
+                <tr class="item">
+                    <td>Wolski Zajazd</td>
+                    <td>Warszawa</td>
+                    <td>Poland</td>
+                </tr>
+            </table>
+        </div>
+        <div id="id02" class="round_box">
+            <span>{{firstName}} {{lastName}}</span>
+            <span>{{firstName}} {{lastName}}</span>
+            <span>{{firstName}} {{lastName}}</span>
+        </div>
+    </details>
+    
+</body>
+
+</html>

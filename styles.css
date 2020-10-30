@@ -6,10 +6,43 @@ i{
   padding-left : 10px;
   color: black;
 }
+.path_div > div{
+  text-align:center;
+}
+#pathlist{
+  padding: 0px;
+  display: flex;
+  list-style: none;
+  place-content: center;
+}
+#pathlist > li{
+  padding: 5px 10px;
+  border: 1px solid black;
+}
 
+#pathlist > li:hover{
+  background-color: cadetblue;
+}
+.dragtarget{
+  width: 100px;
+  height: 100px;
+  background-color: #f06292;
+}
+.dragzone{
+  width: 300px;
+  height: 300px;
+  background-color: #5d99c6;
+}
 .sum_div{
   display: flex;
-  margin-right:16px;
+  margin-right:14px;
+  border-left: 2px solid #dfdfdf;
+  border-top: 2px solid #dfdfdf;
+}
+.sum_div > div{
+  padding: 4px 0px;
+  border-right: 2px solid #dfdfdf;
+  border-bottom: 2px solid #dfdfdf;
 }
 
 .sum_div :nth-child(1){
@@ -170,6 +203,22 @@ text-align: center;
   height: 6vh;
   align-items: center;
   margin : 20px 0px;
+  border-radius: 10px;
+}
+
+.header a{
+  color: white;
+  display: block;
+  text-align: center;
+  border-radius: 4px;
+  height: 5vh;
+  line-height: 5vh;
+  text-decoration: none;
+  padding: 2px 11px;
+}
+
+.header a:hover {
+  background-color: #37b0e9;
 }
 
 .header_page {
@@ -179,33 +228,8 @@ text-align: center;
   padding-left: 8px;
 }
 
-.header_page a,
-.header_main a {
-  color: white;
-  display: block;
-  text-align: center;
-  border-radius: 4px;
-  height: 5vh;
-  line-height: 5vh;
-  text-decoration: none;
-}
-.header_page a {
-  width: 80px;
-}
-
-.header_main > a {
-  width: 100%;
-}
-
-.header_page a:hover {
-  background-color: #37b0e9;
-}
 .header_main {
   padding-right: 8px;
-}
-
-div.header_main > a:hover {
-  background-color: #37b0e9;
 }
 
 .calendar_1 {
