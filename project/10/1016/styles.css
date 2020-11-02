@@ -1,0 +1,53 @@
+#table > div {
+  display: flex;
+  border-bottom: 1px solid black;
+  padding: 4px;
+}
+
+#table > div > div {
+  width: 1fr;
+}
+
+.flex_item {
+  flex: 1;
+}
+
+.table_header {
+  background-color: #eeeeee;
+  font-weight: bold;
+  /* text-align: center; */
+}
+
+.header {
+  background-color: #81d4fa;
+  display: flex;
+  justify-content: space-between;
+  height: 6vh;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.header_page {
+  display: flex;
+  list-style: none;
+  margin: 0px;
+  padding-left: 8px;
+}
+.header_main {
+  padding-right: 8px;
+}
+.header a {
+  color: white;
+  display: block;
+  text-align: center;
+  border-radius: 4px;
+  height: 5vh;
+  line-height: 5vh;
+  text-decoration: none;
+}
+.header a:hover {
+  background-color: #37b0e9;
+}
+.header_page a {
+  width: 80px;
+}

@@ -1,0 +1,40 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>1030_page</title>
+	<link rel="stylesheet" href="/styles.css">
+    <script defer src="/lib/w3.js"></script>
+    <script defer src="./1030_subscript.js"></script>
+</head>
+
+<body class="back_col_gray">
+    <div class="header round_border" >
+        <ul class="header_page">
+            <li><a title="테이블을 컨트롤 하는 페이지" href="./1030_main.html">테이블</a></li>
+            <li><a title="폴더 URL을 컨트롤 하는 페이지" href="#">폴더URL</a></li>
+        </ul>
+        <div class="header_main">
+            <a title="첫 화면으로 이동합니다." href="/index.html">메인 페이지</a>
+        </div>
+    </div>
+    <div id="folderpath" class="round_box path_div">
+        <div>
+            <ul id="pathlist">
+                <!-- 프로그래스 바 -->
+            </ul>
+        </div>
+        <div>
+            <!-- 폴더 경로 입력 -->
+            <input id="pathinput"type="text" value="C:\Users\smsoftlab\Desktop\workspace\project\project\1008"/>
+            <button id="pathbtn" data-action="submit">확인</button>
+        </div>
+        <div>
+            Path: <p id="pathview"></p>
+        </div>
+
+    </div>
+</body>
+
+</html>
