@@ -57,5 +57,7 @@
       - input file태그에 webkitdirectory 속성을 설정하여 폴더 단위로 업로드 가능
   - ### 11월 학습
     - #### 2일 
-      -
+      - javascript Class의 getter/setter 학습
+      - funciton의 bind(), call(), apply() 학습 
+      
        

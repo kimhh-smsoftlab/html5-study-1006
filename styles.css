@@ -62,18 +62,20 @@ footer{
   text-align: center;
 }
 
-#table_div button{
+#table_group button{
   margin-right : 16px;
+}
+
+#table_group{
+  padding: 16px 32px;
+  text-align: center;
 }
 
 #table_body > div {
   border-bottom: 2px solid #dfdfdf;
 }
 
-#table_div{
-padding: 16px 32px;
-text-align: center;
-}
+
 
 
 #table_body{
@@ -170,7 +172,10 @@ text-align: center;
 .flex_row {
   display: flex;
 }
-
+.flex_col {
+  display: flex;
+  flex-direction: column;
+}
 .js_table {
   width: 100%;
   height: 50%;
@@ -218,30 +223,6 @@ text-align: center;
 .header_page {
   display: flex;
   list-style: none;
-}
-
-.header_main {
-
-}
-
-.calendar_1 {
-  display: flex;
-  flex-direction: column;
-  background-color: #eeeeee;
-  padding: 10px;
-}
-
-.calendar_1 > ul {
-  display: flex;
-  list-style: none;
-  justify-content: space-between;
-  padding: 0px;
-}
-
-.calendar_1 > ul > li {
-  border: 1px solid #eeeeee;
-  width: 100%;
-  font-size: 18px;
 }
 
 .week_1 {
@@ -314,11 +295,11 @@ text-align: center;
   background-color: #5d99c6;
 }
 
-.index__header {
+.index_header {
   background-color: #81d4fa;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 20px;
 }
 .calendar .week_bar,
 .calendar .days {
@@ -605,65 +586,49 @@ text-align: center;
   }
 }
 .calendar2 {
-  display: flex;
-  flex-direction: column;
   max-width: 1370px;
-  font-size: 1em;
-  background-color: white;
-  padding: 0px 20px;
-  border-radius: 3%;
-  margin-bottom: 20px;
+  padding: 20px;
 }
 
-.calendar2 .calendar2_table {
+.calendar2_table {
   border-collapse: collapse;
   width: 100%;
   border-spacing: 0;
   max-width: 1300px;
 }
-.calendar2 .calendar2_content {
-  margin: 20px 20px 20px;
-}
-.calendar2 .header_day,
-.calendar2 .body_day {
+
+.calendar2_table td,th {
   border: 1px solid #d1d0d0;
 }
 
-.calendar2 a {
-  text-decoration: none;
-}
-
-.calendar2 .day_frame {
+.day_frame {
   display: flex;
   flex-direction: row-reverse;
   height: 100%;
 }
 
-.calendar2 .body_day {
+.body_day {
   height: 10vw;
 }
 
 @media screen and (min-width: 1460px) {
-  .calendar2 .body_day {
+  .body_day {
     height: 146px;
   }
 }
-#index__body .calendar_group {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
-.calendar_group .calendar_1,
 .calendar_group .calendar2 {
   width: 100%;
 }
-
-
+.calendar_group > div{
+  background-color: white;
+  margin: 20px;
+}
 
 .top{
   height: 50px;
 }
+
 
 .bar {
   background-color: #81d4fa;
@@ -699,7 +664,7 @@ text-align: center;
 .sidebar {
   display: flex;
   flex-direction: column;
-  min-width: 250px;
+  min-width: 210px;
   height:100%
 }
 .sidebar h3{
@@ -727,15 +692,16 @@ text-align: center;
   height: 100%;
 }
 .main_top{
-  height :73%;
+  min-height :576px;
   margin: 5px;
   border-radius: 10px;
 }
 
 .round_box{
-  border-radius: 20px;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  margin: 10px;
   padding: 10px;
-  /* background-color: #90caf96b; */
 }
 
 .path_div > div{
@@ -746,13 +712,14 @@ text-align: center;
   padding: 0px;
   display: flex;
   list-style: none;
-  border:2px solid black;
-  width: 700px;
+  background-color: #8fbce031;
 }
 
 .fp > li{
   padding: 5px 5px;
   display: flex;
+
+  cursor: default;
 }
 .fp > li > i{
   color: #8f8f8f;
@@ -760,5 +727,49 @@ text-align: center;
   pointer-events: none;
 }
 .fp > li:hover{
-  background-color: #a0d5fd49;
+  background-color: #1969a794;
+  color: white;
+}
+
+#pathbtn{
+  background-color: #2196F3;
+  padding : 5px 15px;
+  color: white;
+  border: 0px;
+  border-radius: 5px;
+}
+
+#pathinput{
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 50%;
+}
+
+.fd {
+  display: none;
+}
+
+.fd div{
+  margin: 5px 0px;
+}
+.onActive{
+  background-color: #2196F3;
+  color:white;
+}
+
+#table_div .td{
+  flex: 1;
+
+}
+
+#table_div .tr{
+  display: flex;
+}
+#table_div .tbody .tr{
+  border-bottom: 2px solid black;
+}
+#table_div .th{
+  background-color: #7f7f7f;
+  color: white;
 }

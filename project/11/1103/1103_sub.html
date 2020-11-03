@@ -1,0 +1,105 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>1030_page</title>
+	<link rel="stylesheet" href="/styles.css">
+    <script defer src="/lib/FileSaver.js"></script>
+    <script defer src="/lib/w3.js"></script>
+    <script defer src="/public/simple_object1-1.js"></script>
+    <script defer src="./1103_subscript.js"></script>
+    <script src="https://kit.fontawesome.com/d07750b879.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="back_col_gray">
+    <div class="top" >
+        <div class="bar">
+            <a title="첫 화면으로 이동합니다." href="/index.html">
+                <i class="fas fa-home"></i></a>
+        </div>
+    </div>
+    <div class="center">
+        <div class="sidebar">
+            <h3 class=" "><b>Menu</b></h3>
+            <a title="폴더 URL을 컨트롤 하는 페이지" href="1103_main.html">폴더URL</a>
+            <a title="테이블 컨트롤 페이지" href="#">테이블 search</a>
+        </div>
+        <div class="main">
+            <div class="main_top">
+                <div class="round_box txt_al_center">
+                    <button id="show_btn">Show</button>
+                    <button id="hide_btn">Hide</button>
+                    <button id="toggleshow_btn">ToggleShow</button>
+                    <button id="toggleclass_btn">ToggleClass</button>
+                    <input id="class_input" type="text" placeholder="add className">
+                    <button id="addclass_btn">AddClass</button>
+                    <button id="removeclass_btn">Removeclass</button>
+                </div>
+                <div id="search" class="round_box txt_al_center toggleshow">
+                    <div>
+                        검색어: 
+                        <input type="text" id="txt" placeholder="검색어를 입력하세요.">
+                        <button id='search_btn'>검색</button>
+                        <button id='clear_btn'>초기화</button>
+                    </div>
+                    <div>
+                        <div id="checklist">
+                            <div>
+                                <input id="search_type" type="radio" value="part" name='radio' checked>부분검색
+                                <input type="radio" value="all" name='radio'>일치검색
+                            </div>
+                            <div id="checkboxs">
+                                <input type="checkbox" value="rank" class="checkbox" checked>Rank
+                                <input type="checkbox" value="company" class="checkbox" checked>Company
+                                <input type="checkbox" value="revenues" class="checkbox" checked>Revenues
+                                <input type="checkbox" value="profits" class="checkbox" checked>Profits
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="table_group" class="round_box toggleshow">
+                    <div class="txt_al_right">
+                        <button id="sum_btn">합계 구하기</button>
+                        <button id="clearsort_btn">정렬 초기화</button>
+                    </div>
+                    
+                    <div id="table_div">
+                        <!-- table -->
+                    </div>
+                    <div>
+                        <div class="sum_div">
+                            <div>합계</div>
+                            <div>0</div>
+                            <div>0</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="round_box txt_al_center toggleshow">
+                    <div> 
+                        파일 이름:<input type="text" class="filename" id="json_filename" placeholder="json_filename"> .json
+                        <button id="savedata_btn">전체 데이터 다운로드(file save)</button><br>
+                        파일 이름:<input type="text" class="filename" id="html_filename" placeholder="html_filename"> .html
+                        <button id="savehtml_btn">현재 웹페이지 문서 다운로드(file save)</button>
+                    </div>
+                    <div> 
+                        bytes: <input type="number" class="filename" id="byte_txt">
+                        <button id="byte_btn">확인</button>
+                        <span id="size_view"></span>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="ft_top">
+                    <h4>Footer</h4>
+                </div>
+                <div class="ft_bot">
+                    <p><a href="" target="_blank">Project</a></p>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+</body>
+
+</html>

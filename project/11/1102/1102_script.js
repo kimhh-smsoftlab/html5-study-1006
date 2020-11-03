@@ -38,6 +38,7 @@ class FolderPathC{
 
     /* li 클릭시 클릭된 이후의 배열데이터를 모두 지운다. */
     onlist(e){
+        //arguments
         let childNode = e.target,  //클릭 노드 -> li 
             parentNode = childNode.parentNode, //상위 노드 -> ul
             idx = Array.from(parentNode.children).indexOf(childNode); // children을 array형태로 변경하고 li의 index를 알아낸다.
@@ -63,7 +64,6 @@ class FolderPathC{
 function FolderPathF(elem){
     this.arList = [];
     this.elem = elem;
-    
     FolderPathF.prototype.setArList = function(str){
         this.arList = str ? str.split('\\') : [];
     }
@@ -113,6 +113,8 @@ function FolderPathF(elem){
     };
     elem.onclick = this.onClick.bind(this);
 }
+
+
 let input = document.getElementById('pathinput'),
     btn = document.getElementById('pathbtn'),
     fpList = [];
@@ -123,15 +125,18 @@ let input = document.getElementById('pathinput'),
                 path.inputStr = input.value;
                 path.createList();
                 fpList.push(path);
-        })
+        });
+        ar = w3.getElements('.folderpath2');
+        ar.forEach(function(objFp){
+            let path = new FolderPathF(objFp);
+            path.setArList(input.value);
+            path.createList();
+            fpList.push(path);
+        });
+
 })
 
-ar = w3.getElements('.folderpath2');
-ar.forEach(function(objFp){
-    let path = new FolderPathF(objFp);
-        path.setArList(input.value);
-        path.createList();
-        fpList.push(path);
-});
+
+
 
 
