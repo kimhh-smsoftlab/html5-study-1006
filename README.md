@@ -53,11 +53,15 @@
       - 예기치 못한 상황을 대비하여 방어코딩 작성 유의
     - #### 30일
       - reduce() 를 활용하여 array 합계 기능 구현
-      - class로 객체를 생성하여 이벤트, 함수 관리
       - input file태그에 webkitdirectory 속성을 설정하여 폴더 단위로 업로드 가능
+      - folderPath(폴더의 Path를 보여주는 컴포넌트) 프로젝트 생성
+      - class로 객체를 생성하여 이벤트, 함수 관리
   - ### 11월 학습
     - #### 2일 
+      - folderPath를 class 객체로 변환 진행 / [[ code 링크 ](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/a774bb67c2b67a1494522b4db13f25a19e263d7b/project/11/1102/1102_script.js#L2)]
       - javascript Class의 getter/setter 학습
       - funciton의 bind(), call(), apply() 학습 
-      
-       
+    - #### 3일 
+      - folderPath의 기능 및 코드 보완 진행 
+      - TableView 프로젝트를 class객체로 변환 진행 [[ code 링크 ](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/a774bb67c2b67a1494522b4db13f25a19e263d7b/project/11/1103/1103_subscript.js#L7)]
+      - class 설계원리 및 방법 피드백 진행 

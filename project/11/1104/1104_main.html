@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>1102_Project</title>
+        <link rel="stylesheet" href="/styles.css" />
+        <script defer src="/lib/w3.js"></script>
+        <script defer src="./1104_script.js"></script>
+        <script
+            src="https://kit.fontawesome.com/d07750b879.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body>
+        <div class="top">
+            <div class="bar">
+                <a title="첫 화면으로 이동합니다." href="/index.html">
+                    <i class="fas fa-home"></i
+                ></a>
+            </div>
+        </div>
+        <div class="sidebar">
+            <h3 class="bar_item">Menu</h3>
+            <a class="bar_item" title="폴더 URL을 컨트롤 하는 페이지" href="#"
+                >폴더URL</a
+            >
+            <a
+                class="bar_item"
+                title="테이블 컨트롤 페이지"
+                href="./1104_sub.html"
+                >테이블Search</a
+            >
+        </div>
+        <div class="main">
+            <div class="round_box">
+                <input
+                    id="pathinput"
+                    type="text"
+                    value="C:\Users\smsoftlab\Desktop\workspace\project\project\1008"
+                />
+                <button id="pathbtn">확인</button>
+                <label for="checkbox">Path 자르기</label>
+                <input id="pathcheckbox" type="checkbox" />
+            </div>
+            <div class="round_box">
+                <div>
+                    <!-- folderpath -->
+                    <div id="folderpath_div" class="fp folderpath1"></div>
+                </div>
+            </div>
+            <div class="round_box">
+                <div>
+                    <!-- btn -->
+                    <div id="btn_div" class=""></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

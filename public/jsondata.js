@@ -1,4 +1,4 @@
-(function(root, factory) {
+(function (root, factory) {
   /* globals define */
   if (typeof define === "function" && define.amd) {
     // AMD. Register as an anonymous module.
@@ -12,9 +12,9 @@
     // Browser globals (root is window)
     root.JSONDATA = factory();
   }
-})(this, function() {
+})(this, function () {
   "use strict";
-  var global = (function() {
+  var global = (function () {
     // alternative method, similar to `Function('return this')()`
     // but without using `eval` (which is disabled when
     // using Content Security Policy).
@@ -55,7 +55,7 @@ g_jsonData.treedata = [
         parentId: 0,
         pq_ri: 1,
         pq_hidden: false,
-        pq_ht: 27
+        pq_ht: 27,
       },
       {
         id: 2,
@@ -78,7 +78,7 @@ g_jsonData.treedata = [
                 pq_ri: 4,
                 pq_hidden: false,
                 pq_ht: 27,
-                pq_tree_cb: true
+                pq_tree_cb: true,
               },
               {
                 id: 212,
@@ -89,8 +89,8 @@ g_jsonData.treedata = [
                 parentId: 21,
                 pq_ri: 5,
                 pq_hidden: false,
-                pq_ht: 29
-              }
+                pq_ht: 29,
+              },
             ],
             pq_level: 2,
             parentId: 2,
@@ -101,11 +101,11 @@ g_jsonData.treedata = [
               parentId: 21,
               pq_hidden: false,
               pq_gsummary: true,
-              pq_ri: 6
+              pq_ri: 6,
             },
             pq_hidden: false,
             pq_ht: 27,
-            pq_tree_cb: true
+            pq_tree_cb: true,
           },
           {
             id: 22,
@@ -123,7 +123,7 @@ g_jsonData.treedata = [
                 parentId: 22,
                 pq_ri: 8,
                 pq_hidden: false,
-                pq_ht: 29
+                pq_ht: 29,
               },
               {
                 id: 222,
@@ -134,7 +134,7 @@ g_jsonData.treedata = [
                 parentId: 22,
                 pq_ri: 9,
                 pq_hidden: false,
-                pq_ht: 27
+                pq_ht: 27,
               },
               {
                 id: 223,
@@ -145,7 +145,7 @@ g_jsonData.treedata = [
                 parentId: 22,
                 pq_ri: 10,
                 pq_hidden: false,
-                pq_ht: 27
+                pq_ht: 27,
               },
               {
                 id: 224,
@@ -156,8 +156,8 @@ g_jsonData.treedata = [
                 parentId: 22,
                 pq_ri: 11,
                 pq_hidden: false,
-                pq_ht: 27
-              }
+                pq_ht: 27,
+              },
             ],
             pq_level: 2,
             parentId: 2,
@@ -168,10 +168,10 @@ g_jsonData.treedata = [
               parentId: 22,
               pq_hidden: false,
               pq_gsummary: true,
-              pq_ri: 12
+              pq_ri: 12,
             },
             pq_hidden: false,
-            pq_ht: 27
+            pq_ht: 27,
           },
           {
             id: 23,
@@ -182,8 +182,8 @@ g_jsonData.treedata = [
             parentId: 2,
             pq_ri: 13,
             pq_hidden: false,
-            pq_ht: 27
-          }
+            pq_ht: 27,
+          },
         ],
         pq_level: 1,
         parentId: 0,
@@ -194,11 +194,11 @@ g_jsonData.treedata = [
           parentId: 2,
           pq_hidden: false,
           pq_gsummary: true,
-          pq_ri: 14
+          pq_ri: 14,
         },
         pq_hidden: false,
         pq_ht: 27,
-        pq_tree_cb: null
+        pq_tree_cb: null,
       },
       {
         id: 3,
@@ -213,7 +213,7 @@ g_jsonData.treedata = [
             pq_level: 2,
             parentId: 3,
             pq_ri: 16,
-            pq_hidden: false
+            pq_hidden: false,
           },
           {
             id: 32,
@@ -223,7 +223,7 @@ g_jsonData.treedata = [
             pq_level: 2,
             parentId: 3,
             pq_ri: 17,
-            pq_hidden: false
+            pq_hidden: false,
           },
           {
             id: 33,
@@ -233,7 +233,7 @@ g_jsonData.treedata = [
             pq_level: 2,
             parentId: 3,
             pq_ri: 18,
-            pq_hidden: false
+            pq_hidden: false,
           },
           {
             id: 34,
@@ -243,7 +243,7 @@ g_jsonData.treedata = [
             pq_level: 2,
             parentId: 3,
             pq_ri: 19,
-            pq_hidden: false
+            pq_hidden: false,
           },
           {
             id: 35,
@@ -253,8 +253,8 @@ g_jsonData.treedata = [
             pq_level: 2,
             parentId: 3,
             pq_ri: 20,
-            pq_hidden: false
-          }
+            pq_hidden: false,
+          },
         ],
         pq_level: 1,
         parentId: 0,
@@ -265,9 +265,9 @@ g_jsonData.treedata = [
           parentId: 3,
           pq_hidden: false,
           pq_gsummary: true,
-          pq_ri: 21
+          pq_ri: 21,
         },
-        pq_hidden: false
+        pq_hidden: false,
       },
       {
         id: 4,
@@ -277,8 +277,8 @@ g_jsonData.treedata = [
         pq_level: 1,
         parentId: 0,
         pq_ri: 22,
-        pq_hidden: false
-      }
+        pq_hidden: false,
+      },
     ],
     pq_level: 0,
     pq_ri: 0,
@@ -288,11 +288,11 @@ g_jsonData.treedata = [
       parentId: 0,
       pq_hidden: false,
       pq_gsummary: true,
-      pq_ri: 23
+      pq_ri: 23,
     },
     pq_hidden: false,
     pq_ht: 27,
-    pq_tree_cb: null
+    pq_tree_cb: null,
   },
   {
     id: 1,
@@ -303,7 +303,7 @@ g_jsonData.treedata = [
     parentId: 0,
     pq_ri: 1,
     pq_hidden: false,
-    pq_ht: 27
+    pq_ht: 27,
   },
   {
     id: 2,
@@ -326,7 +326,7 @@ g_jsonData.treedata = [
             pq_ri: 4,
             pq_hidden: false,
             pq_ht: 27,
-            pq_tree_cb: true
+            pq_tree_cb: true,
           },
           {
             id: 212,
@@ -337,8 +337,8 @@ g_jsonData.treedata = [
             parentId: 21,
             pq_ri: 5,
             pq_hidden: false,
-            pq_ht: 29
-          }
+            pq_ht: 29,
+          },
         ],
         pq_level: 2,
         parentId: 2,
@@ -349,11 +349,11 @@ g_jsonData.treedata = [
           parentId: 21,
           pq_hidden: false,
           pq_gsummary: true,
-          pq_ri: 6
+          pq_ri: 6,
         },
         pq_hidden: false,
         pq_ht: 27,
-        pq_tree_cb: true
+        pq_tree_cb: true,
       },
       {
         id: 22,
@@ -371,7 +371,7 @@ g_jsonData.treedata = [
             parentId: 22,
             pq_ri: 8,
             pq_hidden: false,
-            pq_ht: 29
+            pq_ht: 29,
           },
           {
             id: 222,
@@ -382,7 +382,7 @@ g_jsonData.treedata = [
             parentId: 22,
             pq_ri: 9,
             pq_hidden: false,
-            pq_ht: 27
+            pq_ht: 27,
           },
           {
             id: 223,
@@ -393,7 +393,7 @@ g_jsonData.treedata = [
             parentId: 22,
             pq_ri: 10,
             pq_hidden: false,
-            pq_ht: 27
+            pq_ht: 27,
           },
           {
             id: 224,
@@ -404,8 +404,8 @@ g_jsonData.treedata = [
             parentId: 22,
             pq_ri: 11,
             pq_hidden: false,
-            pq_ht: 27
-          }
+            pq_ht: 27,
+          },
         ],
         pq_level: 2,
         parentId: 2,
@@ -416,10 +416,10 @@ g_jsonData.treedata = [
           parentId: 22,
           pq_hidden: false,
           pq_gsummary: true,
-          pq_ri: 12
+          pq_ri: 12,
         },
         pq_hidden: false,
-        pq_ht: 27
+        pq_ht: 27,
       },
       {
         id: 23,
@@ -430,8 +430,8 @@ g_jsonData.treedata = [
         parentId: 2,
         pq_ri: 13,
         pq_hidden: false,
-        pq_ht: 27
-      }
+        pq_ht: 27,
+      },
     ],
     pq_level: 1,
     parentId: 0,
@@ -442,11 +442,11 @@ g_jsonData.treedata = [
       parentId: 2,
       pq_hidden: false,
       pq_gsummary: true,
-      pq_ri: 14
+      pq_ri: 14,
     },
     pq_hidden: false,
     pq_ht: 27,
-    pq_tree_cb: null
+    pq_tree_cb: null,
   },
   {
     id: 21,
@@ -464,7 +464,7 @@ g_jsonData.treedata = [
         pq_ri: 4,
         pq_hidden: false,
         pq_ht: 27,
-        pq_tree_cb: true
+        pq_tree_cb: true,
       },
       {
         id: 212,
@@ -475,8 +475,8 @@ g_jsonData.treedata = [
         parentId: 21,
         pq_ri: 5,
         pq_hidden: false,
-        pq_ht: 29
-      }
+        pq_ht: 29,
+      },
     ],
     pq_level: 2,
     parentId: 2,
@@ -487,11 +487,11 @@ g_jsonData.treedata = [
       parentId: 21,
       pq_hidden: false,
       pq_gsummary: true,
-      pq_ri: 6
+      pq_ri: 6,
     },
     pq_hidden: false,
     pq_ht: 27,
-    pq_tree_cb: true
+    pq_tree_cb: true,
   },
   {
     id: 211,
@@ -503,7 +503,7 @@ g_jsonData.treedata = [
     pq_ri: 4,
     pq_hidden: false,
     pq_ht: 27,
-    pq_tree_cb: true
+    pq_tree_cb: true,
   },
   {
     id: 212,
@@ -514,7 +514,7 @@ g_jsonData.treedata = [
     parentId: 21,
     pq_ri: 5,
     pq_hidden: false,
-    pq_ht: 29
+    pq_ht: 29,
   },
   {
     size: 147,
@@ -522,7 +522,7 @@ g_jsonData.treedata = [
     parentId: 21,
     pq_hidden: false,
     pq_gsummary: true,
-    pq_ri: 6
+    pq_ri: 6,
   },
   {
     id: 22,
@@ -540,7 +540,7 @@ g_jsonData.treedata = [
         parentId: 22,
         pq_ri: 8,
         pq_hidden: false,
-        pq_ht: 29
+        pq_ht: 29,
       },
       {
         id: 222,
@@ -551,7 +551,7 @@ g_jsonData.treedata = [
         parentId: 22,
         pq_ri: 9,
         pq_hidden: false,
-        pq_ht: 27
+        pq_ht: 27,
       },
       {
         id: 223,
@@ -562,7 +562,7 @@ g_jsonData.treedata = [
         parentId: 22,
         pq_ri: 10,
         pq_hidden: false,
-        pq_ht: 27
+        pq_ht: 27,
       },
       {
         id: 224,
@@ -573,8 +573,8 @@ g_jsonData.treedata = [
         parentId: 22,
         pq_ri: 11,
         pq_hidden: false,
-        pq_ht: 27
-      }
+        pq_ht: 27,
+      },
     ],
     pq_level: 2,
     parentId: 2,
@@ -585,10 +585,10 @@ g_jsonData.treedata = [
       parentId: 22,
       pq_hidden: false,
       pq_gsummary: true,
-      pq_ri: 12
+      pq_ri: 12,
     },
     pq_hidden: false,
-    pq_ht: 27
+    pq_ht: 27,
   },
   {
     id: 221,
@@ -600,7 +600,7 @@ g_jsonData.treedata = [
     parentId: 22,
     pq_ri: 8,
     pq_hidden: false,
-    pq_ht: 29
+    pq_ht: 29,
   },
   {
     id: 222,
@@ -611,7 +611,7 @@ g_jsonData.treedata = [
     parentId: 22,
     pq_ri: 9,
     pq_hidden: false,
-    pq_ht: 27
+    pq_ht: 27,
   },
   {
     id: 223,
@@ -622,7 +622,7 @@ g_jsonData.treedata = [
     parentId: 22,
     pq_ri: 10,
     pq_hidden: false,
-    pq_ht: 27
+    pq_ht: 27,
   },
   {
     id: 224,
@@ -633,7 +633,7 @@ g_jsonData.treedata = [
     parentId: 22,
     pq_ri: 11,
     pq_hidden: false,
-    pq_ht: 27
+    pq_ht: 27,
   },
   {
     size: 22,
@@ -641,7 +641,7 @@ g_jsonData.treedata = [
     parentId: 22,
     pq_hidden: false,
     pq_gsummary: true,
-    pq_ri: 12
+    pq_ri: 12,
   },
   {
     id: 23,
@@ -652,7 +652,7 @@ g_jsonData.treedata = [
     parentId: 2,
     pq_ri: 13,
     pq_hidden: false,
-    pq_ht: 27
+    pq_ht: 27,
   },
   {
     size: 178,
@@ -660,7 +660,7 @@ g_jsonData.treedata = [
     parentId: 2,
     pq_hidden: false,
     pq_gsummary: true,
-    pq_ri: 14
+    pq_ri: 14,
   },
   {
     id: 3,
@@ -675,7 +675,7 @@ g_jsonData.treedata = [
         pq_level: 2,
         parentId: 3,
         pq_ri: 16,
-        pq_hidden: false
+        pq_hidden: false,
       },
       {
         id: 32,
@@ -685,7 +685,7 @@ g_jsonData.treedata = [
         pq_level: 2,
         parentId: 3,
         pq_ri: 17,
-        pq_hidden: false
+        pq_hidden: false,
       },
       {
         id: 33,
@@ -695,7 +695,7 @@ g_jsonData.treedata = [
         pq_level: 2,
         parentId: 3,
         pq_ri: 18,
-        pq_hidden: false
+        pq_hidden: false,
       },
       {
         id: 34,
@@ -705,7 +705,7 @@ g_jsonData.treedata = [
         pq_level: 2,
         parentId: 3,
         pq_ri: 19,
-        pq_hidden: false
+        pq_hidden: false,
       },
       {
         id: 35,
@@ -715,8 +715,8 @@ g_jsonData.treedata = [
         pq_level: 2,
         parentId: 3,
         pq_ri: 20,
-        pq_hidden: false
-      }
+        pq_hidden: false,
+      },
     ],
     pq_level: 1,
     parentId: 0,
@@ -727,9 +727,9 @@ g_jsonData.treedata = [
       parentId: 3,
       pq_hidden: false,
       pq_gsummary: true,
-      pq_ri: 21
+      pq_ri: 21,
     },
-    pq_hidden: false
+    pq_hidden: false,
   },
   {
     id: 31,
@@ -739,7 +739,7 @@ g_jsonData.treedata = [
     pq_level: 2,
     parentId: 3,
     pq_ri: 16,
-    pq_hidden: false
+    pq_hidden: false,
   },
   {
     id: 32,
@@ -749,7 +749,7 @@ g_jsonData.treedata = [
     pq_level: 2,
     parentId: 3,
     pq_ri: 17,
-    pq_hidden: false
+    pq_hidden: false,
   },
   {
     id: 33,
@@ -759,7 +759,7 @@ g_jsonData.treedata = [
     pq_level: 2,
     parentId: 3,
     pq_ri: 18,
-    pq_hidden: false
+    pq_hidden: false,
   },
   {
     id: 34,
@@ -769,7 +769,7 @@ g_jsonData.treedata = [
     pq_level: 2,
     parentId: 3,
     pq_ri: 19,
-    pq_hidden: false
+    pq_hidden: false,
   },
   {
     id: 35,
@@ -779,7 +779,7 @@ g_jsonData.treedata = [
     pq_level: 2,
     parentId: 3,
     pq_ri: 20,
-    pq_hidden: false
+    pq_hidden: false,
   },
   {
     size: 475,
@@ -787,7 +787,7 @@ g_jsonData.treedata = [
     parentId: 3,
     pq_hidden: false,
     pq_gsummary: true,
-    pq_ri: 21
+    pq_ri: 21,
   },
   {
     id: 4,
@@ -797,7 +797,7 @@ g_jsonData.treedata = [
     pq_level: 1,
     parentId: 0,
     pq_ri: 22,
-    pq_hidden: false
+    pq_hidden: false,
   },
   {
     size: 671,
@@ -805,8 +805,8 @@ g_jsonData.treedata = [
     parentId: 0,
     pq_hidden: false,
     pq_gsummary: true,
-    pq_ri: 23
-  }
+    pq_ri: 23,
+  },
 ];
 
 // 주식종목 마시트 JSON Data
@@ -817,7 +817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅎㅇㅍ",
     mktgbcd: "J",
-    upcode: "22000"
+    upcode: "22000",
   },
   {
     name: "KR모터스",
@@ -825,7 +825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KRㅁㅌㅅ",
     mktgbcd: "J",
-    upcode: "743"
+    upcode: "743",
   },
   {
     name: "경방",
@@ -833,7 +833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅂ",
     mktgbcd: "J",
-    upcode: "10500"
+    upcode: "10500",
   },
   {
     name: "메리츠화재",
@@ -841,7 +841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅊㅎㅈ",
     mktgbcd: "J",
-    upcode: "12750"
+    upcode: "12750",
   },
   {
     name: "삼양홀딩스",
@@ -849,7 +849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "62500"
+    upcode: "62500",
   },
   {
     name: "삼양홀딩스우",
@@ -857,7 +857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅎㄷㅅㅇ",
     mktgbcd: "J",
-    upcode: "47000"
+    upcode: "47000",
   },
   {
     name: "하이트진로",
@@ -865,7 +865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇㅌㅈㄹ",
     mktgbcd: "J",
-    upcode: "35950"
+    upcode: "35950",
   },
   {
     name: "하이트진로2우B",
@@ -873,7 +873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇㅌㅈㄹ2ㅇB",
     mktgbcd: "J",
-    upcode: "21350"
+    upcode: "21350",
   },
   {
     name: "유한양행",
@@ -881,7 +881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅎㅇㅎ",
     mktgbcd: "J",
-    upcode: "63700"
+    upcode: "63700",
   },
   {
     name: "유한양행우",
@@ -889,7 +889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅎㅇㅎㅇ",
     mktgbcd: "J",
-    upcode: "64800"
+    upcode: "64800",
   },
   {
     name: "CJ대한통운",
@@ -897,7 +897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "CJㄷㅎㅌㅇ",
     mktgbcd: "J",
-    upcode: "172000"
+    upcode: "172000",
   },
   {
     name: "하이트진로홀딩스",
@@ -905,7 +905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇㅌㅈㄹㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "16900"
+    upcode: "16900",
   },
   {
     name: "하이트진로홀딩스우",
@@ -913,7 +913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇㅌㅈㄹㅎㄷㅅㅇ",
     mktgbcd: "J",
-    upcode: "16050"
+    upcode: "16050",
   },
   {
     name: "두산",
@@ -921,7 +921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅ",
     mktgbcd: "J",
-    upcode: "46700"
+    upcode: "46700",
   },
   {
     name: "두산우",
@@ -929,7 +929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅇ",
     mktgbcd: "J",
-    upcode: "38700"
+    upcode: "38700",
   },
   {
     name: "두산2우B",
@@ -937,7 +937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅ2ㅇB",
     mktgbcd: "J",
-    upcode: "86200"
+    upcode: "86200",
   },
   {
     name: "성창기업지주",
@@ -945,7 +945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅊㄱㅇㅈㅈ",
     mktgbcd: "J",
-    upcode: "1610"
+    upcode: "1610",
   },
   {
     name: "대림산업",
@@ -953,7 +953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㄹㅅㅇ",
     mktgbcd: "J",
-    upcode: "77400"
+    upcode: "77400",
   },
   {
     name: "대림산업우",
@@ -961,7 +961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㄹㅅㅇㅇ",
     mktgbcd: "J",
-    upcode: "40400"
+    upcode: "40400",
   },
   {
     name: "유유제약",
@@ -969,7 +969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅈㅇ",
     mktgbcd: "J",
-    upcode: "15750"
+    upcode: "15750",
   },
   {
     name: "유유제약1우",
@@ -977,7 +977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅈㅇ1ㅇ",
     mktgbcd: "J",
-    upcode: "15300"
+    upcode: "15300",
   },
   {
     name: "유유제약2우B",
@@ -985,7 +985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅈㅇ2ㅇB",
     mktgbcd: "J",
-    upcode: "36100"
+    upcode: "36100",
   },
   {
     name: "일동홀딩스",
@@ -993,7 +993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄷㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "8950"
+    upcode: "8950",
   },
   {
     name: "한국테크놀로지그룹",
@@ -1001,7 +1001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅌㅋㄴㄹㅈㄱㄹ",
     mktgbcd: "J",
-    upcode: "16550"
+    upcode: "16550",
   },
   {
     name: "삼천당제약",
@@ -1009,7 +1009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅊㄷㅈㅇ",
     mktgbcd: "Q",
-    upcode: "53700"
+    upcode: "53700",
   },
   {
     name: "기아차",
@@ -1017,7 +1017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅇㅊ",
     mktgbcd: "J",
-    upcode: "45500"
+    upcode: "45500",
   },
   {
     name: "대유플러스",
@@ -1025,7 +1025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅍㄹㅅ",
     mktgbcd: "J",
-    upcode: "807"
+    upcode: "807",
   },
   {
     name: "노루홀딩스",
@@ -1033,7 +1033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㄹㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "9130"
+    upcode: "9130",
   },
   {
     name: "노루홀딩스우",
@@ -1041,7 +1041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㄹㅎㄷㅅㅇ",
     mktgbcd: "J",
-    upcode: "17350"
+    upcode: "17350",
   },
   {
     name: "한화손해보험",
@@ -1049,7 +1049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅎㅅㅎㅂㅎ",
     mktgbcd: "J",
-    upcode: "2860"
+    upcode: "2860",
   },
   {
     name: "삼화페인트",
@@ -1057,7 +1057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎㅍㅇㅌ",
     mktgbcd: "J",
-    upcode: "4905"
+    upcode: "4905",
   },
   {
     name: "롯데손해보험",
@@ -1065,7 +1065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄹㄷㅅㅎㅂㅎ",
     mktgbcd: "J",
-    upcode: "1575"
+    upcode: "1575",
   },
   {
     name: "대원강업",
@@ -1073,7 +1073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㄱㅇ",
     mktgbcd: "J",
-    upcode: "4210"
+    upcode: "4210",
   },
   {
     name: "중앙에너비스",
@@ -1081,7 +1081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅇㄴㅂㅅ",
     mktgbcd: "Q",
-    upcode: "7320"
+    upcode: "7320",
   },
   {
     name: "조선내화",
@@ -1089,7 +1089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅅㄴㅎ",
     mktgbcd: "J",
-    upcode: "72900"
+    upcode: "72900",
   },
   {
     name: "대동공업",
@@ -1097,7 +1097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㄷㄱㅇ",
     mktgbcd: "J",
-    upcode: "6430"
+    upcode: "6430",
   },
   {
     name: "가온전선",
@@ -1105,7 +1105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅇㅈㅅ",
     mktgbcd: "J",
-    upcode: "21600"
+    upcode: "21600",
   },
   {
     name: "삼일제약",
@@ -1113,7 +1113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅈㅇ",
     mktgbcd: "J",
-    upcode: "22600"
+    upcode: "22600",
   },
   {
     name: "흥국화재",
@@ -1121,7 +1121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅎㅈ",
     mktgbcd: "J",
-    upcode: "2670"
+    upcode: "2670",
   },
   {
     name: "흥국화재우",
@@ -1129,7 +1129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅎㅈㅇ",
     mktgbcd: "J",
-    upcode: "10850"
+    upcode: "10850",
   },
   {
     name: "흥국화재2우B",
@@ -1137,7 +1137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅎㅈ2ㅇB",
     mktgbcd: "J",
-    upcode: "24700"
+    upcode: "24700",
   },
   {
     name: "CS홀딩스",
@@ -1145,7 +1145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "CSㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "52700"
+    upcode: "52700",
   },
   {
     name: "동아쏘시오홀딩스",
@@ -1153,7 +1153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅆㅅㅇㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "127500"
+    upcode: "127500",
   },
   {
     name: "천일고속",
@@ -1161,7 +1161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅊㅇㄱㅅ",
     mktgbcd: "J",
-    upcode: "65100"
+    upcode: "65100",
   },
   {
     name: "SK하이닉스",
@@ -1169,7 +1169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SKㅎㅇㄴㅅ",
     mktgbcd: "J",
-    upcode: "82500"
+    upcode: "82500",
   },
   {
     name: "영풍",
@@ -1177,7 +1177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅍ",
     mktgbcd: "J",
-    upcode: "465000"
+    upcode: "465000",
   },
   {
     name: "LS네트웍스",
@@ -1185,7 +1185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LSㄴㅌㅇㅅ",
     mktgbcd: "J",
-    upcode: "2150"
+    upcode: "2150",
   },
   {
     name: "유수홀딩스",
@@ -1193,7 +1193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅅㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "5250"
+    upcode: "5250",
   },
   {
     name: "현대건설",
@@ -1201,7 +1201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㄱㅅ",
     mktgbcd: "J",
-    upcode: "30050"
+    upcode: "30050",
   },
   {
     name: "현대건설우",
@@ -1209,7 +1209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㄱㅅㅇ",
     mktgbcd: "J",
-    upcode: "193500"
+    upcode: "193500",
   },
   {
     name: "이화산업",
@@ -1217,7 +1217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅎㅅㅇ",
     mktgbcd: "J",
-    upcode: "14550"
+    upcode: "14550",
   },
   {
     name: "삼성화재",
@@ -1225,7 +1225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅎㅈ",
     mktgbcd: "J",
-    upcode: "179500"
+    upcode: "179500",
   },
   {
     name: "삼성화재우",
@@ -1233,7 +1233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅎㅈㅇ",
     mktgbcd: "J",
-    upcode: "134500"
+    upcode: "134500",
   },
   {
     name: "화천기공",
@@ -1241,7 +1241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅊㄱㄱ",
     mktgbcd: "J",
-    upcode: "30200"
+    upcode: "30200",
   },
   {
     name: "강남제비스코",
@@ -1249,7 +1249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㄴㅈㅂㅅㅋ",
     mktgbcd: "J",
-    upcode: "15200"
+    upcode: "15200",
   },
   {
     name: "한화",
@@ -1257,7 +1257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅎ",
     mktgbcd: "J",
-    upcode: "24650"
+    upcode: "24650",
   },
   {
     name: "한화우",
@@ -1265,7 +1265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅎㅇ",
     mktgbcd: "J",
-    upcode: "56700"
+    upcode: "56700",
   },
   {
     name: "한화3우B",
@@ -1273,7 +1273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅎ3ㅇB",
     mktgbcd: "J",
-    upcode: "12700"
+    upcode: "12700",
   },
   {
     name: "보해양조",
@@ -1281,7 +1281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㅎㅇㅈ",
     mktgbcd: "J",
-    upcode: "878"
+    upcode: "878",
   },
   {
     name: "유니온",
@@ -1289,7 +1289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄴㅇ",
     mktgbcd: "J",
-    upcode: "7430"
+    upcode: "7430",
   },
   {
     name: "전방",
@@ -1297,7 +1297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅂ",
     mktgbcd: "J",
-    upcode: "26950"
+    upcode: "26950",
   },
   {
     name: "한국주철관",
@@ -1305,7 +1305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅈㅊㄱ",
     mktgbcd: "J",
-    upcode: "8380"
+    upcode: "8380",
   },
   {
     name: "DB하이텍",
@@ -1313,7 +1313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "DBㅎㅇㅌ",
     mktgbcd: "J",
-    upcode: "37950"
+    upcode: "37950",
   },
   {
     name: "DB하이텍1우",
@@ -1321,7 +1321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "DBㅎㅇㅌ1ㅇ",
     mktgbcd: "J",
-    upcode: "169500"
+    upcode: "169500",
   },
   {
     name: "신라섬유",
@@ -1329,7 +1329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄹㅅㅇ",
     mktgbcd: "Q",
-    upcode: "1845"
+    upcode: "1845",
   },
   {
     name: "페이퍼코리아",
@@ -1337,7 +1337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅍㅇㅍㅋㄹㅇ",
     mktgbcd: "J",
-    upcode: "1615"
+    upcode: "1615",
   },
   {
     name: "CJ",
@@ -1345,7 +1345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "CJ",
     mktgbcd: "J",
-    upcode: "80000"
+    upcode: "80000",
   },
   {
     name: "CJ우",
@@ -1353,7 +1353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "CJㅇ",
     mktgbcd: "J",
-    upcode: "45300"
+    upcode: "45300",
   },
   {
     name: "CJ4우(전환)",
@@ -1361,7 +1361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "CJ4ㅇㅈㅎ",
     mktgbcd: "J",
-    upcode: "57400"
+    upcode: "57400",
   },
   {
     name: "JW중외제약",
@@ -1369,7 +1369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "JWㅈㅇㅈㅇ",
     mktgbcd: "J",
-    upcode: "33200"
+    upcode: "33200",
   },
   {
     name: "JW중외제약우",
@@ -1377,7 +1377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "JWㅈㅇㅈㅇㅇ",
     mktgbcd: "J",
-    upcode: "63500"
+    upcode: "63500",
   },
   {
     name: "JW중외제약2우B",
@@ -1385,7 +1385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "JWㅈㅇㅈㅇ2ㅇB",
     mktgbcd: "J",
-    upcode: "86000"
+    upcode: "86000",
   },
   {
     name: "대한방직",
@@ -1393,7 +1393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅎㅂㅈ",
     mktgbcd: "J",
-    upcode: "33950"
+    upcode: "33950",
   },
   {
     name: "만호제강",
@@ -1401,7 +1401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㅎㅈㄱ",
     mktgbcd: "J",
-    upcode: "14900"
+    upcode: "14900",
   },
   {
     name: "LG상사",
@@ -1409,7 +1409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LGㅅㅅ",
     mktgbcd: "J",
-    upcode: "15200"
+    upcode: "15200",
   },
   {
     name: "대한제분",
@@ -1417,7 +1417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅎㅈㅂ",
     mktgbcd: "J",
-    upcode: "157500"
+    upcode: "157500",
   },
   {
     name: "국보",
@@ -1425,7 +1425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅂ",
     mktgbcd: "J",
-    upcode: "1990"
+    upcode: "1990",
   },
   {
     name: "유진투자증권",
@@ -1433,7 +1433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅈㅌㅈㅈㄱ",
     mktgbcd: "J",
-    upcode: "3480"
+    upcode: "3480",
   },
   {
     name: "금호전기",
@@ -1441,7 +1441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅎㅈㄱ",
     mktgbcd: "J",
-    upcode: "4920"
+    upcode: "4920",
   },
   {
     name: "동국제강",
@@ -1449,7 +1449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㄱㅈㄱ",
     mktgbcd: "J",
-    upcode: "6270"
+    upcode: "6270",
   },
   {
     name: "GS글로벌",
@@ -1457,7 +1457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "GSㄱㄹㅂ",
     mktgbcd: "J",
-    upcode: "1630"
+    upcode: "1630",
   },
   {
     name: "남광토건",
@@ -1465,7 +1465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㄱㅌㄱ",
     mktgbcd: "J",
-    upcode: "10050"
+    upcode: "10050",
   },
   {
     name: "부국증권",
@@ -1473,7 +1473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㄱㅈㄱ",
     mktgbcd: "J",
-    upcode: "20550"
+    upcode: "20550",
   },
   {
     name: "부국증권우",
@@ -1481,7 +1481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㄱㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "19200"
+    upcode: "19200",
   },
   {
     name: "상상인증권",
@@ -1489,7 +1489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅇㅈㄱ",
     mktgbcd: "J",
-    upcode: "980"
+    upcode: "980",
   },
   {
     name: "백광산업",
@@ -1497,7 +1497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㄱㅅㅇ",
     mktgbcd: "J",
-    upcode: "3265"
+    upcode: "3265",
   },
   {
     name: "삼성제약",
@@ -1505,7 +1505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅈㅇ",
     mktgbcd: "J",
-    upcode: "3765"
+    upcode: "3765",
   },
   {
     name: "SG충방",
@@ -1513,7 +1513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SGㅊㅂ",
     mktgbcd: "J",
-    upcode: "1820"
+    upcode: "1820",
   },
   {
     name: "KG케미칼",
@@ -1521,7 +1521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KGㅋㅁㅋ",
     mktgbcd: "J",
-    upcode: "19700"
+    upcode: "19700",
   },
   {
     name: "태원물산",
@@ -1529,7 +1529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅌㅇㅁㅅ",
     mktgbcd: "J",
-    upcode: "3965"
+    upcode: "3965",
   },
   {
     name: "세아베스틸",
@@ -1537,7 +1537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅂㅅㅌ",
     mktgbcd: "J",
-    upcode: "9530"
+    upcode: "9530",
   },
   {
     name: "대한전선",
@@ -1545,7 +1545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅎㅈㅅ",
     mktgbcd: "J",
-    upcode: "812"
+    upcode: "812",
   },
   {
     name: "현대해상",
@@ -1553,7 +1553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅎㅅ",
     mktgbcd: "J",
-    upcode: "22350"
+    upcode: "22350",
   },
   {
     name: "BYC",
@@ -1561,7 +1561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "BYC",
     mktgbcd: "J",
-    upcode: "223500"
+    upcode: "223500",
   },
   {
     name: "BYC우",
@@ -1569,7 +1569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "BYCㅇ",
     mktgbcd: "J",
-    upcode: "122500"
+    upcode: "122500",
   },
   {
     name: "삼부토건",
@@ -1577,7 +1577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅂㅌㄱ",
     mktgbcd: "J",
-    upcode: "1630"
+    upcode: "1630",
   },
   {
     name: "현대차증권",
@@ -1585,7 +1585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅊㅈㄱ",
     mktgbcd: "J",
-    upcode: "10100"
+    upcode: "10100",
   },
   {
     name: "SK증권",
@@ -1593,7 +1593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SKㅈㄱ",
     mktgbcd: "J",
-    upcode: "715"
+    upcode: "715",
   },
   {
     name: "SK증권우",
@@ -1601,7 +1601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SKㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "5250"
+    upcode: "5250",
   },
   {
     name: "동양",
@@ -1609,7 +1609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇ",
     mktgbcd: "J",
-    upcode: "1080"
+    upcode: "1080",
   },
   {
     name: "동양우",
@@ -1617,7 +1617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅇ",
     mktgbcd: "J",
-    upcode: "7430"
+    upcode: "7430",
   },
   {
     name: "동양2우B",
@@ -1625,7 +1625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇ2ㅇB",
     mktgbcd: "J",
-    upcode: "13650"
+    upcode: "13650",
   },
   {
     name: "동양3우B",
@@ -1633,7 +1633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇ3ㅇB",
     mktgbcd: "J",
-    upcode: "28650"
+    upcode: "28650",
   },
   {
     name: "DI동일",
@@ -1641,7 +1641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "DIㄷㅇ",
     mktgbcd: "J",
-    upcode: "85900"
+    upcode: "85900",
   },
   {
     name: "안국약품",
@@ -1649,7 +1649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄱㅇㅍ",
     mktgbcd: "Q",
-    upcode: "14500"
+    upcode: "14500",
   },
   {
     name: "조비",
@@ -1657,7 +1657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅂ",
     mktgbcd: "J",
-    upcode: "21000"
+    upcode: "21000",
   },
   {
     name: "제일연마",
@@ -1665,7 +1665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅇㅇㅁ",
     mktgbcd: "J",
-    upcode: "6600"
+    upcode: "6600",
   },
   {
     name: "금양",
@@ -1673,7 +1673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅇ",
     mktgbcd: "J",
-    upcode: "4785"
+    upcode: "4785",
   },
   {
     name: "케이비아이동국실업",
@@ -1681,7 +1681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅇㅂㅇㅇㄷㄱㅅㅇ",
     mktgbcd: "J",
-    upcode: "614"
+    upcode: "614",
   },
   {
     name: "종근당홀딩스",
@@ -1689,7 +1689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㄱㄷㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "101000"
+    upcode: "101000",
   },
   {
     name: "대상",
@@ -1697,7 +1697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅ",
     mktgbcd: "J",
-    upcode: "25550"
+    upcode: "25550",
   },
   {
     name: "대상우",
@@ -1705,7 +1705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅇ",
     mktgbcd: "J",
-    upcode: "16950"
+    upcode: "16950",
   },
   {
     name: "신영증권",
@@ -1713,7 +1713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅈㄱ",
     mktgbcd: "J",
-    upcode: "46350"
+    upcode: "46350",
   },
   {
     name: "신영증권우",
@@ -1721,7 +1721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "47150"
+    upcode: "47150",
   },
   {
     name: "SK네트웍스",
@@ -1729,7 +1729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SKㄴㅌㅇㅅ",
     mktgbcd: "J",
-    upcode: "4805"
+    upcode: "4805",
   },
   {
     name: "SK네트웍스우",
@@ -1737,7 +1737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SKㄴㅌㅇㅅㅇ",
     mktgbcd: "J",
-    upcode: "138500"
+    upcode: "138500",
   },
   {
     name: "한양증권",
@@ -1745,7 +1745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇㅈㄱ",
     mktgbcd: "J",
-    upcode: "8260"
+    upcode: "8260",
   },
   {
     name: "한양증권우",
@@ -1753,7 +1753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "15800"
+    upcode: "15800",
   },
   {
     name: "신화실업",
@@ -1761,7 +1761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎㅅㅇ",
     mktgbcd: "J",
-    upcode: "20050"
+    upcode: "20050",
   },
   {
     name: "알루코",
@@ -1769,7 +1769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄹㅋ",
     mktgbcd: "J",
-    upcode: "3865"
+    upcode: "3865",
   },
   {
     name: "대한제당",
@@ -1777,7 +1777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅎㅈㄷ",
     mktgbcd: "J",
-    upcode: "18200"
+    upcode: "18200",
   },
   {
     name: "대한제당우",
@@ -1785,7 +1785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅎㅈㄷㅇ",
     mktgbcd: "J",
-    upcode: "13450"
+    upcode: "13450",
   },
   {
     name: "오리온홀딩스",
@@ -1793,7 +1793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄹㅇㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "12100"
+    upcode: "12100",
   },
   {
     name: "무림SP",
@@ -1801,7 +1801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄹSP",
     mktgbcd: "Q",
-    upcode: "2150"
+    upcode: "2150",
   },
   {
     name: "삼화콘덴서",
@@ -1809,7 +1809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎㅋㄷㅅ",
     mktgbcd: "J",
-    upcode: "54200"
+    upcode: "54200",
   },
   {
     name: "이화공영",
@@ -1817,7 +1817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅎㄱㅇ",
     mktgbcd: "Q",
-    upcode: "5440"
+    upcode: "5440",
   },
   {
     name: "대림건설",
@@ -1825,7 +1825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㄹㄱㅅ",
     mktgbcd: "J",
-    upcode: "23950"
+    upcode: "23950",
   },
   {
     name: "KISCO홀딩스",
@@ -1833,7 +1833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KISCOㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "11650"
+    upcode: "11650",
   },
   {
     name: "코오롱",
@@ -1841,7 +1841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅇㄹ",
     mktgbcd: "J",
-    upcode: "20900"
+    upcode: "20900",
   },
   {
     name: "코오롱우",
@@ -1849,7 +1849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅇㄹㅇ",
     mktgbcd: "J",
-    upcode: "15450"
+    upcode: "15450",
   },
   {
     name: "아세아",
@@ -1857,7 +1857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅅㅇ",
     mktgbcd: "J",
-    upcode: "75700"
+    upcode: "75700",
   },
   {
     name: "비비안",
@@ -1865,7 +1865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㅂㅇ",
     mktgbcd: "J",
-    upcode: "3970"
+    upcode: "3970",
   },
   {
     name: "경농",
@@ -1873,7 +1873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㄴ",
     mktgbcd: "J",
-    upcode: "13350"
+    upcode: "13350",
   },
   {
     name: "고려산업",
@@ -1881,7 +1881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㄹㅅㅇ",
     mktgbcd: "J",
-    upcode: "3430"
+    upcode: "3430",
   },
   {
     name: "도화엔지니어링",
@@ -1889,7 +1889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅎㅇㅈㄴㅇㄹ",
     mktgbcd: "J",
-    upcode: "7620"
+    upcode: "7620",
   },
   {
     name: "삼양통상",
@@ -1897,7 +1897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅌㅅ",
     mktgbcd: "J",
-    upcode: "61000"
+    upcode: "61000",
   },
   {
     name: "한국수출포장",
@@ -1905,7 +1905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅅㅊㅍㅈ",
     mktgbcd: "J",
-    upcode: "17800"
+    upcode: "17800",
   },
   {
     name: "동성제약",
@@ -1913,7 +1913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅈㅇ",
     mktgbcd: "J",
-    upcode: "12100"
+    upcode: "12100",
   },
   {
     name: "한일철강",
@@ -1921,7 +1921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇㅊㄱ",
     mktgbcd: "J",
-    upcode: "1620"
+    upcode: "1620",
   },
   {
     name: "피에스텍",
@@ -1929,7 +1929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅇㅅㅌ",
     mktgbcd: "Q",
-    upcode: "4420"
+    upcode: "4420",
   },
   {
     name: "고려제강",
@@ -1937,7 +1937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㄹㅈㄱ",
     mktgbcd: "J",
-    upcode: "13100"
+    upcode: "13100",
   },
   {
     name: "롯데푸드",
@@ -1945,7 +1945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄹㄷㅍㄷ",
     mktgbcd: "J",
-    upcode: "292000"
+    upcode: "292000",
   },
   {
     name: "삼일기업공사",
@@ -1953,7 +1953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㄱㅇㄱㅅ",
     mktgbcd: "Q",
-    upcode: "3185"
+    upcode: "3185",
   },
   {
     name: "아세아제지",
@@ -1961,7 +1961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅅㅇㅈㅈ",
     mktgbcd: "J",
-    upcode: "24700"
+    upcode: "24700",
   },
   {
     name: "한진",
@@ -1969,7 +1969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅈ",
     mktgbcd: "J",
-    upcode: "42800"
+    upcode: "42800",
   },
   {
     name: "넥센타이어",
@@ -1977,7 +1977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㅅㅌㅇㅇ",
     mktgbcd: "J",
-    upcode: "5310"
+    upcode: "5310",
   },
   {
     name: "넥센타이어1우B",
@@ -1985,7 +1985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㅅㅌㅇㅇ1ㅇB",
     mktgbcd: "J",
-    upcode: "2295"
+    upcode: "2295",
   },
   {
     name: "SH에너지화학",
@@ -1993,7 +1993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SHㅇㄴㅈㅎㅎ",
     mktgbcd: "J",
-    upcode: "795"
+    upcode: "795",
   },
   {
     name: "KCC",
@@ -2001,7 +2001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KCC",
     mktgbcd: "J",
-    upcode: "144000"
+    upcode: "144000",
   },
   {
     name: "한독",
@@ -2009,7 +2009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷ",
     mktgbcd: "J",
-    upcode: "32600"
+    upcode: "32600",
   },
   {
     name: "범양건영",
@@ -2017,7 +2017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㅇㄱㅇ",
     mktgbcd: "J",
-    upcode: "5570"
+    upcode: "5570",
   },
   {
     name: "세기상사",
@@ -2025,7 +2025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㄱㅅㅅ",
     mktgbcd: "J",
-    upcode: "61600"
+    upcode: "61600",
   },
   {
     name: "삼익악기",
@@ -2033,7 +2033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅇㄱ",
     mktgbcd: "J",
-    upcode: "1335"
+    upcode: "1335",
   },
   {
     name: "화성산업",
@@ -2041,7 +2041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㅅㅇ",
     mktgbcd: "J",
-    upcode: "11900"
+    upcode: "11900",
   },
   {
     name: "조흥",
@@ -2049,7 +2049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅎ",
     mktgbcd: "J",
-    upcode: "149000"
+    upcode: "149000",
   },
   {
     name: "제일파마홀딩스",
@@ -2057,7 +2057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅇㅍㅁㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "19800"
+    upcode: "19800",
   },
   {
     name: "오리엔트바이오",
@@ -2065,7 +2065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄹㅇㅌㅂㅇㅇ",
     mktgbcd: "J",
-    upcode: "1520"
+    upcode: "1520",
   },
   {
     name: "한탑",
@@ -2073,7 +2073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅌ",
     mktgbcd: "Q",
-    upcode: "1940"
+    upcode: "1940",
   },
   {
     name: "동일제강",
@@ -2081,7 +2081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅈㄱ",
     mktgbcd: "J",
-    upcode: "2285"
+    upcode: "2285",
   },
   {
     name: "신일전자",
@@ -2089,7 +2089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅈㅈ",
     mktgbcd: "J",
-    upcode: "1660"
+    upcode: "1660",
   },
   {
     name: "TCC스틸",
@@ -2097,7 +2097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TCCㅅㅌ",
     mktgbcd: "J",
-    upcode: "3360"
+    upcode: "3360",
   },
   {
     name: "국제약품",
@@ -2105,7 +2105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅈㅇㅍ",
     mktgbcd: "J",
-    upcode: "10900"
+    upcode: "10900",
   },
   {
     name: "보락",
@@ -2113,7 +2113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㄹ",
     mktgbcd: "J",
-    upcode: "2290"
+    upcode: "2290",
   },
   {
     name: "진흥기업",
@@ -2121,7 +2121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅎㄱㅇ",
     mktgbcd: "J",
-    upcode: "2235"
+    upcode: "2235",
   },
   {
     name: "진흥기업우B",
@@ -2129,7 +2129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅎㄱㅇㅇB",
     mktgbcd: "J",
-    upcode: "8540"
+    upcode: "8540",
   },
   {
     name: "진흥기업2우B",
@@ -2137,7 +2137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅎㄱㅇ2ㅇB",
     mktgbcd: "J",
-    upcode: "13950"
+    upcode: "13950",
   },
   {
     name: "아모레G",
@@ -2145,7 +2145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅁㄹG",
     mktgbcd: "J",
-    upcode: "48300"
+    upcode: "48300",
   },
   {
     name: "아모레G우",
@@ -2153,7 +2153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅁㄹGㅇ",
     mktgbcd: "J",
-    upcode: "18950"
+    upcode: "18950",
   },
   {
     name: "아모레G3우(전환)",
@@ -2161,7 +2161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅁㄹG3ㅇㅈㅎ",
     mktgbcd: "J",
-    upcode: "32500"
+    upcode: "32500",
   },
   {
     name: "신신제약",
@@ -2169,7 +2169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅅㅈㅇ",
     mktgbcd: "Q",
-    upcode: "8320"
+    upcode: "8320",
   },
   {
     name: "삼영무역",
@@ -2177,7 +2177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅁㅇ",
     mktgbcd: "J",
-    upcode: "13500"
+    upcode: "13500",
   },
   {
     name: "선창산업",
@@ -2185,7 +2185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅊㅅㅇ",
     mktgbcd: "J",
-    upcode: "4575"
+    upcode: "4575",
   },
   {
     name: "미원상사",
@@ -2193,7 +2193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㅇㅅㅅ",
     mktgbcd: "J",
-    upcode: "95800"
+    upcode: "95800",
   },
   {
     name: "신풍제지",
@@ -2201,7 +2201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅍㅈㅈ",
     mktgbcd: "J",
-    upcode: "2170"
+    upcode: "2170",
   },
   {
     name: "대유에이텍",
@@ -2209,7 +2209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅇㅇㅌ",
     mktgbcd: "J",
-    upcode: "807"
+    upcode: "807",
   },
   {
     name: "동양물산",
@@ -2217,7 +2217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅁㅅ",
     mktgbcd: "J",
-    upcode: "1335"
+    upcode: "1335",
   },
   {
     name: "유성기업",
@@ -2225,7 +2225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅅㄱㅇ",
     mktgbcd: "J",
-    upcode: "2640"
+    upcode: "2640",
   },
   {
     name: "한국쉘석유",
@@ -2233,7 +2233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅅㅅㅇ",
     mktgbcd: "J",
-    upcode: "236500"
+    upcode: "236500",
   },
   {
     name: "금호산업",
@@ -2241,7 +2241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅎㅅㅇ",
     mktgbcd: "J",
-    upcode: "6570"
+    upcode: "6570",
   },
   {
     name: "금호산업우",
@@ -2249,7 +2249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅎㅅㅇㅇ",
     mktgbcd: "J",
-    upcode: "33500"
+    upcode: "33500",
   },
   {
     name: "부광약품",
@@ -2257,7 +2257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㄱㅇㅍ",
     mktgbcd: "J",
-    upcode: "28400"
+    upcode: "28400",
   },
   {
     name: "혜인",
@@ -2265,7 +2265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇ",
     mktgbcd: "J",
-    upcode: "4980"
+    upcode: "4980",
   },
   {
     name: "세아제강지주",
@@ -2273,7 +2273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅈㄱㅈㅈ",
     mktgbcd: "J",
-    upcode: "42200"
+    upcode: "42200",
   },
   {
     name: "에이프로젠제약",
@@ -2281,7 +2281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅍㄹㅈㅈㅇ",
     mktgbcd: "J",
-    upcode: "1275"
+    upcode: "1275",
   },
   {
     name: "코오롱글로벌",
@@ -2289,7 +2289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅇㄹㄱㄹㅂ",
     mktgbcd: "J",
-    upcode: "18600"
+    upcode: "18600",
   },
   {
     name: "코오롱글로벌우",
@@ -2297,7 +2297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅇㄹㄱㄹㅂㅇ",
     mktgbcd: "J",
-    upcode: "35000"
+    upcode: "35000",
   },
   {
     name: "성보화학",
@@ -2305,7 +2305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅂㅎㅎ",
     mktgbcd: "J",
-    upcode: "4100"
+    upcode: "4100",
   },
   {
     name: "대웅",
@@ -2313,7 +2313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇ",
     mktgbcd: "J",
-    upcode: "31050"
+    upcode: "31050",
   },
   {
     name: "선광",
@@ -2321,7 +2321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄱ",
     mktgbcd: "Q",
-    upcode: "18000"
+    upcode: "18000",
   },
   {
     name: "일성신약",
@@ -2329,7 +2329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅅㅅㅇ",
     mktgbcd: "J",
-    upcode: "81000"
+    upcode: "81000",
   },
   {
     name: "디아이",
@@ -2337,7 +2337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅇ",
     mktgbcd: "J",
-    upcode: "3845"
+    upcode: "3845",
   },
   {
     name: "일신방직",
@@ -2345,7 +2345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅅㅂㅈ",
     mktgbcd: "J",
-    upcode: "69500"
+    upcode: "69500",
   },
   {
     name: "대원제약",
@@ -2353,7 +2353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅈㅇ",
     mktgbcd: "J",
-    upcode: "20400"
+    upcode: "20400",
   },
   {
     name: "삼양식품",
@@ -2361,7 +2361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅅㅍ",
     mktgbcd: "J",
-    upcode: "99000"
+    upcode: "99000",
   },
   {
     name: "태광산업",
@@ -2369,7 +2369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅌㄱㅅㅇ",
     mktgbcd: "J",
-    upcode: "644000"
+    upcode: "644000",
   },
   {
     name: "흥아해운",
@@ -2377,7 +2377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇㅎㅇ",
     mktgbcd: "J",
-    upcode: "258"
+    upcode: "258",
   },
   {
     name: "한일홀딩스",
@@ -2385,7 +2385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "44350"
+    upcode: "44350",
   },
   {
     name: "대주산업",
@@ -2393,7 +2393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅈㅅㅇ",
     mktgbcd: "Q",
-    upcode: "1770"
+    upcode: "1770",
   },
   {
     name: "한국화장품제조",
@@ -2401,7 +2401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅎㅈㅍㅈㅈ",
     mktgbcd: "J",
-    upcode: "38500"
+    upcode: "38500",
   },
   {
     name: "하림지주",
@@ -2409,7 +2409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄹㅈㅈ",
     mktgbcd: "Q",
-    upcode: "6500"
+    upcode: "6500",
   },
   {
     name: "쌍용양회",
@@ -2417,7 +2417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅆㅇㅇㅎ",
     mktgbcd: "J",
-    upcode: "5870"
+    upcode: "5870",
   },
   {
     name: "쌍용양회우",
@@ -2425,7 +2425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅆㅇㅇㅎㅇ",
     mktgbcd: "J",
-    upcode: "20150"
+    upcode: "20150",
   },
   {
     name: "유화증권",
@@ -2433,7 +2433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅎㅈㄱ",
     mktgbcd: "J",
-    upcode: "2210"
+    upcode: "2210",
   },
   {
     name: "유화증권우",
@@ -2441,7 +2441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅎㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "2360"
+    upcode: "2360",
   },
   {
     name: "유안타증권",
@@ -2449,7 +2449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅌㅈㄱ",
     mktgbcd: "J",
-    upcode: "2715"
+    upcode: "2715",
   },
   {
     name: "유안타증권우",
@@ -2457,7 +2457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅌㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "2190"
+    upcode: "2190",
   },
   {
     name: "한진중공업홀딩스",
@@ -2465,7 +2465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅈㅈㄱㅇㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "4035"
+    upcode: "4035",
   },
   {
     name: "대한항공",
@@ -2473,7 +2473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅎㅎㄱ",
     mktgbcd: "J",
-    upcode: "18800"
+    upcode: "18800",
   },
   {
     name: "대한항공우",
@@ -2481,7 +2481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅎㅎㄱㅇ",
     mktgbcd: "J",
-    upcode: "24650"
+    upcode: "24650",
   },
   {
     name: "영진약품",
@@ -2489,7 +2489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅈㅇㅍ",
     mktgbcd: "J",
-    upcode: "7980"
+    upcode: "7980",
   },
   {
     name: "한화투자증권",
@@ -2497,7 +2497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅎㅌㅈㅈㄱ",
     mktgbcd: "J",
-    upcode: "1705"
+    upcode: "1705",
   },
   {
     name: "한화투자증권우",
@@ -2505,7 +2505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅎㅌㅈㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "4570"
+    upcode: "4570",
   },
   {
     name: "대신증권",
@@ -2513,7 +2513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅈㄱ",
     mktgbcd: "J",
-    upcode: "12250"
+    upcode: "12250",
   },
   {
     name: "대신증권우",
@@ -2521,7 +2521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "9710"
+    upcode: "9710",
   },
   {
     name: "대신증권2우B",
@@ -2529,7 +2529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅈㄱ2ㅇB",
     mktgbcd: "J",
-    upcode: "9340"
+    upcode: "9340",
   },
   {
     name: "LG",
@@ -2537,7 +2537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LG",
     mktgbcd: "J",
-    upcode: "73000"
+    upcode: "73000",
   },
   {
     name: "LG우",
@@ -2545,7 +2545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LGㅇ",
     mktgbcd: "J",
-    upcode: "50500"
+    upcode: "50500",
   },
   {
     name: "IHQ",
@@ -2553,7 +2553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "IHQ",
     mktgbcd: "J",
-    upcode: "1425"
+    upcode: "1425",
   },
   {
     name: "S&T중공업",
@@ -2561,7 +2561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "STㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "5140"
+    upcode: "5140",
   },
   {
     name: "넥스트사이언스",
@@ -2569,7 +2569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㅅㅌㅅㅇㅇㅅ",
     mktgbcd: "J",
-    upcode: "6470"
+    upcode: "6470",
   },
   {
     name: "방림",
@@ -2577,7 +2577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㄹ",
     mktgbcd: "J",
-    upcode: "1900"
+    upcode: "1900",
   },
   {
     name: "쌍용차",
@@ -2585,7 +2585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅆㅇㅊ",
     mktgbcd: "J",
-    upcode: "3855"
+    upcode: "3855",
   },
   {
     name: "미창석유",
@@ -2593,7 +2593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㅊㅅㅇ",
     mktgbcd: "J",
-    upcode: "59800"
+    upcode: "59800",
   },
   {
     name: "포스코케미칼",
@@ -2601,7 +2601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅍㅅㅋㅋㅁㅋ",
     mktgbcd: "J",
-    upcode: "80900"
+    upcode: "80900",
   },
   {
     name: "한성기업",
@@ -2609,7 +2609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㄱㅇ",
     mktgbcd: "J",
-    upcode: "12600"
+    upcode: "12600",
   },
   {
     name: "코리안리",
@@ -2617,7 +2617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㄹㅇㄹ",
     mktgbcd: "J",
-    upcode: "7390"
+    upcode: "7390",
   },
   {
     name: "삼영화학",
@@ -2625,7 +2625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅎㅎ",
     mktgbcd: "J",
-    upcode: "2025"
+    upcode: "2025",
   },
   {
     name: "진양산업",
@@ -2633,7 +2633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅇㅅㅇ",
     mktgbcd: "J",
-    upcode: "4260"
+    upcode: "4260",
   },
   {
     name: "에이스침대",
@@ -2641,7 +2641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅅㅊㄷ",
     mktgbcd: "Q",
-    upcode: "42050"
+    upcode: "42050",
   },
   {
     name: "대한화섬",
@@ -2649,7 +2649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅎㅎㅅ",
     mktgbcd: "J",
-    upcode: "79400"
+    upcode: "79400",
   },
   {
     name: "보령제약",
@@ -2657,7 +2657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㄹㅈㅇ",
     mktgbcd: "J",
-    upcode: "15550"
+    upcode: "15550",
   },
   {
     name: "남양유업",
@@ -2665,7 +2665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㅇㅇㅇ",
     mktgbcd: "J",
-    upcode: "255500"
+    upcode: "255500",
   },
   {
     name: "남양유업우",
@@ -2673,7 +2673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㅇㅇㅇㅇ",
     mktgbcd: "J",
-    upcode: "145500"
+    upcode: "145500",
   },
   {
     name: "사조대림",
@@ -2681,7 +2681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅈㄷㄹ",
     mktgbcd: "J",
-    upcode: "14050"
+    upcode: "14050",
   },
   {
     name: "롯데정밀화학",
@@ -2689,7 +2689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄹㄷㅈㅁㅎㅎ",
     mktgbcd: "J",
-    upcode: "48500"
+    upcode: "48500",
   },
   {
     name: "현대제철",
@@ -2697,7 +2697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅈㅊ",
     mktgbcd: "J",
-    upcode: "23850"
+    upcode: "23850",
   },
   {
     name: "SG세계물산",
@@ -2705,7 +2705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SGㅅㄱㅁㅅ",
     mktgbcd: "J",
-    upcode: "573"
+    upcode: "573",
   },
   {
     name: "신흥",
@@ -2713,7 +2713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ",
     mktgbcd: "J",
-    upcode: "9100"
+    upcode: "9100",
   },
   {
     name: "한국석유",
@@ -2721,7 +2721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅅㅇ",
     mktgbcd: "J",
-    upcode: "95300"
+    upcode: "95300",
   },
   {
     name: "태양금속",
@@ -2729,7 +2729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅌㅇㄱㅅ",
     mktgbcd: "J",
-    upcode: "994"
+    upcode: "994",
   },
   {
     name: "태양금속우",
@@ -2737,7 +2737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅌㅇㄱㅅㅇ",
     mktgbcd: "J",
-    upcode: "3525"
+    upcode: "3525",
   },
   {
     name: "동방",
@@ -2745,7 +2745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅂ",
     mktgbcd: "J",
-    upcode: "1940"
+    upcode: "1940",
   },
   {
     name: "한솔홀딩스",
@@ -2753,7 +2753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "3290"
+    upcode: "3290",
   },
   {
     name: "신세계",
@@ -2761,7 +2761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㄱ",
     mktgbcd: "J",
-    upcode: "208500"
+    upcode: "208500",
   },
   {
     name: "NPC",
@@ -2769,7 +2769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "NPC",
     mktgbcd: "J",
-    upcode: "3120"
+    upcode: "3120",
   },
   {
     name: "NPC우",
@@ -2777,7 +2777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "NPCㅇ",
     mktgbcd: "J",
-    upcode: "2180"
+    upcode: "2180",
   },
   {
     name: "남성",
@@ -2785,7 +2785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㅅ",
     mktgbcd: "J",
-    upcode: "2585"
+    upcode: "2585",
   },
   {
     name: "현대약품",
@@ -2793,7 +2793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅇㅍ",
     mktgbcd: "J",
-    upcode: "5740"
+    upcode: "5740",
   },
   {
     name: "세방",
@@ -2801,7 +2801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅂ",
     mktgbcd: "J",
-    upcode: "9430"
+    upcode: "9430",
   },
   {
     name: "세방우",
@@ -2809,7 +2809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅂㅇ",
     mktgbcd: "J",
-    upcode: "6000"
+    upcode: "6000",
   },
   {
     name: "농심",
@@ -2817,7 +2817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㅅ",
     mktgbcd: "J",
-    upcode: "316000"
+    upcode: "316000",
   },
   {
     name: "삼익THK",
@@ -2825,7 +2825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇTHK",
     mktgbcd: "J",
-    upcode: "10500"
+    upcode: "10500",
   },
   {
     name: "서울식품",
@@ -2833,7 +2833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅅㅍ",
     mktgbcd: "J",
-    upcode: "151"
+    upcode: "151",
   },
   {
     name: "서울식품우",
@@ -2841,7 +2841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅅㅍㅇ",
     mktgbcd: "J",
-    upcode: "5060"
+    upcode: "5060",
   },
   {
     name: "송원산업",
@@ -2849,7 +2849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅅㅇ",
     mktgbcd: "J",
-    upcode: "12950"
+    upcode: "12950",
   },
   {
     name: "삼일씨엔에스",
@@ -2857,7 +2857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅆㅇㅇㅅ",
     mktgbcd: "J",
-    upcode: "9790"
+    upcode: "9790",
   },
   {
     name: "삼화왕관",
@@ -2865,7 +2865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎㅇㄱ",
     mktgbcd: "J",
-    upcode: "38900"
+    upcode: "38900",
   },
   {
     name: "세방전지",
@@ -2873,7 +2873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅂㅈㅈ",
     mktgbcd: "J",
-    upcode: "26750"
+    upcode: "26750",
   },
   {
     name: "깨끗한나라",
@@ -2881,7 +2881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄲㄲㅎㄴㄹ",
     mktgbcd: "J",
-    upcode: "4560"
+    upcode: "4560",
   },
   {
     name: "깨끗한나라우",
@@ -2889,7 +2889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄲㄲㅎㄴㄹㅇ",
     mktgbcd: "J",
-    upcode: "25600"
+    upcode: "25600",
   },
   {
     name: "현대비앤지스틸",
@@ -2897,7 +2897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅂㅇㅈㅅㅌ",
     mktgbcd: "J",
-    upcode: "7350"
+    upcode: "7350",
   },
   {
     name: "현대비앤지스틸우",
@@ -2905,7 +2905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅂㅇㅈㅅㅌㅇ",
     mktgbcd: "J",
-    upcode: "71400"
+    upcode: "71400",
   },
   {
     name: "한국가구",
@@ -2913,7 +2913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㄱㄱ",
     mktgbcd: "Q",
-    upcode: "4655"
+    upcode: "4655",
   },
   {
     name: "창해에탄올",
@@ -2921,7 +2921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅊㅎㅇㅌㅇ",
     mktgbcd: "Q",
-    upcode: "12400"
+    upcode: "12400",
   },
   {
     name: "삼천리",
@@ -2929,7 +2929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅊㄹ",
     mktgbcd: "J",
-    upcode: "77900"
+    upcode: "77900",
   },
   {
     name: "조광피혁",
@@ -2937,7 +2937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㄱㅍㅎ",
     mktgbcd: "J",
-    upcode: "49500"
+    upcode: "49500",
   },
   {
     name: "한솔테크닉스",
@@ -2945,7 +2945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㅌㅋㄴㅅ",
     mktgbcd: "J",
-    upcode: "9090"
+    upcode: "9090",
   },
   {
     name: "우리들제약",
@@ -2953,7 +2953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄹㄷㅈㅇ",
     mktgbcd: "J",
-    upcode: "14750"
+    upcode: "14750",
   },
   {
     name: "써니전자",
@@ -2961,7 +2961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅆㄴㅈㅈ",
     mktgbcd: "J",
-    upcode: "4335"
+    upcode: "4335",
   },
   {
     name: "대륙제관",
@@ -2969,7 +2969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㄹㅈㄱ",
     mktgbcd: "Q",
-    upcode: "4255"
+    upcode: "4255",
   },
   {
     name: "효성",
@@ -2977,7 +2977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅ",
     mktgbcd: "J",
-    upcode: "72100"
+    upcode: "72100",
   },
   {
     name: "덕성",
@@ -2985,7 +2985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅ",
     mktgbcd: "J",
-    upcode: "4210"
+    upcode: "4210",
   },
   {
     name: "덕성우",
@@ -2993,7 +2993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅇ",
     mktgbcd: "J",
-    upcode: "8440"
+    upcode: "8440",
   },
   {
     name: "DRB동일",
@@ -3001,7 +3001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "DRBㄷㅇ",
     mktgbcd: "J",
-    upcode: "6230"
+    upcode: "6230",
   },
   {
     name: "티웨이홀딩스",
@@ -3009,7 +3009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅌㅇㅇㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "934"
+    upcode: "934",
   },
   {
     name: "동일산업",
@@ -3017,7 +3017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅅㅇ",
     mktgbcd: "J",
-    upcode: "68700"
+    upcode: "68700",
   },
   {
     name: "조광페인트",
@@ -3025,7 +3025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㄱㅍㅇㅌ",
     mktgbcd: "J",
-    upcode: "5100"
+    upcode: "5100",
   },
   {
     name: "씨아이테크",
@@ -3033,7 +3033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅆㅇㅇㅌㅋ",
     mktgbcd: "J",
-    upcode: "882"
+    upcode: "882",
   },
   {
     name: "한신공영",
@@ -3041,7 +3041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㄱㅇ",
     mktgbcd: "J",
-    upcode: "13050"
+    upcode: "13050",
   },
   {
     name: "신라교역",
@@ -3049,7 +3049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㄹㄱㅇ",
     mktgbcd: "J",
-    upcode: "9610"
+    upcode: "9610",
   },
   {
     name: "성신양회",
@@ -3057,7 +3057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅇㅎ",
     mktgbcd: "J",
-    upcode: "6840"
+    upcode: "6840",
   },
   {
     name: "성신양회우",
@@ -3065,7 +3065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅇㅎㅇ",
     mktgbcd: "J",
-    upcode: "16150"
+    upcode: "16150",
   },
   {
     name: "롯데지주",
@@ -3073,7 +3073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄹㄷㅈㅈ",
     mktgbcd: "J",
-    upcode: "28350"
+    upcode: "28350",
   },
   {
     name: "롯데지주우",
@@ -3081,7 +3081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄹㄷㅈㅈㅇ",
     mktgbcd: "J",
-    upcode: "59900"
+    upcode: "59900",
   },
   {
     name: "휴스틸",
@@ -3089,7 +3089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㅌ",
     mktgbcd: "J",
-    upcode: "6620"
+    upcode: "6620",
   },
   {
     name: "부산주공",
@@ -3097,7 +3097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㅅㅈㄱ",
     mktgbcd: "J",
-    upcode: "490"
+    upcode: "490",
   },
   {
     name: "코스모신소재",
@@ -3105,7 +3105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅅㅁㅅㅅㅈ",
     mktgbcd: "J",
-    upcode: "13900"
+    upcode: "13900",
   },
   {
     name: "삼광글라스",
@@ -3113,7 +3113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㄱㄱㄹㅅ",
     mktgbcd: "J",
-    upcode: "44900"
+    upcode: "44900",
   },
   {
     name: "한창",
@@ -3121,7 +3121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅊ",
     mktgbcd: "J",
-    upcode: "1350"
+    upcode: "1350",
   },
   {
     name: "동국산업",
@@ -3129,7 +3129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㄱㅅㅇ",
     mktgbcd: "Q",
-    upcode: "3375"
+    upcode: "3375",
   },
   {
     name: "빙그레",
@@ -3137,7 +3137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㄱㄹ",
     mktgbcd: "J",
-    upcode: "61900"
+    upcode: "61900",
   },
   {
     name: "동성화학",
@@ -3145,7 +3145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅎㅎ",
     mktgbcd: "J",
-    upcode: "15650"
+    upcode: "15650",
   },
   {
     name: "녹십자홀딩스",
@@ -3153,7 +3153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㅅㅈㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "22900"
+    upcode: "22900",
   },
   {
     name: "녹십자홀딩스2우",
@@ -3161,7 +3161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㅅㅈㅎㄷㅅ2ㅇ",
     mktgbcd: "J",
-    upcode: "139000"
+    upcode: "139000",
   },
   {
     name: "동진쎄미켐",
@@ -3169,7 +3169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅈㅆㅁㅋ",
     mktgbcd: "Q",
-    upcode: "29750"
+    upcode: "29750",
   },
   {
     name: "롯데칠성",
@@ -3177,7 +3177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄹㄷㅊㅅ",
     mktgbcd: "J",
-    upcode: "89000"
+    upcode: "89000",
   },
   {
     name: "롯데칠성우",
@@ -3185,7 +3185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄹㄷㅊㅅㅇ",
     mktgbcd: "J",
-    upcode: "56400"
+    upcode: "56400",
   },
   {
     name: "국동",
@@ -3193,7 +3193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㄷ",
     mktgbcd: "J",
-    upcode: "4215"
+    upcode: "4215",
   },
   {
     name: "모나미",
@@ -3201,7 +3201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄴㅁ",
     mktgbcd: "J",
-    upcode: "6050"
+    upcode: "6050",
   },
   {
     name: "현대차",
@@ -3209,7 +3209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅊ",
     mktgbcd: "J",
-    upcode: "175500"
+    upcode: "175500",
   },
   {
     name: "현대차우",
@@ -3217,7 +3217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅊㅇ",
     mktgbcd: "J",
-    upcode: "83500"
+    upcode: "83500",
   },
   {
     name: "현대차2우B",
@@ -3225,7 +3225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅊ2ㅇB",
     mktgbcd: "J",
-    upcode: "87500"
+    upcode: "87500",
   },
   {
     name: "현대차3우B",
@@ -3233,7 +3233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅊ3ㅇB",
     mktgbcd: "J",
-    upcode: "78600"
+    upcode: "78600",
   },
   {
     name: "신성통상",
@@ -3241,7 +3241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅌㅅ",
     mktgbcd: "J",
-    upcode: "1595"
+    upcode: "1595",
   },
   {
     name: "코스모화학",
@@ -3249,7 +3249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅅㅁㅎㅎ",
     mktgbcd: "J",
-    upcode: "9420"
+    upcode: "9420",
   },
   {
     name: "한국공항",
@@ -3257,7 +3257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㄱㅎ",
     mktgbcd: "J",
-    upcode: "30200"
+    upcode: "30200",
   },
   {
     name: "현대그린푸드",
@@ -3265,7 +3265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㄱㄹㅍㄷ",
     mktgbcd: "J",
-    upcode: "7350"
+    upcode: "7350",
   },
   {
     name: "POSCO",
@@ -3273,7 +3273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "POSCO",
     mktgbcd: "J",
-    upcode: "194000"
+    upcode: "194000",
   },
   {
     name: "삼진제약",
@@ -3281,7 +3281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅈㅈㅇ",
     mktgbcd: "J",
-    upcode: "28900"
+    upcode: "28900",
   },
   {
     name: "SPC삼립",
@@ -3289,7 +3289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SPCㅅㄹ",
     mktgbcd: "J",
-    upcode: "60500"
+    upcode: "60500",
   },
   {
     name: "푸드웰",
@@ -3297,7 +3297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㄷㅇ",
     mktgbcd: "Q",
-    upcode: "5200"
+    upcode: "5200",
   },
   {
     name: "삼영전자",
@@ -3305,7 +3305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅈㅈ",
     mktgbcd: "J",
-    upcode: "7880"
+    upcode: "7880",
   },
   {
     name: "파미셀",
@@ -3313,7 +3313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅍㅁㅅ",
     mktgbcd: "J",
-    upcode: "17600"
+    upcode: "17600",
   },
   {
     name: "대원산업",
@@ -3321,7 +3321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅅㅇ",
     mktgbcd: "Q",
-    upcode: "5230"
+    upcode: "5230",
   },
   {
     name: "넥센",
@@ -3329,7 +3329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㅅ",
     mktgbcd: "J",
-    upcode: "3880"
+    upcode: "3880",
   },
   {
     name: "넥센우",
@@ -3337,7 +3337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㅅㅇ",
     mktgbcd: "J",
-    upcode: "2960"
+    upcode: "2960",
   },
   {
     name: "크라운해태홀딩스",
@@ -3345,7 +3345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㄹㅇㅎㅌㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "9020"
+    upcode: "9020",
   },
   {
     name: "크라운해태홀딩스우",
@@ -3353,7 +3353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㄹㅇㅎㅌㅎㄷㅅㅇ",
     mktgbcd: "J",
-    upcode: "13650"
+    upcode: "13650",
   },
   {
     name: "대림B&Co",
@@ -3361,7 +3361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㄹBCo",
     mktgbcd: "J",
-    upcode: "4975"
+    upcode: "4975",
   },
   {
     name: "신영와코루",
@@ -3369,7 +3369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅇㅋㄹ",
     mktgbcd: "J",
-    upcode: "93600"
+    upcode: "93600",
   },
   {
     name: "풍산홀딩스",
@@ -3377,7 +3377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅍㅅㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "25700"
+    upcode: "25700",
   },
   {
     name: "원림",
@@ -3385,7 +3385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄹ",
     mktgbcd: "J",
-    upcode: "16900"
+    upcode: "16900",
   },
   {
     name: "DB손해보험",
@@ -3393,7 +3393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "DBㅅㅎㅂㅎ",
     mktgbcd: "J",
-    upcode: "44200"
+    upcode: "44200",
   },
   {
     name: "에스엘",
@@ -3401,7 +3401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅅㅇ",
     mktgbcd: "J",
-    upcode: "12950"
+    upcode: "12950",
   },
   {
     name: "한일사료",
@@ -3409,7 +3409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅇㅅㄹ",
     mktgbcd: "Q",
-    upcode: "1715"
+    upcode: "1715",
   },
   {
     name: "휴니드",
@@ -3417,7 +3417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄴㄷ",
     mktgbcd: "J",
-    upcode: "5780"
+    upcode: "5780",
   },
   {
     name: "대한해운",
@@ -3425,7 +3425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅎㅎㅇ",
     mktgbcd: "J",
-    upcode: "16400"
+    upcode: "16400",
   },
   {
     name: "삼성전자",
@@ -3433,7 +3433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅈㅈ",
     mktgbcd: "J",
-    upcode: "58200"
+    upcode: "58200",
   },
   {
     name: "삼성전자우",
@@ -3441,7 +3441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅈㅈㅇ",
     mktgbcd: "J",
-    upcode: "50500"
+    upcode: "50500",
   },
   {
     name: "NH투자증권",
@@ -3449,7 +3449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "NHㅌㅈㅈㄱ",
     mktgbcd: "J",
-    upcode: "9080"
+    upcode: "9080",
   },
   {
     name: "NH투자증권우",
@@ -3457,7 +3457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "NHㅌㅈㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "7880"
+    upcode: "7880",
   },
   {
     name: "이수화학",
@@ -3465,7 +3465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅅㅎㅎ",
     mktgbcd: "J",
-    upcode: "8530"
+    upcode: "8530",
   },
   {
     name: "동부건설",
@@ -3473,7 +3473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅂㄱㅅ",
     mktgbcd: "J",
-    upcode: "10800"
+    upcode: "10800",
   },
   {
     name: "동부건설우",
@@ -3481,7 +3481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅂㄱㅅㅇ",
     mktgbcd: "J",
-    upcode: "28200"
+    upcode: "28200",
   },
   {
     name: "매일홀딩스",
@@ -3489,7 +3489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅇㅎㄷㅅ",
     mktgbcd: "Q",
-    upcode: "7940"
+    upcode: "7940",
   },
   {
     name: "동원산업",
@@ -3497,7 +3497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅅㅇ",
     mktgbcd: "J",
-    upcode: "209500"
+    upcode: "209500",
   },
   {
     name: "국영지앤엠",
@@ -3505,7 +3505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅇㅈㅇㅇ",
     mktgbcd: "Q",
-    upcode: "2775"
+    upcode: "2775",
   },
   {
     name: "화승인더",
@@ -3513,7 +3513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㅇㄷ",
     mktgbcd: "J",
-    upcode: "7940"
+    upcode: "7940",
   },
   {
     name: "사조오양",
@@ -3521,7 +3521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅈㅇㅇ",
     mktgbcd: "J",
-    upcode: "8300"
+    upcode: "8300",
   },
   {
     name: "삼아알미늄",
@@ -3529,7 +3529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅇㅁㄴ",
     mktgbcd: "J",
-    upcode: "8260"
+    upcode: "8260",
   },
   {
     name: "SK디스커버리",
@@ -3537,7 +3537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SKㄷㅅㅋㅂㄹ",
     mktgbcd: "J",
-    upcode: "62800"
+    upcode: "62800",
   },
   {
     name: "SK디스커버리우",
@@ -3545,7 +3545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SKㄷㅅㅋㅂㄹㅇ",
     mktgbcd: "J",
-    upcode: "52200"
+    upcode: "52200",
   },
   {
     name: "피제이전자",
@@ -3553,7 +3553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅈㅇㅈㅈ",
     mktgbcd: "Q",
-    upcode: "5240"
+    upcode: "5240",
   },
   {
     name: "한국전자홀딩스",
@@ -3561,7 +3561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅈㅈㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "643"
+    upcode: "643",
   },
   {
     name: "제주은행",
@@ -3569,7 +3569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅈㅇㅎ",
     mktgbcd: "J",
-    upcode: "3000"
+    upcode: "3000",
   },
   {
     name: "LS",
@@ -3577,7 +3577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LS",
     mktgbcd: "J",
-    upcode: "52700"
+    upcode: "52700",
   },
   {
     name: "녹십자",
@@ -3585,7 +3585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㅅㅈ",
     mktgbcd: "J",
-    upcode: "220500"
+    upcode: "220500",
   },
   {
     name: "대원전선",
@@ -3593,7 +3593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅈㅅ",
     mktgbcd: "J",
-    upcode: "972"
+    upcode: "972",
   },
   {
     name: "대원전선우",
@@ -3601,7 +3601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅈㅅㅇ",
     mktgbcd: "J",
-    upcode: "3455"
+    upcode: "3455",
   },
   {
     name: "GS건설",
@@ -3609,7 +3609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "GSㄱㅅ",
     mktgbcd: "J",
-    upcode: "23600"
+    upcode: "23600",
   },
   {
     name: "대구백화점",
@@ -3617,7 +3617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㄱㅂㅎㅈ",
     mktgbcd: "J",
-    upcode: "7350"
+    upcode: "7350",
   },
   {
     name: "카프로",
@@ -3625,7 +3625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅍㄹ",
     mktgbcd: "J",
-    upcode: "2475"
+    upcode: "2475",
   },
   {
     name: "한일현대시멘트",
@@ -3633,7 +3633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇㅎㄷㅅㅁㅌ",
     mktgbcd: "J",
-    upcode: "25500"
+    upcode: "25500",
   },
   {
     name: "삼성SDI",
@@ -3641,7 +3641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅSDI",
     mktgbcd: "J",
-    upcode: "421000"
+    upcode: "421000",
   },
   {
     name: "삼성SDI우",
@@ -3649,7 +3649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅSDIㅇ",
     mktgbcd: "J",
-    upcode: "248000"
+    upcode: "248000",
   },
   {
     name: "인스코비",
@@ -3657,7 +3657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅅㅋㅂ",
     mktgbcd: "J",
-    upcode: "2645"
+    upcode: "2645",
   },
   {
     name: "대림통상",
@@ -3665,7 +3665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㄹㅌㅅ",
     mktgbcd: "J",
-    upcode: "4065"
+    upcode: "4065",
   },
   {
     name: "대양제지",
@@ -3673,7 +3673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅈㅈ",
     mktgbcd: "Q",
-    upcode: "2850"
+    upcode: "2850",
   },
   {
     name: "동구바이오제약",
@@ -3681,7 +3681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㄱㅂㅇㅇㅈㅇ",
     mktgbcd: "Q",
-    upcode: "23900"
+    upcode: "23900",
   },
   {
     name: "대한유화",
@@ -3689,7 +3689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅎㅇㅎ",
     mktgbcd: "J",
-    upcode: "160500"
+    upcode: "160500",
   },
   {
     name: "삼성공조",
@@ -3697,7 +3697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㄱㅈ",
     mktgbcd: "J",
-    upcode: "6570"
+    upcode: "6570",
   },
   {
     name: "서부T&D",
@@ -3705,7 +3705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅂTD",
     mktgbcd: "Q",
-    upcode: "6210"
+    upcode: "6210",
   },
   {
     name: "영풍제지",
@@ -3713,7 +3713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅍㅈㅈ",
     mktgbcd: "J",
-    upcode: "3555"
+    upcode: "3555",
   },
   {
     name: "미래에셋대우",
@@ -3721,7 +3721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅㄷㅇ",
     mktgbcd: "J",
-    upcode: "8430"
+    upcode: "8430",
   },
   {
     name: "미래에셋대우우",
@@ -3729,7 +3729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅㄷㅇㅇ",
     mktgbcd: "J",
-    upcode: "4980"
+    upcode: "4980",
   },
   {
     name: "미래에셋대우2우B",
@@ -3737,7 +3737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅㄷㅇ2ㅇB",
     mktgbcd: "J",
-    upcode: "4355"
+    upcode: "4355",
   },
   {
     name: "AK홀딩스",
@@ -3745,7 +3745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "AKㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "17100"
+    upcode: "17100",
   },
   {
     name: "신송홀딩스",
@@ -3753,7 +3753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "3450"
+    upcode: "3450",
   },
   {
     name: "태경케미컬",
@@ -3761,7 +3761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅌㄱㅋㅁㅋ",
     mktgbcd: "J",
-    upcode: "8530"
+    upcode: "8530",
   },
   {
     name: "보성파워텍",
@@ -3769,7 +3769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅅㅍㅇㅌ",
     mktgbcd: "Q",
-    upcode: "2000"
+    upcode: "2000",
   },
   {
     name: "모헨즈",
@@ -3777,7 +3777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅎㅈ",
     mktgbcd: "Q",
-    upcode: "4180"
+    upcode: "4180",
   },
   {
     name: "우성사료",
@@ -3785,7 +3785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅅㅅㄹ",
     mktgbcd: "J",
-    upcode: "3050"
+    upcode: "3050",
   },
   {
     name: "GS리테일",
@@ -3793,7 +3793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "GSㄹㅌㅇ",
     mktgbcd: "J",
-    upcode: "32750"
+    upcode: "32750",
   },
   {
     name: "일신석재",
@@ -3801,7 +3801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅅㅅㅈ",
     mktgbcd: "J",
-    upcode: "2170"
+    upcode: "2170",
   },
   {
     name: "미래아이앤지",
@@ -3809,7 +3809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅇㅇㅈ",
     mktgbcd: "J",
-    upcode: "343"
+    upcode: "343",
   },
   {
     name: "사조산업",
@@ -3817,7 +3817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅈㅅㅇ",
     mktgbcd: "J",
-    upcode: "29150"
+    upcode: "29150",
   },
   {
     name: "벽산",
@@ -3825,7 +3825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㅅ",
     mktgbcd: "J",
-    upcode: "1940"
+    upcode: "1940",
   },
   {
     name: "한국특수형강",
@@ -3833,7 +3833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅌㅅㅎㄱ",
     mktgbcd: "J",
-    upcode: "1850"
+    upcode: "1850",
   },
   {
     name: "오뚜기",
@@ -3841,7 +3841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄸㄱ",
     mktgbcd: "J",
-    upcode: "570000"
+    upcode: "570000",
   },
   {
     name: "푸른저축은행",
@@ -3849,7 +3849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㄹㅈㅊㅇㅎ",
     mktgbcd: "Q",
-    upcode: "8000"
+    upcode: "8000",
   },
   {
     name: "디티알오토모티브",
@@ -3857,7 +3857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅌㅇㅇㅌㅁㅌㅂ",
     mktgbcd: "J",
-    upcode: "22750"
+    upcode: "22750",
   },
   {
     name: "진양제약",
@@ -3865,7 +3865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅈㅇ",
     mktgbcd: "Q",
-    upcode: "7410"
+    upcode: "7410",
   },
   {
     name: "네이처셀",
@@ -3873,7 +3873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅇㅊㅅ",
     mktgbcd: "Q",
-    upcode: "9360"
+    upcode: "9360",
   },
   {
     name: "에이프로젠 KIC",
@@ -3881,7 +3881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅍㄹㅈ KIC",
     mktgbcd: "J",
-    upcode: "1815"
+    upcode: "1815",
   },
   {
     name: "영신금속",
@@ -3889,7 +3889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㄱㅅ",
     mktgbcd: "Q",
-    upcode: "1920"
+    upcode: "1920",
   },
   {
     name: "샘표",
@@ -3897,7 +3897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅍ",
     mktgbcd: "J",
-    upcode: "46850"
+    upcode: "46850",
   },
   {
     name: "일양약품",
@@ -3905,7 +3905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅇㅍ",
     mktgbcd: "J",
-    upcode: "75400"
+    upcode: "75400",
   },
   {
     name: "일양약품우",
@@ -3913,7 +3913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅇㅍㅇ",
     mktgbcd: "J",
-    upcode: "100500"
+    upcode: "100500",
   },
   {
     name: "동방아그로",
@@ -3921,7 +3921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅂㅇㄱㄹ",
     mktgbcd: "J",
-    upcode: "6260"
+    upcode: "6260",
   },
   {
     name: "선도전기",
@@ -3929,7 +3929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㄷㅈㄱ",
     mktgbcd: "J",
-    upcode: "2625"
+    upcode: "2625",
   },
   {
     name: "폴루스바이오팜",
@@ -3937,7 +3937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅍㄹㅅㅂㅇㅇㅍ",
     mktgbcd: "J",
-    upcode: "1225"
+    upcode: "1225",
   },
   {
     name: "이수페타시스",
@@ -3945,7 +3945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅅㅍㅌㅅㅅ",
     mktgbcd: "J",
-    upcode: "4470"
+    upcode: "4470",
   },
   {
     name: "대원",
@@ -3953,7 +3953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇ",
     mktgbcd: "Q",
-    upcode: "10850"
+    upcode: "10850",
   },
   {
     name: "국도화학",
@@ -3961,7 +3961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㄷㅎㅎ",
     mktgbcd: "J",
-    upcode: "43700"
+    upcode: "43700",
   },
   {
     name: "F&F",
@@ -3969,7 +3969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "FF",
     mktgbcd: "J",
-    upcode: "85600"
+    upcode: "85600",
   },
   {
     name: "대명소노시즌",
@@ -3977,7 +3977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅁㅅㄴㅅㅈ",
     mktgbcd: "Q",
-    upcode: "1100"
+    upcode: "1100",
   },
   {
     name: "한일화학",
@@ -3985,7 +3985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅇㅎㅎ",
     mktgbcd: "Q",
-    upcode: "8650"
+    upcode: "8650",
   },
   {
     name: "코리아써키트",
@@ -3993,7 +3993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㄹㅇㅆㅋㅌ",
     mktgbcd: "J",
-    upcode: "13750"
+    upcode: "13750",
   },
   {
     name: "코리아써우",
@@ -4001,7 +4001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㄹㅇㅆㅇ",
     mktgbcd: "J",
-    upcode: "4795"
+    upcode: "4795",
   },
   {
     name: "코리아써키트2우B",
@@ -4009,7 +4009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㄹㅇㅆㅋㅌ2ㅇB",
     mktgbcd: "J",
-    upcode: "6430"
+    upcode: "6430",
   },
   {
     name: "에스엠코어",
@@ -4017,7 +4017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅇㅋㅇ",
     mktgbcd: "Q",
-    upcode: "6810"
+    upcode: "6810",
   },
   {
     name: "서연",
@@ -4025,7 +4025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇ",
     mktgbcd: "J",
-    upcode: "7700"
+    upcode: "7700",
   },
   {
     name: "태평양물산",
@@ -4033,7 +4033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅌㅍㅇㅁㅅ",
     mktgbcd: "J",
-    upcode: "1680"
+    upcode: "1680",
   },
   {
     name: "사조동아원",
@@ -4041,7 +4041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅈㄷㅇㅇ",
     mktgbcd: "J",
-    upcode: "863"
+    upcode: "863",
   },
   {
     name: "대덕",
@@ -4049,7 +4049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㄷ",
     mktgbcd: "J",
-    upcode: "6090"
+    upcode: "6090",
   },
   {
     name: "대덕1우",
@@ -4057,7 +4057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㄷ1ㅇ",
     mktgbcd: "J",
-    upcode: "7290"
+    upcode: "7290",
   },
   {
     name: "대동전자",
@@ -4065,7 +4065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㄷㅈㅈ",
     mktgbcd: "J",
-    upcode: "4500"
+    upcode: "4500",
   },
   {
     name: "이건산업",
@@ -4073,7 +4073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄱㅅㅇ",
     mktgbcd: "J",
-    upcode: "7550"
+    upcode: "7550",
   },
   {
     name: "NI스틸",
@@ -4081,7 +4081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "NIㅅㅌ",
     mktgbcd: "J",
-    upcode: "2120"
+    upcode: "2120",
   },
   {
     name: "원풍물산",
@@ -4089,7 +4089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍㅁㅅ",
     mktgbcd: "Q",
-    upcode: "2355"
+    upcode: "2355",
   },
   {
     name: "남선알미늄",
@@ -4097,7 +4097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㅅㅇㅁㄴ",
     mktgbcd: "J",
-    upcode: "5010"
+    upcode: "5010",
   },
   {
     name: "남선알미우",
@@ -4105,7 +4105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㅅㅇㅁㅇ",
     mktgbcd: "J",
-    upcode: "60800"
+    upcode: "60800",
   },
   {
     name: "원풍",
@@ -4113,7 +4113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍ",
     mktgbcd: "Q",
-    upcode: "4105"
+    upcode: "4105",
   },
   {
     name: "문배철강",
@@ -4121,7 +4121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㅂㅊㄱ",
     mktgbcd: "J",
-    upcode: "2645"
+    upcode: "2645",
   },
   {
     name: "부스타",
@@ -4129,7 +4129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅅㅌ",
     mktgbcd: "Q",
-    upcode: "5080"
+    upcode: "5080",
   },
   {
     name: "서흥",
@@ -4137,7 +4137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ",
     mktgbcd: "J",
-    upcode: "55700"
+    upcode: "55700",
   },
   {
     name: "일정실업",
@@ -4145,7 +4145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅈㅅㅇ",
     mktgbcd: "J",
-    upcode: "13150"
+    upcode: "13150",
   },
   {
     name: "메리츠증권",
@@ -4153,7 +4153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅊㅈㄱ",
     mktgbcd: "J",
-    upcode: "3215"
+    upcode: "3215",
   },
   {
     name: "윌비스",
@@ -4161,7 +4161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "1165"
+    upcode: "1165",
   },
   {
     name: "아남전자",
@@ -4169,7 +4169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄴㅈㅈ",
     mktgbcd: "J",
-    upcode: "1760"
+    upcode: "1760",
   },
   {
     name: "율촌화학",
@@ -4177,7 +4177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅊㅎㅎ",
     mktgbcd: "J",
-    upcode: "15300"
+    upcode: "15300",
   },
   {
     name: "호텔신라",
@@ -4185,7 +4185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅌㅅㄹ",
     mktgbcd: "J",
-    upcode: "76000"
+    upcode: "76000",
   },
   {
     name: "호텔신라우",
@@ -4193,7 +4193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅌㅅㄹㅇ",
     mktgbcd: "J",
-    upcode: "63000"
+    upcode: "63000",
   },
   {
     name: "행남사",
@@ -4201,7 +4201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄴㅅ",
     mktgbcd: "Q",
-    upcode: "1770"
+    upcode: "1770",
   },
   {
     name: "대동기어",
@@ -4209,7 +4209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㄷㄱㅇ",
     mktgbcd: "Q",
-    upcode: "2855"
+    upcode: "2855",
   },
   {
     name: "금비",
@@ -4217,7 +4217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅂ",
     mktgbcd: "J",
-    upcode: "56100"
+    upcode: "56100",
   },
   {
     name: "한미사이언스",
@@ -4225,7 +4225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅁㅅㅇㅇㅅ",
     mktgbcd: "J",
-    upcode: "55100"
+    upcode: "55100",
   },
   {
     name: "동양철관",
@@ -4233,7 +4233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅊㄱ",
     mktgbcd: "J",
-    upcode: "1070"
+    upcode: "1070",
   },
   {
     name: "KCTC",
@@ -4241,7 +4241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KCTC",
     mktgbcd: "J",
-    upcode: "2470"
+    upcode: "2470",
   },
   {
     name: "경인전자",
@@ -4249,7 +4249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅇㅈㅈ",
     mktgbcd: "J",
-    upcode: "20000"
+    upcode: "20000",
   },
   {
     name: "삼성전기",
@@ -4257,7 +4257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅈㄱ",
     mktgbcd: "J",
-    upcode: "139000"
+    upcode: "139000",
   },
   {
     name: "삼성전기우",
@@ -4265,7 +4265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "61300"
+    upcode: "61300",
   },
   {
     name: "SIMPAC",
@@ -4273,7 +4273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SIMPAC",
     mktgbcd: "J",
-    upcode: "2345"
+    upcode: "2345",
   },
   {
     name: "한솔로지스틱스",
@@ -4281,7 +4281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㄹㅈㅅㅌㅅ",
     mktgbcd: "J",
-    upcode: "1910"
+    upcode: "1910",
   },
   {
     name: "대양금속",
@@ -4289,7 +4289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㄱㅅ",
     mktgbcd: "J",
-    upcode: "3485"
+    upcode: "3485",
   },
   {
     name: "무림페이퍼",
@@ -4297,7 +4297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅍㅇㅍ",
     mktgbcd: "J",
-    upcode: "2340"
+    upcode: "2340",
   },
   {
     name: "한샘",
@@ -4305,7 +4305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅ",
     mktgbcd: "J",
-    upcode: "107000"
+    upcode: "107000",
   },
   {
     name: "신원",
@@ -4313,7 +4313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇ",
     mktgbcd: "J",
-    upcode: "1405"
+    upcode: "1405",
   },
   {
     name: "신원우",
@@ -4321,7 +4321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅇ",
     mktgbcd: "J",
-    upcode: "48000"
+    upcode: "48000",
   },
   {
     name: "광동제약",
@@ -4329,7 +4329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㄷㅈㅇ",
     mktgbcd: "J",
-    upcode: "9250"
+    upcode: "9250",
   },
   {
     name: "삼아제약",
@@ -4337,7 +4337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅈㅇ",
     mktgbcd: "Q",
-    upcode: "18500"
+    upcode: "18500",
   },
   {
     name: "참엔지니어링",
@@ -4345,7 +4345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅊㅇㅈㄴㅇㄹ",
     mktgbcd: "J",
-    upcode: "1225"
+    upcode: "1225",
   },
   {
     name: "대우부품",
@@ -4353,7 +4353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅂㅍ",
     mktgbcd: "J",
-    upcode: "2680"
+    upcode: "2680",
   },
   {
     name: "태영건설",
@@ -4361,7 +4361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅌㅇㄱㅅ",
     mktgbcd: "J",
-    upcode: "9750"
+    upcode: "9750",
   },
   {
     name: "태영건설우",
@@ -4369,7 +4369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅌㅇㄱㅅㅇ",
     mktgbcd: "J",
-    upcode: "15750"
+    upcode: "15750",
   },
   {
     name: "한올바이오파마",
@@ -4377,7 +4377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇㅂㅇㅇㅍㅁ",
     mktgbcd: "J",
-    upcode: "32100"
+    upcode: "32100",
   },
   {
     name: "KC그린홀딩스",
@@ -4385,7 +4385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KCㄱㄹㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "3675"
+    upcode: "3675",
   },
   {
     name: "경동나비엔",
@@ -4393,7 +4393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㄷㄴㅂㅇ",
     mktgbcd: "J",
-    upcode: "53100"
+    upcode: "53100",
   },
   {
     name: "한창제지",
@@ -4401,7 +4401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅊㅈㅈ",
     mktgbcd: "J",
-    upcode: "2220"
+    upcode: "2220",
   },
   {
     name: "삼화전기",
@@ -4409,7 +4409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎㅈㄱ",
     mktgbcd: "J",
-    upcode: "18450"
+    upcode: "18450",
   },
   {
     name: "포스코엠텍",
@@ -4417,7 +4417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅅㅋㅇㅌ",
     mktgbcd: "Q",
-    upcode: "4620"
+    upcode: "4620",
   },
   {
     name: "한국조선해양",
@@ -4425,7 +4425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅈㅅㅎㅇ",
     mktgbcd: "J",
-    upcode: "80000"
+    upcode: "80000",
   },
   {
     name: "무림P&P",
@@ -4433,7 +4433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹPP",
     mktgbcd: "J",
-    upcode: "3065"
+    upcode: "3065",
   },
   {
     name: "삼보산업",
@@ -4441,7 +4441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅂㅅㅇ",
     mktgbcd: "Q",
-    upcode: "716"
+    upcode: "716",
   },
   {
     name: "모토닉",
@@ -4449,7 +4449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㅌㄴ",
     mktgbcd: "J",
-    upcode: "11400"
+    upcode: "11400",
   },
   {
     name: "코센",
@@ -4457,7 +4457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅅ",
     mktgbcd: "Q",
-    upcode: "905"
+    upcode: "905",
   },
   {
     name: "삼정펄프",
@@ -4465,7 +4465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅈㅍㅍ",
     mktgbcd: "J",
-    upcode: "28500"
+    upcode: "28500",
   },
   {
     name: "엠에스씨",
@@ -4473,7 +4473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅅㅆ",
     mktgbcd: "Q",
-    upcode: "4155"
+    upcode: "4155",
   },
   {
     name: "엔케이물산",
@@ -4481,7 +4481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅋㅇㅁㅅ",
     mktgbcd: "J",
-    upcode: "348"
+    upcode: "348",
   },
   {
     name: "한화솔루션",
@@ -4489,7 +4489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅎㅅㄹㅅ",
     mktgbcd: "J",
-    upcode: "38250"
+    upcode: "38250",
   },
   {
     name: "한화솔루션우",
@@ -4497,7 +4497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅎㅅㄹㅅㅇ",
     mktgbcd: "J",
-    upcode: "69000"
+    upcode: "69000",
   },
   {
     name: "영원무역홀딩스",
@@ -4505,7 +4505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅁㅇㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "37050"
+    upcode: "37050",
   },
   {
     name: "한국내화",
@@ -4513,7 +4513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㄴㅎ",
     mktgbcd: "J",
-    upcode: "3200"
+    upcode: "3200",
   },
   {
     name: "우리종금",
@@ -4521,7 +4521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄹㅈㄱ",
     mktgbcd: "J",
-    upcode: "508"
+    upcode: "508",
   },
   {
     name: "OCI",
@@ -4529,7 +4529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "OCI",
     mktgbcd: "J",
-    upcode: "57000"
+    upcode: "57000",
   },
   {
     name: "한국프랜지",
@@ -4537,7 +4537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅍㄹㅈ",
     mktgbcd: "J",
-    upcode: "1915"
+    upcode: "1915",
   },
   {
     name: "LS ELECTRIC",
@@ -4545,7 +4545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LS ELECTRIC",
     mktgbcd: "J",
-    upcode: "55100"
+    upcode: "55100",
   },
   {
     name: "고려아연",
@@ -4553,7 +4553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㄹㅇㅇ",
     mktgbcd: "J",
-    upcode: "380000"
+    upcode: "380000",
   },
   {
     name: "삼성중공업",
@@ -4561,7 +4561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "5220"
+    upcode: "5220",
   },
   {
     name: "삼성중공우",
@@ -4569,7 +4569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "375000"
+    upcode: "375000",
   },
   {
     name: "대한광통신",
@@ -4577,7 +4577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅎㄱㅌㅅ",
     mktgbcd: "Q",
-    upcode: "3700"
+    upcode: "3700",
   },
   {
     name: "흥국",
@@ -4585,7 +4585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱ",
     mktgbcd: "Q",
-    upcode: "4915"
+    upcode: "4915",
   },
   {
     name: "쌍용정보통신",
@@ -4593,7 +4593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㅇㅈㅂㅌㅅ",
     mktgbcd: "Q",
-    upcode: "1225"
+    upcode: "1225",
   },
   {
     name: "우진아이엔에스",
@@ -4601,7 +4601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅈㅇㅇㅇㅇㅅ",
     mktgbcd: "J",
-    upcode: "7580"
+    upcode: "7580",
   },
   {
     name: "한솔PNS",
@@ -4609,7 +4609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅPNS",
     mktgbcd: "J",
-    upcode: "1465"
+    upcode: "1465",
   },
   {
     name: "오리콤",
@@ -4617,7 +4617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅋ",
     mktgbcd: "Q",
-    upcode: "4250"
+    upcode: "4250",
   },
   {
     name: "지코",
@@ -4625,7 +4625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅋ",
     mktgbcd: "J",
-    upcode: "306"
+    upcode: "306",
   },
   {
     name: "웰바이오텍",
@@ -4633,7 +4633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅂㅇㅇㅌ",
     mktgbcd: "J",
-    upcode: "2300"
+    upcode: "2300",
   },
   {
     name: "현대미포조선",
@@ -4641,7 +4641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅁㅍㅈㅅ",
     mktgbcd: "J",
-    upcode: "29050"
+    upcode: "29050",
   },
   {
     name: "진양폴리",
@@ -4649,7 +4649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅇㅍㄹ",
     mktgbcd: "J",
-    upcode: "3085"
+    upcode: "3085",
   },
   {
     name: "화천기계",
@@ -4657,7 +4657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅊㄱㄱ",
     mktgbcd: "J",
-    upcode: "2785"
+    upcode: "2785",
   },
   {
     name: "화신",
@@ -4665,7 +4665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅ",
     mktgbcd: "J",
-    upcode: "2735"
+    upcode: "2735",
   },
   {
     name: "평화홀딩스",
@@ -4673,7 +4673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅍㅎㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "3285"
+    upcode: "3285",
   },
   {
     name: "아이에스동서",
@@ -4681,7 +4681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅇㅅㄷㅅ",
     mktgbcd: "J",
-    upcode: "40000"
+    upcode: "40000",
   },
   {
     name: "퍼스텍",
@@ -4689,7 +4689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅍㅅㅌ",
     mktgbcd: "J",
-    upcode: "2050"
+    upcode: "2050",
   },
   {
     name: "S-Oil",
@@ -4697,7 +4697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "S-Oil",
     mktgbcd: "J",
-    upcode: "51000"
+    upcode: "51000",
   },
   {
     name: "S-Oil우",
@@ -4705,7 +4705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "S-Oilㅇ",
     mktgbcd: "J",
-    upcode: "30550"
+    upcode: "30550",
   },
   {
     name: "삼호개발",
@@ -4713,7 +4713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎㄱㅂ",
     mktgbcd: "J",
-    upcode: "3900"
+    upcode: "3900",
   },
   {
     name: "진원생명과학",
@@ -4721,7 +4721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅇㅅㅁㄱㅎ",
     mktgbcd: "J",
-    upcode: "31900"
+    upcode: "31900",
   },
   {
     name: "경동제약",
@@ -4729,7 +4729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㄷㅈㅇ",
     mktgbcd: "Q",
-    upcode: "12000"
+    upcode: "12000",
   },
   {
     name: "LG이노텍",
@@ -4737,7 +4737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LGㅇㄴㅌ",
     mktgbcd: "J",
-    upcode: "155500"
+    upcode: "155500",
   },
   {
     name: "형지I&C",
@@ -4745,7 +4745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅈIC",
     mktgbcd: "Q",
-    upcode: "1055"
+    upcode: "1055",
   },
   {
     name: "에넥스",
@@ -4753,7 +4753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄴㅅ",
     mktgbcd: "J",
-    upcode: "979"
+    upcode: "979",
   },
   {
     name: "CJ씨푸드",
@@ -4761,7 +4761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "CJㅆㅍㄷ",
     mktgbcd: "J",
-    upcode: "4460"
+    upcode: "4460",
   },
   {
     name: "CJ씨푸드1우",
@@ -4769,7 +4769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "CJㅆㅍㄷ1ㅇ",
     mktgbcd: "J",
-    upcode: "45250"
+    upcode: "45250",
   },
   {
     name: "롯데케미칼",
@@ -4777,7 +4777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄹㄷㅋㅁㅋ",
     mktgbcd: "J",
-    upcode: "196000"
+    upcode: "196000",
   },
   {
     name: "HMM",
@@ -4785,7 +4785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "HMM",
     mktgbcd: "J",
-    upcode: "7280"
+    upcode: "7280",
   },
   {
     name: "현대위아",
@@ -4793,7 +4793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅇㅇ",
     mktgbcd: "J",
-    upcode: "40000"
+    upcode: "40000",
   },
   {
     name: "삼화전자",
@@ -4801,7 +4801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎㅈㅈ",
     mktgbcd: "J",
-    upcode: "2860"
+    upcode: "2860",
   },
   {
     name: "태림포장",
@@ -4809,7 +4809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅌㄹㅍㅈ",
     mktgbcd: "J",
-    upcode: "4610"
+    upcode: "4610",
   },
   {
     name: "성안",
@@ -4817,7 +4817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇ",
     mktgbcd: "J",
-    upcode: "351"
+    upcode: "351",
   },
   {
     name: "유니크",
@@ -4825,7 +4825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅋ",
     mktgbcd: "Q",
-    upcode: "7670"
+    upcode: "7670",
   },
   {
     name: "유니켐",
@@ -4833,7 +4833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄴㅋ",
     mktgbcd: "J",
-    upcode: "1390"
+    upcode: "1390",
   },
   {
     name: "서한",
@@ -4841,7 +4841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅎ",
     mktgbcd: "Q",
-    upcode: "1175"
+    upcode: "1175",
   },
   {
     name: "부산산업",
@@ -4849,7 +4849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㅅㅅㅇ",
     mktgbcd: "J",
-    upcode: "121500"
+    upcode: "121500",
   },
   {
     name: "갤럭시아에스엠",
@@ -4857,7 +4857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㄹㅅㅇㅇㅅㅇ",
     mktgbcd: "J",
-    upcode: "1335"
+    upcode: "1335",
   },
   {
     name: "한농화성",
@@ -4865,7 +4865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄴㅎㅅ",
     mktgbcd: "J",
-    upcode: "6710"
+    upcode: "6710",
   },
   {
     name: "세보엠이씨",
@@ -4873,7 +4873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅂㅇㅇㅆ",
     mktgbcd: "Q",
-    upcode: "5440"
+    upcode: "5440",
   },
   {
     name: "유양디앤유",
@@ -4881,7 +4881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㄷㅇㅇ",
     mktgbcd: "J",
-    upcode: "1220"
+    upcode: "1220",
   },
   {
     name: "한신기계",
@@ -4889,7 +4889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㄱㄱ",
     mktgbcd: "J",
-    upcode: "1535"
+    upcode: "1535",
   },
   {
     name: "현대상사",
@@ -4897,7 +4897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅅㅅ",
     mktgbcd: "J",
-    upcode: "14300"
+    upcode: "14300",
   },
   {
     name: "금호석유",
@@ -4905,7 +4905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅎㅅㅇ",
     mktgbcd: "J",
-    upcode: "106000"
+    upcode: "106000",
   },
   {
     name: "금호석유우",
@@ -4913,7 +4913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅎㅅㅇㅇ",
     mktgbcd: "J",
-    upcode: "40600"
+    upcode: "40600",
   },
   {
     name: "SKC",
@@ -4921,7 +4921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SKC",
     mktgbcd: "J",
-    upcode: "81000"
+    upcode: "81000",
   },
   {
     name: "STX",
@@ -4929,7 +4929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "STX",
     mktgbcd: "J",
-    upcode: "5260"
+    upcode: "5260",
   },
   {
     name: "신성이엔지",
@@ -4937,7 +4937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅇㅇㅈ",
     mktgbcd: "J",
-    upcode: "2065"
+    upcode: "2065",
   },
   {
     name: "DB",
@@ -4945,7 +4945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "DB",
     mktgbcd: "J",
-    upcode: "697"
+    upcode: "697",
   },
   {
     name: "영흥",
@@ -4953,7 +4953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅎ",
     mktgbcd: "J",
-    upcode: "1060"
+    upcode: "1060",
   },
   {
     name: "키위미디어그룹",
@@ -4961,7 +4961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅇㅁㄷㅇㄱㄹ",
     mktgbcd: "J",
-    upcode: "600"
+    upcode: "600",
   },
   {
     name: "계양전기",
@@ -4969,7 +4969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅇㅈㄱ",
     mktgbcd: "J",
-    upcode: "3070"
+    upcode: "3070",
   },
   {
     name: "계양전기우",
@@ -4977,7 +4977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅇㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "8350"
+    upcode: "8350",
   },
   {
     name: "영화금속",
@@ -4985,7 +4985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅎㄱㅅ",
     mktgbcd: "J",
-    upcode: "1730"
+    upcode: "1730",
   },
   {
     name: "경동인베스트",
@@ -4993,7 +4993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㄷㅇㅂㅅㅌ",
     mktgbcd: "J",
-    upcode: "26650"
+    upcode: "26650",
   },
   {
     name: "현대모비스",
@@ -5001,7 +5001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅁㅂㅅ",
     mktgbcd: "J",
-    upcode: "225000"
+    upcode: "225000",
   },
   {
     name: "뉴인텍",
@@ -5009,7 +5009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅇㅌ",
     mktgbcd: "Q",
-    upcode: "2800"
+    upcode: "2800",
   },
   {
     name: "한화에어로스페이스",
@@ -5017,7 +5017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅎㅇㅇㄹㅅㅍㅇㅅ",
     mktgbcd: "J",
-    upcode: "25050"
+    upcode: "25050",
   },
   {
     name: "더존비즈온",
@@ -5025,7 +5025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅈㅂㅈㅇ",
     mktgbcd: "J",
-    upcode: "102500"
+    upcode: "102500",
   },
   {
     name: "센트럴인사이트",
@@ -5033,7 +5033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅌㄹㅇㅅㅇㅌ",
     mktgbcd: "J",
-    upcode: "7000"
+    upcode: "7000",
   },
   {
     name: "경인양행",
@@ -5041,7 +5041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅇㅇㅎ",
     mktgbcd: "J",
-    upcode: "6960"
+    upcode: "6960",
   },
   {
     name: "원일특강",
@@ -5049,7 +5049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅌㄱ",
     mktgbcd: "Q",
-    upcode: "8710"
+    upcode: "8710",
   },
   {
     name: "HDC",
@@ -5057,7 +5057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "HDC",
     mktgbcd: "J",
-    upcode: "10350"
+    upcode: "10350",
   },
   {
     name: "모나리자",
@@ -5065,7 +5065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄴㄹㅈ",
     mktgbcd: "J",
-    upcode: "5090"
+    upcode: "5090",
   },
   {
     name: "리드코프",
@@ -5073,7 +5073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㄷㅋㅍ",
     mktgbcd: "Q",
-    upcode: "7070"
+    upcode: "7070",
   },
   {
     name: "에스원",
@@ -5081,7 +5081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅅㅇ",
     mktgbcd: "J",
-    upcode: "87700"
+    upcode: "87700",
   },
   {
     name: "신일제약",
@@ -5089,7 +5089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅈㅇ",
     mktgbcd: "Q",
-    upcode: "27150"
+    upcode: "27150",
   },
   {
     name: "대창",
@@ -5097,7 +5097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅊ",
     mktgbcd: "J",
-    upcode: "1075"
+    upcode: "1075",
   },
   {
     name: "모베이스전자",
@@ -5105,7 +5105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅂㅇㅅㅈㅈ",
     mktgbcd: "Q",
-    upcode: "1255"
+    upcode: "1255",
   },
   {
     name: "세우글로벌",
@@ -5113,7 +5113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㄱㄹㅂ",
     mktgbcd: "J",
-    upcode: "3230"
+    upcode: "3230",
   },
   {
     name: "하이록코리아",
@@ -5121,7 +5121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅇㄹㅋㄹㅇ",
     mktgbcd: "Q",
-    upcode: "11750"
+    upcode: "11750",
   },
   {
     name: "동원개발",
@@ -5129,7 +5129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㄱㅂ",
     mktgbcd: "Q",
-    upcode: "3950"
+    upcode: "3950",
   },
   {
     name: "아진산업",
@@ -5137,7 +5137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅅㅇ",
     mktgbcd: "Q",
-    upcode: "2680"
+    upcode: "2680",
   },
   {
     name: "일성건설",
@@ -5145,7 +5145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅅㄱㅅ",
     mktgbcd: "J",
-    upcode: "909"
+    upcode: "909",
   },
   {
     name: "화승알앤에이",
@@ -5153,7 +5153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㅇㅇㅇㅇ",
     mktgbcd: "J",
-    upcode: "1940"
+    upcode: "1940",
   },
   {
     name: "디와이",
@@ -5161,7 +5161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅇ",
     mktgbcd: "J",
-    upcode: "4175"
+    upcode: "4175",
   },
   {
     name: "계룡건설",
@@ -5169,7 +5169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㄹㄱㅅ",
     mktgbcd: "J",
-    upcode: "20400"
+    upcode: "20400",
   },
   {
     name: "까뮤이앤씨",
@@ -5177,7 +5177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄲㅁㅇㅇㅆ",
     mktgbcd: "J",
-    upcode: "1130"
+    upcode: "1130",
   },
   {
     name: "청보산업",
@@ -5185,7 +5185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅊㅂㅅㅇ",
     mktgbcd: "Q",
-    upcode: "7060"
+    upcode: "7060",
   },
   {
     name: "스페코",
@@ -5193,7 +5193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅍㅋ",
     mktgbcd: "Q",
-    upcode: "8080"
+    upcode: "8080",
   },
   {
     name: "지엠비코리아",
@@ -5201,7 +5201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅇㅂㅋㄹㅇ",
     mktgbcd: "J",
-    upcode: "7170"
+    upcode: "7170",
   },
   {
     name: "지누스",
@@ -5209,7 +5209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㄴㅅ",
     mktgbcd: "J",
-    upcode: "80700"
+    upcode: "80700",
   },
   {
     name: "아가방컴퍼니",
@@ -5217,7 +5217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄱㅂㅋㅍㄴ",
     mktgbcd: "Q",
-    upcode: "2600"
+    upcode: "2600",
   },
   {
     name: "메디앙스",
@@ -5225,7 +5225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄷㅇㅅ",
     mktgbcd: "Q",
-    upcode: "4195"
+    upcode: "4195",
   },
   {
     name: "한익스프레스",
@@ -5233,7 +5233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇㅅㅍㄹㅅ",
     mktgbcd: "J",
-    upcode: "5140"
+    upcode: "5140",
   },
   {
     name: "대영포장",
@@ -5241,7 +5241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅍㅈ",
     mktgbcd: "J",
-    upcode: "1075"
+    upcode: "1075",
   },
   {
     name: "원익큐브",
@@ -5249,7 +5249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅋㅂ",
     mktgbcd: "Q",
-    upcode: "1580"
+    upcode: "1580",
   },
   {
     name: "광림",
@@ -5257,7 +5257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㄹ",
     mktgbcd: "Q",
-    upcode: "1575"
+    upcode: "1575",
   },
   {
     name: "금강공업",
@@ -5265,7 +5265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㄱㄱㅇ",
     mktgbcd: "J",
-    upcode: "3960"
+    upcode: "3960",
   },
   {
     name: "금강공업우",
@@ -5273,7 +5273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㄱㄱㅇㅇ",
     mktgbcd: "J",
-    upcode: "17100"
+    upcode: "17100",
   },
   {
     name: "영보화학",
@@ -5281,7 +5281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅂㅎㅎ",
     mktgbcd: "J",
-    upcode: "3640"
+    upcode: "3640",
   },
   {
     name: "부방",
@@ -5289,7 +5289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅂ",
     mktgbcd: "Q",
-    upcode: "2230"
+    upcode: "2230",
   },
   {
     name: "극동유화",
@@ -5297,7 +5297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㄷㅇㅎ",
     mktgbcd: "J",
-    upcode: "3160"
+    upcode: "3160",
   },
   {
     name: "고려제약",
@@ -5305,7 +5305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㄹㅈㅇ",
     mktgbcd: "Q",
-    upcode: "10500"
+    upcode: "10500",
   },
   {
     name: "태경비케이",
@@ -5313,7 +5313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅌㄱㅂㅋㅇ",
     mktgbcd: "J",
-    upcode: "3395"
+    upcode: "3395",
   },
   {
     name: "성광벤드",
@@ -5321,7 +5321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄱㅂㄷ",
     mktgbcd: "Q",
-    upcode: "6370"
+    upcode: "6370",
   },
   {
     name: "한솔케미칼",
@@ -5329,7 +5329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㅋㅁㅋ",
     mktgbcd: "J",
-    upcode: "141500"
+    upcode: "141500",
   },
   {
     name: "사조씨푸드",
@@ -5337,7 +5337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅈㅆㅍㄷ",
     mktgbcd: "J",
-    upcode: "4310"
+    upcode: "4310",
   },
   {
     name: "한라",
@@ -5345,7 +5345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄹ",
     mktgbcd: "J",
-    upcode: "3315"
+    upcode: "3315",
   },
   {
     name: "동원시스템즈",
@@ -5353,7 +5353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅅㅅㅌㅈ",
     mktgbcd: "J",
-    upcode: "23300"
+    upcode: "23300",
   },
   {
     name: "동원시스템즈우",
@@ -5361,7 +5361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅅㅅㅌㅈㅇ",
     mktgbcd: "J",
-    upcode: "29200"
+    upcode: "29200",
   },
   {
     name: "유니드",
@@ -5369,7 +5369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄴㄷ",
     mktgbcd: "J",
-    upcode: "43950"
+    upcode: "43950",
   },
   {
     name: "성문전자",
@@ -5377,7 +5377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅁㅈㅈ",
     mktgbcd: "J",
-    upcode: "1860"
+    upcode: "1860",
   },
   {
     name: "성문전자우",
@@ -5385,7 +5385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅁㅈㅈㅇ",
     mktgbcd: "J",
-    upcode: "13650"
+    upcode: "13650",
   },
   {
     name: "오리엔탈정공",
@@ -5393,7 +5393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅇㅌㅈㄱ",
     mktgbcd: "Q",
-    upcode: "2210"
+    upcode: "2210",
   },
   {
     name: "삼륭물산",
@@ -5401,7 +5401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄹㅁㅅ",
     mktgbcd: "Q",
-    upcode: "9200"
+    upcode: "9200",
   },
   {
     name: "인디에프",
@@ -5409,7 +5409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄷㅇㅍ",
     mktgbcd: "J",
-    upcode: "1735"
+    upcode: "1735",
   },
   {
     name: "이스타코",
@@ -5417,7 +5417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅅㅌㅋ",
     mktgbcd: "J",
-    upcode: "630"
+    upcode: "630",
   },
   {
     name: "대창단조",
@@ -5425,7 +5425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅊㄷㅈ",
     mktgbcd: "J",
-    upcode: "32600"
+    upcode: "32600",
   },
   {
     name: "에이엔피",
@@ -5433,7 +5433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅇㅍ",
     mktgbcd: "J",
-    upcode: "167"
+    upcode: "167",
   },
   {
     name: "부산가스",
@@ -5441,7 +5441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㅅㄱㅅ",
     mktgbcd: "J",
-    upcode: "50400"
+    upcode: "50400",
   },
   {
     name: "예스코홀딩스",
@@ -5449,7 +5449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅅㅋㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "34800"
+    upcode: "34800",
   },
   {
     name: "쎌마테라퓨틱스",
@@ -5457,7 +5457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅆㅁㅌㄹㅍㅌㅅ",
     mktgbcd: "J",
-    upcode: "8140"
+    upcode: "8140",
   },
   {
     name: "큐로",
@@ -5465,7 +5465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㄹ",
     mktgbcd: "J",
-    upcode: "567"
+    upcode: "567",
   },
   {
     name: "코콤",
@@ -5473,7 +5473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅋ",
     mktgbcd: "Q",
-    upcode: "5950"
+    upcode: "5950",
   },
   {
     name: "성우하이텍",
@@ -5481,7 +5481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅎㅇㅌ",
     mktgbcd: "Q",
-    upcode: "3330"
+    upcode: "3330",
   },
   {
     name: "한국전력",
@@ -5489,7 +5489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅈㄹ",
     mktgbcd: "J",
-    upcode: "20200"
+    upcode: "20200",
   },
   {
     name: "일진홀딩스",
@@ -5497,7 +5497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅈㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "4925"
+    upcode: "4925",
   },
   {
     name: "태경산업",
@@ -5505,7 +5505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅌㄱㅅㅇ",
     mktgbcd: "J",
-    upcode: "5020"
+    upcode: "5020",
   },
   {
     name: "대현",
@@ -5513,7 +5513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅎ",
     mktgbcd: "J",
-    upcode: "1725"
+    upcode: "1725",
   },
   {
     name: "리더스코스메틱",
@@ -5521,7 +5521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㄷㅅㅋㅅㅁㅌ",
     mktgbcd: "Q",
-    upcode: "3840"
+    upcode: "3840",
   },
   {
     name: "이테크건설",
@@ -5529,7 +5529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅋㄱㅅ",
     mktgbcd: "Q",
-    upcode: "134000"
+    upcode: "134000",
   },
   {
     name: "삼성증권",
@@ -5537,7 +5537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅈㄱ",
     mktgbcd: "J",
-    upcode: "29500"
+    upcode: "29500",
   },
   {
     name: "KG동부제철",
@@ -5545,7 +5545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KGㄷㅂㅈㅊ",
     mktgbcd: "J",
-    upcode: "8230"
+    upcode: "8230",
   },
   {
     name: "KG동부제철우",
@@ -5553,7 +5553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KGㄷㅂㅈㅊㅇ",
     mktgbcd: "J",
-    upcode: "137000"
+    upcode: "137000",
   },
   {
     name: "한세예스24홀딩스",
@@ -5561,7 +5561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㅇㅅ24ㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "5350"
+    upcode: "5350",
   },
   {
     name: "환인제약",
@@ -5569,7 +5569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇㅈㅇ",
     mktgbcd: "J",
-    upcode: "15100"
+    upcode: "15100",
   },
   {
     name: "신대양제지",
@@ -5577,7 +5577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㄷㅇㅈㅈ",
     mktgbcd: "J",
-    upcode: "52400"
+    upcode: "52400",
   },
   {
     name: "큐캐피탈",
@@ -5585,7 +5585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅋㅍㅌ",
     mktgbcd: "Q",
-    upcode: "551"
+    upcode: "551",
   },
   {
     name: "DB금융투자",
@@ -5593,7 +5593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "DBㄱㅇㅌㅈ",
     mktgbcd: "J",
-    upcode: "3725"
+    upcode: "3725",
   },
   {
     name: "포비스티앤씨",
@@ -5601,7 +5601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅂㅅㅌㅇㅆ",
     mktgbcd: "Q",
-    upcode: "971"
+    upcode: "971",
   },
   {
     name: "대성홀딩스",
@@ -5609,7 +5609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "19450"
+    upcode: "19450",
   },
   {
     name: "두올",
@@ -5617,7 +5617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇ",
     mktgbcd: "J",
-    upcode: "3350"
+    upcode: "3350",
   },
   {
     name: "현대사료",
@@ -5625,7 +5625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄷㅅㄹ",
     mktgbcd: "Q",
-    upcode: "14150"
+    upcode: "14150",
   },
   {
     name: "퍼시스",
@@ -5633,7 +5633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅍㅅㅅ",
     mktgbcd: "J",
-    upcode: "28700"
+    upcode: "28700",
   },
   {
     name: "웅진",
@@ -5641,7 +5641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅈ",
     mktgbcd: "J",
-    upcode: "1075"
+    upcode: "1075",
   },
   {
     name: "카스",
@@ -5649,7 +5649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅅ",
     mktgbcd: "Q",
-    upcode: "1975"
+    upcode: "1975",
   },
   {
     name: "신원종합개발",
@@ -5657,7 +5657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅈㅎㄱㅂ",
     mktgbcd: "Q",
-    upcode: "4255"
+    upcode: "4255",
   },
   {
     name: "광명전기",
@@ -5665,7 +5665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅁㅈㄱ",
     mktgbcd: "J",
-    upcode: "1810"
+    upcode: "1810",
   },
   {
     name: "명문제약",
@@ -5673,7 +5673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㅁㅈㅇ",
     mktgbcd: "J",
-    upcode: "6140"
+    upcode: "6140",
   },
   {
     name: "인터엠",
@@ -5681,7 +5681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅇ",
     mktgbcd: "Q",
-    upcode: "1715"
+    upcode: "1715",
   },
   {
     name: "우신시스템",
@@ -5689,7 +5689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅅㅅㅅㅌ",
     mktgbcd: "J",
-    upcode: "3160"
+    upcode: "3160",
   },
   {
     name: "서울가스",
@@ -5697,7 +5697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㄱㅅ",
     mktgbcd: "J",
-    upcode: "76600"
+    upcode: "76600",
   },
   {
     name: "삼현철강",
@@ -5705,7 +5705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅎㅊㄱ",
     mktgbcd: "Q",
-    upcode: "3640"
+    upcode: "3640",
   },
   {
     name: "세명전기",
@@ -5713,7 +5713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅁㅈㄱ",
     mktgbcd: "Q",
-    upcode: "3925"
+    upcode: "3925",
   },
   {
     name: "수산중공업",
@@ -5721,7 +5721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "1655"
+    upcode: "1655",
   },
   {
     name: "대림제지",
@@ -5729,7 +5729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㄹㅈㅈ",
     mktgbcd: "Q",
-    upcode: "6830"
+    upcode: "6830",
   },
   {
     name: "SK텔레콤",
@@ -5737,7 +5737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SKㅌㄹㅋ",
     mktgbcd: "J",
-    upcode: "233000"
+    upcode: "233000",
   },
   {
     name: "현대엘리베이",
@@ -5745,7 +5745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅇㄹㅂㅇ",
     mktgbcd: "J",
-    upcode: "40600"
+    upcode: "40600",
   },
   {
     name: "풀무원",
@@ -5753,7 +5753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅍㅁㅇ",
     mktgbcd: "J",
-    upcode: "16550"
+    upcode: "16550",
   },
   {
     name: "한국알콜",
@@ -5761,7 +5761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅇㅋ",
     mktgbcd: "Q",
-    upcode: "13950"
+    upcode: "13950",
   },
   {
     name: "광전자",
@@ -5769,7 +5769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅈㅈ",
     mktgbcd: "J",
-    upcode: "2115"
+    upcode: "2115",
   },
   {
     name: "E1",
@@ -5777,7 +5777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "E1",
     mktgbcd: "J",
-    upcode: "44750"
+    upcode: "44750",
   },
   {
     name: "한국카본",
@@ -5785,7 +5785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅋㅂ",
     mktgbcd: "J",
-    upcode: "9320"
+    upcode: "9320",
   },
   {
     name: "유니슨",
@@ -5793,7 +5793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅅ",
     mktgbcd: "Q",
-    upcode: "5180"
+    upcode: "5180",
   },
   {
     name: "진로발효",
@@ -5801,7 +5801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㄹㅂㅎ",
     mktgbcd: "Q",
-    upcode: "30050"
+    upcode: "30050",
   },
   {
     name: "애경산업",
@@ -5809,7 +5809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄱㅅㅇ",
     mktgbcd: "J",
-    upcode: "20350"
+    upcode: "20350",
   },
   {
     name: "삼성에스디에스",
@@ -5817,7 +5817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅇㅅㄷㅇㅅ",
     mktgbcd: "J",
-    upcode: "171500"
+    upcode: "171500",
   },
   {
     name: "브이티지엠피",
@@ -5825,7 +5825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅇㅌㅈㅇㅍ",
     mktgbcd: "Q",
-    upcode: "9240"
+    upcode: "9240",
   },
   {
     name: "삼목에스폼",
@@ -5833,7 +5833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅁㅇㅅㅍ",
     mktgbcd: "Q",
-    upcode: "7460"
+    upcode: "7460",
   },
   {
     name: "조일알미늄",
@@ -5841,7 +5841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅇㅇㅁㄴ",
     mktgbcd: "J",
-    upcode: "635"
+    upcode: "635",
   },
   {
     name: "동원금속",
@@ -5849,7 +5849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㄱㅅ",
     mktgbcd: "J",
-    upcode: "698"
+    upcode: "698",
   },
   {
     name: "우진비앤지",
@@ -5857,7 +5857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅂㅇㅈ",
     mktgbcd: "Q",
-    upcode: "3125"
+    upcode: "3125",
   },
   {
     name: "SK가스",
@@ -5865,7 +5865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SKㄱㅅ",
     mktgbcd: "J",
-    upcode: "96300"
+    upcode: "96300",
   },
   {
     name: "서울제약",
@@ -5873,7 +5873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅈㅇ",
     mktgbcd: "Q",
-    upcode: "10200"
+    upcode: "10200",
   },
   {
     name: "바른손",
@@ -5881,7 +5881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㄹㅅ",
     mktgbcd: "Q",
-    upcode: "2690"
+    upcode: "2690",
   },
   {
     name: "한온시스템",
@@ -5889,7 +5889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇㅅㅅㅌ",
     mktgbcd: "J",
-    upcode: "12000"
+    upcode: "12000",
   },
   {
     name: "베뉴지",
@@ -5897,7 +5897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㄴㅈ",
     mktgbcd: "Q",
-    upcode: "1500"
+    upcode: "1500",
   },
   {
     name: "신풍제약",
@@ -5905,7 +5905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅍㅈㅇ",
     mktgbcd: "J",
-    upcode: "133500"
+    upcode: "133500",
   },
   {
     name: "신풍제약우",
@@ -5913,7 +5913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅍㅈㅇㅇ",
     mktgbcd: "J",
-    upcode: "174500"
+    upcode: "174500",
   },
   {
     name: "티에이치엔",
@@ -5921,7 +5921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅌㅇㅇㅊㅇ",
     mktgbcd: "J",
-    upcode: "2335"
+    upcode: "2335",
   },
   {
     name: "와이지-원",
@@ -5929,7 +5929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅈ-ㅇ",
     mktgbcd: "Q",
-    upcode: "4540"
+    upcode: "4540",
   },
   {
     name: "세아특수강",
@@ -5937,7 +5937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅌㅅㄱ",
     mktgbcd: "J",
-    upcode: "10750"
+    upcode: "10750",
   },
   {
     name: "하이트론",
@@ -5945,7 +5945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇㅌㄹ",
     mktgbcd: "J",
-    upcode: "2380"
+    upcode: "2380",
   },
   {
     name: "일지테크",
@@ -5953,7 +5953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅌㅋ",
     mktgbcd: "Q",
-    upcode: "4415"
+    upcode: "4415",
   },
   {
     name: "SBI인베스트먼트",
@@ -5961,7 +5961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SBIㅇㅂㅅㅌㅁㅌ",
     mktgbcd: "Q",
-    upcode: "803"
+    upcode: "803",
   },
   {
     name: "리더스 기술투자",
@@ -5969,7 +5969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㄷㅅ ㄱㅅㅌㅈ",
     mktgbcd: "Q",
-    upcode: "582"
+    upcode: "582",
   },
   {
     name: "엠벤처투자",
@@ -5977,7 +5977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅂㅊㅌㅈ",
     mktgbcd: "Q",
-    upcode: "1000"
+    upcode: "1000",
   },
   {
     name: "글로본",
@@ -5985,7 +5985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㄹㅂ",
     mktgbcd: "Q",
-    upcode: "3095"
+    upcode: "3095",
   },
   {
     name: "대교",
@@ -5993,7 +5993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㄱ",
     mktgbcd: "J",
-    upcode: "3905"
+    upcode: "3905",
   },
   {
     name: "대교우B",
@@ -6001,7 +6001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㄱㅇB",
     mktgbcd: "J",
-    upcode: "2535"
+    upcode: "2535",
   },
   {
     name: "서연탑메탈",
@@ -6009,7 +6009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅌㅁㅌ",
     mktgbcd: "Q",
-    upcode: "3470"
+    upcode: "3470",
   },
   {
     name: "에너토크",
@@ -6017,7 +6017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅌㅋ",
     mktgbcd: "Q",
-    upcode: "4230"
+    upcode: "4230",
   },
   {
     name: "한섬",
@@ -6025,7 +6025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅ",
     mktgbcd: "J",
-    upcode: "28900"
+    upcode: "28900",
   },
   {
     name: "키다리스튜디오",
@@ -6033,7 +6033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㄷㄹㅅㅌㄷㅇ",
     mktgbcd: "J",
-    upcode: "9670"
+    upcode: "9670",
   },
   {
     name: "일진머티리얼즈",
@@ -6041,7 +6041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅈㅁㅌㄹㅇㅈ",
     mktgbcd: "J",
-    upcode: "43850"
+    upcode: "43850",
   },
   {
     name: "대신정보통신",
@@ -6049,7 +6049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅅㅈㅂㅌㅅ",
     mktgbcd: "Q",
-    upcode: "1665"
+    upcode: "1665",
   },
   {
     name: "대동금속",
@@ -6057,7 +6057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㄷㄱㅅ",
     mktgbcd: "Q",
-    upcode: "8560"
+    upcode: "8560",
   },
   {
     name: "아시아나항공",
@@ -6065,7 +6065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅅㅇㄴㅎㄱ",
     mktgbcd: "J",
-    upcode: "3830"
+    upcode: "3830",
   },
   {
     name: "시공테크",
@@ -6073,7 +6073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄱㅌㅋ",
     mktgbcd: "Q",
-    upcode: "4725"
+    upcode: "4725",
   },
   {
     name: "일진디스플",
@@ -6081,7 +6081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅈㄷㅅㅍ",
     mktgbcd: "J",
-    upcode: "3565"
+    upcode: "3565",
   },
   {
     name: "대호피앤씨",
@@ -6089,7 +6089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅎㅍㅇㅆ",
     mktgbcd: "Q",
-    upcode: "703"
+    upcode: "703",
   },
   {
     name: "대호피앤씨우",
@@ -6097,7 +6097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅎㅍㅇㅆㅇ",
     mktgbcd: "Q",
-    upcode: "1670"
+    upcode: "1670",
   },
   {
     name: "서원",
@@ -6105,7 +6105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇ",
     mktgbcd: "J",
-    upcode: "3310"
+    upcode: "3310",
   },
   {
     name: "에이티넘인베스트",
@@ -6113,7 +6113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅌㄴㅇㅂㅅㅌ",
     mktgbcd: "Q",
-    upcode: "2015"
+    upcode: "2015",
   },
   {
     name: "코웨이",
@@ -6121,7 +6121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅇㅇ",
     mktgbcd: "J",
-    upcode: "79400"
+    upcode: "79400",
   },
   {
     name: "KCC건설",
@@ -6129,7 +6129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "KCCㄱㅅ",
     mktgbcd: "Q",
-    upcode: "7120"
+    upcode: "7120",
   },
   {
     name: "한국큐빅",
@@ -6137,7 +6137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅋㅂ",
     mktgbcd: "Q",
-    upcode: "3580"
+    upcode: "3580",
   },
   {
     name: "세원정공",
@@ -6145,7 +6145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅈㄱ",
     mktgbcd: "J",
-    upcode: "8090"
+    upcode: "8090",
   },
   {
     name: "메이슨캐피탈",
@@ -6153,7 +6153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅇㅅㅋㅍㅌ",
     mktgbcd: "Q",
-    upcode: "338"
+    upcode: "338",
   },
   {
     name: "포스코 ICT",
@@ -6161,7 +6161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅅㅋ ICT",
     mktgbcd: "Q",
-    upcode: "7100"
+    upcode: "7100",
   },
   {
     name: "정산애강",
@@ -6169,7 +6169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅅㅇㄱ",
     mktgbcd: "Q",
-    upcode: "1790"
+    upcode: "1790",
   },
   {
     name: "삼원강재",
@@ -6177,7 +6177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㄱㅈ",
     mktgbcd: "J",
-    upcode: "2360"
+    upcode: "2360",
   },
   {
     name: "MH에탄올",
@@ -6185,7 +6185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "MHㅇㅌㅇ",
     mktgbcd: "J",
-    upcode: "7400"
+    upcode: "7400",
   },
   {
     name: "태광",
@@ -6193,7 +6193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㄱ",
     mktgbcd: "Q",
-    upcode: "6300"
+    upcode: "6300",
   },
   {
     name: "한국종합기술",
@@ -6201,7 +6201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅈㅎㄱㅅ",
     mktgbcd: "J",
-    upcode: "4100"
+    upcode: "4100",
   },
   {
     name: "유진기업",
@@ -6209,7 +6209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㄱㅇ",
     mktgbcd: "Q",
-    upcode: "4065"
+    upcode: "4065",
   },
   {
     name: "제일제강",
@@ -6217,7 +6217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅈㄱ",
     mktgbcd: "Q",
-    upcode: "1785"
+    upcode: "1785",
   },
   {
     name: "동남합성",
@@ -6225,7 +6225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㄴㅎㅅ",
     mktgbcd: "J",
-    upcode: "37100"
+    upcode: "37100",
   },
   {
     name: "CNH",
@@ -6233,7 +6233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "CNH",
     mktgbcd: "Q",
-    upcode: "1545"
+    upcode: "1545",
   },
   {
     name: "롯데쇼핑",
@@ -6241,7 +6241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄹㄷㅅㅍ",
     mktgbcd: "J",
-    upcode: "77100"
+    upcode: "77100",
   },
   {
     name: "다우기술",
@@ -6249,7 +6249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㄱㅅ",
     mktgbcd: "J",
-    upcode: "21450"
+    upcode: "21450",
   },
   {
     name: "삼보판지",
@@ -6257,7 +6257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅂㅍㅈ",
     mktgbcd: "Q",
-    upcode: "7790"
+    upcode: "7790",
   },
   {
     name: "한국캐피탈",
@@ -6265,7 +6265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅋㅍㅌ",
     mktgbcd: "Q",
-    upcode: "509"
+    upcode: "509",
   },
   {
     name: "플레이위드",
@@ -6273,7 +6273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㄹㅇㅇㄷ",
     mktgbcd: "Q",
-    upcode: "9510"
+    upcode: "9510",
   },
   {
     name: "동일철강",
@@ -6281,7 +6281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅊㄱ",
     mktgbcd: "Q",
-    upcode: "4315"
+    upcode: "4315",
   },
   {
     name: "인지컨트롤스",
@@ -6289,7 +6289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅈㅋㅌㄹㅅ",
     mktgbcd: "J",
-    upcode: "8600"
+    upcode: "8600",
   },
   {
     name: "인팩",
@@ -6297,7 +6297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅍ",
     mktgbcd: "J",
-    upcode: "4740"
+    upcode: "4740",
   },
   {
     name: "한국아트라스비엑스",
@@ -6305,7 +6305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅇㅌㄹㅅㅂㅇㅅ",
     mktgbcd: "Q",
-    upcode: "50400"
+    upcode: "50400",
   },
   {
     name: "풍국주정",
@@ -6313,7 +6313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㄱㅈㅈ",
     mktgbcd: "Q",
-    upcode: "20750"
+    upcode: "20750",
   },
   {
     name: "대한약품",
@@ -6321,7 +6321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅎㅇㅍ",
     mktgbcd: "Q",
-    upcode: "31250"
+    upcode: "31250",
   },
   {
     name: "에쓰씨엔지니어링",
@@ -6329,7 +6329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅆㅆㅇㅈㄴㅇㄹ",
     mktgbcd: "J",
-    upcode: "1335"
+    upcode: "1335",
   },
   {
     name: "흥구석유",
@@ -6337,7 +6337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅅㅇ",
     mktgbcd: "Q",
-    upcode: "6060"
+    upcode: "6060",
   },
   {
     name: "WISCOM",
@@ -6345,7 +6345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "WISCOM",
     mktgbcd: "J",
-    upcode: "2225"
+    upcode: "2225",
   },
   {
     name: "디씨엠",
@@ -6353,7 +6353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅆㅇ",
     mktgbcd: "J",
-    upcode: "10950"
+    upcode: "10950",
   },
   {
     name: "기업은행",
@@ -6361,7 +6361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅇㅇㅎ",
     mktgbcd: "J",
-    upcode: "7910"
+    upcode: "7910",
   },
   {
     name: "KB오토시스",
@@ -6369,7 +6369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "KBㅇㅌㅅㅅ",
     mktgbcd: "Q",
-    upcode: "6210"
+    upcode: "6210",
   },
   {
     name: "한국콜마홀딩스",
@@ -6377,7 +6377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅋㅁㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "26500"
+    upcode: "26500",
   },
   {
     name: "한일단조",
@@ -6385,7 +6385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅇㄷㅈ",
     mktgbcd: "Q",
-    upcode: "1850"
+    upcode: "1850",
   },
   {
     name: "유성티엔에스",
@@ -6393,7 +6393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅌㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "2275"
+    upcode: "2275",
   },
   {
     name: "이화전기",
@@ -6401,7 +6401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅎㅈㄱ",
     mktgbcd: "Q",
-    upcode: "150"
+    upcode: "150",
   },
   {
     name: "세원물산",
@@ -6409,7 +6409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅁㅅ",
     mktgbcd: "Q",
-    upcode: "6280"
+    upcode: "6280",
   },
   {
     name: "KBI메탈",
@@ -6417,7 +6417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "KBIㅁㅌ",
     mktgbcd: "Q",
-    upcode: "1480"
+    upcode: "1480",
   },
   {
     name: "피에스엠씨",
@@ -6425,7 +6425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅇㅅㅇㅆ",
     mktgbcd: "Q",
-    upcode: "780"
+    upcode: "780",
   },
   {
     name: "케이피에프",
@@ -6433,7 +6433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅍㅇㅍ",
     mktgbcd: "Q",
-    upcode: "3970"
+    upcode: "3970",
   },
   {
     name: "대원화성",
@@ -6441,7 +6441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅎㅅ",
     mktgbcd: "J",
-    upcode: "1595"
+    upcode: "1595",
   },
   {
     name: "덕양산업",
@@ -6449,7 +6449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅅㅇ",
     mktgbcd: "J",
-    upcode: "1805"
+    upcode: "1805",
   },
   {
     name: "경창산업",
@@ -6457,7 +6457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅊㅅㅇ",
     mktgbcd: "Q",
-    upcode: "1650"
+    upcode: "1650",
   },
   {
     name: "PN풍년",
@@ -6465,7 +6465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "PNㅍㄴ",
     mktgbcd: "Q",
-    upcode: "3740"
+    upcode: "3740",
   },
   {
     name: "삼천리자전거",
@@ -6473,7 +6473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅊㄹㅈㅈㄱ",
     mktgbcd: "Q",
-    upcode: "9310"
+    upcode: "9310",
   },
   {
     name: "KPX케미칼",
@@ -6481,7 +6481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KPXㅋㅁㅋ",
     mktgbcd: "J",
-    upcode: "47050"
+    upcode: "47050",
   },
   {
     name: "시노펙스",
@@ -6489,7 +6489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄴㅍㅅ",
     mktgbcd: "Q",
-    upcode: "4760"
+    upcode: "4760",
   },
   {
     name: "대성엘텍",
@@ -6497,7 +6497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅅㅇㅌ",
     mktgbcd: "Q",
-    upcode: "703"
+    upcode: "703",
   },
   {
     name: "SJM홀딩스",
@@ -6505,7 +6505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SJMㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "2610"
+    upcode: "2610",
   },
   {
     name: "한국단자",
@@ -6513,7 +6513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㄷㅈ",
     mktgbcd: "J",
-    upcode: "43750"
+    upcode: "43750",
   },
   {
     name: "한국선재",
@@ -6521,7 +6521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅅㅈ",
     mktgbcd: "Q",
-    upcode: "2970"
+    upcode: "2970",
   },
   {
     name: "미래산업",
@@ -6529,7 +6529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅅㅇ",
     mktgbcd: "J",
-    upcode: "3205"
+    upcode: "3205",
   },
   {
     name: "제이준코스메틱",
@@ -6537,7 +6537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅇㅈㅋㅅㅁㅌ",
     mktgbcd: "J",
-    upcode: "2635"
+    upcode: "2635",
   },
   {
     name: "한솔홈데코",
@@ -6545,7 +6545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㅎㄷㅋ",
     mktgbcd: "J",
-    upcode: "1380"
+    upcode: "1380",
   },
   {
     name: "한국정보통신",
@@ -6553,7 +6553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅈㅂㅌㅅ",
     mktgbcd: "Q",
-    upcode: "8630"
+    upcode: "8630",
   },
   {
     name: "이구산업",
@@ -6561,7 +6561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄱㅅㅇ",
     mktgbcd: "J",
-    upcode: "1515"
+    upcode: "1515",
   },
   {
     name: "남해화학",
@@ -6569,7 +6569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㅎㅎㅎ",
     mktgbcd: "J",
-    upcode: "8040"
+    upcode: "8040",
   },
   {
     name: "신라에스지",
@@ -6577,7 +6577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄹㅇㅅㅈ",
     mktgbcd: "Q",
-    upcode: "8350"
+    upcode: "8350",
   },
   {
     name: "케이씨피드",
@@ -6585,7 +6585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅆㅍㄷ",
     mktgbcd: "Q",
-    upcode: "1980"
+    upcode: "1980",
   },
   {
     name: "한국주강",
@@ -6593,7 +6593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅈㄱ",
     mktgbcd: "J",
-    upcode: "1550"
+    upcode: "1550",
   },
   {
     name: "동화기업",
@@ -6601,7 +6601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅎㄱㅇ",
     mktgbcd: "Q",
-    upcode: "40700"
+    upcode: "40700",
   },
   {
     name: "동신건설",
@@ -6609,7 +6609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅅㄱㅅ",
     mktgbcd: "Q",
-    upcode: "11300"
+    upcode: "11300",
   },
   {
     name: "아난티",
@@ -6617,7 +6617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅌ",
     mktgbcd: "Q",
-    upcode: "9320"
+    upcode: "9320",
   },
   {
     name: "제이에스티나",
@@ -6625,7 +6625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅇㅅㅌㄴ",
     mktgbcd: "Q",
-    upcode: "2120"
+    upcode: "2120",
   },
   {
     name: "특수건설",
@@ -6633,7 +6633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅅㄱㅅ",
     mktgbcd: "Q",
-    upcode: "6040"
+    upcode: "6040",
   },
   {
     name: "디피씨",
@@ -6641,7 +6641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅍㅆ",
     mktgbcd: "J",
-    upcode: "16400"
+    upcode: "16400",
   },
   {
     name: "광진실업",
@@ -6649,7 +6649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅈㅅㅇ",
     mktgbcd: "Q",
-    upcode: "2970"
+    upcode: "2970",
   },
   {
     name: "부국철강",
@@ -6657,7 +6657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㄱㅊㄱ",
     mktgbcd: "J",
-    upcode: "4985"
+    upcode: "4985",
   },
   {
     name: "동서",
@@ -6665,7 +6665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅ",
     mktgbcd: "J",
-    upcode: "29950"
+    upcode: "29950",
   },
   {
     name: "서울전자통신",
@@ -6673,7 +6673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅈㅈㅌㅅ",
     mktgbcd: "Q",
-    upcode: "704"
+    upcode: "704",
   },
   {
     name: "코리아나",
@@ -6681,7 +6681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹㅇㄴ",
     mktgbcd: "Q",
-    upcode: "5090"
+    upcode: "5090",
   },
   {
     name: "아주IB투자",
@@ -6689,7 +6689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈIBㅌㅈ",
     mktgbcd: "Q",
-    upcode: "2025"
+    upcode: "2025",
   },
   {
     name: "BGF",
@@ -6697,7 +6697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "BGF",
     mktgbcd: "J",
-    upcode: "4060"
+    upcode: "4060",
   },
   {
     name: "상보",
@@ -6705,7 +6705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅂ",
     mktgbcd: "Q",
-    upcode: "1285"
+    upcode: "1285",
   },
   {
     name: "팜스토리",
@@ -6713,7 +6713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅅㅌㄹ",
     mktgbcd: "Q",
-    upcode: "1110"
+    upcode: "1110",
   },
   {
     name: "마니커",
@@ -6721,7 +6721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄴㅋ",
     mktgbcd: "J",
-    upcode: "677"
+    upcode: "677",
   },
   {
     name: "대성창투",
@@ -6729,7 +6729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅅㅊㅌ",
     mktgbcd: "Q",
-    upcode: "1725"
+    upcode: "1725",
   },
   {
     name: "세하",
@@ -6737,7 +6737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ",
     mktgbcd: "J",
-    upcode: "1635"
+    upcode: "1635",
   },
   {
     name: "미래SCI",
@@ -6745,7 +6745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄹSCI",
     mktgbcd: "Q",
-    upcode: "279"
+    upcode: "279",
   },
   {
     name: "삼성엔지니어링",
@@ -6753,7 +6753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅇㅈㄴㅇㄹ",
     mktgbcd: "J",
-    upcode: "10150"
+    upcode: "10150",
   },
   {
     name: "휴맥스홀딩스",
@@ -6761,7 +6761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅁㅅㅎㄷㅅ",
     mktgbcd: "Q",
-    upcode: "3710"
+    upcode: "3710",
   },
   {
     name: "동아지질",
@@ -6769,7 +6769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅈㅈ",
     mktgbcd: "J",
-    upcode: "14550"
+    upcode: "14550",
   },
   {
     name: "GS홈쇼핑",
@@ -6777,7 +6777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "GSㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "126300"
+    upcode: "126300",
   },
   {
     name: "삼성물산",
@@ -6785,7 +6785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅁㅅ",
     mktgbcd: "J",
-    upcode: "104500"
+    upcode: "104500",
   },
   {
     name: "삼성물산우B",
@@ -6793,7 +6793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅁㅅㅇB",
     mktgbcd: "J",
-    upcode: "95100"
+    upcode: "95100",
   },
   {
     name: "에이치엘비",
@@ -6801,7 +6801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅊㅇㅂ",
     mktgbcd: "Q",
-    upcode: "103600"
+    upcode: "103600",
   },
   {
     name: "팬오션",
@@ -6809,7 +6809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅍㅇㅅ",
     mktgbcd: "J",
-    upcode: "3445"
+    upcode: "3445",
   },
   {
     name: "케이씨",
@@ -6817,7 +6817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅇㅆ",
     mktgbcd: "J",
-    upcode: "24150"
+    upcode: "24150",
   },
   {
     name: "바른테크놀로지",
@@ -6825,7 +6825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㄹㅌㅋㄴㄹㅈ",
     mktgbcd: "Q",
-    upcode: "1570"
+    upcode: "1570",
   },
   {
     name: "신도리코",
@@ -6833,7 +6833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㄷㄹㅋ",
     mktgbcd: "J",
-    upcode: "21750"
+    upcode: "21750",
   },
   {
     name: "삼성카드",
@@ -6841,7 +6841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅋㄷ",
     mktgbcd: "J",
-    upcode: "27850"
+    upcode: "27850",
   },
   {
     name: "코엔텍",
@@ -6849,7 +6849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅌ",
     mktgbcd: "Q",
-    upcode: "8600"
+    upcode: "8600",
   },
   {
     name: "제일기획",
@@ -6857,7 +6857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅇㄱㅎ",
     mktgbcd: "J",
-    upcode: "21100"
+    upcode: "21100",
   },
   {
     name: "NICE평가정보",
@@ -6865,7 +6865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "NICEㅍㄱㅈㅂ",
     mktgbcd: "Q",
-    upcode: "20000"
+    upcode: "20000",
   },
   {
     name: "KT",
@@ -6873,7 +6873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KT",
     mktgbcd: "J",
-    upcode: "22600"
+    upcode: "22600",
   },
   {
     name: "KTB투자증권",
@@ -6881,7 +6881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KTBㅌㅈㅈㄱ",
     mktgbcd: "J",
-    upcode: "2475"
+    upcode: "2475",
   },
   {
     name: "드래곤플라이",
@@ -6889,7 +6889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㄹㄱㅍㄹㅇ",
     mktgbcd: "Q",
-    upcode: "2695"
+    upcode: "2695",
   },
   {
     name: "한글과컴퓨터",
@@ -6897,7 +6897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㄱㅋㅍㅌ",
     mktgbcd: "Q",
-    upcode: "18500"
+    upcode: "18500",
   },
   {
     name: "원익홀딩스",
@@ -6905,7 +6905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅎㄷㅅ",
     mktgbcd: "Q",
-    upcode: "4295"
+    upcode: "4295",
   },
   {
     name: "교보증권",
@@ -6913,7 +6913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅂㅈㄱ",
     mktgbcd: "J",
-    upcode: "6440"
+    upcode: "6440",
   },
   {
     name: "동원수산",
@@ -6921,7 +6921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅅㅅ",
     mktgbcd: "J",
-    upcode: "8820"
+    upcode: "8820",
   },
   {
     name: "비케이탑스",
@@ -6929,7 +6929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㅋㅇㅌㅅ",
     mktgbcd: "J",
-    upcode: "4670"
+    upcode: "4670",
   },
   {
     name: "양지사",
@@ -6937,7 +6937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅅ",
     mktgbcd: "Q",
-    upcode: "9180"
+    upcode: "9180",
   },
   {
     name: "아이즈비전",
@@ -6945,7 +6945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅈㅂㅈ",
     mktgbcd: "Q",
-    upcode: "3835"
+    upcode: "3835",
   },
   {
     name: "에스에이엠티",
@@ -6953,7 +6953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅇㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "2290"
+    upcode: "2290",
   },
   {
     name: "녹십자셀",
@@ -6961,7 +6961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅅㅈㅅ",
     mktgbcd: "Q",
-    upcode: "40100"
+    upcode: "40100",
   },
   {
     name: "신세계인터내셔날",
@@ -6969,7 +6969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㄱㅇㅌㄴㅅㄴ",
     mktgbcd: "J",
-    upcode: "150500"
+    upcode: "150500",
   },
   {
     name: "신세계푸드",
@@ -6977,7 +6977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㄱㅍㄷ",
     mktgbcd: "J",
-    upcode: "51900"
+    upcode: "51900",
   },
   {
     name: "오스템",
@@ -6985,7 +6985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅌ",
     mktgbcd: "Q",
-    upcode: "3040"
+    upcode: "3040",
   },
   {
     name: "콤텍시스템",
@@ -6993,7 +6993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅌㅅㅅㅌ",
     mktgbcd: "J",
-    upcode: "1635"
+    upcode: "1635",
   },
   {
     name: "엔에스엔",
@@ -7001,7 +7001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅅㅇ",
     mktgbcd: "Q",
-    upcode: "1070"
+    upcode: "1070",
   },
   {
     name: "피에스케이홀딩스",
@@ -7009,7 +7009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅇㅅㅋㅇㅎㄷㅅ",
     mktgbcd: "Q",
-    upcode: "6980"
+    upcode: "6980",
   },
   {
     name: "아즈텍WB",
@@ -7017,7 +7017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅌWB",
     mktgbcd: "Q",
-    upcode: "1585"
+    upcode: "1585",
   },
   {
     name: "다우데이타",
@@ -7025,7 +7025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㄷㅇㅌ",
     mktgbcd: "Q",
-    upcode: "13050"
+    upcode: "13050",
   },
   {
     name: "삼일",
@@ -7033,7 +7033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇ",
     mktgbcd: "Q",
-    upcode: "1845"
+    upcode: "1845",
   },
   {
     name: "한국파마",
@@ -7041,7 +7041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅍㅁ",
     mktgbcd: "Q",
-    upcode: "23150"
+    upcode: "23150",
   },
   {
     name: "롯데관광개발",
@@ -7049,7 +7049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄹㄷㄱㄱㄱㅂ",
     mktgbcd: "J",
-    upcode: "14600"
+    upcode: "14600",
   },
   {
     name: "케이엠더블유",
@@ -7057,7 +7057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅇㄷㅂㅇ",
     mktgbcd: "Q",
-    upcode: "77500"
+    upcode: "77500",
   },
   {
     name: "TJ미디어",
@@ -7065,7 +7065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "TJㅁㄷㅇ",
     mktgbcd: "Q",
-    upcode: "2710"
+    upcode: "2710",
   },
   {
     name: "황금에스티",
@@ -7073,7 +7073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅇㅅㅌ",
     mktgbcd: "J",
-    upcode: "6830"
+    upcode: "6830",
   },
   {
     name: "피델릭스",
@@ -7081,7 +7081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㄷㄹㅅ",
     mktgbcd: "Q",
-    upcode: "1305"
+    upcode: "1305",
   },
   {
     name: "유비케어",
@@ -7089,7 +7089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅂㅋㅇ",
     mktgbcd: "Q",
-    upcode: "10500"
+    upcode: "10500",
   },
   {
     name: "LG유플러스",
@@ -7097,7 +7097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LGㅇㅍㄹㅅ",
     mktgbcd: "J",
-    upcode: "11150"
+    upcode: "11150",
   },
   {
     name: "소프트센",
@@ -7105,7 +7105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅍㅌㅅ",
     mktgbcd: "Q",
-    upcode: "2020"
+    upcode: "2020",
   },
   {
     name: "소프트센우",
@@ -7113,7 +7113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅍㅌㅅㅇ",
     mktgbcd: "Q",
-    upcode: "38850"
+    upcode: "38850",
   },
   {
     name: "삼진",
@@ -7121,7 +7121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅈ",
     mktgbcd: "Q",
-    upcode: "9210"
+    upcode: "9210",
   },
   {
     name: "엠젠플러스",
@@ -7129,7 +7129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅍㄹㅅ",
     mktgbcd: "Q",
-    upcode: "4075"
+    upcode: "4075",
   },
   {
     name: "판타지오",
@@ -7137,7 +7137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅌㅈㅇ",
     mktgbcd: "Q",
-    upcode: "860"
+    upcode: "860",
   },
   {
     name: "우리기술",
@@ -7145,7 +7145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㄱㅅ",
     mktgbcd: "Q",
-    upcode: "1345"
+    upcode: "1345",
   },
   {
     name: "삼성생명",
@@ -7153,7 +7153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅅㅁ",
     mktgbcd: "J",
-    upcode: "59900"
+    upcode: "59900",
   },
   {
     name: "비트컴퓨터",
@@ -7161,7 +7161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅌㅋㅍㅌ",
     mktgbcd: "Q",
-    upcode: "10550"
+    upcode: "10550",
   },
   {
     name: "글로스퍼랩스",
@@ -7169,7 +7169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㄹㅅㅍㄹㅅ",
     mktgbcd: "Q",
-    upcode: "407"
+    upcode: "407",
   },
   {
     name: "원익",
@@ -7177,7 +7177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇ",
     mktgbcd: "Q",
-    upcode: "3380"
+    upcode: "3380",
   },
   {
     name: "동일기연",
@@ -7185,7 +7185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㄱㅇ",
     mktgbcd: "Q",
-    upcode: "11500"
+    upcode: "11500",
   },
   {
     name: "바이온",
@@ -7193,7 +7193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "1435"
+    upcode: "1435",
   },
   {
     name: "제이엠아이",
@@ -7201,7 +7201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅇㅇㅇ",
     mktgbcd: "Q",
-    upcode: "1165"
+    upcode: "1165",
   },
   {
     name: "제룡전기",
@@ -7209,7 +7209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㄹㅈㄱ",
     mktgbcd: "Q",
-    upcode: "5160"
+    upcode: "5160",
   },
   {
     name: "코너스톤네트웍스",
@@ -7217,7 +7217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄴㅅㅌㄴㅌㅇㅅ",
     mktgbcd: "Q",
-    upcode: "204"
+    upcode: "204",
   },
   {
     name: "디지틀조선",
@@ -7225,7 +7225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅈㅌㅈㅅ",
     mktgbcd: "Q",
-    upcode: "2640"
+    upcode: "2640",
   },
   {
     name: "엠케이전자",
@@ -7233,7 +7233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅋㅇㅈㅈ",
     mktgbcd: "Q",
-    upcode: "10350"
+    upcode: "10350",
   },
   {
     name: "시그네틱스",
@@ -7241,7 +7241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄱㄴㅌㅅ",
     mktgbcd: "Q",
-    upcode: "665"
+    upcode: "665",
   },
   {
     name: "필룩스",
@@ -7249,7 +7249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅍㄹㅅ",
     mktgbcd: "J",
-    upcode: "3380"
+    upcode: "3380",
   },
   {
     name: "모아텍",
@@ -7257,7 +7257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅇㅌ",
     mktgbcd: "Q",
-    upcode: "5220"
+    upcode: "5220",
   },
   {
     name: "인성정보",
@@ -7265,7 +7265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅈㅂ",
     mktgbcd: "Q",
-    upcode: "3750"
+    upcode: "3750",
   },
   {
     name: "자화전자",
@@ -7273,7 +7273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅎㅈㅈ",
     mktgbcd: "J",
-    upcode: "13600"
+    upcode: "13600",
   },
   {
     name: "체시스",
@@ -7281,7 +7281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅊㅅㅅ",
     mktgbcd: "J",
-    upcode: "2615"
+    upcode: "2615",
   },
   {
     name: "유나이티드제약",
@@ -7289,7 +7289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄴㅇㅌㄷㅈㅇ",
     mktgbcd: "J",
-    upcode: "72000"
+    upcode: "72000",
   },
   {
     name: "코웰패션",
@@ -7297,7 +7297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅍㅅ",
     mktgbcd: "Q",
-    upcode: "6170"
+    upcode: "6170",
   },
   {
     name: "엠투엔",
@@ -7305,7 +7305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅇ",
     mktgbcd: "Q",
-    upcode: "10250"
+    upcode: "10250",
   },
   {
     name: "제이씨현시스템",
@@ -7313,7 +7313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅆㅎㅅㅅㅌ",
     mktgbcd: "Q",
-    upcode: "7860"
+    upcode: "7860",
   },
   {
     name: "좋은사람들",
@@ -7321,7 +7321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅅㄹㄷ",
     mktgbcd: "Q",
-    upcode: "1655"
+    upcode: "1655",
   },
   {
     name: "디에스티",
@@ -7329,7 +7329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅅㅌ",
     mktgbcd: "Q",
-    upcode: "370"
+    upcode: "370",
   },
   {
     name: "동성화인텍",
@@ -7337,7 +7337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅅㅎㅇㅌ",
     mktgbcd: "Q",
-    upcode: "9780"
+    upcode: "9780",
   },
   {
     name: "세종공업",
@@ -7345,7 +7345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "9250"
+    upcode: "9250",
   },
   {
     name: "파라텍",
@@ -7353,7 +7353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㄹㅌ",
     mktgbcd: "Q",
-    upcode: "6820"
+    upcode: "6820",
   },
   {
     name: "블루콤",
@@ -7361,7 +7361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㄹㅋ",
     mktgbcd: "Q",
-    upcode: "7340"
+    upcode: "7340",
   },
   {
     name: "럭슬",
@@ -7369,7 +7369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅅ",
     mktgbcd: "Q",
-    upcode: "179"
+    upcode: "179",
   },
   {
     name: "네패스",
@@ -7377,7 +7377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅍㅅ",
     mktgbcd: "Q",
-    upcode: "31700"
+    upcode: "31700",
   },
   {
     name: "아주캐피탈",
@@ -7385,7 +7385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅈㅋㅍㅌ",
     mktgbcd: "J",
-    upcode: "12050"
+    upcode: "12050",
   },
   {
     name: "KT&G",
@@ -7393,7 +7393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KTG",
     mktgbcd: "J",
-    upcode: "81900"
+    upcode: "81900",
   },
   {
     name: "스카이문스테크놀로지",
@@ -7401,7 +7401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅋㅇㅁㅅㅌㅋㄴㄹㅈ",
     mktgbcd: "Q",
-    upcode: "829"
+    upcode: "829",
   },
   {
     name: "티비씨",
@@ -7409,7 +7409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅂㅆ",
     mktgbcd: "Q",
-    upcode: "1075"
+    upcode: "1075",
   },
   {
     name: "무학",
@@ -7417,7 +7417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㅎ",
     mktgbcd: "J",
-    upcode: "6380"
+    upcode: "6380",
   },
   {
     name: "두산중공업",
@@ -7425,7 +7425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "13500"
+    upcode: "13500",
   },
   {
     name: "SBS",
@@ -7433,7 +7433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SBS",
     mktgbcd: "J",
-    upcode: "14550"
+    upcode: "14550",
   },
   {
     name: "LG디스플레이",
@@ -7441,7 +7441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LGㄷㅅㅍㄹㅇ",
     mktgbcd: "J",
-    upcode: "15100"
+    upcode: "15100",
   },
   {
     name: "파라다이스",
@@ -7449,7 +7449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㄹㄷㅇㅅ",
     mktgbcd: "Q",
-    upcode: "13550"
+    upcode: "13550",
   },
   {
     name: "신세계건설",
@@ -7457,7 +7457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㄱㄱㅅ",
     mktgbcd: "J",
-    upcode: "21000"
+    upcode: "21000",
   },
   {
     name: "NICE",
@@ -7465,7 +7465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "NICE",
     mktgbcd: "J",
-    upcode: "18150"
+    upcode: "18150",
   },
   {
     name: "인천도시가스",
@@ -7473,7 +7473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅊㄷㅅㄱㅅ",
     mktgbcd: "J",
-    upcode: "24950"
+    upcode: "24950",
   },
   {
     name: "SK",
@@ -7481,7 +7481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SK",
     mktgbcd: "J",
-    upcode: "197500"
+    upcode: "197500",
   },
   {
     name: "SK우",
@@ -7489,7 +7489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SKㅇ",
     mktgbcd: "J",
-    upcode: "194000"
+    upcode: "194000",
   },
   {
     name: "해성산업",
@@ -7497,7 +7497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅅㅅㅇ",
     mktgbcd: "Q",
-    upcode: "10350"
+    upcode: "10350",
   },
   {
     name: "한국토지신탁",
@@ -7505,7 +7505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅌㅈㅅㅌ",
     mktgbcd: "J",
-    upcode: "1740"
+    upcode: "1740",
   },
   {
     name: "조아제약",
@@ -7513,7 +7513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅈㅇ",
     mktgbcd: "Q",
-    upcode: "4720"
+    upcode: "4720",
   },
   {
     name: "한국기업평가",
@@ -7521,7 +7521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㄱㅇㅍㄱ",
     mktgbcd: "Q",
-    upcode: "93800"
+    upcode: "93800",
   },
   {
     name: "지투알",
@@ -7529,7 +7529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅌㅇ",
     mktgbcd: "J",
-    upcode: "5040"
+    upcode: "5040",
   },
   {
     name: "인터파크",
@@ -7537,7 +7537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅍㅋ",
     mktgbcd: "Q",
-    upcode: "2015"
+    upcode: "2015",
   },
   {
     name: "백산",
@@ -7545,7 +7545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㅅ",
     mktgbcd: "J",
-    upcode: "4435"
+    upcode: "4435",
   },
   {
     name: "프럼파스트",
@@ -7553,7 +7553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㄹㅍㅅㅌ",
     mktgbcd: "Q",
-    upcode: "4215"
+    upcode: "4215",
   },
   {
     name: "강원랜드",
@@ -7561,7 +7561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅇㄹㄷ",
     mktgbcd: "J",
-    upcode: "21400"
+    upcode: "21400",
   },
   {
     name: "더블유에프엠",
@@ -7569,7 +7569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅂㅇㅇㅍㅇ",
     mktgbcd: "Q",
-    upcode: "11750"
+    upcode: "11750",
   },
   {
     name: "NAVER",
@@ -7577,7 +7577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "NAVER",
     mktgbcd: "J",
-    upcode: "298500"
+    upcode: "298500",
   },
   {
     name: "기산텔레콤",
@@ -7585,7 +7585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅅㅌㄹㅋ",
     mktgbcd: "Q",
-    upcode: "2865"
+    upcode: "2865",
   },
   {
     name: "신세계 I&C",
@@ -7593,7 +7593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㄱ IC",
     mktgbcd: "J",
-    upcode: "138500"
+    upcode: "138500",
   },
   {
     name: "KG이니시스",
@@ -7601,7 +7601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "KGㅇㄴㅅㅅ",
     mktgbcd: "Q",
-    upcode: "20200"
+    upcode: "20200",
   },
   {
     name: "솔본",
@@ -7609,7 +7609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅂ",
     mktgbcd: "Q",
-    upcode: "3895"
+    upcode: "3895",
   },
   {
     name: "바른손이앤에이",
@@ -7617,7 +7617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㄹㅅㅇㅇㅇㅇ",
     mktgbcd: "Q",
-    upcode: "1490"
+    upcode: "1490",
   },
   {
     name: "카카오",
@@ -7625,7 +7625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅋㅇ",
     mktgbcd: "J",
-    upcode: "369000"
+    upcode: "369000",
   },
   {
     name: "CJ ENM",
@@ -7633,7 +7633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "CJ ENM",
     mktgbcd: "Q",
-    upcode: "140400"
+    upcode: "140400",
   },
   {
     name: "이지홀딩스",
@@ -7641,7 +7641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅎㄷㅅ",
     mktgbcd: "Q",
-    upcode: "4100"
+    upcode: "4100",
   },
   {
     name: "서희건설",
@@ -7649,7 +7649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅎㄱㅅ",
     mktgbcd: "Q",
-    upcode: "1125"
+    upcode: "1125",
   },
   {
     name: "JYP Ent.",
@@ -7657,7 +7657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "JYP Ent",
     mktgbcd: "Q",
-    upcode: "38150"
+    upcode: "38150",
   },
   {
     name: "예림당",
@@ -7665,7 +7665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㄷ",
     mktgbcd: "Q",
-    upcode: "2445"
+    upcode: "2445",
   },
   {
     name: "아비코전자",
@@ -7673,7 +7673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅂㅋㅈㅈ",
     mktgbcd: "Q",
-    upcode: "5640"
+    upcode: "5640",
   },
   {
     name: "KTH",
@@ -7681,7 +7681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "KTH",
     mktgbcd: "Q",
-    upcode: "5160"
+    upcode: "5160",
   },
   {
     name: "위지트",
@@ -7689,7 +7689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅌ",
     mktgbcd: "Q",
-    upcode: "714"
+    upcode: "714",
   },
   {
     name: "SCI평가정보",
@@ -7697,7 +7697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SCIㅍㄱㅈㅂ",
     mktgbcd: "Q",
-    upcode: "5620"
+    upcode: "5620",
   },
   {
     name: "라이브파이낸셜",
@@ -7705,7 +7705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅇㅂㅍㅇㄴㅅ",
     mktgbcd: "Q",
-    upcode: "1185"
+    upcode: "1185",
   },
   {
     name: "에이프런티어",
@@ -7713,7 +7713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅍㄹㅌㅇ",
     mktgbcd: "Q",
-    upcode: "1205"
+    upcode: "1205",
   },
   {
     name: "금화피에스시",
@@ -7721,7 +7721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅎㅍㅇㅅㅅ",
     mktgbcd: "Q",
-    upcode: "28500"
+    upcode: "28500",
   },
   {
     name: "유니셈",
@@ -7729,7 +7729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅅ",
     mktgbcd: "Q",
-    upcode: "6950"
+    upcode: "6950",
   },
   {
     name: "이매진아시아",
@@ -7737,7 +7737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅁㅈㅇㅅㅇ",
     mktgbcd: "Q",
-    upcode: "2220"
+    upcode: "2220",
   },
   {
     name: "제이콘텐트리",
@@ -7745,7 +7745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅇㅋㅌㅌㄹ",
     mktgbcd: "J",
-    upcode: "25350"
+    upcode: "25350",
   },
   {
     name: "한국가스공사",
@@ -7753,7 +7753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㄱㅅㄱㅅ",
     mktgbcd: "J",
-    upcode: "24050"
+    upcode: "24050",
   },
   {
     name: "대성미생물",
@@ -7761,7 +7761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅅㅁㅅㅁ",
     mktgbcd: "Q",
-    upcode: "15850"
+    upcode: "15850",
   },
   {
     name: "SK머티리얼즈",
@@ -7769,7 +7769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SKㅁㅌㄹㅇㅈ",
     mktgbcd: "Q",
-    upcode: "226200"
+    upcode: "226200",
   },
   {
     name: "S&T홀딩스",
@@ -7777,7 +7777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "STㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "14350"
+    upcode: "14350",
   },
   {
     name: "SFA반도체",
@@ -7785,7 +7785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SFAㅂㄷㅊ",
     mktgbcd: "Q",
-    upcode: "5110"
+    upcode: "5110",
   },
   {
     name: "영풍정밀",
@@ -7793,7 +7793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍㅈㅁ",
     mktgbcd: "Q",
-    upcode: "7710"
+    upcode: "7710",
   },
   {
     name: "엔씨소프트",
@@ -7801,7 +7801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅆㅅㅍㅌ",
     mktgbcd: "J",
-    upcode: "799000"
+    upcode: "799000",
   },
   {
     name: "팜스코",
@@ -7809,7 +7809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅍㅅㅋ",
     mktgbcd: "J",
-    upcode: "4790"
+    upcode: "4790",
   },
   {
     name: "버추얼텍",
@@ -7817,7 +7817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅊㅇㅌ",
     mktgbcd: "Q",
-    upcode: "690"
+    upcode: "690",
   },
   {
     name: "세종텔레콤",
@@ -7825,7 +7825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅈㅌㄹㅋ",
     mktgbcd: "Q",
-    upcode: "295"
+    upcode: "295",
   },
   {
     name: "HRS",
@@ -7833,7 +7833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "HRS",
     mktgbcd: "Q",
-    upcode: "3445"
+    upcode: "3445",
   },
   {
     name: "KCI",
@@ -7841,7 +7841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "KCI",
     mktgbcd: "Q",
-    upcode: "10750"
+    upcode: "10750",
   },
   {
     name: "코맥스",
@@ -7849,7 +7849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅁㅅ",
     mktgbcd: "Q",
-    upcode: "5260"
+    upcode: "5260",
   },
   {
     name: "심텍홀딩스",
@@ -7857,7 +7857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅌㅎㄷㅅ",
     mktgbcd: "Q",
-    upcode: "2305"
+    upcode: "2305",
   },
   {
     name: "나이스정보통신",
@@ -7865,7 +7865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅇㅅㅈㅂㅌㅅ",
     mktgbcd: "Q",
-    upcode: "24200"
+    upcode: "24200",
   },
   {
     name: "에프에스티",
@@ -7873,7 +7873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍㅇㅅㅌ",
     mktgbcd: "Q",
-    upcode: "22450"
+    upcode: "22450",
   },
   {
     name: "솔브레인홀딩스",
@@ -7881,7 +7881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅂㄹㅇㅎㄷㅅ",
     mktgbcd: "Q",
-    upcode: "45150"
+    upcode: "45150",
   },
   {
     name: "진성티이씨",
@@ -7889,7 +7889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅅㅌㅇㅆ",
     mktgbcd: "Q",
-    upcode: "11050"
+    upcode: "11050",
   },
   {
     name: "주성엔지니어링",
@@ -7897,7 +7897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅅㅇㅈㄴㅇㄹ",
     mktgbcd: "Q",
-    upcode: "6910"
+    upcode: "6910",
   },
   {
     name: "파워넷",
@@ -7905,7 +7905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅇㄴ",
     mktgbcd: "Q",
-    upcode: "6180"
+    upcode: "6180",
   },
   {
     name: "파세코",
@@ -7913,7 +7913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅅㅋ",
     mktgbcd: "Q",
-    upcode: "11400"
+    upcode: "11400",
   },
   {
     name: "한국팩키지",
@@ -7921,7 +7921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅍㅋㅈ",
     mktgbcd: "Q",
-    upcode: "4110"
+    upcode: "4110",
   },
   {
     name: "YG PLUS",
@@ -7929,7 +7929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "YG PLUS",
     mktgbcd: "J",
-    upcode: "8270"
+    upcode: "8270",
   },
   {
     name: "인지디스플레",
@@ -7937,7 +7937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㄷㅅㅍㄹ",
     mktgbcd: "Q",
-    upcode: "2510"
+    upcode: "2510",
   },
   {
     name: "성도이엔지",
@@ -7945,7 +7945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄷㅇㅇㅈ",
     mktgbcd: "Q",
-    upcode: "4280"
+    upcode: "4280",
   },
   {
     name: "EG",
@@ -7953,7 +7953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "EG",
     mktgbcd: "Q",
-    upcode: "8020"
+    upcode: "8020",
   },
   {
     name: "우리조명",
@@ -7961,7 +7961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅈㅁ",
     mktgbcd: "Q",
-    upcode: "1685"
+    upcode: "1685",
   },
   {
     name: "희림",
@@ -7969,7 +7969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄹ",
     mktgbcd: "Q",
-    upcode: "3665"
+    upcode: "3665",
   },
   {
     name: "삼지전자",
@@ -7977,7 +7977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅈㅈㅈ",
     mktgbcd: "Q",
-    upcode: "11550"
+    upcode: "11550",
   },
   {
     name: "LG헬로비전",
@@ -7985,7 +7985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LGㅎㄹㅂㅈ",
     mktgbcd: "J",
-    upcode: "3820"
+    upcode: "3820",
   },
   {
     name: "광주신세계",
@@ -7993,7 +7993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅈㅅㅅㄱ",
     mktgbcd: "J",
-    upcode: "149000"
+    upcode: "149000",
   },
   {
     name: "쎄니트",
@@ -8001,7 +8001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㄴㅌ",
     mktgbcd: "Q",
-    upcode: "1600"
+    upcode: "1600",
   },
   {
     name: "엘컴텍",
@@ -8009,7 +8009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅋㅌ",
     mktgbcd: "Q",
-    upcode: "1530"
+    upcode: "1530",
   },
   {
     name: "제일테크노스",
@@ -8017,7 +8017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅌㅋㄴㅅ",
     mktgbcd: "Q",
-    upcode: "4080"
+    upcode: "4080",
   },
   {
     name: "루멘스",
@@ -8025,7 +8025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅁㅅ",
     mktgbcd: "Q",
-    upcode: "1655"
+    upcode: "1655",
   },
   {
     name: "서린바이오",
@@ -8033,7 +8033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄹㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "12050"
+    upcode: "12050",
   },
   {
     name: "에코플라스틱",
@@ -8041,7 +8041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅋㅍㄹㅅㅌ",
     mktgbcd: "Q",
-    upcode: "1555"
+    upcode: "1555",
   },
   {
     name: "팍스넷",
@@ -8049,7 +8049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅅㄴ",
     mktgbcd: "Q",
-    upcode: "862"
+    upcode: "862",
   },
   {
     name: "마크로젠",
@@ -8057,7 +8057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅋㄹㅈ",
     mktgbcd: "Q",
-    upcode: "30650"
+    upcode: "30650",
   },
   {
     name: "UCI",
@@ -8065,7 +8065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "UCI",
     mktgbcd: "Q",
-    upcode: "2520"
+    upcode: "2520",
   },
   {
     name: "레드캡투어",
@@ -8073,7 +8073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㄷㅋㅌㅇ",
     mktgbcd: "Q",
-    upcode: "14750"
+    upcode: "14750",
   },
   {
     name: "바이오스마트",
@@ -8081,7 +8081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅇㅇㅅㅁㅌ",
     mktgbcd: "Q",
-    upcode: "9900"
+    upcode: "9900",
   },
   {
     name: "삼표시멘트",
@@ -8089,7 +8089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅍㅅㅁㅌ",
     mktgbcd: "Q",
-    upcode: "3480"
+    upcode: "3480",
   },
   {
     name: "골드퍼시픽",
@@ -8097,7 +8097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㄷㅍㅅㅍ",
     mktgbcd: "Q",
-    upcode: "1370"
+    upcode: "1370",
   },
   {
     name: "상상인",
@@ -8105,7 +8105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅅㅇ",
     mktgbcd: "Q",
-    upcode: "5580"
+    upcode: "5580",
   },
   {
     name: "위즈코프",
@@ -8113,7 +8113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅋㅍ",
     mktgbcd: "Q",
-    upcode: "980"
+    upcode: "980",
   },
   {
     name: "에스넷",
@@ -8121,7 +8121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㄴ",
     mktgbcd: "Q",
-    upcode: "6900"
+    upcode: "6900",
   },
   {
     name: "에코바이오",
@@ -8129,7 +8129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅋㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "8230"
+    upcode: "8230",
   },
   {
     name: "아이에이",
@@ -8137,7 +8137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅇ",
     mktgbcd: "Q",
-    upcode: "512"
+    upcode: "512",
   },
   {
     name: "파인디지털",
@@ -8145,7 +8145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅇㄷㅈㅌ",
     mktgbcd: "Q",
-    upcode: "5690"
+    upcode: "5690",
   },
   {
     name: "현대통신",
@@ -8153,7 +8153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄷㅌㅅ",
     mktgbcd: "Q",
-    upcode: "7020"
+    upcode: "7020",
   },
   {
     name: "이건홀딩스",
@@ -8161,7 +8161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄱㅎㄷㅅ",
     mktgbcd: "Q",
-    upcode: "2400"
+    upcode: "2400",
   },
   {
     name: "이오테크닉스",
@@ -8169,7 +8169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅌㅋㄴㅅ",
     mktgbcd: "Q",
-    upcode: "98800"
+    upcode: "98800",
   },
   {
     name: "하나투어",
@@ -8177,7 +8177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄴㅌㅇ",
     mktgbcd: "J",
-    upcode: "39100"
+    upcode: "39100",
   },
   {
     name: "오스코텍",
@@ -8185,7 +8185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅋㅌ",
     mktgbcd: "Q",
-    upcode: "45800"
+    upcode: "45800",
   },
   {
     name: "에이아이비트",
@@ -8193,7 +8193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅇㅂㅌ",
     mktgbcd: "Q",
-    upcode: "181"
+    upcode: "181",
   },
   {
     name: "경남스틸",
@@ -8201,7 +8201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㄴㅅㅌ",
     mktgbcd: "Q",
-    upcode: "1800"
+    upcode: "1800",
   },
   {
     name: "인포뱅크",
@@ -8209,7 +8209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍㅂㅋ",
     mktgbcd: "Q",
-    upcode: "8910"
+    upcode: "8910",
   },
   {
     name: "세중",
@@ -8217,7 +8217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅈ",
     mktgbcd: "Q",
-    upcode: "2570"
+    upcode: "2570",
   },
   {
     name: "한국경제TV",
@@ -8225,7 +8225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㄱㅈTV",
     mktgbcd: "Q",
-    upcode: "5190"
+    upcode: "5190",
   },
   {
     name: "케이엘넷",
@@ -8233,7 +8233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅇㄴ",
     mktgbcd: "Q",
-    upcode: "2235"
+    upcode: "2235",
   },
   {
     name: "에스티아이",
@@ -8241,7 +8241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅌㅇㅇ",
     mktgbcd: "Q",
-    upcode: "15900"
+    upcode: "15900",
   },
   {
     name: "키움증권",
@@ -8249,7 +8249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅇㅈㄱ",
     mktgbcd: "J",
-    upcode: "96400"
+    upcode: "96400",
   },
   {
     name: "다산네트웍스",
@@ -8257,7 +8257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅅㄴㅌㅇㅅ",
     mktgbcd: "Q",
-    upcode: "12200"
+    upcode: "12200",
   },
   {
     name: "HDC아이콘트롤스",
@@ -8265,7 +8265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "HDCㅇㅇㅋㅌㄹㅅ",
     mktgbcd: "J",
-    upcode: "9080"
+    upcode: "9080",
   },
   {
     name: "화성밸브",
@@ -8273,7 +8273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅅㅂㅂ",
     mktgbcd: "Q",
-    upcode: "5390"
+    upcode: "5390",
   },
   {
     name: "한류타임즈",
@@ -8281,7 +8281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄹㅌㅇㅈ",
     mktgbcd: "Q",
-    upcode: "3680"
+    upcode: "3680",
   },
   {
     name: "한국정보공학",
@@ -8289,7 +8289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅈㅂㄱㅎ",
     mktgbcd: "Q",
-    upcode: "2925"
+    upcode: "2925",
   },
   {
     name: "오로라",
@@ -8297,7 +8297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㄹ",
     mktgbcd: "Q",
-    upcode: "9210"
+    upcode: "9210",
   },
   {
     name: "디오",
@@ -8305,7 +8305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇ",
     mktgbcd: "Q",
-    upcode: "31450"
+    upcode: "31450",
   },
   {
     name: "나노엔텍",
@@ -8313,7 +8313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㄴㅇㅌ",
     mktgbcd: "Q",
-    upcode: "11200"
+    upcode: "11200",
   },
   {
     name: "리노스",
@@ -8321,7 +8321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㄴㅅ",
     mktgbcd: "Q",
-    upcode: "1095"
+    upcode: "1095",
   },
   {
     name: "누리텔레콤",
@@ -8329,7 +8329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㄹㅌㄹㅋ",
     mktgbcd: "Q",
-    upcode: "7440"
+    upcode: "7440",
   },
   {
     name: "YTN",
@@ -8337,7 +8337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "YTN",
     mktgbcd: "Q",
-    upcode: "3275"
+    upcode: "3275",
   },
   {
     name: "큐로컴",
@@ -8345,7 +8345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹㅋ",
     mktgbcd: "Q",
-    upcode: "2365"
+    upcode: "2365",
   },
   {
     name: "정상제이엘에스",
@@ -8353,7 +8353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅅㅈㅇㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "6060"
+    upcode: "6060",
   },
   {
     name: "SG&G",
@@ -8361,7 +8361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SGG",
     mktgbcd: "Q",
-    upcode: "1395"
+    upcode: "1395",
   },
   {
     name: "아이씨디",
@@ -8369,7 +8369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅆㄷ",
     mktgbcd: "Q",
-    upcode: "15650"
+    upcode: "15650",
   },
   {
     name: "인프라웨어",
@@ -8377,7 +8377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍㄹㅇㅇ",
     mktgbcd: "Q",
-    upcode: "1685"
+    upcode: "1685",
   },
   {
     name: "넥슨지티",
@@ -8385,7 +8385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅅㅈㅌ",
     mktgbcd: "Q",
-    upcode: "15250"
+    upcode: "15250",
   },
   {
     name: "우리기술투자",
@@ -8393,7 +8393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㄱㅅㅌㅈ",
     mktgbcd: "Q",
-    upcode: "2320"
+    upcode: "2320",
   },
   {
     name: "에버다임",
@@ -8401,7 +8401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅂㄷㅇ",
     mktgbcd: "Q",
-    upcode: "4025"
+    upcode: "4025",
   },
   {
     name: "한국전자인증",
@@ -8409,7 +8409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅈㅈㅇㅈ",
     mktgbcd: "Q",
-    upcode: "5770"
+    upcode: "5770",
   },
   {
     name: "에스엠",
@@ -8417,7 +8417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅇ",
     mktgbcd: "Q",
-    upcode: "35900"
+    upcode: "35900",
   },
   {
     name: "이라이콤",
@@ -8425,7 +8425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅇㅋ",
     mktgbcd: "Q",
-    upcode: "9660"
+    upcode: "9660",
   },
   {
     name: "젬백스지오",
@@ -8433,7 +8433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅂㅅㅈㅇ",
     mktgbcd: "Q",
-    upcode: "685"
+    upcode: "685",
   },
   {
     name: "상신브레이크",
@@ -8441,7 +8441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅂㄹㅇㅋ",
     mktgbcd: "J",
-    upcode: "2440"
+    upcode: "2440",
   },
   {
     name: "인바디",
@@ -8449,7 +8449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅂㄷ",
     mktgbcd: "Q",
-    upcode: "16050"
+    upcode: "16050",
   },
   {
     name: "에스텍파마",
@@ -8457,7 +8457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅌㅍㅁ",
     mktgbcd: "Q",
-    upcode: "12350"
+    upcode: "12350",
   },
   {
     name: "메디아나",
@@ -8465,7 +8465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄷㅇㄴ",
     mktgbcd: "Q",
-    upcode: "15500"
+    upcode: "15500",
   },
   {
     name: "동아화성",
@@ -8473,7 +8473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅎㅅ",
     mktgbcd: "Q",
-    upcode: "8770"
+    upcode: "8770",
   },
   {
     name: "코미팜",
@@ -8481,7 +8481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅁㅍ",
     mktgbcd: "Q",
-    upcode: "14450"
+    upcode: "14450",
   },
   {
     name: "카페24",
@@ -8489,7 +8489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅍ24",
     mktgbcd: "Q",
-    upcode: "58800"
+    upcode: "58800",
   },
   {
     name: "케이피엠테크",
@@ -8497,7 +8497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅍㅇㅌㅋ",
     mktgbcd: "Q",
-    upcode: "4290"
+    upcode: "4290",
   },
   {
     name: "에스씨디",
@@ -8505,7 +8505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅆㄷ",
     mktgbcd: "Q",
-    upcode: "1065"
+    upcode: "1065",
   },
   {
     name: "비츠로테크",
@@ -8513,7 +8513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅊㄹㅌㅋ",
     mktgbcd: "Q",
-    upcode: "8000"
+    upcode: "8000",
   },
   {
     name: "네오위즈홀딩스",
@@ -8521,7 +8521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅇㅇㅈㅎㄷㅅ",
     mktgbcd: "Q",
-    upcode: "16300"
+    upcode: "16300",
   },
   {
     name: "링네트",
@@ -8529,7 +8529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㄴㅌ",
     mktgbcd: "Q",
-    upcode: "6570"
+    upcode: "6570",
   },
   {
     name: "라온시큐어",
@@ -8537,7 +8537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅇㅅㅋㅇ",
     mktgbcd: "Q",
-    upcode: "3370"
+    upcode: "3370",
   },
   {
     name: "한스바이오메드",
@@ -8545,7 +8545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅅㅂㅇㅇㅁㄷ",
     mktgbcd: "Q",
-    upcode: "26200"
+    upcode: "26200",
   },
   {
     name: "새로닉스",
@@ -8553,7 +8553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄹㄴㅅ",
     mktgbcd: "Q",
-    upcode: "4950"
+    upcode: "4950",
   },
   {
     name: "대우조선해양",
@@ -8561,7 +8561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅈㅅㅎㅇ",
     mktgbcd: "J",
-    upcode: "22800"
+    upcode: "22800",
   },
   {
     name: "두산인프라코어",
@@ -8569,7 +8569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅇㅍㄹㅋㅇ",
     mktgbcd: "J",
-    upcode: "9130"
+    upcode: "9130",
   },
   {
     name: "한미반도체",
@@ -8577,7 +8577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅁㅂㄷㅊ",
     mktgbcd: "J",
-    upcode: "10350"
+    upcode: "10350",
   },
   {
     name: "상지카일룸",
@@ -8585,7 +8585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅈㅋㅇㄹ",
     mktgbcd: "Q",
-    upcode: "1430"
+    upcode: "1430",
   },
   {
     name: "큐브앤컴퍼니",
@@ -8593,7 +8593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅂㅇㅋㅍㄴ",
     mktgbcd: "Q",
-    upcode: "1630"
+    upcode: "1630",
   },
   {
     name: "솔고바이오",
@@ -8601,7 +8601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄱㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "392"
+    upcode: "392",
   },
   {
     name: "바텍",
@@ -8609,7 +8609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅌ",
     mktgbcd: "Q",
-    upcode: "22200"
+    upcode: "22200",
   },
   {
     name: "파루",
@@ -8617,7 +8617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㄹ",
     mktgbcd: "Q",
-    upcode: "2665"
+    upcode: "2665",
   },
   {
     name: "에이치엘비파워",
@@ -8625,7 +8625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅊㅇㅂㅍㅇ",
     mktgbcd: "Q",
-    upcode: "1465"
+    upcode: "1465",
   },
   {
     name: "성호전자",
@@ -8633,7 +8633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅎㅈㅈ",
     mktgbcd: "Q",
-    upcode: "895"
+    upcode: "895",
   },
   {
     name: "케이맥",
@@ -8641,7 +8641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅁ",
     mktgbcd: "Q",
-    upcode: "1395"
+    upcode: "1395",
   },
   {
     name: "에쎈테크",
@@ -8649,7 +8649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅆㅌㅋ",
     mktgbcd: "Q",
-    upcode: "1070"
+    upcode: "1070",
   },
   {
     name: "디지아이",
@@ -8657,7 +8657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅈㅇㅇ",
     mktgbcd: "Q",
-    upcode: "2185"
+    upcode: "2185",
   },
   {
     name: "평화정공",
@@ -8665,7 +8665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅎㅈㄱ",
     mktgbcd: "Q",
-    upcode: "7490"
+    upcode: "7490",
   },
   {
     name: "크로바하이텍",
@@ -8673,7 +8673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹㅂㅎㅇㅌ",
     mktgbcd: "Q",
-    upcode: "1490"
+    upcode: "1490",
   },
   {
     name: "지니뮤직",
@@ -8681,7 +8681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㄴㅁㅈ",
     mktgbcd: "Q",
-    upcode: "4410"
+    upcode: "4410",
   },
   {
     name: "국순당",
@@ -8689,7 +8689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅅㄷ",
     mktgbcd: "Q",
-    upcode: "4615"
+    upcode: "4615",
   },
   {
     name: "서울리거",
@@ -8697,7 +8697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㄹㄱ",
     mktgbcd: "Q",
-    upcode: "971"
+    upcode: "971",
   },
   {
     name: "자연과환경",
@@ -8705,7 +8705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㄱㅎㄱ",
     mktgbcd: "Q",
-    upcode: "1375"
+    upcode: "1375",
   },
   {
     name: "조광ILI",
@@ -8713,7 +8713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㄱILI",
     mktgbcd: "Q",
-    upcode: "6120"
+    upcode: "6120",
   },
   {
     name: "KD",
@@ -8721,7 +8721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "KD",
     mktgbcd: "Q",
-    upcode: "495"
+    upcode: "495",
   },
   {
     name: "위닉스",
@@ -8729,7 +8729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅅ",
     mktgbcd: "Q",
-    upcode: "19400"
+    upcode: "19400",
   },
   {
     name: "주연테크",
@@ -8737,7 +8737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅇㅌㅋ",
     mktgbcd: "J",
-    upcode: "1090"
+    upcode: "1090",
   },
   {
     name: "KSS해운",
@@ -8745,7 +8745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KSSㅎㅇ",
     mktgbcd: "J",
-    upcode: "9220"
+    upcode: "9220",
   },
   {
     name: "경남바이오파마",
@@ -8753,7 +8753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㄴㅂㅇㅇㅍㅁ",
     mktgbcd: "Q",
-    upcode: "3440"
+    upcode: "3440",
   },
   {
     name: "태웅",
@@ -8761,7 +8761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅇ",
     mktgbcd: "Q",
-    upcode: "13750"
+    upcode: "13750",
   },
   {
     name: "에이치케이",
@@ -8769,7 +8769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅊㅋㅇ",
     mktgbcd: "Q",
-    upcode: "1315"
+    upcode: "1315",
   },
   {
     name: "코스맥스비티아이",
@@ -8777,7 +8777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅅㅁㅅㅂㅌㅇㅇ",
     mktgbcd: "J",
-    upcode: "18300"
+    upcode: "18300",
   },
   {
     name: "이글벳",
@@ -8785,7 +8785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄱㅂ",
     mktgbcd: "Q",
-    upcode: "8440"
+    upcode: "8440",
   },
   {
     name: "오공",
@@ -8793,7 +8793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄱ",
     mktgbcd: "Q",
-    upcode: "4615"
+    upcode: "4615",
   },
   {
     name: "한양이엔지",
@@ -8801,7 +8801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅇㅇㅇㅈ",
     mktgbcd: "Q",
-    upcode: "10700"
+    upcode: "10700",
   },
   {
     name: "성우테크론",
@@ -8809,7 +8809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅌㅋㄹ",
     mktgbcd: "Q",
-    upcode: "5350"
+    upcode: "5350",
   },
   {
     name: "토탈소프트",
@@ -8817,7 +8817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅌㅅㅍㅌ",
     mktgbcd: "Q",
-    upcode: "4340"
+    upcode: "4340",
   },
   {
     name: "대아티아이",
@@ -8825,7 +8825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅌㅇㅇ",
     mktgbcd: "Q",
-    upcode: "7030"
+    upcode: "7030",
   },
   {
     name: "정원엔시스",
@@ -8833,7 +8833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅇㅅㅅ",
     mktgbcd: "Q",
-    upcode: "2040"
+    upcode: "2040",
   },
   {
     name: "크린앤사이언스",
@@ -8841,7 +8841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹㅇㅅㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "32850"
+    upcode: "32850",
   },
   {
     name: "에이텍",
@@ -8849,7 +8849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "31950"
+    upcode: "31950",
   },
   {
     name: "GV",
@@ -8857,7 +8857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "GV",
     mktgbcd: "Q",
-    upcode: "620"
+    upcode: "620",
   },
   {
     name: "코아시아",
@@ -8865,7 +8865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅅㅇ",
     mktgbcd: "Q",
-    upcode: "8740"
+    upcode: "8740",
   },
   {
     name: "코다코",
@@ -8873,7 +8873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄷㅋ",
     mktgbcd: "Q",
-    upcode: "1320"
+    upcode: "1320",
   },
   {
     name: "한일네트웍스",
@@ -8881,7 +8881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅇㄴㅌㅇㅅ",
     mktgbcd: "Q",
-    upcode: "4390"
+    upcode: "4390",
   },
   {
     name: "오르비텍",
@@ -8889,7 +8889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅂㅌ",
     mktgbcd: "Q",
-    upcode: "3800"
+    upcode: "3800",
   },
   {
     name: "SBS콘텐츠허브",
@@ -8897,7 +8897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SBSㅋㅌㅊㅎㅂ",
     mktgbcd: "Q",
-    upcode: "6320"
+    upcode: "6320",
   },
   {
     name: "파나진",
@@ -8905,7 +8905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㄴㅈ",
     mktgbcd: "Q",
-    upcode: "4920"
+    upcode: "4920",
   },
   {
     name: "백금T&A",
@@ -8913,7 +8913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㄱTA",
     mktgbcd: "Q",
-    upcode: "2460"
+    upcode: "2460",
   },
   {
     name: "삼화네트웍스",
@@ -8921,7 +8921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅎㄴㅌㅇㅅ",
     mktgbcd: "Q",
-    upcode: "1430"
+    upcode: "1430",
   },
   {
     name: "KG모빌리언스",
@@ -8929,7 +8929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "KGㅁㅂㄹㅇㅅ",
     mktgbcd: "Q",
-    upcode: "9460"
+    upcode: "9460",
   },
   {
     name: "서울반도체",
@@ -8937,7 +8937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅂㄷㅊ",
     mktgbcd: "Q",
-    upcode: "17050"
+    upcode: "17050",
   },
   {
     name: "우원개발",
@@ -8945,7 +8945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㄱㅂ",
     mktgbcd: "Q",
-    upcode: "5660"
+    upcode: "5660",
   },
   {
     name: "우리로",
@@ -8953,7 +8953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㄹ",
     mktgbcd: "Q",
-    upcode: "1590"
+    upcode: "1590",
   },
   {
     name: "대우건설",
@@ -8961,7 +8961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㄱㅅ",
     mktgbcd: "J",
-    upcode: "2755"
+    upcode: "2755",
   },
   {
     name: "포스코인터내셔널",
@@ -8969,7 +8969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅍㅅㅋㅇㅌㄴㅅㄴ",
     mktgbcd: "J",
-    upcode: "13050"
+    upcode: "13050",
   },
   {
     name: "한빛소프트",
@@ -8977,7 +8977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅂㅅㅍㅌ",
     mktgbcd: "Q",
-    upcode: "3615"
+    upcode: "3615",
   },
   {
     name: "파워로직스",
@@ -8985,7 +8985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅇㄹㅈㅅ",
     mktgbcd: "Q",
-    upcode: "6900"
+    upcode: "6900",
   },
   {
     name: "유니온머티리얼",
@@ -8993,7 +8993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄴㅇㅁㅌㄹㅇ",
     mktgbcd: "J",
-    upcode: "3690"
+    upcode: "3690",
   },
   {
     name: "이스트소프트",
@@ -9001,7 +9001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅌㅅㅍㅌ",
     mktgbcd: "Q",
-    upcode: "7430"
+    upcode: "7430",
   },
   {
     name: "코데즈컴바인",
@@ -9009,7 +9009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄷㅈㅋㅂㅇ",
     mktgbcd: "Q",
-    upcode: "2360"
+    upcode: "2360",
   },
   {
     name: "한국항공우주",
@@ -9017,7 +9017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅎㄱㅇㅈ",
     mktgbcd: "J",
-    upcode: "22700"
+    upcode: "22700",
   },
   {
     name: "초록뱀",
@@ -9025,7 +9025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅊㄹㅂ",
     mktgbcd: "Q",
-    upcode: "3105"
+    upcode: "3105",
   },
   {
     name: "메디포럼제약",
@@ -9033,7 +9033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄷㅍㄹㅈㅇ",
     mktgbcd: "Q",
-    upcode: "16950"
+    upcode: "16950",
   },
   {
     name: "오스템임플란트",
@@ -9041,7 +9041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅌㅇㅍㄹㅌ",
     mktgbcd: "Q",
-    upcode: "38700"
+    upcode: "38700",
   },
   {
     name: "현대바이오",
@@ -9049,7 +9049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄷㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "10600"
+    upcode: "10600",
   },
   {
     name: "유라테크",
@@ -9057,7 +9057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅌㅋ",
     mktgbcd: "Q",
-    upcode: "10450"
+    upcode: "10450",
   },
   {
     name: "대동스틸",
@@ -9065,7 +9065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㄷㅅㅌ",
     mktgbcd: "Q",
-    upcode: "4975"
+    upcode: "4975",
   },
   {
     name: "인트론바이오",
@@ -9073,7 +9073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㄹㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "14600"
+    upcode: "14600",
   },
   {
     name: "SM C&C",
@@ -9081,7 +9081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SM CC",
     mktgbcd: "Q",
-    upcode: "1755"
+    upcode: "1755",
   },
   {
     name: "TPC",
@@ -9089,7 +9089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "TPC",
     mktgbcd: "Q",
-    upcode: "4055"
+    upcode: "4055",
   },
   {
     name: "엔피케이",
@@ -9097,7 +9097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍㅋㅇ",
     mktgbcd: "Q",
-    upcode: "1650"
+    upcode: "1650",
   },
   {
     name: "시너지이노베이션",
@@ -9105,7 +9105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄴㅈㅇㄴㅂㅇㅅ",
     mktgbcd: "Q",
-    upcode: "4185"
+    upcode: "4185",
   },
   {
     name: "대원미디어",
@@ -9113,7 +9113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅁㄷㅇ",
     mktgbcd: "Q",
-    upcode: "6850"
+    upcode: "6850",
   },
   {
     name: "인탑스",
@@ -9121,7 +9121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅅ",
     mktgbcd: "Q",
-    upcode: "16400"
+    upcode: "16400",
   },
   {
     name: "기가레인",
@@ -9129,7 +9129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㄱㄹㅇ",
     mktgbcd: "Q",
-    upcode: "1920"
+    upcode: "1920",
   },
   {
     name: "파인디앤씨",
@@ -9137,7 +9137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅇㄷㅇㅆ",
     mktgbcd: "Q",
-    upcode: "1920"
+    upcode: "1920",
   },
   {
     name: "셀루메드",
@@ -9145,7 +9145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄹㅁㄷ",
     mktgbcd: "Q",
-    upcode: "5980"
+    upcode: "5980",
   },
   {
     name: "코메론",
@@ -9153,7 +9153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅁㄹ",
     mktgbcd: "Q",
-    upcode: "8760"
+    upcode: "8760",
   },
   {
     name: "SGA",
@@ -9161,7 +9161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SGA",
     mktgbcd: "Q",
-    upcode: "585"
+    upcode: "585",
   },
   {
     name: "오픈베이스",
@@ -9169,7 +9169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍㅂㅇㅅ",
     mktgbcd: "Q",
-    upcode: "3055"
+    upcode: "3055",
   },
   {
     name: "유아이엘",
@@ -9177,7 +9177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅇ",
     mktgbcd: "Q",
-    upcode: "3760"
+    upcode: "3760",
   },
   {
     name: "잉크테크",
@@ -9185,7 +9185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅋㅌㅋ",
     mktgbcd: "Q",
-    upcode: "3100"
+    upcode: "3100",
   },
   {
     name: "재영솔루텍",
@@ -9193,7 +9193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅅㄹㅌ",
     mktgbcd: "Q",
-    upcode: "698"
+    upcode: "698",
   },
   {
     name: "고려신용정보",
@@ -9201,7 +9201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㄹㅅㅇㅈㅂ",
     mktgbcd: "Q",
-    upcode: "5390"
+    upcode: "5390",
   },
   {
     name: "동원F&B",
@@ -9209,7 +9209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇFB",
     mktgbcd: "J",
-    upcode: "171000"
+    upcode: "171000",
   },
   {
     name: "우진플라임",
@@ -9217,7 +9217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅈㅍㄹㅇ",
     mktgbcd: "J",
-    upcode: "3815"
+    upcode: "3815",
   },
   {
     name: "승일",
@@ -9225,7 +9225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇ",
     mktgbcd: "Q",
-    upcode: "8040"
+    upcode: "8040",
   },
   {
     name: "미래컴퍼니",
@@ -9233,7 +9233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄹㅋㅍㄴ",
     mktgbcd: "Q",
-    upcode: "37700"
+    upcode: "37700",
   },
   {
     name: "쎌바이오텍",
@@ -9241,7 +9241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㅂㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "15250"
+    upcode: "15250",
   },
   {
     name: "휘닉스소재",
@@ -9249,7 +9249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄴㅅㅅㅈ",
     mktgbcd: "Q",
-    upcode: "589"
+    upcode: "589",
   },
   {
     name: "캠시스",
@@ -9257,7 +9257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅅㅅ",
     mktgbcd: "Q",
-    upcode: "2975"
+    upcode: "2975",
   },
   {
     name: "라이브플렉스",
@@ -9265,7 +9265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅇㅂㅍㄹㅅ",
     mktgbcd: "Q",
-    upcode: "615"
+    upcode: "615",
   },
   {
     name: "아래스",
@@ -9273,7 +9273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅅ",
     mktgbcd: "Q",
-    upcode: "990"
+    upcode: "990",
   },
   {
     name: "한국코퍼레이션",
@@ -9281,7 +9281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅋㅍㄹㅇㅅ",
     mktgbcd: "Q",
-    upcode: "282"
+    upcode: "282",
   },
   {
     name: "에스폴리텍",
@@ -9289,7 +9289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅍㄹㅌ",
     mktgbcd: "Q",
-    upcode: "7250"
+    upcode: "7250",
   },
   {
     name: "아세아텍",
@@ -9297,7 +9297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅇㅌ",
     mktgbcd: "Q",
-    upcode: "3685"
+    upcode: "3685",
   },
   {
     name: "쏠리드",
@@ -9305,7 +9305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㄹㄷ",
     mktgbcd: "Q",
-    upcode: "11050"
+    upcode: "11050",
   },
   {
     name: "수산아이앤티",
@@ -9313,7 +9313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅅㅇㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "11000"
+    upcode: "11000",
   },
   {
     name: "지어소프트",
@@ -9321,7 +9321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅅㅍㅌ",
     mktgbcd: "Q",
-    upcode: "12700"
+    upcode: "12700",
   },
   {
     name: "토비스",
@@ -9329,7 +9329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅂㅅ",
     mktgbcd: "Q",
-    upcode: "6330"
+    upcode: "6330",
   },
   {
     name: "인터플렉스",
@@ -9337,7 +9337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅍㄹㅅ",
     mktgbcd: "Q",
-    upcode: "11750"
+    upcode: "11750",
   },
   {
     name: "피씨디렉트",
@@ -9345,7 +9345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅆㄷㄹㅌ",
     mktgbcd: "Q",
-    upcode: "10950"
+    upcode: "10950",
   },
   {
     name: "YW",
@@ -9353,7 +9353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "YW",
     mktgbcd: "Q",
-    upcode: "3615"
+    upcode: "3615",
   },
   {
     name: "나라엠앤디",
@@ -9361,7 +9361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㄹㅇㅇㄷ",
     mktgbcd: "Q",
-    upcode: "10600"
+    upcode: "10600",
   },
   {
     name: "CJ프레시웨이",
@@ -9369,7 +9369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "CJㅍㄹㅅㅇㅇ",
     mktgbcd: "Q",
-    upcode: "17100"
+    upcode: "17100",
   },
   {
     name: "한전KPS",
@@ -9377,7 +9377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅈKPS",
     mktgbcd: "J",
-    upcode: "26750"
+    upcode: "26750",
   },
   {
     name: "진양화학",
@@ -9385,7 +9385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅇㅎㅎ",
     mktgbcd: "J",
-    upcode: "4265"
+    upcode: "4265",
   },
   {
     name: "큐로홀딩스",
@@ -9393,7 +9393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹㅎㄷㅅ",
     mktgbcd: "Q",
-    upcode: "619"
+    upcode: "619",
   },
   {
     name: "LG생활건강",
@@ -9401,7 +9401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LGㅅㅎㄱㄱ",
     mktgbcd: "J",
-    upcode: "1469000"
+    upcode: "1469000",
   },
   {
     name: "LG생활건강우",
@@ -9409,7 +9409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LGㅅㅎㄱㄱㅇ",
     mktgbcd: "J",
-    upcode: "701000"
+    upcode: "701000",
   },
   {
     name: "LG화학",
@@ -9417,7 +9417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LGㅎㅎ",
     mktgbcd: "J",
-    upcode: "626000"
+    upcode: "626000",
   },
   {
     name: "LG화학우",
@@ -9425,7 +9425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LGㅎㅎㅇ",
     mktgbcd: "J",
-    upcode: "300000"
+    upcode: "300000",
   },
   {
     name: "센트럴바이오",
@@ -9433,7 +9433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅌㄹㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "1720"
+    upcode: "1720",
   },
   {
     name: "에스티큐브",
@@ -9441,7 +9441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅌㅋㅂ",
     mktgbcd: "Q",
-    upcode: "8080"
+    upcode: "8080",
   },
   {
     name: "이에스에이",
@@ -9449,7 +9449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅅㅇㅇ",
     mktgbcd: "Q",
-    upcode: "295"
+    upcode: "295",
   },
   {
     name: "iMBC",
@@ -9457,7 +9457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "iMBC",
     mktgbcd: "Q",
-    upcode: "2630"
+    upcode: "2630",
   },
   {
     name: "SK바이오랜드",
@@ -9465,7 +9465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SKㅂㅇㅇㄹㄷ",
     mktgbcd: "Q",
-    upcode: "24100"
+    upcode: "24100",
   },
   {
     name: "W홀딩컴퍼니",
@@ -9473,7 +9473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "Wㅎㄷㅋㅍㄴ",
     mktgbcd: "Q",
-    upcode: "327"
+    upcode: "327",
   },
   {
     name: "코텍",
@@ -9481,7 +9481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅌ",
     mktgbcd: "Q",
-    upcode: "8050"
+    upcode: "8050",
   },
   {
     name: "코나아이",
@@ -9489,7 +9489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄴㅇㅇ",
     mktgbcd: "Q",
-    upcode: "13050"
+    upcode: "13050",
   },
   {
     name: "오성첨단소재",
@@ -9497,7 +9497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅊㄷㅅㅈ",
     mktgbcd: "Q",
-    upcode: "2370"
+    upcode: "2370",
   },
   {
     name: "아이크래프트",
@@ -9505,7 +9505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅋㄹㅍㅌ",
     mktgbcd: "Q",
-    upcode: "3760"
+    upcode: "3760",
   },
   {
     name: "한네트",
@@ -9513,7 +9513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄴㅌ",
     mktgbcd: "Q",
-    upcode: "3740"
+    upcode: "3740",
   },
   {
     name: "제일바이오",
@@ -9521,7 +9521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "7440"
+    upcode: "7440",
   },
   {
     name: "한전기술",
@@ -9529,7 +9529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅈㄱㅅ",
     mktgbcd: "J",
-    upcode: "16200"
+    upcode: "16200",
   },
   {
     name: "아모텍",
@@ -9537,7 +9537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅁㅌ",
     mktgbcd: "Q",
-    upcode: "30550"
+    upcode: "30550",
   },
   {
     name: "아이톡시",
@@ -9545,7 +9545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅌㅅ",
     mktgbcd: "Q",
-    upcode: "4460"
+    upcode: "4460",
   },
   {
     name: "액토즈소프트",
@@ -9553,7 +9553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅈㅅㅍㅌ",
     mktgbcd: "Q",
-    upcode: "12600"
+    upcode: "12600",
   },
   {
     name: "아이앤씨",
@@ -9561,7 +9561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅆ",
     mktgbcd: "Q",
-    upcode: "4690"
+    upcode: "4690",
   },
   {
     name: "KMH하이텍",
@@ -9569,7 +9569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "KMHㅎㅇㅌ",
     mktgbcd: "Q",
-    upcode: "1315"
+    upcode: "1315",
   },
   {
     name: "바이넥스",
@@ -9577,7 +9577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅇㄴㅅ",
     mktgbcd: "Q",
-    upcode: "31200"
+    upcode: "31200",
   },
   {
     name: "지에스이",
@@ -9585,7 +9585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅅㅇ",
     mktgbcd: "Q",
-    upcode: "1570"
+    upcode: "1570",
   },
   {
     name: "세동",
@@ -9593,7 +9593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄷ",
     mktgbcd: "Q",
-    upcode: "575"
+    upcode: "575",
   },
   {
     name: "원방테크",
@@ -9601,7 +9601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅂㅌㅋ",
     mktgbcd: "Q",
-    upcode: "42950"
+    upcode: "42950",
   },
   {
     name: "소리바다",
@@ -9609,7 +9609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄹㅂㄷ",
     mktgbcd: "Q",
-    upcode: "341"
+    upcode: "341",
   },
   {
     name: "프리엠스",
@@ -9617,7 +9617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㄹㅇㅅ",
     mktgbcd: "Q",
-    upcode: "8940"
+    upcode: "8940",
   },
   {
     name: "스카이라이프",
@@ -9625,7 +9625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅋㅇㄹㅇㅍ",
     mktgbcd: "J",
-    upcode: "9200"
+    upcode: "9200",
   },
   {
     name: "금강철강",
@@ -9633,7 +9633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㄱㅊㄱ",
     mktgbcd: "Q",
-    upcode: "3195"
+    upcode: "3195",
   },
   {
     name: "구영테크",
@@ -9641,7 +9641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅇㅌㅋ",
     mktgbcd: "Q",
-    upcode: "1570"
+    upcode: "1570",
   },
   {
     name: "예스24",
@@ -9649,7 +9649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅ24",
     mktgbcd: "Q",
-    upcode: "14650"
+    upcode: "14650",
   },
   {
     name: "NE능률",
@@ -9657,7 +9657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "NEㄴㄹ",
     mktgbcd: "Q",
-    upcode: "2850"
+    upcode: "2850",
   },
   {
     name: "한국정보인증",
@@ -9665,7 +9665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅈㅂㅇㅈ",
     mktgbcd: "Q",
-    upcode: "7350"
+    upcode: "7350",
   },
   {
     name: "이니텍",
@@ -9673,7 +9673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅌ",
     mktgbcd: "Q",
-    upcode: "4215"
+    upcode: "4215",
   },
   {
     name: "세코닉스",
@@ -9681,7 +9681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅋㄴㅅ",
     mktgbcd: "Q",
-    upcode: "5230"
+    upcode: "5230",
   },
   {
     name: "웹케시",
@@ -9689,7 +9689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅋㅅ",
     mktgbcd: "Q",
-    upcode: "71500"
+    upcode: "71500",
   },
   {
     name: "한국테크놀로지",
@@ -9697,7 +9697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅌㅋㄴㄹㅈ",
     mktgbcd: "Q",
-    upcode: "834"
+    upcode: "834",
   },
   {
     name: "프로텍",
@@ -9705,7 +9705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㄹㅌ",
     mktgbcd: "Q",
-    upcode: "28300"
+    upcode: "28300",
   },
   {
     name: "태양",
@@ -9713,7 +9713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅇ",
     mktgbcd: "Q",
-    upcode: "8410"
+    upcode: "8410",
   },
   {
     name: "현진소재",
@@ -9721,7 +9721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅈㅅㅈ",
     mktgbcd: "Q",
-    upcode: "400"
+    upcode: "400",
   },
   {
     name: "한미글로벌",
@@ -9729,7 +9729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅁㄱㄹㅂ",
     mktgbcd: "J",
-    upcode: "8010"
+    upcode: "8010",
   },
   {
     name: "삼보모터스",
@@ -9737,7 +9737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅂㅁㅌㅅ",
     mktgbcd: "Q",
-    upcode: "6230"
+    upcode: "6230",
   },
   {
     name: "안랩",
@@ -9745,7 +9745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹ",
     mktgbcd: "Q",
-    upcode: "61800"
+    upcode: "61800",
   },
   {
     name: "경남제약",
@@ -9753,7 +9753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㄴㅈㅇ",
     mktgbcd: "Q",
-    upcode: "9480"
+    upcode: "9480",
   },
   {
     name: "오상자이엘",
@@ -9761,7 +9761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅈㅇㅇ",
     mktgbcd: "Q",
-    upcode: "10800"
+    upcode: "10800",
   },
   {
     name: "한국컴퓨터",
@@ -9769,7 +9769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅋㅍㅌ",
     mktgbcd: "Q",
-    upcode: "2330"
+    upcode: "2330",
   },
   {
     name: "농우바이오",
@@ -9777,7 +9777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅇㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "10200"
+    upcode: "10200",
   },
   {
     name: "삼진엘앤디",
@@ -9785,7 +9785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅈㅇㅇㄷ",
     mktgbcd: "Q",
-    upcode: "3070"
+    upcode: "3070",
   },
   {
     name: "메디콕스",
@@ -9793,7 +9793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄷㅋㅅ",
     mktgbcd: "Q",
-    upcode: "2520"
+    upcode: "2520",
   },
   {
     name: "이랜텍",
@@ -9801,7 +9801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅌ",
     mktgbcd: "Q",
-    upcode: "5690"
+    upcode: "5690",
   },
   {
     name: "비츠로시스",
@@ -9809,7 +9809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅊㄹㅅㅅ",
     mktgbcd: "Q",
-    upcode: "3875"
+    upcode: "3875",
   },
   {
     name: "팬스타엔터프라이즈",
@@ -9817,7 +9817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅅㅌㅇㅌㅍㄹㅇㅈ",
     mktgbcd: "Q",
-    upcode: "735"
+    upcode: "735",
   },
   {
     name: "케이피티유",
@@ -9825,7 +9825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅍㅌㅇ",
     mktgbcd: "Q",
-    upcode: "5280"
+    upcode: "5280",
   },
   {
     name: "텔레칩스",
@@ -9833,7 +9833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㄹㅊㅅ",
     mktgbcd: "Q",
-    upcode: "14650"
+    upcode: "14650",
   },
   {
     name: "삼영엠텍",
@@ -9841,7 +9841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "5450"
+    upcode: "5450",
   },
   {
     name: "APS홀딩스",
@@ -9849,7 +9849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "APSㅎㄷㅅ",
     mktgbcd: "Q",
-    upcode: "8510"
+    upcode: "8510",
   },
   {
     name: "에이디칩스",
@@ -9857,7 +9857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㄷㅊㅅ",
     mktgbcd: "Q",
-    upcode: "782"
+    upcode: "782",
   },
   {
     name: "대한뉴팜",
@@ -9865,7 +9865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅎㄴㅍ",
     mktgbcd: "Q",
-    upcode: "11900"
+    upcode: "11900",
   },
   {
     name: "키이스트",
@@ -9873,7 +9873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅅㅌ",
     mktgbcd: "Q",
-    upcode: "15600"
+    upcode: "15600",
   },
   {
     name: "아이디스홀딩스",
@@ -9881,7 +9881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㄷㅅㅎㄷㅅ",
     mktgbcd: "Q",
-    upcode: "13400"
+    upcode: "13400",
   },
   {
     name: "한컴위드",
@@ -9889,7 +9889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅋㅇㄷ",
     mktgbcd: "Q",
-    upcode: "4700"
+    upcode: "4700",
   },
   {
     name: "유신",
@@ -9897,7 +9897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅ",
     mktgbcd: "Q",
-    upcode: "14650"
+    upcode: "14650",
   },
   {
     name: "엑사이엔씨",
@@ -9905,7 +9905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅇㅇㅆ",
     mktgbcd: "Q",
-    upcode: "1400"
+    upcode: "1400",
   },
   {
     name: "제이브이엠",
@@ -9913,7 +9913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "32150"
+    upcode: "32150",
   },
   {
     name: "테이팩스",
@@ -9921,7 +9921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅌㅇㅍㅅ",
     mktgbcd: "J",
-    upcode: "32550"
+    upcode: "32550",
   },
   {
     name: "신한지주",
@@ -9929,7 +9929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎㅈㅈ",
     mktgbcd: "J",
-    upcode: "27500"
+    upcode: "27500",
   },
   {
     name: "네스엠",
@@ -9937,7 +9937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅅㅇ",
     mktgbcd: "Q",
-    upcode: "2065"
+    upcode: "2065",
   },
   {
     name: "유진로봇",
@@ -9945,7 +9945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㄹㅂ",
     mktgbcd: "Q",
-    upcode: "2005"
+    upcode: "2005",
   },
   {
     name: "유앤아이",
@@ -9953,7 +9953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅇ",
     mktgbcd: "Q",
-    upcode: "4115"
+    upcode: "4115",
   },
   {
     name: "에스에프에이",
@@ -9961,7 +9961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅇㅍㅇㅇ",
     mktgbcd: "Q",
-    upcode: "38150"
+    upcode: "38150",
   },
   {
     name: "코위버",
@@ -9969,7 +9969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅂ",
     mktgbcd: "Q",
-    upcode: "10150"
+    upcode: "10150",
   },
   {
     name: "신화인터텍",
@@ -9977,7 +9977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅎㅇㅌㅌ",
     mktgbcd: "Q",
-    upcode: "2560"
+    upcode: "2560",
   },
   {
     name: "포스링크",
@@ -9985,7 +9985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅅㄹㅋ",
     mktgbcd: "Q",
-    upcode: "1460"
+    upcode: "1460",
   },
   {
     name: "YBM넷",
@@ -9993,7 +9993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "YBMㄴ",
     mktgbcd: "Q",
-    upcode: "8810"
+    upcode: "8810",
   },
   {
     name: "현대홈쇼핑",
@@ -10001,7 +10001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅎㅅㅍ",
     mktgbcd: "J",
-    upcode: "69500"
+    upcode: "69500",
   },
   {
     name: "SKC 솔믹스",
@@ -10009,7 +10009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SKC ㅅㅁㅅ",
     mktgbcd: "Q",
-    upcode: "5480"
+    upcode: "5480",
   },
   {
     name: "옴니시스템",
@@ -10017,7 +10017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅅㅅㅌ",
     mktgbcd: "Q",
-    upcode: "2475"
+    upcode: "2475",
   },
   {
     name: "티사이언티픽",
@@ -10025,7 +10025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅅㅇㅇㅌㅍ",
     mktgbcd: "Q",
-    upcode: "4415"
+    upcode: "4415",
   },
   {
     name: "필로시스헬스케어",
@@ -10033,7 +10033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㄹㅅㅅㅎㅅㅋㅇ",
     mktgbcd: "Q",
-    upcode: "6790"
+    upcode: "6790",
   },
   {
     name: "멕아이씨에스",
@@ -10041,7 +10041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅇㅇㅆㅇㅅ",
     mktgbcd: "Q",
-    upcode: "36500"
+    upcode: "36500",
   },
   {
     name: "아리온",
@@ -10049,7 +10049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅇ",
     mktgbcd: "Q",
-    upcode: "275"
+    upcode: "275",
   },
   {
     name: "KNN",
@@ -10057,7 +10057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "KNN",
     mktgbcd: "Q",
-    upcode: "1745"
+    upcode: "1745",
   },
   {
     name: "제이웨이",
@@ -10065,7 +10065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅇㅇ",
     mktgbcd: "Q",
-    upcode: "953"
+    upcode: "953",
   },
   {
     name: "포스코강판",
@@ -10073,7 +10073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅍㅅㅋㄱㅍ",
     mktgbcd: "J",
-    upcode: "14500"
+    upcode: "14500",
   },
   {
     name: "일야",
@@ -10081,7 +10081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇ",
     mktgbcd: "Q",
-    upcode: "685"
+    upcode: "685",
   },
   {
     name: "리노공업",
@@ -10089,7 +10089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㄴㄱㅇ",
     mktgbcd: "Q",
-    upcode: "121100"
+    upcode: "121100",
   },
   {
     name: "슈펙스비앤피",
@@ -10097,7 +10097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅍㅅㅂㅇㅍ",
     mktgbcd: "Q",
-    upcode: "162"
+    upcode: "162",
   },
   {
     name: "에스피지",
@@ -10105,7 +10105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅍㅈ",
     mktgbcd: "Q",
-    upcode: "6140"
+    upcode: "6140",
   },
   {
     name: "엠게임",
@@ -10113,7 +10113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄱㅇ",
     mktgbcd: "Q",
-    upcode: "5100"
+    upcode: "5100",
   },
   {
     name: "세아홀딩스",
@@ -10121,7 +10121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "70700"
+    upcode: "70700",
   },
   {
     name: "다스코",
@@ -10129,7 +10129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅋ",
     mktgbcd: "J",
-    upcode: "5340"
+    upcode: "5340",
   },
   {
     name: "CMG제약",
@@ -10137,7 +10137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "CMGㅈㅇ",
     mktgbcd: "Q",
-    upcode: "4350"
+    upcode: "4350",
   },
   {
     name: "KTcs",
@@ -10145,7 +10145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KTcs",
     mktgbcd: "J",
-    upcode: "1965"
+    upcode: "1965",
   },
   {
     name: "KTis",
@@ -10153,7 +10153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KTis",
     mktgbcd: "J",
-    upcode: "2355"
+    upcode: "2355",
   },
   {
     name: "미코",
@@ -10161,7 +10161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅋ",
     mktgbcd: "Q",
-    upcode: "17150"
+    upcode: "17150",
   },
   {
     name: "아이컴포넌트",
@@ -10169,7 +10169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅋㅍㄴㅌ",
     mktgbcd: "Q",
-    upcode: "4355"
+    upcode: "4355",
   },
   {
     name: "아진엑스텍",
@@ -10177,7 +10177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅇㅅㅌ",
     mktgbcd: "Q",
-    upcode: "5900"
+    upcode: "5900",
   },
   {
     name: "메타바이오메드",
@@ -10185,7 +10185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅌㅂㅇㅇㅁㄷ",
     mktgbcd: "Q",
-    upcode: "2825"
+    upcode: "2825",
   },
   {
     name: "인선이엔티",
@@ -10193,7 +10193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "9020"
+    upcode: "9020",
   },
   {
     name: "이그잭스",
@@ -10201,7 +10201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄱㅈㅅ",
     mktgbcd: "Q",
-    upcode: "1795"
+    upcode: "1795",
   },
   {
     name: "룽투코리아",
@@ -10209,7 +10209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅌㅋㄹㅇ",
     mktgbcd: "Q",
-    upcode: "5450"
+    upcode: "5450",
   },
   {
     name: "NHN한국사이버결제",
@@ -10217,7 +10217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "NHNㅎㄱㅅㅇㅂㄱㅈ",
     mktgbcd: "Q",
-    upcode: "68200"
+    upcode: "68200",
   },
   {
     name: "뉴보텍",
@@ -10225,7 +10225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅂㅌ",
     mktgbcd: "Q",
-    upcode: "1445"
+    upcode: "1445",
   },
   {
     name: "큐렉소",
@@ -10233,7 +10233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹㅅ",
     mktgbcd: "Q",
-    upcode: "5900"
+    upcode: "5900",
   },
   {
     name: "레드로버",
@@ -10241,7 +10241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㄷㄹㅂ",
     mktgbcd: "Q",
-    upcode: "610"
+    upcode: "610",
   },
   {
     name: "3S",
@@ -10249,7 +10249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "3S",
     mktgbcd: "Q",
-    upcode: "2100"
+    upcode: "2100",
   },
   {
     name: "KT서브마린",
@@ -10257,7 +10257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "KTㅅㅂㅁㄹ",
     mktgbcd: "Q",
-    upcode: "5200"
+    upcode: "5200",
   },
   {
     name: "동양에스텍",
@@ -10265,7 +10265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅇㅅㅌ",
     mktgbcd: "Q",
-    upcode: "2635"
+    upcode: "2635",
   },
   {
     name: "국일신동",
@@ -10273,7 +10273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅇㅅㄷ",
     mktgbcd: "Q",
-    upcode: "3425"
+    upcode: "3425",
   },
   {
     name: "에스에이티",
@@ -10281,7 +10281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "2285"
+    upcode: "2285",
   },
   {
     name: "홈센타홀딩스",
@@ -10289,7 +10289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅅㅌㅎㄷㅅ",
     mktgbcd: "Q",
-    upcode: "1330"
+    upcode: "1330",
   },
   {
     name: "드림어스컴퍼니",
@@ -10297,7 +10297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㄹㅇㅅㅋㅍㄴ",
     mktgbcd: "Q",
-    upcode: "4930"
+    upcode: "4930",
   },
   {
     name: "씨티씨바이오",
@@ -10305,7 +10305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㅌㅆㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "7720"
+    upcode: "7720",
   },
   {
     name: "KH바텍",
@@ -10313,7 +10313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "KHㅂㅌ",
     mktgbcd: "Q",
-    upcode: "20000"
+    upcode: "20000",
   },
   {
     name: "영림원소프트랩",
@@ -10321,7 +10321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅇㅅㅍㅌㄹ",
     mktgbcd: "Q",
-    upcode: "14300"
+    upcode: "14300",
   },
   {
     name: "대한그린파워",
@@ -10329,7 +10329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅎㄱㄹㅍㅇ",
     mktgbcd: "Q",
-    upcode: "1020"
+    upcode: "1020",
   },
   {
     name: "한라홀딩스",
@@ -10337,7 +10337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄹㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "29950"
+    upcode: "29950",
   },
   {
     name: "알에프텍",
@@ -10345,7 +10345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅍㅌ",
     mktgbcd: "Q",
-    upcode: "11350"
+    upcode: "11350",
   },
   {
     name: "화일약품",
@@ -10353,7 +10353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅇㅇㅍ",
     mktgbcd: "Q",
-    upcode: "11850"
+    upcode: "11850",
   },
   {
     name: "엘비세미콘",
@@ -10361,7 +10361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅂㅅㅁㅋ",
     mktgbcd: "Q",
-    upcode: "11050"
+    upcode: "11050",
   },
   {
     name: "티엘아이",
@@ -10369,7 +10369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅇㅇㅇ",
     mktgbcd: "Q",
-    upcode: "7040"
+    upcode: "7040",
   },
   {
     name: "피피아이",
@@ -10377,7 +10377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅍㅇㅇ",
     mktgbcd: "Q",
-    upcode: "7960"
+    upcode: "7960",
   },
   {
     name: "게임빌",
@@ -10385,7 +10385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅇㅂ",
     mktgbcd: "Q",
-    upcode: "34700"
+    upcode: "34700",
   },
   {
     name: "종근당바이오",
@@ -10393,7 +10393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㄱㄷㅂㅇㅇ",
     mktgbcd: "J",
-    upcode: "45150"
+    upcode: "45150",
   },
   {
     name: "서울옥션",
@@ -10401,7 +10401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "4975"
+    upcode: "4975",
   },
   {
     name: "SM Life Design",
@@ -10409,7 +10409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SM Life Design",
     mktgbcd: "Q",
-    upcode: "2220"
+    upcode: "2220",
   },
   {
     name: "한국전자금융",
@@ -10417,7 +10417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅈㅈㄱㅇ",
     mktgbcd: "Q",
-    upcode: "5750"
+    upcode: "5750",
   },
   {
     name: "이엘피",
@@ -10425,7 +10425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅍ",
     mktgbcd: "Q",
-    upcode: "10000"
+    upcode: "10000",
   },
   {
     name: "에프앤리퍼블릭",
@@ -10433,7 +10433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍㅇㄹㅍㅂㄹ",
     mktgbcd: "Q",
-    upcode: "421"
+    upcode: "421",
   },
   {
     name: "홈캐스트",
@@ -10441,7 +10441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅋㅅㅌ",
     mktgbcd: "Q",
-    upcode: "3355"
+    upcode: "3355",
   },
   {
     name: "다날",
@@ -10449,7 +10449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㄴ",
     mktgbcd: "Q",
-    upcode: "5010"
+    upcode: "5010",
   },
   {
     name: "인텍플러스",
@@ -10457,7 +10457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅍㄹㅅ",
     mktgbcd: "Q",
-    upcode: "13700"
+    upcode: "13700",
   },
   {
     name: "현대로템",
@@ -10465,7 +10465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㄹㅌ",
     mktgbcd: "J",
-    upcode: "15750"
+    upcode: "15750",
   },
   {
     name: "브리지텍",
@@ -10473,7 +10473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㄹㅈㅌ",
     mktgbcd: "Q",
-    upcode: "3415"
+    upcode: "3415",
   },
   {
     name: "에코마이스터",
@@ -10481,7 +10481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅋㅁㅇㅅㅌ",
     mktgbcd: "Q",
-    upcode: "1955"
+    upcode: "1955",
   },
   {
     name: "바른전자",
@@ -10489,7 +10489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㄹㅈㅈ",
     mktgbcd: "Q",
-    upcode: "1005"
+    upcode: "1005",
   },
   {
     name: "바이오니아",
@@ -10497,7 +10497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅇㅇㄴㅇ",
     mktgbcd: "Q",
-    upcode: "26750"
+    upcode: "26750",
   },
   {
     name: "티씨케이",
@@ -10505,7 +10505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅆㅋㅇ",
     mktgbcd: "Q",
-    upcode: "90600"
+    upcode: "90600",
   },
   {
     name: "젬백스링크",
@@ -10513,7 +10513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅂㅅㄹㅋ",
     mktgbcd: "Q",
-    upcode: "1255"
+    upcode: "1255",
   },
   {
     name: "케이프",
@@ -10521,7 +10521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅍ",
     mktgbcd: "Q",
-    upcode: "4700"
+    upcode: "4700",
   },
   {
     name: "S&T모티브",
@@ -10529,7 +10529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "STㅁㅌㅂ",
     mktgbcd: "J",
-    upcode: "49350"
+    upcode: "49350",
   },
   {
     name: "지엔코",
@@ -10537,7 +10537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅋ",
     mktgbcd: "Q",
-    upcode: "1110"
+    upcode: "1110",
   },
   {
     name: "탑엔지니어링",
@@ -10545,7 +10545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅇㅈㄴㅇㄹ",
     mktgbcd: "Q",
-    upcode: "9370"
+    upcode: "9370",
   },
   {
     name: "MP그룹",
@@ -10553,7 +10553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "MPㄱㄹ",
     mktgbcd: "Q",
-    upcode: "1315"
+    upcode: "1315",
   },
   {
     name: "넥스트BT",
@@ -10561,7 +10561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅅㅌBT",
     mktgbcd: "Q",
-    upcode: "2260"
+    upcode: "2260",
   },
   {
     name: "신성델타테크",
@@ -10569,7 +10569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅅㄷㅌㅌㅋ",
     mktgbcd: "Q",
-    upcode: "6300"
+    upcode: "6300",
   },
   {
     name: "위세아이텍",
@@ -10577,7 +10577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "19100"
+    upcode: "19100",
   },
   {
     name: "에스아이리소스",
@@ -10585,7 +10585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅇㅇㄹㅅㅅ",
     mktgbcd: "Q",
-    upcode: "639"
+    upcode: "639",
   },
   {
     name: "이루온",
@@ -10593,7 +10593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅇ",
     mktgbcd: "Q",
-    upcode: "1340"
+    upcode: "1340",
   },
   {
     name: "빅텍",
@@ -10601,7 +10601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅌ",
     mktgbcd: "Q",
-    upcode: "7160"
+    upcode: "7160",
   },
   {
     name: "오리엔트정공",
@@ -10609,7 +10609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅇㅌㅈㄱ",
     mktgbcd: "Q",
-    upcode: "778"
+    upcode: "778",
   },
   {
     name: "휴비츠",
@@ -10617,7 +10617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅂㅊ",
     mktgbcd: "Q",
-    upcode: "7190"
+    upcode: "7190",
   },
   {
     name: "전파기지국",
@@ -10625,7 +10625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅍㄱㅈㄱ",
     mktgbcd: "Q",
-    upcode: "4595"
+    upcode: "4595",
   },
   {
     name: "녹원씨엔아이",
@@ -10633,7 +10633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅇㅆㅇㅇㅇ",
     mktgbcd: "Q",
-    upcode: "5450"
+    upcode: "5450",
   },
   {
     name: "삼영이엔씨",
@@ -10641,7 +10641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅇㅇㅆ",
     mktgbcd: "Q",
-    upcode: "7380"
+    upcode: "7380",
   },
   {
     name: "제낙스",
@@ -10649,7 +10649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㄴㅅ",
     mktgbcd: "Q",
-    upcode: "3190"
+    upcode: "3190",
   },
   {
     name: "메디프론",
@@ -10657,7 +10657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄷㅍㄹ",
     mktgbcd: "Q",
-    upcode: "4710"
+    upcode: "4710",
   },
   {
     name: "안트로젠",
@@ -10665,7 +10665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㄹㅈ",
     mktgbcd: "Q",
-    upcode: "53500"
+    upcode: "53500",
   },
   {
     name: "우주일렉트로",
@@ -10673,7 +10673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅇㄹㅌㄹ",
     mktgbcd: "Q",
-    upcode: "32850"
+    upcode: "32850",
   },
   {
     name: "파커스",
@@ -10681,7 +10681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅋㅅ",
     mktgbcd: "Q",
-    upcode: "2560"
+    upcode: "2560",
   },
   {
     name: "서호전기",
@@ -10689,7 +10689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅎㅈㄱ",
     mktgbcd: "Q",
-    upcode: "22900"
+    upcode: "22900",
   },
   {
     name: "CS",
@@ -10697,7 +10697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "CS",
     mktgbcd: "Q",
-    upcode: "2575"
+    upcode: "2575",
   },
   {
     name: "웰크론",
@@ -10705,7 +10705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅋㄹ",
     mktgbcd: "Q",
-    upcode: "6280"
+    upcode: "6280",
   },
   {
     name: "한프",
@@ -10713,7 +10713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅍ",
     mktgbcd: "Q",
-    upcode: "480"
+    upcode: "480",
   },
   {
     name: "하츠",
@@ -10721,7 +10721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅊ",
     mktgbcd: "Q",
-    upcode: "6010"
+    upcode: "6010",
   },
   {
     name: "큐에스아이",
@@ -10729,7 +10729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅅㅇㅇ",
     mktgbcd: "Q",
-    upcode: "15900"
+    upcode: "15900",
   },
   {
     name: "체리부로",
@@ -10737,7 +10737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅊㄹㅂㄹ",
     mktgbcd: "Q",
-    upcode: "2240"
+    upcode: "2240",
   },
   {
     name: "버킷스튜디오",
@@ -10745,7 +10745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅋㅅㅌㄷㅇ",
     mktgbcd: "Q",
-    upcode: "1705"
+    upcode: "1705",
   },
   {
     name: "와이오엠",
@@ -10753,7 +10753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅇ",
     mktgbcd: "Q",
-    upcode: "1805"
+    upcode: "1805",
   },
   {
     name: "LG전자",
@@ -10761,7 +10761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LGㅈㅈ",
     mktgbcd: "J",
-    upcode: "91700"
+    upcode: "91700",
   },
   {
     name: "LG전자우",
@@ -10769,7 +10769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LGㅈㅈㅇ",
     mktgbcd: "J",
-    upcode: "33700"
+    upcode: "33700",
   },
   {
     name: "우수AMS",
@@ -10777,7 +10777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅAMS",
     mktgbcd: "Q",
-    upcode: "7700"
+    upcode: "7700",
   },
   {
     name: "국보디자인",
@@ -10785,7 +10785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅂㄷㅈㅇ",
     mktgbcd: "Q",
-    upcode: "15500"
+    upcode: "15500",
   },
   {
     name: "디스플레이텍",
@@ -10793,7 +10793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅅㅍㄹㅇㅌ",
     mktgbcd: "Q",
-    upcode: "3500"
+    upcode: "3500",
   },
   {
     name: "테라젠이텍스",
@@ -10801,7 +10801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㄹㅈㅇㅌㅅ",
     mktgbcd: "Q",
-    upcode: "10900"
+    upcode: "10900",
   },
   {
     name: "씨씨에스",
@@ -10809,7 +10809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㅆㅇㅅ",
     mktgbcd: "Q",
-    upcode: "846"
+    upcode: "846",
   },
   {
     name: "디에이피",
@@ -10817,7 +10817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅇㅍ",
     mktgbcd: "Q",
-    upcode: "3780"
+    upcode: "3780",
   },
   {
     name: "손오공",
@@ -10825,7 +10825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㄱ",
     mktgbcd: "Q",
-    upcode: "1705"
+    upcode: "1705",
   },
   {
     name: "엘앤에프",
@@ -10833,7 +10833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅍ",
     mktgbcd: "Q",
-    upcode: "39650"
+    upcode: "39650",
   },
   {
     name: "브레인콘텐츠",
@@ -10841,7 +10841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㄹㅇㅋㅌㅊ",
     mktgbcd: "Q",
-    upcode: "501"
+    upcode: "501",
   },
   {
     name: "조이시티",
@@ -10849,7 +10849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅅㅌ",
     mktgbcd: "Q",
-    upcode: "23700"
+    upcode: "23700",
   },
   {
     name: "이씨에스",
@@ -10857,7 +10857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅆㅇㅅ",
     mktgbcd: "Q",
-    upcode: "4850"
+    upcode: "4850",
   },
   {
     name: "대화제약",
@@ -10865,7 +10865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅎㅈㅇ",
     mktgbcd: "Q",
-    upcode: "15150"
+    upcode: "15150",
   },
   {
     name: "아프리카TV",
@@ -10873,7 +10873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍㄹㅋTV",
     mktgbcd: "Q",
-    upcode: "54500"
+    upcode: "54500",
   },
   {
     name: "오텍",
@@ -10881,7 +10881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌ",
     mktgbcd: "Q",
-    upcode: "12400"
+    upcode: "12400",
   },
   {
     name: "멀티캠퍼스",
@@ -10889,7 +10889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅌㅋㅍㅅ",
     mktgbcd: "Q",
-    upcode: "28600"
+    upcode: "28600",
   },
   {
     name: "JW신약",
@@ -10897,7 +10897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "JWㅅㅇ",
     mktgbcd: "Q",
-    upcode: "5700"
+    upcode: "5700",
   },
   {
     name: "하나마이크론",
@@ -10905,7 +10905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄴㅁㅇㅋㄹ",
     mktgbcd: "Q",
-    upcode: "8870"
+    upcode: "8870",
   },
   {
     name: "아스트",
@@ -10913,7 +10913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅌ",
     mktgbcd: "Q",
-    upcode: "4305"
+    upcode: "4305",
   },
   {
     name: "엔브이에이치코리아",
@@ -10921,7 +10921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅂㅇㅇㅇㅊㅋㄹㅇ",
     mktgbcd: "Q",
-    upcode: "4390"
+    upcode: "4390",
   },
   {
     name: "에이치엘비생명과학",
@@ -10929,7 +10929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅊㅇㅂㅅㅁㄱㅎ",
     mktgbcd: "Q",
-    upcode: "30150"
+    upcode: "30150",
   },
   {
     name: "로지시스",
@@ -10937,7 +10937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅈㅅㅅ",
     mktgbcd: "Q",
-    upcode: "3880"
+    upcode: "3880",
   },
   {
     name: "세진티에스",
@@ -10945,7 +10945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅈㅌㅇㅅ",
     mktgbcd: "Q",
-    upcode: "3065"
+    upcode: "3065",
   },
   {
     name: "세이브존I&C",
@@ -10953,7 +10953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅂㅈIC",
     mktgbcd: "J",
-    upcode: "2535"
+    upcode: "2535",
   },
   {
     name: "와이엔텍",
@@ -10961,7 +10961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "12250"
+    upcode: "12250",
   },
   {
     name: "이글루시큐리티",
@@ -10969,7 +10969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄱㄹㅅㅋㄹㅌ",
     mktgbcd: "Q",
-    upcode: "4705"
+    upcode: "4705",
   },
   {
     name: "도이치모터스",
@@ -10977,7 +10977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅊㅁㅌㅅ",
     mktgbcd: "Q",
-    upcode: "5870"
+    upcode: "5870",
   },
   {
     name: "팬엔터테인먼트",
@@ -10985,7 +10985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅇㅌㅌㅇㅁㅌ",
     mktgbcd: "Q",
-    upcode: "4200"
+    upcode: "4200",
   },
   {
     name: "다원시스",
@@ -10993,7 +10993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅅㅅ",
     mktgbcd: "Q",
-    upcode: "20700"
+    upcode: "20700",
   },
   {
     name: "셀트리온",
@@ -11001,7 +11001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅌㄹㅇ",
     mktgbcd: "J",
-    upcode: "255000"
+    upcode: "255000",
   },
   {
     name: "삼성출판사",
@@ -11009,7 +11009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅊㅍㅅ",
     mktgbcd: "J",
-    upcode: "18800"
+    upcode: "18800",
   },
   {
     name: "일신바이오",
@@ -11017,7 +11017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "6460"
+    upcode: "6460",
   },
   {
     name: "SK렌터카",
@@ -11025,7 +11025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SKㄹㅌㅋ",
     mktgbcd: "J",
-    upcode: "8400"
+    upcode: "8400",
   },
   {
     name: "셀트리온제약",
@@ -11033,7 +11033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅌㄹㅇㅈㅇ",
     mktgbcd: "Q",
-    upcode: "110200"
+    upcode: "110200",
   },
   {
     name: "DMS",
@@ -11041,7 +11041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "DMS",
     mktgbcd: "Q",
-    upcode: "9150"
+    upcode: "9150",
   },
   {
     name: "디지털대성",
@@ -11049,7 +11049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅈㅌㄷㅅ",
     mktgbcd: "Q",
-    upcode: "6400"
+    upcode: "6400",
   },
   {
     name: "아이씨케이",
@@ -11057,7 +11057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅆㅋㅇ",
     mktgbcd: "Q",
-    upcode: "4600"
+    upcode: "4600",
   },
   {
     name: "웹젠",
@@ -11065,7 +11065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈ",
     mktgbcd: "Q",
-    upcode: "34850"
+    upcode: "34850",
   },
   {
     name: "코스온",
@@ -11073,7 +11073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅅㅇ",
     mktgbcd: "Q",
-    upcode: "3620"
+    upcode: "3620",
   },
   {
     name: "누리플랜",
@@ -11081,7 +11081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㄹㅍㄹ",
     mktgbcd: "Q",
-    upcode: "6000"
+    upcode: "6000",
   },
   {
     name: "휴켐스",
@@ -11089,7 +11089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅋㅅ",
     mktgbcd: "J",
-    upcode: "21050"
+    upcode: "21050",
   },
   {
     name: "유아이디",
@@ -11097,7 +11097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㄷ",
     mktgbcd: "Q",
-    upcode: "1055"
+    upcode: "1055",
   },
   {
     name: "엔텔스",
@@ -11105,7 +11105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅅ",
     mktgbcd: "Q",
-    upcode: "8370"
+    upcode: "8370",
   },
   {
     name: "대호에이엘",
@@ -11113,7 +11113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅎㅇㅇㅇ",
     mktgbcd: "J",
-    upcode: "2055"
+    upcode: "2055",
   },
   {
     name: "KODEX 200",
@@ -11121,7 +11121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX 200",
     mktgbcd: "J",
-    upcode: "30795"
+    upcode: "30795",
   },
   {
     name: "에스텍",
@@ -11129,7 +11129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅌ",
     mktgbcd: "Q",
-    upcode: "8980"
+    upcode: "8980",
   },
   {
     name: "라이트론",
@@ -11137,7 +11137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅇㅌㄹ",
     mktgbcd: "Q",
-    upcode: "5420"
+    upcode: "5420",
   },
   {
     name: "대웅제약",
@@ -11145,7 +11145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅈㅇ",
     mktgbcd: "J",
-    upcode: "102500"
+    upcode: "102500",
   },
   {
     name: "한세엠케이",
@@ -11153,7 +11153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㅇㅋㅇ",
     mktgbcd: "J",
-    upcode: "2755"
+    upcode: "2755",
   },
   {
     name: "KOSEF 200",
@@ -11161,7 +11161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF 200",
     mktgbcd: "J",
-    upcode: "31010"
+    upcode: "31010",
   },
   {
     name: "DSR제강",
@@ -11169,7 +11169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "DSRㅈㄱ",
     mktgbcd: "J",
-    upcode: "4435"
+    upcode: "4435",
   },
   {
     name: "아이에스이커머스",
@@ -11177,7 +11177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅅㅇㅋㅁㅅ",
     mktgbcd: "Q",
-    upcode: "3825"
+    upcode: "3825",
   },
   {
     name: "현대백화점",
@@ -11185,7 +11185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅂㅎㅈ",
     mktgbcd: "J",
-    upcode: "55600"
+    upcode: "55600",
   },
   {
     name: "엑스큐어",
@@ -11193,7 +11193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅋㅇ",
     mktgbcd: "Q",
-    upcode: "4810"
+    upcode: "4810",
   },
   {
     name: "한솔인티큐브",
@@ -11201,7 +11201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅅㅇㅌㅋㅂ",
     mktgbcd: "Q",
-    upcode: "2610"
+    upcode: "2610",
   },
   {
     name: "용평리조트",
@@ -11209,7 +11209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅍㄹㅈㅌ",
     mktgbcd: "J",
-    upcode: "4020"
+    upcode: "4020",
   },
   {
     name: "한국금융지주",
@@ -11217,7 +11217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㄱㅇㅈㅈ",
     mktgbcd: "J",
-    upcode: "70000"
+    upcode: "70000",
   },
   {
     name: "한국금융지주우",
@@ -11225,7 +11225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㄱㅇㅈㅈㅇ",
     mktgbcd: "J",
-    upcode: "60300"
+    upcode: "60300",
   },
   {
     name: "하이스틸",
@@ -11233,7 +11233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇㅅㅌ",
     mktgbcd: "J",
-    upcode: "16300"
+    upcode: "16300",
   },
   {
     name: "인피니트헬스케어",
@@ -11241,7 +11241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍㄴㅌㅎㅅㅋㅇ",
     mktgbcd: "Q",
-    upcode: "6600"
+    upcode: "6600",
   },
   {
     name: "로체시스템즈",
@@ -11249,7 +11249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅊㅅㅅㅌㅈ",
     mktgbcd: "Q",
-    upcode: "5350"
+    upcode: "5350",
   },
   {
     name: "지역난방공사",
@@ -11257,7 +11257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅇㄴㅂㄱㅅ",
     mktgbcd: "J",
-    upcode: "34750"
+    upcode: "34750",
   },
   {
     name: "위니아딤채",
@@ -11265,7 +11265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅇㄷㅊ",
     mktgbcd: "Q",
-    upcode: "2445"
+    upcode: "2445",
   },
   {
     name: "에이테크솔루션",
@@ -11273,7 +11273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅌㅋㅅㄹㅅ",
     mktgbcd: "Q",
-    upcode: "9100"
+    upcode: "9100",
   },
   {
     name: "롯데하이마트",
@@ -11281,7 +11281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄹㄷㅎㅇㅁㅌ",
     mktgbcd: "J",
-    upcode: "30150"
+    upcode: "30150",
   },
   {
     name: "캐스텍코리아",
@@ -11289,7 +11289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅅㅌㅋㄹㅇ",
     mktgbcd: "Q",
-    upcode: "2525"
+    upcode: "2525",
   },
   {
     name: "코아스",
@@ -11297,7 +11297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅇㅅ",
     mktgbcd: "J",
-    upcode: "1095"
+    upcode: "1095",
   },
   {
     name: "STX중공업",
@@ -11305,7 +11305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "STXㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "3880"
+    upcode: "3880",
   },
   {
     name: "중앙백신",
@@ -11313,7 +11313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅂㅅ",
     mktgbcd: "Q",
-    upcode: "17750"
+    upcode: "17750",
   },
   {
     name: "유엔젤",
@@ -11321,7 +11321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅈ",
     mktgbcd: "J",
-    upcode: "4120"
+    upcode: "4120",
   },
   {
     name: "우리산업홀딩스",
@@ -11329,7 +11329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅅㅇㅎㄷㅅ",
     mktgbcd: "Q",
-    upcode: "5490"
+    upcode: "5490",
   },
   {
     name: "제넨바이오",
@@ -11337,7 +11337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㄴㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "4885"
+    upcode: "4885",
   },
   {
     name: "농심홀딩스",
@@ -11345,7 +11345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㅅㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "73900"
+    upcode: "73900",
   },
   {
     name: "율호",
@@ -11353,7 +11353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅎ",
     mktgbcd: "Q",
-    upcode: "1540"
+    upcode: "1540",
   },
   {
     name: "메가스터디",
@@ -11361,7 +11361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄱㅅㅌㄷ",
     mktgbcd: "Q",
-    upcode: "10450"
+    upcode: "10450",
   },
   {
     name: "빛샘전자",
@@ -11369,7 +11369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅅㅈㅈ",
     mktgbcd: "Q",
-    upcode: "5260"
+    upcode: "5260",
   },
   {
     name: "에이치시티",
@@ -11377,7 +11377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅊㅅㅌ",
     mktgbcd: "Q",
-    upcode: "11850"
+    upcode: "11850",
   },
   {
     name: "케이에스피",
@@ -11385,7 +11385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅇㅅㅍ",
     mktgbcd: "Q",
-    upcode: "1250"
+    upcode: "1250",
   },
   {
     name: "에스모",
@@ -11393,7 +11393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅁ",
     mktgbcd: "Q",
-    upcode: "407"
+    upcode: "407",
   },
   {
     name: "엘엠에스",
@@ -11401,7 +11401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "11200"
+    upcode: "11200",
   },
   {
     name: "듀오백",
@@ -11409,7 +11409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅂ",
     mktgbcd: "Q",
-    upcode: "3020"
+    upcode: "3020",
   },
   {
     name: "금호타이어",
@@ -11417,7 +11417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅎㅌㅇㅇ",
     mktgbcd: "J",
-    upcode: "3670"
+    upcode: "3670",
   },
   {
     name: "이노와이어리스",
@@ -11425,7 +11425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅇㅇㅇㄹㅅ",
     mktgbcd: "Q",
-    upcode: "58500"
+    upcode: "58500",
   },
   {
     name: "에프알텍",
@@ -11433,7 +11433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍㅇㅌ",
     mktgbcd: "Q",
-    upcode: "6350"
+    upcode: "6350",
   },
   {
     name: "우리손에프앤지",
@@ -11441,7 +11441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅅㅇㅍㅇㅈ",
     mktgbcd: "Q",
-    upcode: "2040"
+    upcode: "2040",
   },
   {
     name: "WI",
@@ -11449,7 +11449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "WI",
     mktgbcd: "Q",
-    upcode: "1435"
+    upcode: "1435",
   },
   {
     name: "테라사이언스",
@@ -11457,7 +11457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㄹㅅㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "2045"
+    upcode: "2045",
   },
   {
     name: "아미노로직스",
@@ -11465,7 +11465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅁㄴㄹㅈㅅ",
     mktgbcd: "Q",
-    upcode: "2165"
+    upcode: "2165",
   },
   {
     name: "원익QnC",
@@ -11473,7 +11473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇQnC",
     mktgbcd: "Q",
-    upcode: "16550"
+    upcode: "16550",
   },
   {
     name: "이엔플러스",
@@ -11481,7 +11481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅍㄹㅅ",
     mktgbcd: "J",
-    upcode: "4045"
+    upcode: "4045",
   },
   {
     name: "플랜티넷",
@@ -11489,7 +11489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㄹㅌㄴ",
     mktgbcd: "Q",
-    upcode: "5270"
+    upcode: "5270",
   },
   {
     name: "새론오토모티브",
@@ -11497,7 +11497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㄹㅇㅌㅁㅌㅂ",
     mktgbcd: "J",
-    upcode: "3975"
+    upcode: "3975",
   },
   {
     name: "세진중공업",
@@ -11505,7 +11505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅈㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "8090"
+    upcode: "8090",
   },
   {
     name: "동국알앤에스",
@@ -11513,7 +11513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㄱㅇㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "2735"
+    upcode: "2735",
   },
   {
     name: "웰크론한텍",
@@ -11521,7 +11521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅋㄹㅎㅌ",
     mktgbcd: "Q",
-    upcode: "2030"
+    upcode: "2030",
   },
   {
     name: "해성옵틱스",
@@ -11529,7 +11529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅅㅇㅌㅅ",
     mktgbcd: "Q",
-    upcode: "1705"
+    upcode: "1705",
   },
   {
     name: "덕산하이메탈",
@@ -11537,7 +11537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅅㅎㅇㅁㅌ",
     mktgbcd: "Q",
-    upcode: "7160"
+    upcode: "7160",
   },
   {
     name: "유니퀘스트",
@@ -11545,7 +11545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄴㅋㅅㅌ",
     mktgbcd: "J",
-    upcode: "11800"
+    upcode: "11800",
   },
   {
     name: "STX엔진",
@@ -11553,7 +11553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "STXㅇㅈ",
     mktgbcd: "J",
-    upcode: "6100"
+    upcode: "6100",
   },
   {
     name: "텔코웨어",
@@ -11561,7 +11561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅌㅋㅇㅇ",
     mktgbcd: "J",
-    upcode: "11700"
+    upcode: "11700",
   },
   {
     name: "이베스트투자증권",
@@ -11569,7 +11569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅂㅅㅌㅌㅈㅈㄱ",
     mktgbcd: "Q",
-    upcode: "5890"
+    upcode: "5890",
   },
   {
     name: "유비쿼스홀딩스",
@@ -11577,7 +11577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅂㅋㅅㅎㄷㅅ",
     mktgbcd: "Q",
-    upcode: "28650"
+    upcode: "28650",
   },
   {
     name: "국일제지",
@@ -11585,7 +11585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅇㅈㅈ",
     mktgbcd: "Q",
-    upcode: "5100"
+    upcode: "5100",
   },
   {
     name: "대봉엘에스",
@@ -11593,7 +11593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅂㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "10450"
+    upcode: "10450",
   },
   {
     name: "HB테크놀러지",
@@ -11601,7 +11601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "HBㅌㅋㄴㄹㅈ",
     mktgbcd: "Q",
-    upcode: "1910"
+    upcode: "1910",
   },
   {
     name: "메디포스트",
@@ -11609,7 +11609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄷㅍㅅㅌ",
     mktgbcd: "Q",
-    upcode: "32500"
+    upcode: "32500",
   },
   {
     name: "컴투스",
@@ -11617,7 +11617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅌㅅ",
     mktgbcd: "Q",
-    upcode: "113300"
+    upcode: "113300",
   },
   {
     name: "한양디지텍",
@@ -11625,7 +11625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅇㄷㅈㅌ",
     mktgbcd: "Q",
-    upcode: "5320"
+    upcode: "5320",
   },
   {
     name: "에이블씨엔씨",
@@ -11633,7 +11633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅂㅆㅇㅆ",
     mktgbcd: "J",
-    upcode: "7280"
+    upcode: "7280",
   },
   {
     name: "OQP",
@@ -11641,7 +11641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "OQP",
     mktgbcd: "Q",
-    upcode: "3425"
+    upcode: "3425",
   },
   {
     name: "대주전자재료",
@@ -11649,7 +11649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅈㅈㅈㅈㄹ",
     mktgbcd: "Q",
-    upcode: "42700"
+    upcode: "42700",
   },
   {
     name: "코렌",
@@ -11657,7 +11657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹ",
     mktgbcd: "Q",
-    upcode: "852"
+    upcode: "852",
   },
   {
     name: "아이오케이",
@@ -11665,7 +11665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅋㅇ",
     mktgbcd: "Q",
-    upcode: "1865"
+    upcode: "1865",
   },
   {
     name: "가온미디어",
@@ -11673,7 +11673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅇㅁㄷㅇ",
     mktgbcd: "Q",
-    upcode: "5900"
+    upcode: "5900",
   },
   {
     name: "GS",
@@ -11681,7 +11681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "GS",
     mktgbcd: "J",
-    upcode: "30950"
+    upcode: "30950",
   },
   {
     name: "GS우",
@@ -11689,7 +11689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "GSㅇ",
     mktgbcd: "J",
-    upcode: "28200"
+    upcode: "28200",
   },
   {
     name: "코드네이처",
@@ -11697,7 +11697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄷㄴㅇㅊ",
     mktgbcd: "Q",
-    upcode: "1280"
+    upcode: "1280",
   },
   {
     name: "와토스코리아",
@@ -11705,7 +11705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅅㅋㄹㅇ",
     mktgbcd: "Q",
-    upcode: "5240"
+    upcode: "5240",
   },
   {
     name: "CJ CGV",
@@ -11713,7 +11713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "CJ CGV",
     mktgbcd: "J",
-    upcode: "21900"
+    upcode: "21900",
   },
   {
     name: "한창산업",
@@ -11721,7 +11721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅊㅅㅇ",
     mktgbcd: "Q",
-    upcode: "5650"
+    upcode: "5650",
   },
   {
     name: "EMW",
@@ -11729,7 +11729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "EMW",
     mktgbcd: "Q",
-    upcode: "2780"
+    upcode: "2780",
   },
   {
     name: "제우스",
@@ -11737,7 +11737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅅ",
     mktgbcd: "Q",
-    upcode: "15250"
+    upcode: "15250",
   },
   {
     name: "현대리바트",
@@ -11745,7 +11745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㄹㅂㅌ",
     mktgbcd: "J",
-    upcode: "15950"
+    upcode: "15950",
   },
   {
     name: "LIG넥스원",
@@ -11753,7 +11753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LIGㄴㅅㅇ",
     mktgbcd: "J",
-    upcode: "32050"
+    upcode: "32050",
   },
   {
     name: "서산",
@@ -11761,7 +11761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅅ",
     mktgbcd: "Q",
-    upcode: "2505"
+    upcode: "2505",
   },
   {
     name: "디이엔티",
@@ -11769,7 +11769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "8970"
+    upcode: "8970",
   },
   {
     name: "가비아",
@@ -11777,7 +11777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅂㅇ",
     mktgbcd: "Q",
-    upcode: "14900"
+    upcode: "14900",
   },
   {
     name: "인베니아",
@@ -11785,7 +11785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅂㄴㅇ",
     mktgbcd: "Q",
-    upcode: "2250"
+    upcode: "2250",
   },
   {
     name: "동양이엔피",
@@ -11793,7 +11793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅇㅇㅍ",
     mktgbcd: "Q",
-    upcode: "16850"
+    upcode: "16850",
   },
   {
     name: "투비소프트",
@@ -11801,7 +11801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅂㅅㅍㅌ",
     mktgbcd: "Q",
-    upcode: "2195"
+    upcode: "2195",
   },
   {
     name: "휴비스",
@@ -11809,7 +11809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅂㅅ",
     mktgbcd: "J",
-    upcode: "7480"
+    upcode: "7480",
   },
   {
     name: "에스엔유",
@@ -11817,7 +11817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅇㅇ",
     mktgbcd: "Q",
-    upcode: "4170"
+    upcode: "4170",
   },
   {
     name: "이상네트웍스",
@@ -11825,7 +11825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㄴㅌㅇㅅ",
     mktgbcd: "Q",
-    upcode: "6050"
+    upcode: "6050",
   },
   {
     name: "모두투어",
@@ -11833,7 +11833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄷㅌㅇ",
     mktgbcd: "Q",
-    upcode: "12300"
+    upcode: "12300",
   },
   {
     name: "제주반도체",
@@ -11841,7 +11841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅈㅂㄷㅊ",
     mktgbcd: "Q",
-    upcode: "3420"
+    upcode: "3420",
   },
   {
     name: "모다이노칩",
@@ -11849,7 +11849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄷㅇㄴㅊ",
     mktgbcd: "Q",
-    upcode: "3180"
+    upcode: "3180",
   },
   {
     name: "에스제이케이",
@@ -11857,7 +11857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅈㅇㅋㅇ",
     mktgbcd: "Q",
-    upcode: "498"
+    upcode: "498",
   },
   {
     name: "성창오토텍",
@@ -11865,7 +11865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅊㅇㅌㅌ",
     mktgbcd: "Q",
-    upcode: "8600"
+    upcode: "8600",
   },
   {
     name: "오디텍",
@@ -11873,7 +11873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄷㅌ",
     mktgbcd: "Q",
-    upcode: "4510"
+    upcode: "4510",
   },
   {
     name: "코디",
@@ -11881,7 +11881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄷ",
     mktgbcd: "Q",
-    upcode: "1790"
+    upcode: "1790",
   },
   {
     name: "오킨스전자",
@@ -11889,7 +11889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅋㅅㅈㅈ",
     mktgbcd: "Q",
-    upcode: "16000"
+    upcode: "16000",
   },
   {
     name: "한국유니온제약",
@@ -11897,7 +11897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅇㄴㅇㅈㅇ",
     mktgbcd: "Q",
-    upcode: "17150"
+    upcode: "17150",
   },
   {
     name: "일진다이아",
@@ -11905,7 +11905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅈㄷㅇㅇ",
     mktgbcd: "J",
-    upcode: "52500"
+    upcode: "52500",
   },
   {
     name: "티플랙스",
@@ -11913,7 +11913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅍㄹㅅ",
     mktgbcd: "Q",
-    upcode: "3240"
+    upcode: "3240",
   },
   {
     name: "성우전자",
@@ -11921,7 +11921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅈㅈ",
     mktgbcd: "Q",
-    upcode: "2330"
+    upcode: "2330",
   },
   {
     name: "휠라홀딩스",
@@ -11929,7 +11929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄹㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "36100"
+    upcode: "36100",
   },
   {
     name: "옵트론텍",
@@ -11937,7 +11937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㄹㅌ",
     mktgbcd: "Q",
-    upcode: "6910"
+    upcode: "6910",
   },
   {
     name: "젬백스",
@@ -11945,7 +11945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅂㅅ",
     mktgbcd: "Q",
-    upcode: "23200"
+    upcode: "23200",
   },
   {
     name: "동양생명",
@@ -11953,7 +11953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅅㅁ",
     mktgbcd: "J",
-    upcode: "3045"
+    upcode: "3045",
   },
   {
     name: "코스나인",
@@ -11961,7 +11961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅅㄴㅇ",
     mktgbcd: "Q",
-    upcode: "1740"
+    upcode: "1740",
   },
   {
     name: "HSD엔진",
@@ -11969,7 +11969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "HSDㅇㅈ",
     mktgbcd: "J",
-    upcode: "4785"
+    upcode: "4785",
   },
   {
     name: "루미마이크로",
@@ -11977,7 +11977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅁㅁㅇㅋㄹ",
     mktgbcd: "Q",
-    upcode: "2280"
+    upcode: "2280",
   },
   {
     name: "우리바이오",
@@ -11985,7 +11985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "2940"
+    upcode: "2940",
   },
   {
     name: "비츠로셀",
@@ -11993,7 +11993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅊㄹㅅ",
     mktgbcd: "Q",
-    upcode: "17000"
+    upcode: "17000",
   },
   {
     name: "엘오티베큠",
@@ -12001,7 +12001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅌㅂㅋ",
     mktgbcd: "Q",
-    upcode: "16750"
+    upcode: "16750",
   },
   {
     name: "그린케미칼",
@@ -12009,7 +12009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㄹㅋㅁㅋ",
     mktgbcd: "J",
-    upcode: "3785"
+    upcode: "3785",
   },
   {
     name: "GST",
@@ -12017,7 +12017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "GST",
     mktgbcd: "Q",
-    upcode: "16700"
+    upcode: "16700",
   },
   {
     name: "이엠앤아이",
@@ -12025,7 +12025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅇㅇ",
     mktgbcd: "Q",
-    upcode: "1585"
+    upcode: "1585",
   },
   {
     name: "에프엔에스테크",
@@ -12033,7 +12033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍㅇㅇㅅㅌㅋ",
     mktgbcd: "Q",
-    upcode: "8200"
+    upcode: "8200",
   },
   {
     name: "케이엠",
@@ -12041,7 +12041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅇ",
     mktgbcd: "Q",
-    upcode: "13700"
+    upcode: "13700",
   },
   {
     name: "인콘",
@@ -12049,7 +12049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅋ",
     mktgbcd: "Q",
-    upcode: "926"
+    upcode: "926",
   },
   {
     name: "비에이치아이",
@@ -12057,7 +12057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅇㅇㅊㅇㅇ",
     mktgbcd: "Q",
-    upcode: "2110"
+    upcode: "2110",
   },
   {
     name: "CSA 코스믹",
@@ -12065,7 +12065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "CSA ㅋㅅㅁ",
     mktgbcd: "Q",
-    upcode: "2925"
+    upcode: "2925",
   },
   {
     name: "크리스탈지노믹스",
@@ -12073,7 +12073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹㅅㅌㅈㄴㅁㅅ",
     mktgbcd: "Q",
-    upcode: "17050"
+    upcode: "17050",
   },
   {
     name: "아바코",
@@ -12081,7 +12081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅂㅋ",
     mktgbcd: "Q",
-    upcode: "8160"
+    upcode: "8160",
   },
   {
     name: "대한제강",
@@ -12089,7 +12089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅎㅈㄱ",
     mktgbcd: "J",
-    upcode: "6640"
+    upcode: "6640",
   },
   {
     name: "휴온스글로벌",
@@ -12097,7 +12097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅇㅅㄱㄹㅂ",
     mktgbcd: "Q",
-    upcode: "30500"
+    upcode: "30500",
   },
   {
     name: "수성",
@@ -12105,7 +12105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅅ",
     mktgbcd: "Q",
-    upcode: "1255"
+    upcode: "1255",
   },
   {
     name: "유진테크",
@@ -12113,7 +12113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅌㅋ",
     mktgbcd: "Q",
-    upcode: "27700"
+    upcode: "27700",
   },
   {
     name: "랩지노믹스",
@@ -12121,7 +12121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅈㄴㅁㅅ",
     mktgbcd: "Q",
-    upcode: "34350"
+    upcode: "34350",
   },
   {
     name: "동양고속",
@@ -12129,7 +12129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㄱㅅ",
     mktgbcd: "J",
-    upcode: "26600"
+    upcode: "26600",
   },
   {
     name: "이월드",
@@ -12137,7 +12137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㄷ",
     mktgbcd: "J",
-    upcode: "3175"
+    upcode: "3175",
   },
   {
     name: "대상홀딩스",
@@ -12145,7 +12145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "9940"
+    upcode: "9940",
   },
   {
     name: "대상홀딩스우",
@@ -12153,7 +12153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅎㄷㅅㅇ",
     mktgbcd: "J",
-    upcode: "8350"
+    upcode: "8350",
   },
   {
     name: "팅크웨어",
@@ -12161,7 +12161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅋㅇㅇ",
     mktgbcd: "Q",
-    upcode: "9180"
+    upcode: "9180",
   },
   {
     name: "아이티엠반도체",
@@ -12169,7 +12169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅌㅇㅂㄷㅊ",
     mktgbcd: "Q",
-    upcode: "58000"
+    upcode: "58000",
   },
   {
     name: "TBH글로벌",
@@ -12177,7 +12177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TBHㄱㄹㅂ",
     mktgbcd: "J",
-    upcode: "1605"
+    upcode: "1605",
   },
   {
     name: "헬릭스미스",
@@ -12185,7 +12185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄹㅅㅁㅅ",
     mktgbcd: "Q",
-    upcode: "32850"
+    upcode: "32850",
   },
   {
     name: "엔케이",
@@ -12193,7 +12193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅋㅇ",
     mktgbcd: "J",
-    upcode: "1030"
+    upcode: "1030",
   },
   {
     name: "루트로닉",
@@ -12201,7 +12201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅌㄹㄴ",
     mktgbcd: "Q",
-    upcode: "5150"
+    upcode: "5150",
   },
   {
     name: "루트로닉3우C",
@@ -12209,7 +12209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅌㄹㄴ3ㅇC",
     mktgbcd: "Q",
-    upcode: "7940"
+    upcode: "7940",
   },
   {
     name: "미래에셋생명",
@@ -12217,7 +12217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅㅅㅁ",
     mktgbcd: "J",
-    upcode: "3805"
+    upcode: "3805",
   },
   {
     name: "차바이오텍",
@@ -12225,7 +12225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅊㅂㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "18950"
+    upcode: "18950",
   },
   {
     name: "뉴프렉스",
@@ -12233,7 +12233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅍㄹㅅ",
     mktgbcd: "Q",
-    upcode: "2385"
+    upcode: "2385",
   },
   {
     name: "알티캐스트",
@@ -12241,7 +12241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅋㅅㅌ",
     mktgbcd: "Q",
-    upcode: "2175"
+    upcode: "2175",
   },
   {
     name: "네오티스",
@@ -12249,7 +12249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅇㅌㅅ",
     mktgbcd: "Q",
-    upcode: "3705"
+    upcode: "3705",
   },
   {
     name: "바이오톡스텍",
@@ -12257,7 +12257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅇㅇㅌㅅㅌ",
     mktgbcd: "Q",
-    upcode: "13450"
+    upcode: "13450",
   },
   {
     name: "진바이오텍",
@@ -12265,7 +12265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅂㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "5610"
+    upcode: "5610",
   },
   {
     name: "이노와이즈",
@@ -12273,7 +12273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅇㅇㅈ",
     mktgbcd: "Q",
-    upcode: "1405"
+    upcode: "1405",
   },
   {
     name: "현대글로비스",
@@ -12281,7 +12281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㄱㄹㅂㅅ",
     mktgbcd: "J",
-    upcode: "140000"
+    upcode: "140000",
   },
   {
     name: "유니테스트",
@@ -12289,7 +12289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅌㅅㅌ",
     mktgbcd: "Q",
-    upcode: "25600"
+    upcode: "25600",
   },
   {
     name: "동국제약",
@@ -12297,7 +12297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㄱㅈㅇ",
     mktgbcd: "Q",
-    upcode: "26600"
+    upcode: "26600",
   },
   {
     name: "에코프로",
@@ -12305,7 +12305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅋㅍㄹ",
     mktgbcd: "Q",
-    upcode: "44400"
+    upcode: "44400",
   },
   {
     name: "비엠티",
@@ -12313,7 +12313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅇㅌ",
     mktgbcd: "Q",
-    upcode: "8660"
+    upcode: "8660",
   },
   {
     name: "하나금융지주",
@@ -12321,7 +12321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄴㄱㅇㅈㅈ",
     mktgbcd: "J",
-    upcode: "27750"
+    upcode: "27750",
   },
   {
     name: "바이오솔루션",
@@ -12329,7 +12329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅇㅇㅅㄹㅅ",
     mktgbcd: "Q",
-    upcode: "25550"
+    upcode: "25550",
   },
   {
     name: "이수앱지스",
@@ -12337,7 +12337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅇㅈㅅ",
     mktgbcd: "Q",
-    upcode: "7620"
+    upcode: "7620",
   },
   {
     name: "메디톡스",
@@ -12345,7 +12345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄷㅌㅅ",
     mktgbcd: "Q",
-    upcode: "204900"
+    upcode: "204900",
   },
   {
     name: "한컴MDS",
@@ -12353,7 +12353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅋMDS",
     mktgbcd: "Q",
-    upcode: "11650"
+    upcode: "11650",
   },
   {
     name: "쇼박스",
@@ -12361,7 +12361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅂㅅ",
     mktgbcd: "Q",
-    upcode: "2800"
+    upcode: "2800",
   },
   {
     name: "펩트론",
@@ -12369,7 +12369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅌㄹ",
     mktgbcd: "Q",
-    upcode: "20550"
+    upcode: "20550",
   },
   {
     name: "모바일어플라이언스",
@@ -12377,7 +12377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅂㅇㅇㅍㄹㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "4475"
+    upcode: "4475",
   },
   {
     name: "픽셀플러스",
@@ -12385,7 +12385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅅㅍㄹㅅ",
     mktgbcd: "Q",
-    upcode: "4510"
+    upcode: "4510",
   },
   {
     name: "에스모 머티리얼즈",
@@ -12393,7 +12393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅁ ㅁㅌㄹㅇㅈ",
     mktgbcd: "Q",
-    upcode: "2720"
+    upcode: "2720",
   },
   {
     name: "동아엘텍",
@@ -12401,7 +12401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "9380"
+    upcode: "9380",
   },
   {
     name: "이리츠코크렙",
@@ -12409,7 +12409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄹㅊㅋㅋㄹ",
     mktgbcd: "J",
-    upcode: "5280"
+    upcode: "5280",
   },
   {
     name: "이원컴포텍",
@@ -12417,7 +12417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅋㅍㅌ",
     mktgbcd: "Q",
-    upcode: "9960"
+    upcode: "9960",
   },
   {
     name: "한화생명",
@@ -12425,7 +12425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅎㅅㅁ",
     mktgbcd: "J",
-    upcode: "1480"
+    upcode: "1480",
   },
   {
     name: "이녹스",
@@ -12433,7 +12433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅅ",
     mktgbcd: "Q",
-    upcode: "7990"
+    upcode: "7990",
   },
   {
     name: "진도",
@@ -12441,7 +12441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㄷ",
     mktgbcd: "J",
-    upcode: "2610"
+    upcode: "2610",
   },
   {
     name: "에이스테크",
@@ -12449,7 +12449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅅㅌㅋ",
     mktgbcd: "Q",
-    upcode: "26650"
+    upcode: "26650",
   },
   {
     name: "동우팜투테이블",
@@ -12457,7 +12457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅍㅌㅌㅇㅂ",
     mktgbcd: "Q",
-    upcode: "3080"
+    upcode: "3080",
   },
   {
     name: "맥쿼리인프라",
@@ -12465,7 +12465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㅋㄹㅇㅍㄹ",
     mktgbcd: "J",
-    upcode: "11000"
+    upcode: "11000",
   },
   {
     name: "켐트로닉스",
@@ -12473,7 +12473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅌㄹㄴㅅ",
     mktgbcd: "Q",
-    upcode: "15100"
+    upcode: "15100",
   },
   {
     name: "테크윙",
@@ -12481,7 +12481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅋㅇ",
     mktgbcd: "Q",
-    upcode: "19650"
+    upcode: "19650",
   },
   {
     name: "넥스턴",
@@ -12489,7 +12489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅅㅌ",
     mktgbcd: "Q",
-    upcode: "8180"
+    upcode: "8180",
   },
   {
     name: "케이씨티",
@@ -12497,7 +12497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅆㅌ",
     mktgbcd: "Q",
-    upcode: "7960"
+    upcode: "7960",
   },
   {
     name: "THE E&M",
@@ -12505,7 +12505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "THE EM",
     mktgbcd: "Q",
-    upcode: "612"
+    upcode: "612",
   },
   {
     name: "HDC현대EP",
@@ -12513,7 +12513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "HDCㅎㄷEP",
     mktgbcd: "J",
-    upcode: "5210"
+    upcode: "5210",
   },
   {
     name: "에이티세미콘",
@@ -12521,7 +12521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅌㅅㅁㅋ",
     mktgbcd: "Q",
-    upcode: "763"
+    upcode: "763",
   },
   {
     name: "제주항공",
@@ -12529,7 +12529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅈㅎㄱ",
     mktgbcd: "J",
-    upcode: "13150"
+    upcode: "13150",
   },
   {
     name: "나스미디어",
@@ -12537,7 +12537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅅㅁㄷㅇ",
     mktgbcd: "Q",
-    upcode: "34200"
+    upcode: "34200",
   },
   {
     name: "제이티",
@@ -12545,7 +12545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅌ",
     mktgbcd: "Q",
-    upcode: "6330"
+    upcode: "6330",
   },
   {
     name: "유비벨록스",
@@ -12553,7 +12553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅂㅂㄹㅅ",
     mktgbcd: "Q",
-    upcode: "8050"
+    upcode: "8050",
   },
   {
     name: "코세스",
@@ -12561,7 +12561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅅㅅ",
     mktgbcd: "Q",
-    upcode: "6800"
+    upcode: "6800",
   },
   {
     name: "에이피티씨",
@@ -12569,7 +12569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅍㅌㅆ",
     mktgbcd: "Q",
-    upcode: "11100"
+    upcode: "11100",
   },
   {
     name: "상아프론테크",
@@ -12577,7 +12577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅍㄹㅌㅋ",
     mktgbcd: "Q",
-    upcode: "41950"
+    upcode: "41950",
   },
   {
     name: "평화산업",
@@ -12585,7 +12585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅍㅎㅅㅇ",
     mktgbcd: "J",
-    upcode: "1135"
+    upcode: "1135",
   },
   {
     name: "광진윈텍",
@@ -12593,7 +12593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅈㅇㅌ",
     mktgbcd: "Q",
-    upcode: "2775"
+    upcode: "2775",
   },
   {
     name: "노루페인트",
@@ -12601,7 +12601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㄹㅍㅇㅌ",
     mktgbcd: "J",
-    upcode: "6940"
+    upcode: "6940",
   },
   {
     name: "노루페인트우",
@@ -12609,7 +12609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㄹㅍㅇㅌㅇ",
     mktgbcd: "J",
-    upcode: "13750"
+    upcode: "13750",
   },
   {
     name: "로보스타",
@@ -12617,7 +12617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅂㅅㅌ",
     mktgbcd: "Q",
-    upcode: "13000"
+    upcode: "13000",
   },
   {
     name: "메타랩스",
@@ -12625,7 +12625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㅌㄹㅅ",
     mktgbcd: "J",
-    upcode: "1140"
+    upcode: "1140",
   },
   {
     name: "덕신하우징",
@@ -12633,7 +12633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅅㅎㅇㅈ",
     mktgbcd: "Q",
-    upcode: "1285"
+    upcode: "1285",
   },
   {
     name: "아모레퍼시픽",
@@ -12641,7 +12641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅁㄹㅍㅅㅍ",
     mktgbcd: "J",
-    upcode: "161500"
+    upcode: "161500",
   },
   {
     name: "아모레퍼시픽우",
@@ -12649,7 +12649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅁㄹㅍㅅㅍㅇ",
     mktgbcd: "J",
-    upcode: "58100"
+    upcode: "58100",
   },
   {
     name: "비에이치",
@@ -12657,7 +12657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅇㅇㅊ",
     mktgbcd: "Q",
-    upcode: "21100"
+    upcode: "21100",
   },
   {
     name: "제이스텍",
@@ -12665,7 +12665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅅㅌ",
     mktgbcd: "Q",
-    upcode: "7850"
+    upcode: "7850",
   },
   {
     name: "휴림로봇",
@@ -12673,7 +12673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄹㄹㅂ",
     mktgbcd: "Q",
-    upcode: "722"
+    upcode: "722",
   },
   {
     name: "아이엠이연이",
@@ -12681,7 +12681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅇㅇㅇ",
     mktgbcd: "Q",
-    upcode: "4700"
+    upcode: "4700",
   },
   {
     name: "이지웰",
@@ -12689,7 +12689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅇ",
     mktgbcd: "Q",
-    upcode: "8530"
+    upcode: "8530",
   },
   {
     name: "세원셀론텍",
@@ -12697,7 +12697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅅㄹㅌ",
     mktgbcd: "J",
-    upcode: "2800"
+    upcode: "2800",
   },
   {
     name: "이엠텍",
@@ -12705,7 +12705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "12100"
+    upcode: "12100",
   },
   {
     name: "KODEX 반도체",
@@ -12713,7 +12713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅂㄷㅊ",
     mktgbcd: "J",
-    upcode: "26700"
+    upcode: "26700",
   },
   {
     name: "KODEX 은행",
@@ -12721,7 +12721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅇㅎ",
     mktgbcd: "J",
-    upcode: "5095"
+    upcode: "5095",
   },
   {
     name: "KODEX 자동차",
@@ -12729,7 +12729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅈㄷㅊ",
     mktgbcd: "J",
-    upcode: "15385"
+    upcode: "15385",
   },
   {
     name: "TIGER 은행",
@@ -12737,7 +12737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅇㅎ",
     mktgbcd: "J",
-    upcode: "5315"
+    upcode: "5315",
   },
   {
     name: "TIGER 반도체",
@@ -12745,7 +12745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅂㄷㅊ",
     mktgbcd: "J",
-    upcode: "27370"
+    upcode: "27370",
   },
   {
     name: "S&K폴리텍",
@@ -12753,7 +12753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SKㅍㄹㅌ",
     mktgbcd: "Q",
-    upcode: "4825"
+    upcode: "4825",
   },
   {
     name: "텔레필드",
@@ -12761,7 +12761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㄹㅍㄷ",
     mktgbcd: "Q",
-    upcode: "3675"
+    upcode: "3675",
   },
   {
     name: "상신이디피",
@@ -12769,7 +12769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅅㅇㄷㅍ",
     mktgbcd: "Q",
-    upcode: "12300"
+    upcode: "12300",
   },
   {
     name: "남화토건",
@@ -12777,7 +12777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅎㅌㄱ",
     mktgbcd: "Q",
-    upcode: "13000"
+    upcode: "13000",
   },
   {
     name: "파트론",
@@ -12785,7 +12785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅌㄹ",
     mktgbcd: "Q",
-    upcode: "10000"
+    upcode: "10000",
   },
   {
     name: "티웨이항공",
@@ -12793,7 +12793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅌㅇㅇㅎㄱ",
     mktgbcd: "J",
-    upcode: "2465"
+    upcode: "2465",
   },
   {
     name: "나노캠텍",
@@ -12801,7 +12801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㄴㅋㅌ",
     mktgbcd: "Q",
-    upcode: "1970"
+    upcode: "1970",
   },
   {
     name: "셀트리온헬스케어",
@@ -12809,7 +12809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅌㄹㅇㅎㅅㅋㅇ",
     mktgbcd: "Q",
-    upcode: "87700"
+    upcode: "87700",
   },
   {
     name: "아미코젠",
@@ -12817,7 +12817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅁㅋㅈ",
     mktgbcd: "Q",
-    upcode: "43700"
+    upcode: "43700",
   },
   {
     name: "디엔에프",
@@ -12825,7 +12825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅇㅍ",
     mktgbcd: "Q",
-    upcode: "13750"
+    upcode: "13750",
   },
   {
     name: "이크레더블",
@@ -12833,7 +12833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅋㄹㄷㅂ",
     mktgbcd: "Q",
-    upcode: "23600"
+    upcode: "23600",
   },
   {
     name: "서울바이오시스",
@@ -12841,7 +12841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅂㅇㅇㅅㅅ",
     mktgbcd: "Q",
-    upcode: "19200"
+    upcode: "19200",
   },
   {
     name: "디아이씨",
@@ -12849,7 +12849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅇㅆ",
     mktgbcd: "J",
-    upcode: "1420"
+    upcode: "1420",
   },
   {
     name: "KEC",
@@ -12857,7 +12857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KEC",
     mktgbcd: "J",
-    upcode: "1185"
+    upcode: "1185",
   },
   {
     name: "KPX홀딩스",
@@ -12865,7 +12865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KPXㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "43500"
+    upcode: "43500",
   },
   {
     name: "현우산업",
@@ -12873,7 +12873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅇㅅㅇ",
     mktgbcd: "Q",
-    upcode: "3000"
+    upcode: "3000",
   },
   {
     name: "기신정기",
@@ -12881,7 +12881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅅㅈㄱ",
     mktgbcd: "J",
-    upcode: "3640"
+    upcode: "3640",
   },
   {
     name: "한라IMS",
@@ -12889,7 +12889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄹIMS",
     mktgbcd: "Q",
-    upcode: "5480"
+    upcode: "5480",
   },
   {
     name: "앤씨앤",
@@ -12897,7 +12897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅆㅇ",
     mktgbcd: "Q",
-    upcode: "4210"
+    upcode: "4210",
   },
   {
     name: "네오팜",
@@ -12905,7 +12905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅇㅍ",
     mktgbcd: "Q",
-    upcode: "28300"
+    upcode: "28300",
   },
   {
     name: "동양피스톤",
@@ -12913,7 +12913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅍㅅㅌ",
     mktgbcd: "J",
-    upcode: "5830"
+    upcode: "5830",
   },
   {
     name: "엑시콘",
@@ -12921,7 +12921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅋ",
     mktgbcd: "Q",
-    upcode: "11700"
+    upcode: "11700",
   },
   {
     name: "LF",
@@ -12929,7 +12929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LF",
     mktgbcd: "J",
-    upcode: "13500"
+    upcode: "13500",
   },
   {
     name: "빅솔론",
@@ -12937,7 +12937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅅㄹ",
     mktgbcd: "Q",
-    upcode: "4145"
+    upcode: "4145",
   },
   {
     name: "이아이디",
@@ -12945,7 +12945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅇㄷ",
     mktgbcd: "J",
-    upcode: "243"
+    upcode: "243",
   },
   {
     name: "형지엘리트",
@@ -12953,7 +12953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅈㅇㄹㅌ",
     mktgbcd: "J",
-    upcode: "1900"
+    upcode: "1900",
   },
   {
     name: "케이아이엔엑스",
@@ -12961,7 +12961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅇㅇㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "85100"
+    upcode: "85100",
   },
   {
     name: "후성",
@@ -12969,7 +12969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅ",
     mktgbcd: "J",
-    upcode: "9350"
+    upcode: "9350",
   },
   {
     name: "풍강",
@@ -12977,7 +12977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㄱ",
     mktgbcd: "Q",
-    upcode: "2940"
+    upcode: "2940",
   },
   {
     name: "매커스",
@@ -12985,7 +12985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅋㅅ",
     mktgbcd: "Q",
-    upcode: "4630"
+    upcode: "4630",
   },
   {
     name: "다믈멀티미디어",
@@ -12993,7 +12993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅁㅁㅌㅁㄷㅇ",
     mktgbcd: "Q",
-    upcode: "2790"
+    upcode: "2790",
   },
   {
     name: "서원인텍",
@@ -13001,7 +13001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "6320"
+    upcode: "6320",
   },
   {
     name: "동운아나텍",
@@ -13009,7 +13009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅇㄴㅌ",
     mktgbcd: "Q",
-    upcode: "7370"
+    upcode: "7370",
   },
   {
     name: "효성ITX",
@@ -13017,7 +13017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅITX",
     mktgbcd: "J",
-    upcode: "24250"
+    upcode: "24250",
   },
   {
     name: "칩스앤미디어",
@@ -13025,7 +13025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅊㅅㅇㅁㄷㅇ",
     mktgbcd: "Q",
-    upcode: "12400"
+    upcode: "12400",
   },
   {
     name: "갤럭시아머니트리",
@@ -13033,7 +13033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㄹㅅㅇㅁㄴㅌㄹ",
     mktgbcd: "Q",
-    upcode: "3800"
+    upcode: "3800",
   },
   {
     name: "맵스리얼티1",
@@ -13041,7 +13041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㅅㄹㅇㅌ1",
     mktgbcd: "J",
-    upcode: "4035"
+    upcode: "4035",
   },
   {
     name: "일진파워",
@@ -13049,7 +13049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅍㅇ",
     mktgbcd: "Q",
-    upcode: "5120"
+    upcode: "5120",
   },
   {
     name: "슈프리마에이치큐",
@@ -13057,7 +13057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅍㄹㅁㅇㅇㅊㅋ",
     mktgbcd: "Q",
-    upcode: "6390"
+    upcode: "6390",
   },
   {
     name: "참좋은여행",
@@ -13065,7 +13065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅊㅈㅇㅇㅎ",
     mktgbcd: "Q",
-    upcode: "5420"
+    upcode: "5420",
   },
   {
     name: "코닉글로리",
@@ -13073,7 +13073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄴㄱㄹㄹ",
     mktgbcd: "Q",
-    upcode: "2700"
+    upcode: "2700",
   },
   {
     name: "푸른기술",
@@ -13081,7 +13081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㄹㄱㅅ",
     mktgbcd: "Q",
-    upcode: "14550"
+    upcode: "14550",
   },
   {
     name: "제이엠티",
@@ -13089,7 +13089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "2695"
+    upcode: "2695",
   },
   {
     name: "이엠코리아",
@@ -13097,7 +13097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅋㄹㅇ",
     mktgbcd: "Q",
-    upcode: "5590"
+    upcode: "5590",
   },
   {
     name: "웨이브일렉트로",
@@ -13105,7 +13105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅂㅇㄹㅌㄹ",
     mktgbcd: "Q",
-    upcode: "8720"
+    upcode: "8720",
   },
   {
     name: "ISC",
@@ -13113,7 +13113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ISC",
     mktgbcd: "Q",
-    upcode: "18600"
+    upcode: "18600",
   },
   {
     name: "미래나노텍",
@@ -13121,7 +13121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄹㄴㄴㅌ",
     mktgbcd: "Q",
-    upcode: "2610"
+    upcode: "2610",
   },
   {
     name: "AJ네트웍스",
@@ -13129,7 +13129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "AJㄴㅌㅇㅅ",
     mktgbcd: "J",
-    upcode: "3230"
+    upcode: "3230",
   },
   {
     name: "테스",
@@ -13137,7 +13137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅅ",
     mktgbcd: "Q",
-    upcode: "25150"
+    upcode: "25150",
   },
   {
     name: "네오위즈",
@@ -13145,7 +13145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅇㅇㅈ",
     mktgbcd: "Q",
-    upcode: "26050"
+    upcode: "26050",
   },
   {
     name: "제넥신",
@@ -13153,7 +13153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㄴㅅ",
     mktgbcd: "Q",
-    upcode: "144800"
+    upcode: "144800",
   },
   {
     name: "웅진씽크빅",
@@ -13161,7 +13161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅈㅆㅋㅂ",
     mktgbcd: "J",
-    upcode: "2575"
+    upcode: "2575",
   },
   {
     name: "에스에너지",
@@ -13169,7 +13169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅇㄴㅈ",
     mktgbcd: "Q",
-    upcode: "7570"
+    upcode: "7570",
   },
   {
     name: "이트론",
@@ -13177,7 +13177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㄹ",
     mktgbcd: "Q",
-    upcode: "280"
+    upcode: "280",
   },
   {
     name: "청담러닝",
@@ -13185,7 +13185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅊㄷㄹㄴ",
     mktgbcd: "Q",
-    upcode: "21600"
+    upcode: "21600",
   },
   {
     name: "베트남개발1",
@@ -13193,7 +13193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㅌㄴㄱㅂ1",
     mktgbcd: "J",
-    upcode: "278"
+    upcode: "278",
   },
   {
     name: "대창솔루션",
@@ -13201,7 +13201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅊㅅㄹㅅ",
     mktgbcd: "Q",
-    upcode: "360"
+    upcode: "360",
   },
   {
     name: "씨젠",
@@ -13209,7 +13209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㅈ",
     mktgbcd: "Q",
-    upcode: "256000"
+    upcode: "256000",
   },
   {
     name: "알에프세미",
@@ -13217,7 +13217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅍㅅㅁ",
     mktgbcd: "Q",
-    upcode: "5060"
+    upcode: "5060",
   },
   {
     name: "에스코넥",
@@ -13225,7 +13225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅋㄴ",
     mktgbcd: "Q",
-    upcode: "1970"
+    upcode: "1970",
   },
   {
     name: "멜파스",
@@ -13233,7 +13233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅍㅅ",
     mktgbcd: "Q",
-    upcode: "1085"
+    upcode: "1085",
   },
   {
     name: "에이루트",
@@ -13241,7 +13241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㄹㅌ",
     mktgbcd: "Q",
-    upcode: "4765"
+    upcode: "4765",
   },
   {
     name: "JW홀딩스",
@@ -13249,7 +13249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "JWㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "5750"
+    upcode: "5750",
   },
   {
     name: "SK이노베이션",
@@ -13257,7 +13257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SKㅇㄴㅂㅇㅅ",
     mktgbcd: "J",
-    upcode: "138000"
+    upcode: "138000",
   },
   {
     name: "SK이노베이션우",
@@ -13265,7 +13265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SKㅇㄴㅂㅇㅅㅇ",
     mktgbcd: "J",
-    upcode: "119500"
+    upcode: "119500",
   },
   {
     name: "엘디티",
@@ -13273,7 +13273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄷㅌ",
     mktgbcd: "Q",
-    upcode: "2475"
+    upcode: "2475",
   },
   {
     name: "한진중공업",
@@ -13281,7 +13281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅈㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "8450"
+    upcode: "8450",
   },
   {
     name: "엠씨넥스",
@@ -13289,7 +13289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅆㄴㅅ",
     mktgbcd: "Q",
-    upcode: "36100"
+    upcode: "36100",
   },
   {
     name: "에스맥",
@@ -13297,7 +13297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅁ",
     mktgbcd: "Q",
-    upcode: "1765"
+    upcode: "1765",
   },
   {
     name: "윈팩",
@@ -13305,7 +13305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍ",
     mktgbcd: "Q",
-    upcode: "1620"
+    upcode: "1620",
   },
   {
     name: "효성오앤비",
@@ -13313,7 +13313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅅㅇㅇㅂ",
     mktgbcd: "Q",
-    upcode: "8040"
+    upcode: "8040",
   },
   {
     name: "CJ제일제당",
@@ -13321,7 +13321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "CJㅈㅇㅈㄷ",
     mktgbcd: "J",
-    upcode: "394000"
+    upcode: "394000",
   },
   {
     name: "CJ제일제당 우",
@@ -13329,7 +13329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "CJㅈㅇㅈㄷ ㅇ",
     mktgbcd: "J",
-    upcode: "155500"
+    upcode: "155500",
   },
   {
     name: "마이크로컨텍솔",
@@ -13337,7 +13337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅇㅋㄹㅋㅌㅅ",
     mktgbcd: "Q",
-    upcode: "4775"
+    upcode: "4775",
   },
   {
     name: "고영",
@@ -13345,7 +13345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅇ",
     mktgbcd: "Q",
-    upcode: "90200"
+    upcode: "90200",
   },
   {
     name: "TIGER 방송통신",
@@ -13353,7 +13353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅂㅅㅌㅅ",
     mktgbcd: "J",
-    upcode: "7020"
+    upcode: "7020",
   },
   {
     name: "에스티오",
@@ -13361,7 +13361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅌㅇ",
     mktgbcd: "Q",
-    upcode: "2025"
+    upcode: "2025",
   },
   {
     name: "KODEX China H",
@@ -13369,7 +13369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX China H",
     mktgbcd: "J",
-    upcode: "19690"
+    upcode: "19690",
   },
   {
     name: "아이센스",
@@ -13377,7 +13377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅅㅅ",
     mktgbcd: "Q",
-    upcode: "27300"
+    upcode: "27300",
   },
   {
     name: "SDN",
@@ -13385,7 +13385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SDN",
     mktgbcd: "Q",
-    upcode: "3200"
+    upcode: "3200",
   },
   {
     name: "쎄트렉아이",
@@ -13393,7 +13393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㅌㄹㅇㅇ",
     mktgbcd: "Q",
-    upcode: "25000"
+    upcode: "25000",
   },
   {
     name: "동방선기",
@@ -13401,7 +13401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅂㅅㄱ",
     mktgbcd: "Q",
-    upcode: "3125"
+    upcode: "3125",
   },
   {
     name: "스맥",
@@ -13409,7 +13409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅁ",
     mktgbcd: "Q",
-    upcode: "1850"
+    upcode: "1850",
   },
   {
     name: "ITX-AI",
@@ -13417,7 +13417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ITX-AI",
     mktgbcd: "Q",
-    upcode: "2505"
+    upcode: "2505",
   },
   {
     name: "이지케어텍",
@@ -13425,7 +13425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅋㅇㅌ",
     mktgbcd: "Q",
-    upcode: "19250"
+    upcode: "19250",
   },
   {
     name: "모바일리더",
@@ -13433,7 +13433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅂㅇㄹㄷ",
     mktgbcd: "Q",
-    upcode: "15950"
+    upcode: "15950",
   },
   {
     name: "삼강엠앤티",
@@ -13441,7 +13441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄱㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "17700"
+    upcode: "17700",
   },
   {
     name: "뷰웍스",
@@ -13449,7 +13449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅇㅅ",
     mktgbcd: "Q",
-    upcode: "30700"
+    upcode: "30700",
   },
   {
     name: "동국S&C",
@@ -13457,7 +13457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㄱSC",
     mktgbcd: "Q",
-    upcode: "8310"
+    upcode: "8310",
   },
   {
     name: "비상교육",
@@ -13465,7 +13465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㅅㄱㅇ",
     mktgbcd: "J",
-    upcode: "6560"
+    upcode: "6560",
   },
   {
     name: "진양홀딩스",
@@ -13473,7 +13473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅇㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "2770"
+    upcode: "2770",
   },
   {
     name: "머큐리",
@@ -13481,7 +13481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅋㄹ",
     mktgbcd: "Q",
-    upcode: "11050"
+    upcode: "11050",
   },
   {
     name: "서암기계공업",
@@ -13489,7 +13489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㄱㄱㄱㅇ",
     mktgbcd: "Q",
-    upcode: "5340"
+    upcode: "5340",
   },
   {
     name: "세운메디칼",
@@ -13497,7 +13497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅁㄷㅋ",
     mktgbcd: "Q",
-    upcode: "3555"
+    upcode: "3555",
   },
   {
     name: "미래에셋벤처투자",
@@ -13505,7 +13505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄹㅇㅅㅂㅊㅌㅈ",
     mktgbcd: "Q",
-    upcode: "3470"
+    upcode: "3470",
   },
   {
     name: "S&TC",
@@ -13513,7 +13513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "STC",
     mktgbcd: "J",
-    upcode: "15000"
+    upcode: "15000",
   },
   {
     name: "KOSEF KRX100",
@@ -13521,7 +13521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF KRX100",
     mktgbcd: "J",
-    upcode: "4975"
+    upcode: "4975",
   },
   {
     name: "상상인인더스트리",
@@ -13529,7 +13529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅅㅇㅇㄷㅅㅌㄹ",
     mktgbcd: "Q",
-    upcode: "760"
+    upcode: "760",
   },
   {
     name: "SBS미디어홀딩스",
@@ -13537,7 +13537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SBSㅁㄷㅇㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "1745"
+    upcode: "1745",
   },
   {
     name: "비티원",
@@ -13545,7 +13545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㅌㅇ",
     mktgbcd: "J",
-    upcode: "3595"
+    upcode: "3595",
   },
   {
     name: "월덱스",
@@ -13553,7 +13553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄷㅅ",
     mktgbcd: "Q",
-    upcode: "14900"
+    upcode: "14900",
   },
   {
     name: "우림기계",
@@ -13561,7 +13561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㄱㄱ",
     mktgbcd: "Q",
-    upcode: "3985"
+    upcode: "3985",
   },
   {
     name: "씨큐브",
@@ -13569,7 +13569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㅋㅂ",
     mktgbcd: "Q",
-    upcode: "7240"
+    upcode: "7240",
   },
   {
     name: "KODEX 일본TOPIX100",
@@ -13577,7 +13577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅇㅂTOPIX100",
     mktgbcd: "J",
-    upcode: "14290"
+    upcode: "14290",
   },
   {
     name: "모베이스",
@@ -13585,7 +13585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅂㅇㅅ",
     mktgbcd: "Q",
-    upcode: "3010"
+    upcode: "3010",
   },
   {
     name: "이엔드디",
@@ -13593,7 +13593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㄷㄷ",
     mktgbcd: "Q",
-    upcode: "22400"
+    upcode: "22400",
   },
   {
     name: "아이엠",
@@ -13601,7 +13601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇ",
     mktgbcd: "Q",
-    upcode: "788"
+    upcode: "788",
   },
   {
     name: "엔시트론",
@@ -13609,7 +13609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅌㄹ",
     mktgbcd: "Q",
-    upcode: "1025"
+    upcode: "1025",
   },
   {
     name: "에스앤에스텍",
@@ -13617,7 +13617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅇㅇㅅㅌ",
     mktgbcd: "Q",
-    upcode: "37600"
+    upcode: "37600",
   },
   {
     name: "해태제과식품",
@@ -13625,7 +13625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅌㅈㄱㅅㅍ",
     mktgbcd: "J",
-    upcode: "9490"
+    upcode: "9490",
   },
   {
     name: "코리아에스이",
@@ -13633,7 +13633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹㅇㅇㅅㅇ",
     mktgbcd: "Q",
-    upcode: "1165"
+    upcode: "1165",
   },
   {
     name: "한국정밀기계",
@@ -13641,7 +13641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅈㅁㄱㄱ",
     mktgbcd: "Q",
-    upcode: "1580"
+    upcode: "1580",
   },
   {
     name: "조이맥스",
@@ -13649,7 +13649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅁㅅ",
     mktgbcd: "Q",
-    upcode: "5590"
+    upcode: "5590",
   },
   {
     name: "인화정공",
@@ -13657,7 +13657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅎㅈㄱ",
     mktgbcd: "Q",
-    upcode: "3845"
+    upcode: "3845",
   },
   {
     name: "TIGER 200",
@@ -13665,7 +13665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 200",
     mktgbcd: "J",
-    upcode: "30790"
+    upcode: "30790",
   },
   {
     name: "어보브반도체",
@@ -13673,7 +13673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅂㅂㅂㄷㅊ",
     mktgbcd: "Q",
-    upcode: "10550"
+    upcode: "10550",
   },
   {
     name: "해덕파워웨이",
@@ -13681,7 +13681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄷㅍㅇㅇㅇ",
     mktgbcd: "Q",
-    upcode: "1100"
+    upcode: "1100",
   },
   {
     name: "동성코퍼레이션",
@@ -13689,7 +13689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅋㅍㄹㅇㅅ",
     mktgbcd: "J",
-    upcode: "4070"
+    upcode: "4070",
   },
   {
     name: "쌍방울",
@@ -13697,7 +13697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅆㅂㅇ",
     mktgbcd: "J",
-    upcode: "624"
+    upcode: "624",
   },
   {
     name: "이연제약",
@@ -13705,7 +13705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅈㅇ",
     mktgbcd: "J",
-    upcode: "18500"
+    upcode: "18500",
   },
   {
     name: "이엔에프테크놀로지",
@@ -13713,7 +13713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅍㅌㅋㄴㄹㅈ",
     mktgbcd: "Q",
-    upcode: "43400"
+    upcode: "43400",
   },
   {
     name: "KODEX 삼성그룹",
@@ -13721,7 +13721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅅㅅㄱㄹ",
     mktgbcd: "J",
-    upcode: "7480"
+    upcode: "7480",
   },
   {
     name: "코오롱생명과학",
@@ -13729,7 +13729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㄹㅅㅁㄱㅎ",
     mktgbcd: "Q",
-    upcode: "30900"
+    upcode: "30900",
   },
   {
     name: "KODEX 기계장비",
@@ -13737,7 +13737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㄱㄱㅈㅂ",
     mktgbcd: "J",
-    upcode: "3915"
+    upcode: "3915",
   },
   {
     name: "KODEX 증권",
@@ -13745,7 +13745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅈㄱ",
     mktgbcd: "J",
-    upcode: "6040"
+    upcode: "6040",
   },
   {
     name: "풍산",
@@ -13753,7 +13753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅍㅅ",
     mktgbcd: "J",
-    upcode: "23650"
+    upcode: "23650",
   },
   {
     name: "에스앤더블류",
@@ -13761,7 +13761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅇㄷㅂㄹ",
     mktgbcd: "Q",
-    upcode: "1820"
+    upcode: "1820",
   },
   {
     name: "일진전기",
@@ -13769,7 +13769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅈㅈㄱ",
     mktgbcd: "J",
-    upcode: "2855"
+    upcode: "2855",
   },
   {
     name: "우양",
@@ -13777,7 +13777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇ",
     mktgbcd: "Q",
-    upcode: "5150"
+    upcode: "5150",
   },
   {
     name: "대성파인텍",
@@ -13785,7 +13785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅅㅍㅇㅌ",
     mktgbcd: "Q",
-    upcode: "1610"
+    upcode: "1610",
   },
   {
     name: "NHN벅스",
@@ -13793,7 +13793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "NHNㅂㅅ",
     mktgbcd: "Q",
-    upcode: "4665"
+    upcode: "4665",
   },
   {
     name: "디와이피엔에프",
@@ -13801,7 +13801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅇㅍㅇㅇㅍ",
     mktgbcd: "Q",
-    upcode: "16550"
+    upcode: "16550",
   },
   {
     name: "티케이케미칼",
@@ -13809,7 +13809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅋㅇㅋㅁㅋ",
     mktgbcd: "Q",
-    upcode: "1770"
+    upcode: "1770",
   },
   {
     name: "KOSEF 블루칩",
@@ -13817,7 +13817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF ㅂㄹㅊ",
     mktgbcd: "J",
-    upcode: "7900"
+    upcode: "7900",
   },
   {
     name: "KOSEF 고배당",
@@ -13825,7 +13825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF ㄱㅂㄷ",
     mktgbcd: "J",
-    upcode: "6355"
+    upcode: "6355",
   },
   {
     name: "코렌텍",
@@ -13833,7 +13833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹㅌ",
     mktgbcd: "Q",
-    upcode: "9320"
+    upcode: "9320",
   },
   {
     name: "노랑풍선",
@@ -13841,7 +13841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㄹㅍㅅ",
     mktgbcd: "Q",
-    upcode: "16850"
+    upcode: "16850",
   },
   {
     name: "한국철강",
@@ -13849,7 +13849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅊㄱ",
     mktgbcd: "J",
-    upcode: "4650"
+    upcode: "4650",
   },
   {
     name: "원익머트리얼즈",
@@ -13857,7 +13857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅁㅌㄹㅇㅈ",
     mktgbcd: "Q",
-    upcode: "28300"
+    upcode: "28300",
   },
   {
     name: "TIGER 라틴35",
@@ -13865,7 +13865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄹㅌ35",
     mktgbcd: "J",
-    upcode: "2490"
+    upcode: "2490",
   },
   {
     name: "KINDEX 200",
@@ -13873,7 +13873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX 200",
     mktgbcd: "J",
-    upcode: "30835"
+    upcode: "30835",
   },
   {
     name: "케이엔더블유",
@@ -13881,7 +13881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅇㄷㅂㅇ",
     mktgbcd: "Q",
-    upcode: "7640"
+    upcode: "7640",
   },
   {
     name: "트루윈",
@@ -13889,7 +13889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㄹㅇ",
     mktgbcd: "Q",
-    upcode: "3820"
+    upcode: "3820",
   },
   {
     name: "KB금융",
@@ -13897,7 +13897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBㄱㅇ",
     mktgbcd: "J",
-    upcode: "38200"
+    upcode: "38200",
   },
   {
     name: "한세실업",
@@ -13905,7 +13905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㅅㅇ",
     mktgbcd: "J",
-    upcode: "17150"
+    upcode: "17150",
   },
   {
     name: "디케이락",
@@ -13913,7 +13913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅋㅇㄹ",
     mktgbcd: "Q",
-    upcode: "10700"
+    upcode: "10700",
   },
   {
     name: "KBSTAR 5대그룹주",
@@ -13921,7 +13921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR 5ㄷㄱㄹㅈ",
     mktgbcd: "J",
-    upcode: "5985"
+    upcode: "5985",
   },
   {
     name: "우진",
@@ -13929,7 +13929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅈ",
     mktgbcd: "J",
-    upcode: "3760"
+    upcode: "3760",
   },
   {
     name: "하이소닉",
@@ -13937,7 +13937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅇㅅㄴ",
     mktgbcd: "Q",
-    upcode: "3330"
+    upcode: "3330",
   },
   {
     name: "하이텍팜",
@@ -13945,7 +13945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅇㅌㅍ",
     mktgbcd: "Q",
-    upcode: "12600"
+    upcode: "12600",
   },
   {
     name: "파인테크닉스",
@@ -13953,7 +13953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅇㅌㅋㄴㅅ",
     mktgbcd: "Q",
-    upcode: "4300"
+    upcode: "4300",
   },
   {
     name: "디지탈옵틱",
@@ -13961,7 +13961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅈㅌㅇㅌ",
     mktgbcd: "Q",
-    upcode: "606"
+    upcode: "606",
   },
   {
     name: "미원홀딩스",
@@ -13969,7 +13969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㅇㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "53500"
+    upcode: "53500",
   },
   {
     name: "톱텍",
@@ -13977,7 +13977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅌ",
     mktgbcd: "Q",
-    upcode: "16100"
+    upcode: "16100",
   },
   {
     name: "실리콘웍스",
@@ -13985,7 +13985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄹㅋㅇㅅ",
     mktgbcd: "Q",
-    upcode: "44450"
+    upcode: "44450",
   },
   {
     name: "대양전기공업",
@@ -13993,7 +13993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅈㄱㄱㅇ",
     mktgbcd: "Q",
-    upcode: "10850"
+    upcode: "10850",
   },
   {
     name: "KINDEX 삼성그룹섹터가중",
@@ -14001,7 +14001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅅㅅㄱㄹㅅㅌㄱㅈ",
     mktgbcd: "J",
-    upcode: "11875"
+    upcode: "11875",
   },
   {
     name: "로보티즈",
@@ -14009,7 +14009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅂㅌㅈ",
     mktgbcd: "Q",
-    upcode: "13200"
+    upcode: "13200",
   },
   {
     name: "TREX 200",
@@ -14017,7 +14017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TREX 200",
     mktgbcd: "J",
-    upcode: "31010"
+    upcode: "31010",
   },
   {
     name: "LG하우시스",
@@ -14025,7 +14025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LGㅎㅇㅅㅅ",
     mktgbcd: "J",
-    upcode: "55500"
+    upcode: "55500",
   },
   {
     name: "LG하우시스우",
@@ -14033,7 +14033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LGㅎㅇㅅㅅㅇ",
     mktgbcd: "J",
-    upcode: "25200"
+    upcode: "25200",
   },
   {
     name: "셀바스AI",
@@ -14041,7 +14041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅂㅅAI",
     mktgbcd: "Q",
-    upcode: "2690"
+    upcode: "2690",
   },
   {
     name: "컨버즈",
@@ -14049,7 +14049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅂㅈ",
     mktgbcd: "J",
-    upcode: "4100"
+    upcode: "4100",
   },
   {
     name: "옵티시스",
@@ -14057,7 +14057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅅㅅ",
     mktgbcd: "Q",
-    upcode: "8250"
+    upcode: "8250",
   },
   {
     name: "에스와이",
@@ -14065,7 +14065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅇㅇ",
     mktgbcd: "Q",
-    upcode: "3680"
+    upcode: "3680",
   },
   {
     name: "디에스케이",
@@ -14073,7 +14073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅅㅋㅇ",
     mktgbcd: "Q",
-    upcode: "7420"
+    upcode: "7420",
   },
   {
     name: "진매트릭스",
@@ -14081,7 +14081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅁㅌㄹㅅ",
     mktgbcd: "Q",
-    upcode: "14250"
+    upcode: "14250",
   },
   {
     name: "동일금속",
@@ -14089,7 +14089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㄱㅅ",
     mktgbcd: "Q",
-    upcode: "10550"
+    upcode: "10550",
   },
   {
     name: "에이프로젠 H&G",
@@ -14097,7 +14097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅍㄹㅈ HG",
     mktgbcd: "Q",
-    upcode: "667"
+    upcode: "667",
   },
   {
     name: "전진바이오팜",
@@ -14105,7 +14105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅈㅂㅇㅇㅍ",
     mktgbcd: "Q",
-    upcode: "13800"
+    upcode: "13800",
   },
   {
     name: "크리스에프앤씨",
@@ -14113,7 +14113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹㅅㅇㅍㅇㅆ",
     mktgbcd: "Q",
-    upcode: "22000"
+    upcode: "22000",
   },
   {
     name: "디아이티",
@@ -14121,7 +14121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "6240"
+    upcode: "6240",
   },
   {
     name: "호전실업",
@@ -14129,7 +14129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅈㅅㅇ",
     mktgbcd: "J",
-    upcode: "8000"
+    upcode: "8000",
   },
   {
     name: "남화산업",
@@ -14137,7 +14137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅎㅅㅇ",
     mktgbcd: "Q",
-    upcode: "11300"
+    upcode: "11300",
   },
   {
     name: "영원무역",
@@ -14145,7 +14145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅁㅇ",
     mktgbcd: "J",
-    upcode: "27650"
+    upcode: "27650",
   },
   {
     name: "지와이커머스",
@@ -14153,7 +14153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅇㅋㅁㅅ",
     mktgbcd: "Q",
-    upcode: "2465"
+    upcode: "2465",
   },
   {
     name: "삼본전자",
@@ -14161,7 +14161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅂㅈㅈ",
     mktgbcd: "Q",
-    upcode: "1540"
+    upcode: "1540",
   },
   {
     name: "위메이드",
@@ -14169,7 +14169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅁㅇㄷ",
     mktgbcd: "Q",
-    upcode: "37850"
+    upcode: "37850",
   },
   {
     name: "씨에스윈드",
@@ -14177,7 +14177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅆㅇㅅㅇㄷ",
     mktgbcd: "J",
-    upcode: "102500"
+    upcode: "102500",
   },
   {
     name: "디젠스",
@@ -14185,7 +14185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅈㅅ",
     mktgbcd: "Q",
-    upcode: "503"
+    upcode: "503",
   },
   {
     name: "GKL",
@@ -14193,7 +14193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "GKL",
     mktgbcd: "J",
-    upcode: "12150"
+    upcode: "12150",
   },
   {
     name: "KBSTAR 국고채3년",
@@ -14201,7 +14201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㄱㄱㅊ3ㄴ",
     mktgbcd: "J",
-    upcode: "114045"
+    upcode: "114045",
   },
   {
     name: "크루셜텍",
@@ -14209,7 +14209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹㅅㅌ",
     mktgbcd: "Q",
-    upcode: "1670"
+    upcode: "1670",
   },
   {
     name: "강원",
@@ -14217,7 +14217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅇ",
     mktgbcd: "Q",
-    upcode: "2500"
+    upcode: "2500",
   },
   {
     name: "KODEX 국고채3년",
@@ -14225,7 +14225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㄱㄱㅊ3ㄴ",
     mktgbcd: "J",
-    upcode: "58235"
+    upcode: "58235",
   },
   {
     name: "KPX생명과학",
@@ -14233,7 +14233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "KPXㅅㅁㄱㅎ",
     mktgbcd: "Q",
-    upcode: "6830"
+    upcode: "6830",
   },
   {
     name: "KINDEX 국고채3년",
@@ -14241,7 +14241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㄱㄱㅊ3ㄴ",
     mktgbcd: "J",
-    upcode: "107890"
+    upcode: "107890",
   },
   {
     name: "KOSEF 국고채3년",
@@ -14249,7 +14249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF ㄱㄱㅊ3ㄴ",
     mktgbcd: "J",
-    upcode: "113490"
+    upcode: "113490",
   },
   {
     name: "지스마트글로벌",
@@ -14257,7 +14257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅅㅁㅌㄱㄹㅂ",
     mktgbcd: "Q",
-    upcode: "620"
+    upcode: "620",
   },
   {
     name: "우노앤컴퍼니",
@@ -14265,7 +14265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅇㅋㅍㄴ",
     mktgbcd: "Q",
-    upcode: "3545"
+    upcode: "3545",
   },
   {
     name: "KODEX 인버스",
@@ -14273,7 +14273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "5520"
+    upcode: "5520",
   },
   {
     name: "아이원스",
@@ -14281,7 +14281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "8500"
+    upcode: "8500",
   },
   {
     name: "TIGER 국채3년",
@@ -14289,7 +14289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄱㅊ3ㄴ",
     mktgbcd: "J",
-    upcode: "111830"
+    upcode: "111830",
   },
   {
     name: "휴맥스",
@@ -14297,7 +14297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅁㅅ",
     mktgbcd: "Q",
-    upcode: "4370"
+    upcode: "4370",
   },
   {
     name: "큐리언트",
@@ -14305,7 +14305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹㅇㅌ",
     mktgbcd: "Q",
-    upcode: "33750"
+    upcode: "33750",
   },
   {
     name: "인포바인",
@@ -14313,7 +14313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍㅂㅇ",
     mktgbcd: "Q",
-    upcode: "17850"
+    upcode: "17850",
   },
   {
     name: "락앤락",
@@ -14321,7 +14321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄹㅇㄹ",
     mktgbcd: "J",
-    upcode: "10600"
+    upcode: "10600",
   },
   {
     name: "우리넷",
@@ -14329,7 +14329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㄴ",
     mktgbcd: "Q",
-    upcode: "9050"
+    upcode: "9050",
   },
   {
     name: "지트리비앤티",
@@ -14337,7 +14337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅌㄹㅂㅇㅌ",
     mktgbcd: "Q",
-    upcode: "26700"
+    upcode: "26700",
   },
   {
     name: "씨유메디칼",
@@ -14345,7 +14345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㅇㅁㄷㅋ",
     mktgbcd: "Q",
-    upcode: "2860"
+    upcode: "2860",
   },
   {
     name: "케이씨에스",
@@ -14353,7 +14353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅆㅇㅅ",
     mktgbcd: "Q",
-    upcode: "4440"
+    upcode: "4440",
   },
   {
     name: "씨엔플러스",
@@ -14361,7 +14361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㅇㅍㄹㅅ",
     mktgbcd: "Q",
-    upcode: "839"
+    upcode: "839",
   },
   {
     name: "스타플렉스",
@@ -14369,7 +14369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅌㅍㄹㅅ",
     mktgbcd: "Q",
-    upcode: "4680"
+    upcode: "4680",
   },
   {
     name: "이미지스",
@@ -14377,7 +14377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅁㅈㅅ",
     mktgbcd: "Q",
-    upcode: "2950"
+    upcode: "2950",
   },
   {
     name: "연우",
@@ -14385,7 +14385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇ",
     mktgbcd: "Q",
-    upcode: "19450"
+    upcode: "19450",
   },
   {
     name: "KODEX 에너지화학",
@@ -14393,7 +14393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅇㄴㅈㅎㅎ",
     mktgbcd: "J",
-    upcode: "12865"
+    upcode: "12865",
   },
   {
     name: "대성에너지",
@@ -14401,7 +14401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅇㄴㅈ",
     mktgbcd: "J",
-    upcode: "5350"
+    upcode: "5350",
   },
   {
     name: "알파홀딩스",
@@ -14409,7 +14409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍㅎㄷㅅ",
     mktgbcd: "Q",
-    upcode: "4475"
+    upcode: "4475",
   },
   {
     name: "KODEX 철강",
@@ -14417,7 +14417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅊㄱ",
     mktgbcd: "J",
-    upcode: "5545"
+    upcode: "5545",
   },
   {
     name: "TIGER 차이나항셍25",
@@ -14425,7 +14425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅊㅇㄴㅎㅅ25",
     mktgbcd: "J",
-    upcode: "15140"
+    upcode: "15140",
   },
   {
     name: "KODEX 건설",
@@ -14433,7 +14433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㄱㅅ",
     mktgbcd: "J",
-    upcode: "2230"
+    upcode: "2230",
   },
   {
     name: "티로보틱스",
@@ -14441,7 +14441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㄹㅂㅌㅅ",
     mktgbcd: "Q",
-    upcode: "12050"
+    upcode: "12050",
   },
   {
     name: "우리들휴브레인",
@@ -14449,7 +14449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄹㄷㅎㅂㄹㅇ",
     mktgbcd: "J",
-    upcode: "4375"
+    upcode: "4375",
   },
   {
     name: "모트렉스",
@@ -14457,7 +14457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅌㄹㅅ",
     mktgbcd: "Q",
-    upcode: "6390"
+    upcode: "6390",
   },
   {
     name: "포메탈",
@@ -14465,7 +14465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅁㅌ",
     mktgbcd: "Q",
-    upcode: "3395"
+    upcode: "3395",
   },
   {
     name: "인터로조",
@@ -14473,7 +14473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㄹㅈ",
     mktgbcd: "Q",
-    upcode: "22150"
+    upcode: "22150",
   },
   {
     name: "KC코트렐",
@@ -14481,7 +14481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KCㅋㅌㄹ",
     mktgbcd: "J",
-    upcode: "6030"
+    upcode: "6030",
   },
   {
     name: "아이텍",
@@ -14489,7 +14489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "7620"
+    upcode: "7620",
   },
   {
     name: "지엔씨에너지",
@@ -14497,7 +14497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅆㅇㄴㅈ",
     mktgbcd: "Q",
-    upcode: "6170"
+    upcode: "6170",
   },
   {
     name: "다나와",
@@ -14505,7 +14505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㄴㅇ",
     mktgbcd: "Q",
-    upcode: "31250"
+    upcode: "31250",
   },
   {
     name: "조선선재",
@@ -14513,7 +14513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅅㅅㅈ",
     mktgbcd: "J",
-    upcode: "97000"
+    upcode: "97000",
   },
   {
     name: "코오롱인더",
@@ -14521,7 +14521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅇㄹㅇㄷ",
     mktgbcd: "J",
-    upcode: "37300"
+    upcode: "37300",
   },
   {
     name: "코오롱인더우",
@@ -14529,7 +14529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅇㄹㅇㄷㅇ",
     mktgbcd: "J",
-    upcode: "20300"
+    upcode: "20300",
   },
   {
     name: "대정화금",
@@ -14537,7 +14537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅈㅎㄱ",
     mktgbcd: "Q",
-    upcode: "29700"
+    upcode: "29700",
   },
   {
     name: "골프존뉴딘홀딩스",
@@ -14545,7 +14545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅍㅈㄴㄷㅎㄷㅅ",
     mktgbcd: "Q",
-    upcode: "5270"
+    upcode: "5270",
   },
   {
     name: "나노신소재",
@@ -14553,7 +14553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㄴㅅㅅㅈ",
     mktgbcd: "Q",
-    upcode: "33550"
+    upcode: "33550",
   },
   {
     name: "비덴트",
@@ -14561,7 +14561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㄷㅌ",
     mktgbcd: "Q",
-    upcode: "5810"
+    upcode: "5810",
   },
   {
     name: "코이즈",
@@ -14569,7 +14569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅈ",
     mktgbcd: "Q",
-    upcode: "1230"
+    upcode: "1230",
   },
   {
     name: "에스디시스템",
@@ -14577,7 +14577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㄷㅅㅅㅌ",
     mktgbcd: "Q",
-    upcode: "739"
+    upcode: "739",
   },
   {
     name: "ARIRANG 코스피50",
@@ -14585,7 +14585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㅋㅅㅍ50",
     mktgbcd: "J",
-    upcode: "21565"
+    upcode: "21565",
   },
   {
     name: "KOSEF 통안채1년",
@@ -14593,7 +14593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF ㅌㅇㅊ1ㄴ",
     mktgbcd: "J",
-    upcode: "102240"
+    upcode: "102240",
   },
   {
     name: "제노레이",
@@ -14601,7 +14601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㄴㄹㅇ",
     mktgbcd: "Q",
-    upcode: "10100"
+    upcode: "10100",
   },
   {
     name: "삼기오토모티브",
@@ -14609,7 +14609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄱㅇㅌㅁㅌㅂ",
     mktgbcd: "Q",
-    upcode: "3250"
+    upcode: "3250",
   },
   {
     name: "KMH",
@@ -14617,7 +14617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "KMH",
     mktgbcd: "Q",
-    upcode: "13800"
+    upcode: "13800",
   },
   {
     name: "KODEX 레버리지",
@@ -14625,7 +14625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "14450"
+    upcode: "14450",
   },
   {
     name: "예스티",
@@ -14633,7 +14633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅌ",
     mktgbcd: "Q",
-    upcode: "9110"
+    upcode: "9110",
   },
   {
     name: "서진오토모티브",
@@ -14641,7 +14641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅈㅇㅌㅁㅌㅂ",
     mktgbcd: "Q",
-    upcode: "2440"
+    upcode: "2440",
   },
   {
     name: "와이지엔터테인먼트",
@@ -14649,7 +14649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅈㅇㅌㅌㅇㅁㅌ",
     mktgbcd: "Q",
-    upcode: "57000"
+    upcode: "57000",
   },
   {
     name: "아이마켓코리아",
@@ -14657,7 +14657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅁㅋㅋㄹㅇ",
     mktgbcd: "J",
-    upcode: "7760"
+    upcode: "7760",
   },
   {
     name: "와이솔",
@@ -14665,7 +14665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "15950"
+    upcode: "15950",
   },
   {
     name: "아이에이네트웍스",
@@ -14673,7 +14673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅇㄴㅌㅇㅅ",
     mktgbcd: "Q",
-    upcode: "1600"
+    upcode: "1600",
   },
   {
     name: "엠에스오토텍",
@@ -14681,7 +14681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅅㅇㅌㅌ",
     mktgbcd: "Q",
-    upcode: "6010"
+    upcode: "6010",
   },
   {
     name: "TIGER 인버스",
@@ -14689,7 +14689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "6080"
+    upcode: "6080",
   },
   {
     name: "TIGER 레버리지",
@@ -14697,7 +14697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "13590"
+    upcode: "13590",
   },
   {
     name: "제닉",
@@ -14705,7 +14705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㄴ",
     mktgbcd: "Q",
-    upcode: "3590"
+    upcode: "3590",
   },
   {
     name: "코리아에프티",
@@ -14713,7 +14713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹㅇㅇㅍㅌ",
     mktgbcd: "Q",
-    upcode: "2785"
+    upcode: "2785",
   },
   {
     name: "선데이토즈",
@@ -14721,7 +14721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄷㅇㅌㅈ",
     mktgbcd: "Q",
-    upcode: "21600"
+    upcode: "21600",
   },
   {
     name: "이엠넷",
@@ -14729,7 +14729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㄴ",
     mktgbcd: "Q",
-    upcode: "4050"
+    upcode: "4050",
   },
   {
     name: "한국화장품",
@@ -14737,7 +14737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅎㅈㅍ",
     mktgbcd: "J",
-    upcode: "12950"
+    upcode: "12950",
   },
   {
     name: "SJM",
@@ -14745,7 +14745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SJM",
     mktgbcd: "J",
-    upcode: "2555"
+    upcode: "2555",
   },
   {
     name: "알톤스포츠",
@@ -14753,7 +14753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅅㅍㅊ",
     mktgbcd: "Q",
-    upcode: "2820"
+    upcode: "2820",
   },
   {
     name: "한일진공",
@@ -14761,7 +14761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅇㅈㄱ",
     mktgbcd: "Q",
-    upcode: "1400"
+    upcode: "1400",
   },
   {
     name: "아나패스",
@@ -14769,7 +14769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅍㅅ",
     mktgbcd: "Q",
-    upcode: "25100"
+    upcode: "25100",
   },
   {
     name: "한국자산신탁",
@@ -14777,7 +14777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅈㅅㅅㅌ",
     mktgbcd: "J",
-    upcode: "3560"
+    upcode: "3560",
   },
   {
     name: "아이티센",
@@ -14785,7 +14785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅌㅅ",
     mktgbcd: "Q",
-    upcode: "5300"
+    upcode: "5300",
   },
   {
     name: "태웅로직스",
@@ -14793,7 +14793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅇㄹㅈㅅ",
     mktgbcd: "Q",
-    upcode: "3700"
+    upcode: "3700",
   },
   {
     name: "아모그린텍",
@@ -14801,7 +14801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅁㄱㄹㅌ",
     mktgbcd: "Q",
-    upcode: "12550"
+    upcode: "12550",
   },
   {
     name: "비나텍",
@@ -14809,7 +14809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㄴㅌ",
     mktgbcd: "Q",
-    upcode: "48500"
+    upcode: "48500",
   },
   {
     name: "현대에이치씨엔",
@@ -14817,7 +14817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅇㅇㅊㅆㅇ",
     mktgbcd: "J",
-    upcode: "3405"
+    upcode: "3405",
   },
   {
     name: "코프라",
@@ -14825,7 +14825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅍㄹ",
     mktgbcd: "Q",
-    upcode: "3950"
+    upcode: "3950",
   },
   {
     name: "화신정공",
@@ -14833,7 +14833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅅㅈㄱ",
     mktgbcd: "Q",
-    upcode: "1230"
+    upcode: "1230",
   },
   {
     name: "하이비젼시스템",
@@ -14841,7 +14841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅇㅂㅈㅅㅅㅌ",
     mktgbcd: "Q",
-    upcode: "12250"
+    upcode: "12250",
   },
   {
     name: "뉴로스",
@@ -14849,7 +14849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㄹㅅ",
     mktgbcd: "Q",
-    upcode: "3430"
+    upcode: "3430",
   },
   {
     name: "제이엔케이히터",
@@ -14857,7 +14857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅇㅋㅇㅎㅌ",
     mktgbcd: "Q",
-    upcode: "7520"
+    upcode: "7520",
   },
   {
     name: "디엔에이링크",
@@ -14865,7 +14865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅇㅇㄹㅋ",
     mktgbcd: "Q",
-    upcode: "19900"
+    upcode: "19900",
   },
   {
     name: "매직마이크로",
@@ -14873,7 +14873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅈㅁㅇㅋㄹ",
     mktgbcd: "Q",
-    upcode: "431"
+    upcode: "431",
   },
   {
     name: "아시아경제",
@@ -14881,7 +14881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅇㄱㅈ",
     mktgbcd: "Q",
-    upcode: "1680"
+    upcode: "1680",
   },
   {
     name: "에코캡",
@@ -14889,7 +14889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅋㅋ",
     mktgbcd: "Q",
-    upcode: "2935"
+    upcode: "2935",
   },
   {
     name: "피제이메탈",
@@ -14897,7 +14897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅈㅇㅁㅌ",
     mktgbcd: "Q",
-    upcode: "2055"
+    upcode: "2055",
   },
   {
     name: "대성산업",
@@ -14905,7 +14905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅅㅇ",
     mktgbcd: "J",
-    upcode: "3225"
+    upcode: "3225",
   },
   {
     name: "한미약품",
@@ -14913,7 +14913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅁㅇㅍ",
     mktgbcd: "J",
-    upcode: "267000"
+    upcode: "267000",
   },
   {
     name: "인터지스",
@@ -14921,7 +14921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅌㅈㅅ",
     mktgbcd: "J",
-    upcode: "2460"
+    upcode: "2460",
   },
   {
     name: "GH신소재",
@@ -14929,7 +14929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "GHㅅㅅㅈ",
     mktgbcd: "Q",
-    upcode: "6070"
+    upcode: "6070",
   },
   {
     name: "나이스디앤비",
@@ -14937,7 +14937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅇㅅㄷㅇㅂ",
     mktgbcd: "Q",
-    upcode: "10050"
+    upcode: "10050",
   },
   {
     name: "한전산업",
@@ -14945,7 +14945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅈㅅㅇ",
     mktgbcd: "J",
-    upcode: "3465"
+    upcode: "3465",
   },
   {
     name: "TIGER 원유선물Enhanced(H)",
@@ -14953,7 +14953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅇㅇㅅㅁEnhancedH",
     mktgbcd: "J",
-    upcode: "1960"
+    upcode: "1960",
   },
   {
     name: "KOSEF 단기자금",
@@ -14961,7 +14961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF ㄷㄱㅈㄱ",
     mktgbcd: "J",
-    upcode: "101770"
+    upcode: "101770",
   },
   {
     name: "티피씨글로벌",
@@ -14969,7 +14969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅍㅆㄱㄹㅂ",
     mktgbcd: "Q",
-    upcode: "2430"
+    upcode: "2430",
   },
   {
     name: "디에이치피코리아",
@@ -14977,7 +14977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅇㅊㅍㅋㄹㅇ",
     mktgbcd: "Q",
-    upcode: "7830"
+    upcode: "7830",
   },
   {
     name: "시큐브",
@@ -14985,7 +14985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅋㅂ",
     mktgbcd: "Q",
-    upcode: "1560"
+    upcode: "1560",
   },
   {
     name: "스카이이앤엠",
@@ -14993,7 +14993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅋㅇㅇㅇㅇ",
     mktgbcd: "Q",
-    upcode: "2305"
+    upcode: "2305",
   },
   {
     name: "딜리",
@@ -15001,7 +15001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㄹ",
     mktgbcd: "Q",
-    upcode: "1640"
+    upcode: "1640",
   },
   {
     name: "대한과학",
@@ -15009,7 +15009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅎㄱㅎ",
     mktgbcd: "Q",
-    upcode: "8580"
+    upcode: "8580",
   },
   {
     name: "티에스이",
@@ -15017,7 +15017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅇㅅㅇ",
     mktgbcd: "Q",
-    upcode: "35050"
+    upcode: "35050",
   },
   {
     name: "알서포트",
@@ -15025,7 +15025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅍㅌ",
     mktgbcd: "Q",
-    upcode: "14900"
+    upcode: "14900",
   },
   {
     name: "피앤이솔루션",
@@ -15033,7 +15033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅇㅇㅅㄹㅅ",
     mktgbcd: "Q",
-    upcode: "20150"
+    upcode: "20150",
   },
   {
     name: "액트",
@@ -15041,7 +15041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌ",
     mktgbcd: "Q",
-    upcode: "4365"
+    upcode: "4365",
   },
   {
     name: "파인텍",
@@ -15049,7 +15049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅇㅌ",
     mktgbcd: "Q",
-    upcode: "1615"
+    upcode: "1615",
   },
   {
     name: "KINDEX 삼성그룹동일가중",
@@ -15057,7 +15057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅅㅅㄱㄹㄷㅇㄱㅈ",
     mktgbcd: "J",
-    upcode: "13360"
+    upcode: "13360",
   },
   {
     name: "테스나",
@@ -15065,7 +15065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅅㄴ",
     mktgbcd: "Q",
-    upcode: "45450"
+    upcode: "45450",
   },
   {
     name: "KODEX 골드선물(H)",
@@ -15073,7 +15073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㄱㄷㅅㅁH",
     mktgbcd: "J",
-    upcode: "12845"
+    upcode: "12845",
   },
   {
     name: "TIGER 미국나스닥100",
@@ -15081,7 +15081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅁㄱㄴㅅㄷ100",
     mktgbcd: "J",
-    upcode: "59000"
+    upcode: "59000",
   },
   {
     name: "메가엠디",
@@ -15089,7 +15089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄱㅇㄷ",
     mktgbcd: "Q",
-    upcode: "4055"
+    upcode: "4055",
   },
   {
     name: "화인베스틸",
@@ -15097,7 +15097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇㅂㅅㅌ",
     mktgbcd: "J",
-    upcode: "2385"
+    upcode: "2385",
   },
   {
     name: "이퓨쳐",
@@ -15105,7 +15105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍㅊ",
     mktgbcd: "Q",
-    upcode: "15400"
+    upcode: "15400",
   },
   {
     name: "미원화학",
@@ -15113,7 +15113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㅇㅎㅎ",
     mktgbcd: "J",
-    upcode: "57200"
+    upcode: "57200",
   },
   {
     name: "디엠티",
@@ -15121,7 +15121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅌ",
     mktgbcd: "Q",
-    upcode: "1965"
+    upcode: "1965",
   },
   {
     name: "시디즈",
@@ -15129,7 +15129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㄷㅈ",
     mktgbcd: "J",
-    upcode: "59800"
+    upcode: "59800",
   },
   {
     name: "KBSTAR 중기우량회사채",
@@ -15137,7 +15137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅈㄱㅇㄹㅎㅅㅊ",
     mktgbcd: "J",
-    upcode: "104965"
+    upcode: "104965",
   },
   {
     name: "하림",
@@ -15145,7 +15145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄹ",
     mktgbcd: "Q",
-    upcode: "2550"
+    upcode: "2550",
   },
   {
     name: "선진",
@@ -15153,7 +15153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅈ",
     mktgbcd: "J",
-    upcode: "9480"
+    upcode: "9480",
   },
   {
     name: "쎄미시스코",
@@ -15161,7 +15161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㅁㅅㅅㅋ",
     mktgbcd: "Q",
-    upcode: "8130"
+    upcode: "8130",
   },
   {
     name: "윈스",
@@ -15169,7 +15169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅ",
     mktgbcd: "Q",
-    upcode: "18650"
+    upcode: "18650",
   },
   {
     name: "피엔티",
@@ -15177,7 +15177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅇㅌ",
     mktgbcd: "Q",
-    upcode: "23350"
+    upcode: "23350",
   },
   {
     name: "TIGER 농산물선물Enhanced(H)",
@@ -15185,7 +15185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄴㅅㅁㅅㅁEnhancedH",
     mktgbcd: "J",
-    upcode: "4325"
+    upcode: "4325",
   },
   {
     name: "마이다스 200커버드콜5%OTM",
@@ -15193,7 +15193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㅇㄷㅅ 200ㅋㅂㄷㅋ5OTM",
     mktgbcd: "J",
-    upcode: "12600"
+    upcode: "12600",
   },
   {
     name: "넥스트아이",
@@ -15201,7 +15201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅅㅌㅇㅇ",
     mktgbcd: "Q",
-    upcode: "1540"
+    upcode: "1540",
   },
   {
     name: "제이씨케미칼",
@@ -15209,7 +15209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅆㅋㅁㅋ",
     mktgbcd: "Q",
-    upcode: "5670"
+    upcode: "5670",
   },
   {
     name: "메리츠금융지주",
@@ -15217,7 +15217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅊㄱㅇㅈㅈ",
     mktgbcd: "J",
-    upcode: "9100"
+    upcode: "9100",
   },
   {
     name: "신진에스엠",
@@ -15225,7 +15225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅈㅇㅅㅇ",
     mktgbcd: "Q",
-    upcode: "4495"
+    upcode: "4495",
   },
   {
     name: "오이솔루션",
@@ -15233,7 +15233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅅㄹㅅ",
     mktgbcd: "Q",
-    upcode: "56300"
+    upcode: "56300",
   },
   {
     name: "KOSEF 미국달러선물",
@@ -15241,7 +15241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF ㅁㄱㄷㄹㅅㅁ",
     mktgbcd: "J",
-    upcode: "12500"
+    upcode: "12500",
   },
   {
     name: "엔에스쇼핑",
@@ -15249,7 +15249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅅㅅㅍ",
     mktgbcd: "J",
-    upcode: "13150"
+    upcode: "13150",
   },
   {
     name: "에이씨티",
@@ -15257,7 +15257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅆㅌ",
     mktgbcd: "Q",
-    upcode: "4480"
+    upcode: "4480",
   },
   {
     name: "코오롱플라스틱",
@@ -15265,7 +15265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅇㄹㅍㄹㅅㅌ",
     mktgbcd: "J",
-    upcode: "4075"
+    upcode: "4075",
   },
   {
     name: "TIGER 삼성그룹펀더멘털",
@@ -15273,7 +15273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅅㅅㄱㄹㅍㄷㅁㅌ",
     mktgbcd: "J",
-    upcode: "9275"
+    upcode: "9275",
   },
   {
     name: "TIGER LG그룹+펀더멘털",
@@ -15281,7 +15281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER LGㄱㄹ+ㅍㄷㅁㅌ",
     mktgbcd: "J",
-    upcode: "8055"
+    upcode: "8055",
   },
   {
     name: "TIGER 현대차그룹+펀더멘털",
@@ -15289,7 +15289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅎㄷㅊㄱㄹ+ㅍㄷㅁㅌ",
     mktgbcd: "J",
-    upcode: "17215"
+    upcode: "17215",
   },
   {
     name: "비즈니스온",
@@ -15297,7 +15297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅈㄴㅅㅇ",
     mktgbcd: "Q",
-    upcode: "13850"
+    upcode: "13850",
   },
   {
     name: "나이벡",
@@ -15305,7 +15305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅇㅂ",
     mktgbcd: "Q",
-    upcode: "28000"
+    upcode: "28000",
   },
   {
     name: "엘아이에스",
@@ -15313,7 +15313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "7530"
+    upcode: "7530",
   },
   {
     name: "KODEX 구리선물(H)",
@@ -15321,7 +15321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㄱㄹㅅㅁH",
     mktgbcd: "J",
-    upcode: "5600"
+    upcode: "5600",
   },
   {
     name: "KODEX 콩선물(H)",
@@ -15329,7 +15329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅋㅅㅁH",
     mktgbcd: "J",
-    upcode: "8400"
+    upcode: "8400",
   },
   {
     name: "BNK금융지주",
@@ -15337,7 +15337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "BNKㄱㅇㅈㅈ",
     mktgbcd: "J",
-    upcode: "5000"
+    upcode: "5000",
   },
   {
     name: "데일리블록체인",
@@ -15345,7 +15345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㄹㅂㄹㅊㅇ",
     mktgbcd: "Q",
-    upcode: "823"
+    upcode: "823",
   },
   {
     name: "DGB금융지주",
@@ -15353,7 +15353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "DGBㄱㅇㅈㅈ",
     mktgbcd: "J",
-    upcode: "5510"
+    upcode: "5510",
   },
   {
     name: "TIGER 200 건설",
@@ -15361,7 +15361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 200 ㄱㅅ",
     mktgbcd: "J",
-    upcode: "1865"
+    upcode: "1865",
   },
   {
     name: "TIGER 200 중공업",
@@ -15369,7 +15369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 200 ㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "2315"
+    upcode: "2315",
   },
   {
     name: "TIGER 200 철강소재",
@@ -15377,7 +15377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 200 ㅊㄱㅅㅈ",
     mktgbcd: "J",
-    upcode: "5515"
+    upcode: "5515",
   },
   {
     name: "TIGER 200 에너지화학",
@@ -15385,7 +15385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 200 ㅇㄴㅈㅎㅎ",
     mktgbcd: "J",
-    upcode: "13590"
+    upcode: "13590",
   },
   {
     name: "TIGER 200 IT",
@@ -15393,7 +15393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 200 IT",
     mktgbcd: "J",
-    upcode: "26005"
+    upcode: "26005",
   },
   {
     name: "TIGER 200 금융",
@@ -15401,7 +15401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 200 ㄱㅇ",
     mktgbcd: "J",
-    upcode: "5135"
+    upcode: "5135",
   },
   {
     name: "TIGER 경기방어",
@@ -15409,7 +15409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄱㄱㅂㅇ",
     mktgbcd: "J",
-    upcode: "11055"
+    upcode: "11055",
   },
   {
     name: "TIGER 200 경기소비재",
@@ -15417,7 +15417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 200 ㄱㄱㅅㅂㅈ",
     mktgbcd: "J",
-    upcode: "13930"
+    upcode: "13930",
   },
   {
     name: "TIGER 금속선물(H)",
@@ -15425,7 +15425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄱㅅㅅㅁH",
     mktgbcd: "J",
-    upcode: "4865"
+    upcode: "4865",
   },
   {
     name: "TIGER 금은선물(H)",
@@ -15433,7 +15433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄱㅇㅅㅁH",
     mktgbcd: "J",
-    upcode: "9950"
+    upcode: "9950",
   },
   {
     name: "이마트",
@@ -15441,7 +15441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅁㅌ",
     mktgbcd: "J",
-    upcode: "141500"
+    upcode: "141500",
   },
   {
     name: "KOSEF 미국달러선물인버스",
@@ -15449,7 +15449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF ㅁㄱㄷㄹㅅㅁㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "10255"
+    upcode: "10255",
   },
   {
     name: "키네마스터",
@@ -15457,7 +15457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄴㅁㅅㅌ",
     mktgbcd: "Q",
-    upcode: "9470"
+    upcode: "9470",
   },
   {
     name: "서플러스글로벌",
@@ -15465,7 +15465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅍㄹㅅㄱㄹㅂ",
     mktgbcd: "Q",
-    upcode: "3380"
+    upcode: "3380",
   },
   {
     name: "메지온",
@@ -15473,7 +15473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅈㅇ",
     mktgbcd: "Q",
-    upcode: "166000"
+    upcode: "166000",
   },
   {
     name: "대창스틸",
@@ -15481,7 +15481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅊㅅㅌ",
     mktgbcd: "Q",
-    upcode: "2150"
+    upcode: "2150",
   },
   {
     name: "KBSTAR 수출주",
@@ -15489,7 +15489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅅㅊㅈ",
     mktgbcd: "J",
-    upcode: "8825"
+    upcode: "8825",
   },
   {
     name: "KBSTAR 우량업종",
@@ -15497,7 +15497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅇㄹㅇㅈ",
     mktgbcd: "J",
-    upcode: "9095"
+    upcode: "9095",
   },
   {
     name: "알에스오토메이션",
@@ -15505,7 +15505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅅㅇㅌㅁㅇㅅ",
     mktgbcd: "Q",
-    upcode: "7640"
+    upcode: "7640",
   },
   {
     name: "KODEX 보험",
@@ -15513,7 +15513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅂㅎ",
     mktgbcd: "J",
-    upcode: "4940"
+    upcode: "4940",
   },
   {
     name: "KODEX 운송",
@@ -15521,7 +15521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅇㅅ",
     mktgbcd: "J",
-    upcode: "3510"
+    upcode: "3510",
   },
   {
     name: "파크시스템스",
@@ -15529,7 +15529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅋㅅㅅㅌㅅ",
     mktgbcd: "Q",
-    upcode: "66200"
+    upcode: "66200",
   },
   {
     name: "에이리츠",
@@ -15537,7 +15537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㄹㅊ",
     mktgbcd: "J",
-    upcode: "7510"
+    upcode: "7510",
   },
   {
     name: "파워 코스피100",
@@ -15545,7 +15545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅍㅇ ㅋㅅㅍ100",
     mktgbcd: "J",
-    upcode: "23835"
+    upcode: "23835",
   },
   {
     name: "비아트론",
@@ -15553,7 +15553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅇㅌㄹ",
     mktgbcd: "Q",
-    upcode: "9260"
+    upcode: "9260",
   },
   {
     name: "포티스",
@@ -15561,7 +15561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅌㅅ",
     mktgbcd: "Q",
-    upcode: "108"
+    upcode: "108",
   },
   {
     name: "맥스로텍",
@@ -15569,7 +15569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅅㄹㅌ",
     mktgbcd: "Q",
-    upcode: "2465"
+    upcode: "2465",
   },
   {
     name: "레고켐바이오",
@@ -15577,7 +15577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㄱㅋㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "53200"
+    upcode: "53200",
   },
   {
     name: "유니트론텍",
@@ -15585,7 +15585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅌㄹㅌ",
     mktgbcd: "Q",
-    upcode: "6880"
+    upcode: "6880",
   },
   {
     name: "녹십자엠에스",
@@ -15593,7 +15593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅅㅈㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "14700"
+    upcode: "14700",
   },
   {
     name: "바이오리더스",
@@ -15601,7 +15601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅇㅇㄹㄷㅅ",
     mktgbcd: "Q",
-    upcode: "6080"
+    upcode: "6080",
   },
   {
     name: "아이디스",
@@ -15609,7 +15609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㄷㅅ",
     mktgbcd: "Q",
-    upcode: "29600"
+    upcode: "29600",
   },
   {
     name: "핸즈코퍼레이션",
@@ -15617,7 +15617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅈㅋㅍㄹㅇㅅ",
     mktgbcd: "J",
-    upcode: "7080"
+    upcode: "7080",
   },
   {
     name: "사람인에이치알",
@@ -15625,7 +15625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄹㅇㅇㅇㅊㅇ",
     mktgbcd: "Q",
-    upcode: "22950"
+    upcode: "22950",
   },
   {
     name: "KINDEX 밸류대형",
@@ -15633,7 +15633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅂㄹㄷㅎ",
     mktgbcd: "J",
-    upcode: "7075"
+    upcode: "7075",
   },
   {
     name: "영우디에스피",
@@ -15641,7 +15641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㄷㅇㅅㅍ",
     mktgbcd: "Q",
-    upcode: "1625"
+    upcode: "1625",
   },
   {
     name: "TIGER 미국S&P500선물(H)",
@@ -15649,7 +15649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅁㄱSP500ㅅㅁH",
     mktgbcd: "J",
-    upcode: "38675"
+    upcode: "38675",
   },
   {
     name: "TIGER 헬스케어",
@@ -15657,7 +15657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅎㅅㅋㅇ",
     mktgbcd: "J",
-    upcode: "43695"
+    upcode: "43695",
   },
   {
     name: "녹십자랩셀",
@@ -15665,7 +15665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅅㅈㄹㅅ",
     mktgbcd: "Q",
-    upcode: "48950"
+    upcode: "48950",
   },
   {
     name: "KODEX 은선물(H)",
@@ -15673,7 +15673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅇㅅㅁH",
     mktgbcd: "J",
-    upcode: "4780"
+    upcode: "4780",
   },
   {
     name: "코오롱머티리얼",
@@ -15681,7 +15681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅇㄹㅁㅌㄹㅇ",
     mktgbcd: "J",
-    upcode: "3895"
+    upcode: "3895",
   },
   {
     name: "뉴파워프라즈마",
@@ -15689,7 +15689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅍㅇㅍㄹㅈㅁ",
     mktgbcd: "Q",
-    upcode: "6100"
+    upcode: "6100",
   },
   {
     name: "휴젤",
@@ -15697,7 +15697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅈ",
     mktgbcd: "Q",
-    upcode: "184800"
+    upcode: "184800",
   },
   {
     name: "세화아이엠씨",
@@ -15705,7 +15705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎㅇㅇㅇㅆ",
     mktgbcd: "J",
-    upcode: "993"
+    upcode: "993",
   },
   {
     name: "케이탑리츠",
@@ -15713,7 +15713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅇㅌㄹㅊ",
     mktgbcd: "J",
-    upcode: "774"
+    upcode: "774",
   },
   {
     name: "KINDEX 인버스",
@@ -15721,7 +15721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "6720"
+    upcode: "6720",
   },
   {
     name: "덴티움",
@@ -15729,7 +15729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅌㅇ",
     mktgbcd: "J",
-    upcode: "34300"
+    upcode: "34300",
   },
   {
     name: "TREX 펀더멘탈 200",
@@ -15737,7 +15737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TREX ㅍㄷㅁㅌ 200",
     mktgbcd: "J",
-    upcode: "29200"
+    upcode: "29200",
   },
   {
     name: "삼양사",
@@ -15745,7 +15745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅅ",
     mktgbcd: "J",
-    upcode: "54100"
+    upcode: "54100",
   },
   {
     name: "삼양사우",
@@ -15753,7 +15753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅅㅇ",
     mktgbcd: "J",
-    upcode: "46200"
+    upcode: "46200",
   },
   {
     name: "마이크로프랜드",
@@ -15761,7 +15761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅇㅋㄹㅍㄹㄷ",
     mktgbcd: "Q",
-    upcode: "5490"
+    upcode: "5490",
   },
   {
     name: "제룡산업",
@@ -15769,7 +15769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㄹㅅㅇ",
     mktgbcd: "Q",
-    upcode: "5080"
+    upcode: "5080",
   },
   {
     name: "TIGER 모멘텀",
@@ -15777,7 +15777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅁㅁㅌ",
     mktgbcd: "J",
-    upcode: "18485"
+    upcode: "18485",
   },
   {
     name: "KBSTAR 200",
@@ -15785,7 +15785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR 200",
     mktgbcd: "J",
-    upcode: "30840"
+    upcode: "30840",
   },
   {
     name: "KOSEF 국고채10년",
@@ -15793,7 +15793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF ㄱㄱㅊ10ㄴ",
     mktgbcd: "J",
-    upcode: "127480"
+    upcode: "127480",
   },
   {
     name: "비디아이",
@@ -15801,7 +15801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㄷㅇㅇ",
     mktgbcd: "Q",
-    upcode: "6030"
+    upcode: "6030",
   },
   {
     name: "세경하이테크",
@@ -15809,7 +15809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄱㅎㅇㅌㅋ",
     mktgbcd: "Q",
-    upcode: "23300"
+    upcode: "23300",
   },
   {
     name: "알엔투테크놀로지",
@@ -15817,7 +15817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅌㅌㅋㄴㄹㅈ",
     mktgbcd: "Q",
-    upcode: "16500"
+    upcode: "16500",
   },
   {
     name: "아바텍",
@@ -15825,7 +15825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅂㅌ",
     mktgbcd: "Q",
-    upcode: "8290"
+    upcode: "8290",
   },
   {
     name: "하이로닉",
@@ -15833,7 +15833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅇㄹㄴ",
     mktgbcd: "Q",
-    upcode: "3735"
+    upcode: "3735",
   },
   {
     name: "TIGER 중국소비테마",
@@ -15841,7 +15841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅈㄱㅅㅂㅌㅁ",
     mktgbcd: "J",
-    upcode: "6785"
+    upcode: "6785",
   },
   {
     name: "인트로메딕",
@@ -15849,7 +15849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㄹㅁㄷ",
     mktgbcd: "Q",
-    upcode: "2820"
+    upcode: "2820",
   },
   {
     name: "파수",
@@ -15857,7 +15857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅅ",
     mktgbcd: "Q",
-    upcode: "7700"
+    upcode: "7700",
   },
   {
     name: "KG ETS",
@@ -15865,7 +15865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "KG ETS",
     mktgbcd: "Q",
-    upcode: "4090"
+    upcode: "4090",
   },
   {
     name: "나노스",
@@ -15873,7 +15873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㄴㅅ",
     mktgbcd: "Q",
-    upcode: "3630"
+    upcode: "3630",
   },
   {
     name: "ARIRANG 200",
@@ -15881,7 +15881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG 200",
     mktgbcd: "J",
-    upcode: "30960"
+    upcode: "30960",
   },
   {
     name: "KOSEF 200 선물",
@@ -15889,7 +15889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF 200 ㅅㅁ",
     mktgbcd: "J",
-    upcode: "13850"
+    upcode: "13850",
   },
   {
     name: "코리아오토글라스",
@@ -15897,7 +15897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㄹㅇㅇㅌㄱㄹㅅ",
     mktgbcd: "J",
-    upcode: "13700"
+    upcode: "13700",
   },
   {
     name: "KODEX 국채선물10년",
@@ -15905,7 +15905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㄱㅊㅅㅁ10ㄴ",
     mktgbcd: "J",
-    upcode: "72545"
+    upcode: "72545",
   },
   {
     name: "KINDEX 레버리지",
@@ -15913,7 +15913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "5690"
+    upcode: "5690",
   },
   {
     name: "한국ANKOR유전",
@@ -15921,7 +15921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱANKORㅇㅈ",
     mktgbcd: "J",
-    upcode: "1660"
+    upcode: "1660",
   },
   {
     name: "파워 200",
@@ -15929,7 +15929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅍㅇ 200",
     mktgbcd: "J",
-    upcode: "31320"
+    upcode: "31320",
   },
   {
     name: "KODEX 단기채권",
@@ -15937,7 +15937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㄷㄱㅊㄱ",
     mktgbcd: "J",
-    upcode: "102490"
+    upcode: "102490",
   },
   {
     name: "KOSEF 코스피100",
@@ -15945,7 +15945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF ㅋㅅㅍ100",
     mktgbcd: "J",
-    upcode: "23740"
+    upcode: "23740",
   },
   {
     name: "하이골드3호",
@@ -15953,7 +15953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇㄱㄷ3ㅎ",
     mktgbcd: "J",
-    upcode: "1315"
+    upcode: "1315",
   },
   {
     name: "네이블",
@@ -15961,7 +15961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅇㅂ",
     mktgbcd: "Q",
-    upcode: "4370"
+    upcode: "4370",
   },
   {
     name: "우리이앤엘",
@@ -15969,7 +15969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅇㅇㅇ",
     mktgbcd: "Q",
-    upcode: "971"
+    upcode: "971",
   },
   {
     name: "옵티팜",
@@ -15977,7 +15977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅍ",
     mktgbcd: "Q",
-    upcode: "20800"
+    upcode: "20800",
   },
   {
     name: "아시아종묘",
@@ -15985,7 +15985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅇㅈㅁ",
     mktgbcd: "Q",
-    upcode: "4985"
+    upcode: "4985",
   },
   {
     name: "솔루에타",
@@ -15993,7 +15993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄹㅇㅌ",
     mktgbcd: "Q",
-    upcode: "3160"
+    upcode: "3160",
   },
   {
     name: "와이엠씨",
@@ -16001,7 +16001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅆ",
     mktgbcd: "Q",
-    upcode: "12050"
+    upcode: "12050",
   },
   {
     name: "DSR",
@@ -16009,7 +16009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "DSR",
     mktgbcd: "J",
-    upcode: "6180"
+    upcode: "6180",
   },
   {
     name: "바다로19호",
@@ -16017,7 +16017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅂㄷㄹ19ㅎ",
     mktgbcd: "J",
-    upcode: "2555"
+    upcode: "2555",
   },
   {
     name: "KODEX MSCI Korea",
@@ -16025,7 +16025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX MSCI Korea",
     mktgbcd: "J",
-    upcode: "14660"
+    upcode: "14660",
   },
   {
     name: "엘앤케이바이오",
@@ -16033,7 +16033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅋㅇㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "9990"
+    upcode: "9990",
   },
   {
     name: "TIGER 단기통안채",
@@ -16041,7 +16041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄷㄱㅌㅇㅊ",
     mktgbcd: "J",
-    upcode: "100675"
+    upcode: "100675",
   },
   {
     name: "TIGER 소프트웨어",
@@ -16049,7 +16049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅅㅍㅌㅇㅇ",
     mktgbcd: "J",
-    upcode: "13965"
+    upcode: "13965",
   },
   {
     name: "TIGER 증권",
@@ -16057,7 +16057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅈㄱ",
     mktgbcd: "J",
-    upcode: "3575"
+    upcode: "3575",
   },
   {
     name: "스타모빌리티",
@@ -16065,7 +16065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅌㅁㅂㄹㅌ",
     mktgbcd: "Q",
-    upcode: "505"
+    upcode: "505",
   },
   {
     name: "아톤",
@@ -16073,7 +16073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌ",
     mktgbcd: "Q",
-    upcode: "25550"
+    upcode: "25550",
   },
   {
     name: "제로투세븐",
@@ -16081,7 +16081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㄹㅌㅅㅂ",
     mktgbcd: "Q",
-    upcode: "6820"
+    upcode: "6820",
   },
   {
     name: "마이티 코스피100",
@@ -16089,7 +16089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㅇㅌ ㅋㅅㅍ100",
     mktgbcd: "J",
-    upcode: "23570"
+    upcode: "23570",
   },
   {
     name: "스킨앤스킨",
@@ -16097,7 +16097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅋㅇㅅㅋ",
     mktgbcd: "Q",
-    upcode: "263"
+    upcode: "263",
   },
   {
     name: "NEW",
@@ -16105,7 +16105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "NEW",
     mktgbcd: "Q",
-    upcode: "4110"
+    upcode: "4110",
   },
   {
     name: "TIGER 구리실물",
@@ -16113,7 +16113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄱㄹㅅㅁ",
     mktgbcd: "J",
-    upcode: "7195"
+    upcode: "7195",
   },
   {
     name: "이큐셀",
@@ -16121,7 +16121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅋㅅ",
     mktgbcd: "Q",
-    upcode: "310"
+    upcode: "310",
   },
   {
     name: "싸이맥스",
@@ -16129,7 +16129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㅇㅁㅅ",
     mktgbcd: "Q",
-    upcode: "13650"
+    upcode: "13650",
   },
   {
     name: "애경유화",
@@ -16137,7 +16137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄱㅇㅎ",
     mktgbcd: "J",
-    upcode: "6900"
+    upcode: "6900",
   },
   {
     name: "한국타이어앤테크놀로지",
@@ -16145,7 +16145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅌㅇㅇㅇㅌㅋㄴㄹㅈ",
     mktgbcd: "J",
-    upcode: "31400"
+    upcode: "31400",
   },
   {
     name: "ARIRANG 고배당주",
@@ -16153,7 +16153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㄱㅂㄷㅈ",
     mktgbcd: "J",
-    upcode: "8885"
+    upcode: "8885",
   },
   {
     name: "THE MIDONG",
@@ -16161,7 +16161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "THE MIDONG",
     mktgbcd: "Q",
-    upcode: "2635"
+    upcode: "2635",
   },
   {
     name: "필옵틱스",
@@ -16169,7 +16169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅇㅌㅅ",
     mktgbcd: "Q",
-    upcode: "14600"
+    upcode: "14600",
   },
   {
     name: "한국콜마",
@@ -16177,7 +16177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅋㅁ",
     mktgbcd: "J",
-    upcode: "45400"
+    upcode: "45400",
   },
   {
     name: "동일고무벨트",
@@ -16185,7 +16185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㄱㅁㅂㅌ",
     mktgbcd: "J",
-    upcode: "9210"
+    upcode: "9210",
   },
   {
     name: "이루다",
@@ -16193,7 +16193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㄷ",
     mktgbcd: "Q",
-    upcode: "13300"
+    upcode: "13300",
   },
   {
     name: "하나머티리얼즈",
@@ -16201,7 +16201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄴㅁㅌㄹㅇㅈ",
     mktgbcd: "Q",
-    upcode: "24650"
+    upcode: "24650",
   },
   {
     name: "TIGER 200커버드콜5%OTM",
@@ -16209,7 +16209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 200ㅋㅂㄷㅋ5OTM",
     mktgbcd: "J",
-    upcode: "12500"
+    upcode: "12500",
   },
   {
     name: "코아스템",
@@ -16217,7 +16217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅅㅌ",
     mktgbcd: "Q",
-    upcode: "21500"
+    upcode: "21500",
   },
   {
     name: "KOSEF 국고채10년레버리지",
@@ -16225,7 +16225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF ㄱㄱㅊ10ㄴㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "143075"
+    upcode: "143075",
   },
   {
     name: "KTOP 코스피50",
@@ -16233,7 +16233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KTOP ㅋㅅㅍ50",
     mktgbcd: "J",
-    upcode: "21950"
+    upcode: "21950",
   },
   {
     name: "내츄럴엔도텍",
@@ -16241,7 +16241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅊㄹㅇㄷㅌ",
     mktgbcd: "Q",
-    upcode: "2525"
+    upcode: "2525",
   },
   {
     name: "한국패러랠",
@@ -16249,7 +16249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱㅍㄹㄹ",
     mktgbcd: "J",
-    upcode: "1935"
+    upcode: "1935",
   },
   {
     name: "KINDEX 중국본토CSI300",
@@ -16257,7 +16257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅈㄱㅂㅌCSI300",
     mktgbcd: "J",
-    upcode: "27740"
+    upcode: "27740",
   },
   {
     name: "마크로밀엠브레인",
@@ -16265,7 +16265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅋㄹㅁㅇㅂㄹㅇ",
     mktgbcd: "Q",
-    upcode: "7500"
+    upcode: "7500",
   },
   {
     name: "KODEX 중국본토 A50",
@@ -16273,7 +16273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅈㄱㅂㅌ A50",
     mktgbcd: "J",
-    upcode: "20415"
+    upcode: "20415",
   },
   {
     name: "현대공업",
@@ -16281,7 +16281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄷㄱㅇ",
     mktgbcd: "Q",
-    upcode: "6970"
+    upcode: "6970",
   },
   {
     name: "TIGER 베타플러스",
@@ -16289,7 +16289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅂㅌㅍㄹㅅ",
     mktgbcd: "J",
-    upcode: "13395"
+    upcode: "13395",
   },
   {
     name: "파이오링크",
@@ -16297,7 +16297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅇㅇㄹㅋ",
     mktgbcd: "Q",
-    upcode: "15650"
+    upcode: "15650",
   },
   {
     name: "동아에스티",
@@ -16305,7 +16305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅇㅅㅌ",
     mktgbcd: "J",
-    upcode: "91400"
+    upcode: "91400",
   },
   {
     name: "엘티씨",
@@ -16313,7 +16313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅆ",
     mktgbcd: "Q",
-    upcode: "12250"
+    upcode: "12250",
   },
   {
     name: "램테크놀러지",
@@ -16321,7 +16321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅌㅋㄴㄹㅈ",
     mktgbcd: "Q",
-    upcode: "6550"
+    upcode: "6550",
   },
   {
     name: "선익시스템",
@@ -16329,7 +16329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅅㅅㅌ",
     mktgbcd: "Q",
-    upcode: "6830"
+    upcode: "6830",
   },
   {
     name: "라이온켐텍",
@@ -16337,7 +16337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅇㅇㅋㅌ",
     mktgbcd: "Q",
-    upcode: "7000"
+    upcode: "7000",
   },
   {
     name: "하이골드12호",
@@ -16345,7 +16345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇㄱㄷ12ㅎ",
     mktgbcd: "J",
-    upcode: "2020"
+    upcode: "2020",
   },
   {
     name: "오파스넷",
@@ -16353,7 +16353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍㅅㄴ",
     mktgbcd: "Q",
-    upcode: "9990"
+    upcode: "9990",
   },
   {
     name: "에프엔씨엔터",
@@ -16361,7 +16361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍㅇㅆㅇㅌ",
     mktgbcd: "Q",
-    upcode: "6300"
+    upcode: "6300",
   },
   {
     name: "TIGER 로우볼",
@@ -16369,7 +16369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄹㅇㅂ",
     mktgbcd: "J",
-    upcode: "9580"
+    upcode: "9580",
   },
   {
     name: "KBSTAR 중국본토대형주CSI100",
@@ -16377,7 +16377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅈㄱㅂㅌㄷㅎㅈCSI100",
     mktgbcd: "J",
-    upcode: "19360"
+    upcode: "19360",
   },
   {
     name: "장원테크",
@@ -16385,7 +16385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅌㅋ",
     mktgbcd: "Q",
-    upcode: "3050"
+    upcode: "3050",
   },
   {
     name: "앱클론",
@@ -16393,7 +16393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅋㄹ",
     mktgbcd: "Q",
-    upcode: "32600"
+    upcode: "32600",
   },
   {
     name: "인포마크",
@@ -16401,7 +16401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍㅁㅋ",
     mktgbcd: "Q",
-    upcode: "5760"
+    upcode: "5760",
   },
   {
     name: "아이큐어",
@@ -16409,7 +16409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅋㅇ",
     mktgbcd: "Q",
-    upcode: "47150"
+    upcode: "47150",
   },
   {
     name: "JB금융지주",
@@ -16417,7 +16417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "JBㄱㅇㅈㅈ",
     mktgbcd: "J",
-    upcode: "4515"
+    upcode: "4515",
   },
   {
     name: "에이치엔티",
@@ -16425,7 +16425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅊㅇㅌ",
     mktgbcd: "Q",
-    upcode: "1920"
+    upcode: "1920",
   },
   {
     name: "파워 중기국고채",
@@ -16433,7 +16433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅍㅇ ㅈㄱㄱㄱㅊ",
     mktgbcd: "J",
-    upcode: "102570"
+    upcode: "102570",
   },
   {
     name: "KODEX 국채선물10년인버스",
@@ -16441,7 +16441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㄱㅊㅅㅁ10ㄴㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "45145"
+    upcode: "45145",
   },
   {
     name: "베셀",
@@ -16449,7 +16449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅅ",
     mktgbcd: "Q",
-    upcode: "3150"
+    upcode: "3150",
   },
   {
     name: "파버나인",
@@ -16457,7 +16457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅂㄴㅇ",
     mktgbcd: "Q",
-    upcode: "5430"
+    upcode: "5430",
   },
   {
     name: "서진시스템",
@@ -16465,7 +16465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅈㅅㅅㅌ",
     mktgbcd: "Q",
-    upcode: "45650"
+    upcode: "45650",
   },
   {
     name: "유테크",
@@ -16473,7 +16473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅋ",
     mktgbcd: "Q",
-    upcode: "5000"
+    upcode: "5000",
   },
   {
     name: "PI첨단소재",
@@ -16481,7 +16481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "PIㅊㄷㅅㅈ",
     mktgbcd: "Q",
-    upcode: "28750"
+    upcode: "28750",
   },
   {
     name: "엠아이텍",
@@ -16489,7 +16489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "4080"
+    upcode: "4080",
   },
   {
     name: "유티아이",
@@ -16497,7 +16497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅇㅇ",
     mktgbcd: "Q",
-    upcode: "12850"
+    upcode: "12850",
   },
   {
     name: "캔서롭",
@@ -16505,7 +16505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅅㄹ",
     mktgbcd: "Q",
-    upcode: "7740"
+    upcode: "7740",
   },
   {
     name: "한진칼",
@@ -16513,7 +16513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅈㅋ",
     mktgbcd: "J",
-    upcode: "67600"
+    upcode: "67600",
   },
   {
     name: "한진칼우",
@@ -16521,7 +16521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅈㅋㅇ",
     mktgbcd: "J",
-    upcode: "49000"
+    upcode: "49000",
   },
   {
     name: "이즈미디어",
@@ -16529,7 +16529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅁㄷㅇ",
     mktgbcd: "Q",
-    upcode: "4700"
+    upcode: "4700",
   },
   {
     name: "KINDEX 미국다우존스리츠(합성 H)",
@@ -16537,7 +16537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅁㄱㄷㅇㅈㅅㄹㅊㅎㅅ H",
     mktgbcd: "J",
-    upcode: "71830"
+    upcode: "71830",
   },
   {
     name: "NHN",
@@ -16545,7 +16545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "NHN",
     mktgbcd: "J",
-    upcode: "73500"
+    upcode: "73500",
   },
   {
     name: "큐브엔터",
@@ -16553,7 +16553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅂㅇㅌ",
     mktgbcd: "Q",
-    upcode: "4305"
+    upcode: "4305",
   },
   {
     name: "엔케이맥스",
@@ -16561,7 +16561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅋㅇㅁㅅ",
     mktgbcd: "Q",
-    upcode: "14000"
+    upcode: "14000",
   },
   {
     name: "TIGER 미국MSCI리츠(합성 H)",
@@ -16569,7 +16569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅁㄱMSCIㄹㅊㅎㅅ H",
     mktgbcd: "J",
-    upcode: "10980"
+    upcode: "10980",
   },
   {
     name: "TIGER 단기선진하이일드(합성 H)",
@@ -16577,7 +16577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄷㄱㅅㅈㅎㅇㅇㄷㅎㅅ H",
     mktgbcd: "J",
-    upcode: "11540"
+    upcode: "11540",
   },
   {
     name: "테라셈",
@@ -16585,7 +16585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㄹㅅ",
     mktgbcd: "Q",
-    upcode: "1460"
+    upcode: "1460",
   },
   {
     name: "아세아시멘트",
@@ -16593,7 +16593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅅㅇㅅㅁㅌ",
     mktgbcd: "J",
-    upcode: "57900"
+    upcode: "57900",
   },
   {
     name: "코미코",
@@ -16601,7 +16601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅁㅋ",
     mktgbcd: "Q",
-    upcode: "37200"
+    upcode: "37200",
   },
   {
     name: "엔지켐생명과학",
@@ -16609,7 +16609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅋㅅㅁㄱㅎ",
     mktgbcd: "Q",
-    upcode: "108800"
+    upcode: "108800",
   },
   {
     name: "KBSTAR 채권혼합",
@@ -16617,7 +16617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅊㄱㅎㅎ",
     mktgbcd: "J",
-    upcode: "58475"
+    upcode: "58475",
   },
   {
     name: "KBSTAR 주식혼합",
@@ -16625,7 +16625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅈㅅㅎㅎ",
     mktgbcd: "J",
-    upcode: "35700"
+    upcode: "35700",
   },
   {
     name: "SGA솔루션즈",
@@ -16633,7 +16633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SGAㅅㄹㅅㅈ",
     mktgbcd: "Q",
-    upcode: "905"
+    upcode: "905",
   },
   {
     name: "아이진",
@@ -16641,7 +16641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅈ",
     mktgbcd: "Q",
-    upcode: "12400"
+    upcode: "12400",
   },
   {
     name: "KODEX 미국S&P바이오(합성)",
@@ -16649,7 +16649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅁㄱSPㅂㅇㅇㅎㅅ",
     mktgbcd: "J",
-    upcode: "28500"
+    upcode: "28500",
   },
   {
     name: "종근당",
@@ -16657,7 +16657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㄱㄷ",
     mktgbcd: "J",
-    upcode: "160000"
+    upcode: "160000",
   },
   {
     name: "그린플러스",
@@ -16665,7 +16665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㄹㅍㄹㅅ",
     mktgbcd: "Q",
-    upcode: "18750"
+    upcode: "18750",
   },
   {
     name: "디티앤씨",
@@ -16673,7 +16673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅌㅇㅆ",
     mktgbcd: "Q",
-    upcode: "6030"
+    upcode: "6030",
   },
   {
     name: "신화콘텍",
@@ -16681,7 +16681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅎㅋㅌ",
     mktgbcd: "Q",
-    upcode: "2430"
+    upcode: "2430",
   },
   {
     name: "제노포커스",
@@ -16689,7 +16689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㄴㅍㅋㅅ",
     mktgbcd: "Q",
-    upcode: "14000"
+    upcode: "14000",
   },
   {
     name: "나노",
@@ -16697,7 +16697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㄴ",
     mktgbcd: "Q",
-    upcode: "1265"
+    upcode: "1265",
   },
   {
     name: "디바이스이엔지",
@@ -16705,7 +16705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅂㅇㅅㅇㅇㅈ",
     mktgbcd: "Q",
-    upcode: "25700"
+    upcode: "25700",
   },
   {
     name: "인텔리안테크",
@@ -16713,7 +16713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㄹㅇㅌㅋ",
     mktgbcd: "Q",
-    upcode: "28750"
+    upcode: "28750",
   },
   {
     name: "ARIRANG 글로벌MSCI(합성 H)",
@@ -16721,7 +16721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㄱㄹㅂMSCIㅎㅅ H",
     mktgbcd: "J",
-    upcode: "13780"
+    upcode: "13780",
   },
   {
     name: "포시에스",
@@ -16729,7 +16729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅅㅇㅅ",
     mktgbcd: "Q",
-    upcode: "8510"
+    upcode: "8510",
   },
   {
     name: "서전기전",
@@ -16737,7 +16737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅈㄱㅈ",
     mktgbcd: "Q",
-    upcode: "2935"
+    upcode: "2935",
   },
   {
     name: "흥국에프엔비",
@@ -16745,7 +16745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅇㅍㅇㅂ",
     mktgbcd: "Q",
-    upcode: "1535"
+    upcode: "1535",
   },
   {
     name: "나무가",
@@ -16753,7 +16753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅁㄱ",
     mktgbcd: "Q",
-    upcode: "22850"
+    upcode: "22850",
   },
   {
     name: "KINDEX 단기통안채",
@@ -16761,7 +16761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㄷㄱㅌㅇㅊ",
     mktgbcd: "J",
-    upcode: "100810"
+    upcode: "100810",
   },
   {
     name: "코리아에셋투자증권",
@@ -16769,7 +16769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹㅇㅇㅅㅌㅈㅈㄱ",
     mktgbcd: "Q",
-    upcode: "6740"
+    upcode: "6740",
   },
   {
     name: "육일씨엔에쓰",
@@ -16777,7 +16777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅆㅇㅇㅆ",
     mktgbcd: "Q",
-    upcode: "3415"
+    upcode: "3415",
   },
   {
     name: "테고사이언스",
@@ -16785,7 +16785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㄱㅅㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "27250"
+    upcode: "27250",
   },
   {
     name: "더블유게임즈",
@@ -16793,7 +16793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅂㅇㄱㅇㅈ",
     mktgbcd: "J",
-    upcode: "74000"
+    upcode: "74000",
   },
   {
     name: "TIGER 차이나CSI300",
@@ -16801,7 +16801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅊㅇㄴCSI300",
     mktgbcd: "J",
-    upcode: "10585"
+    upcode: "10585",
   },
   {
     name: "케이사인",
@@ -16809,7 +16809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅅㅇ",
     mktgbcd: "Q",
-    upcode: "1595"
+    upcode: "1595",
   },
   {
     name: "윈하이텍",
@@ -16817,7 +16817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅎㅇㅌ",
     mktgbcd: "Q",
-    upcode: "2870"
+    upcode: "2870",
   },
   {
     name: "쿠쿠홀딩스",
@@ -16825,7 +16825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅋㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "95000"
+    upcode: "95000",
   },
   {
     name: "감마누",
@@ -16833,7 +16833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅁㄴ",
     mktgbcd: "Q",
-    upcode: "3020"
+    upcode: "3020",
   },
   {
     name: "슈피겐코리아",
@@ -16841,7 +16841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅍㄱㅋㄹㅇ",
     mktgbcd: "Q",
-    upcode: "68000"
+    upcode: "68000",
   },
   {
     name: "드림텍",
@@ -16849,7 +16849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㄹㅌ",
     mktgbcd: "J",
-    upcode: "15050"
+    upcode: "15050",
   },
   {
     name: "파워 고배당저변동성",
@@ -16857,7 +16857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅍㅇ ㄱㅂㄷㅈㅂㄷㅅ",
     mktgbcd: "J",
-    upcode: "22800"
+    upcode: "22800",
   },
   {
     name: "코스맥스",
@@ -16865,7 +16865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅅㅁㅅ",
     mktgbcd: "J",
-    upcode: "110500"
+    upcode: "110500",
   },
   {
     name: "와이제이엠게임즈",
@@ -16873,7 +16873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅈㅇㅇㄱㅇㅈ",
     mktgbcd: "Q",
-    upcode: "1525"
+    upcode: "1525",
   },
   {
     name: "제이에스코퍼레이션",
@@ -16881,7 +16881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅇㅇㅅㅋㅍㄹㅇㅅ",
     mktgbcd: "J",
-    upcode: "6970"
+    upcode: "6970",
   },
   {
     name: "데브시스터즈",
@@ -16889,7 +16889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅂㅅㅅㅌㅈ",
     mktgbcd: "Q",
-    upcode: "8190"
+    upcode: "8190",
   },
   {
     name: "노바렉스",
@@ -16897,7 +16897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅂㄹㅅ",
     mktgbcd: "Q",
-    upcode: "40550"
+    upcode: "40550",
   },
   {
     name: "퓨전",
@@ -16905,7 +16905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅈ",
     mktgbcd: "Q",
-    upcode: "2075"
+    upcode: "2075",
   },
   {
     name: "마니커에프앤지",
@@ -16913,7 +16913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄴㅋㅇㅍㅇㅈ",
     mktgbcd: "Q",
-    upcode: "8330"
+    upcode: "8330",
   },
   {
     name: "해성디에스",
@@ -16921,7 +16921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㄷㅇㅅ",
     mktgbcd: "J",
-    upcode: "19350"
+    upcode: "19350",
   },
   {
     name: "TIGER 일본TOPIX(합성 H)",
@@ -16929,7 +16929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅇㅂTOPIXㅎㅅ H",
     mktgbcd: "J",
-    upcode: "13655"
+    upcode: "13655",
   },
   {
     name: "TIGER 유로스탁스50(합성 H)",
@@ -16937,7 +16937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅇㄹㅅㅌㅅ50ㅎㅅ H",
     mktgbcd: "J",
-    upcode: "10765"
+    upcode: "10765",
   },
   {
     name: "ARIRANG 선진국MSCI(합성 H)",
@@ -16945,7 +16945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㅅㅈㄱMSCIㅎㅅ H",
     mktgbcd: "J",
-    upcode: "9735"
+    upcode: "9735",
   },
   {
     name: "ARIRANG 신흥국MSCI(합성 H)",
@@ -16953,7 +16953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㅅㅎㄱMSCIㅎㅅ H",
     mktgbcd: "J",
-    upcode: "10375"
+    upcode: "10375",
   },
   {
     name: "에이비프로바이오",
@@ -16961,7 +16961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅂㅍㄹㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "787"
+    upcode: "787",
   },
   {
     name: "KINDEX 일본TOPIX레버리지(H)",
@@ -16969,7 +16969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅇㅂTOPIXㄹㅂㄹㅈH",
     mktgbcd: "J",
-    upcode: "15295"
+    upcode: "15295",
   },
   {
     name: "알테오젠",
@@ -16977,7 +16977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅇㅈ",
     mktgbcd: "Q",
-    upcode: "178000"
+    upcode: "178000",
   },
   {
     name: "KBSTAR 단기통안채",
@@ -16985,7 +16985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㄷㄱㅌㅇㅊ",
     mktgbcd: "J",
-    upcode: "104020"
+    upcode: "104020",
   },
   {
     name: "애니젠",
@@ -16993,7 +16993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅈ",
     mktgbcd: "Q",
-    upcode: "14200"
+    upcode: "14200",
   },
   {
     name: "디오스텍",
@@ -17001,7 +17001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅅㅌ",
     mktgbcd: "Q",
-    upcode: "411"
+    upcode: "411",
   },
   {
     name: "디에이테크놀로지",
@@ -17009,7 +17009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅇㅌㅋㄴㄹㅈ",
     mktgbcd: "Q",
-    upcode: "1550"
+    upcode: "1550",
   },
   {
     name: "웹스",
@@ -17017,7 +17017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅ",
     mktgbcd: "Q",
-    upcode: "1840"
+    upcode: "1840",
   },
   {
     name: "디지캡",
@@ -17025,7 +17025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅈㅋ",
     mktgbcd: "Q",
-    upcode: "4445"
+    upcode: "4445",
   },
   {
     name: "엔피디",
@@ -17033,7 +17033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍㄷ",
     mktgbcd: "Q",
-    upcode: "3820"
+    upcode: "3820",
   },
   {
     name: "고려시멘트",
@@ -17041,7 +17041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㄹㅅㅁㅌ",
     mktgbcd: "Q",
-    upcode: "2990"
+    upcode: "2990",
   },
   {
     name: "KODEX 미국S&P산업재(합성)",
@@ -17049,7 +17049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅁㄱSPㅅㅇㅈㅎㅅ",
     mktgbcd: "J",
-    upcode: "15815"
+    upcode: "15815",
   },
   {
     name: "콜마비앤에이치",
@@ -17057,7 +17057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅁㅂㅇㅇㅇㅊ",
     mktgbcd: "Q",
-    upcode: "60600"
+    upcode: "60600",
   },
   {
     name: "텔콘RF제약",
@@ -17065,7 +17065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅋRFㅈㅇ",
     mktgbcd: "Q",
-    upcode: "7280"
+    upcode: "7280",
   },
   {
     name: "KOSEF 인도Nifty50(합성)",
@@ -17073,7 +17073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF ㅇㄷNifty50ㅎㅅ",
     mktgbcd: "J",
-    upcode: "12255"
+    upcode: "12255",
   },
   {
     name: "에이팩트",
@@ -17081,7 +17081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅍㅌ",
     mktgbcd: "Q",
-    upcode: "6540"
+    upcode: "6540",
   },
   {
     name: "휴메딕스",
@@ -17089,7 +17089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅁㄷㅅ",
     mktgbcd: "Q",
-    upcode: "24700"
+    upcode: "24700",
   },
   {
     name: "에이디테크놀로지",
@@ -17097,7 +17097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㄷㅌㅋㄴㄹㅈ",
     mktgbcd: "Q",
-    upcode: "24550"
+    upcode: "24550",
   },
   {
     name: "비씨월드제약",
@@ -17105,7 +17105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅆㅇㄷㅈㅇ",
     mktgbcd: "Q",
-    upcode: "18750"
+    upcode: "18750",
   },
   {
     name: "서연이화",
@@ -17113,7 +17113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅇㅎ",
     mktgbcd: "J",
-    upcode: "3925"
+    upcode: "3925",
   },
   {
     name: "미투온",
@@ -17121,7 +17121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅌㅇ",
     mktgbcd: "Q",
-    upcode: "6440"
+    upcode: "6440",
   },
   {
     name: "유니온커뮤니티",
@@ -17129,7 +17129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅇㅋㅁㄴㅌ",
     mktgbcd: "Q",
-    upcode: "3860"
+    upcode: "3860",
   },
   {
     name: "드림시큐리티",
@@ -17137,7 +17137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㄹㅅㅋㄹㅌ",
     mktgbcd: "Q",
-    upcode: "4225"
+    upcode: "4225",
   },
   {
     name: "프로스테믹스",
@@ -17145,7 +17145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㄹㅅㅌㅁㅅ",
     mktgbcd: "Q",
-    upcode: "3890"
+    upcode: "3890",
   },
   {
     name: "TIGER 미국나스닥바이오",
@@ -17153,7 +17153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅁㄱㄴㅅㄷㅂㅇㅇ",
     mktgbcd: "J",
-    upcode: "18185"
+    upcode: "18185",
   },
   {
     name: "그리티",
@@ -17161,7 +17161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㄹㅌ",
     mktgbcd: "Q",
-    upcode: "2935"
+    upcode: "2935",
   },
   {
     name: "모두투어리츠",
@@ -17169,7 +17169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄷㅌㅇㄹㅊ",
     mktgbcd: "J",
-    upcode: "2990"
+    upcode: "2990",
   },
   {
     name: "제이앤티씨",
@@ -17177,7 +17177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅇㅌㅆ",
     mktgbcd: "Q",
-    upcode: "11650"
+    upcode: "11650",
   },
   {
     name: "만도",
@@ -17185,7 +17185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄷ",
     mktgbcd: "J",
-    upcode: "34850"
+    upcode: "34850",
   },
   {
     name: "KODEX China H 레버리지(H)",
@@ -17193,7 +17193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX China H ㄹㅂㄹㅈH",
     mktgbcd: "J",
-    upcode: "5475"
+    upcode: "5475",
   },
   {
     name: "TIGER 차이나CSI300레버리지(합성)",
@@ -17201,7 +17201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅊㅇㄴCSI300ㄹㅂㄹㅈㅎㅅ",
     mktgbcd: "J",
-    upcode: "25030"
+    upcode: "25030",
   },
   {
     name: "글로벌텍스프리",
@@ -17209,7 +17209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㄹㅂㅌㅅㅍㄹ",
     mktgbcd: "Q",
-    upcode: "2580"
+    upcode: "2580",
   },
   {
     name: "스튜디오산타클로스",
@@ -17217,7 +17217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅌㄷㅇㅅㅌㅋㄹㅅ",
     mktgbcd: "Q",
-    upcode: "2150"
+    upcode: "2150",
   },
   {
     name: "지엘팜텍",
@@ -17225,7 +17225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅍㅌ",
     mktgbcd: "Q",
-    upcode: "926"
+    upcode: "926",
   },
   {
     name: "엑셈",
@@ -17233,7 +17233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅ",
     mktgbcd: "Q",
-    upcode: "3660"
+    upcode: "3660",
   },
   {
     name: "휴마시스",
@@ -17241,7 +17241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅁㅅㅅ",
     mktgbcd: "Q",
-    upcode: "12450"
+    upcode: "12450",
   },
   {
     name: "액션스퀘어",
@@ -17249,7 +17249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅅㅋㅇ",
     mktgbcd: "Q",
-    upcode: "1570"
+    upcode: "1570",
   },
   {
     name: "KINDEX 일본TOPIX인버스(합성 H)",
@@ -17257,7 +17257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅇㅂTOPIXㅇㅂㅅㅎㅅ H",
     mktgbcd: "J",
-    upcode: "5370"
+    upcode: "5370",
   },
   {
     name: "엔터메이트",
@@ -17265,7 +17265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅁㅇㅌ",
     mktgbcd: "Q",
-    upcode: "1695"
+    upcode: "1695",
   },
   {
     name: "덱스터",
@@ -17273,7 +17273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅅㅌ",
     mktgbcd: "Q",
-    upcode: "5220"
+    upcode: "5220",
   },
   {
     name: "바디텍메드",
@@ -17281,7 +17281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㄷㅌㅁㄷ",
     mktgbcd: "Q",
-    upcode: "30650"
+    upcode: "30650",
   },
   {
     name: "유바이오로직스",
@@ -17289,7 +17289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅂㅇㅇㄹㅈㅅ",
     mktgbcd: "Q",
-    upcode: "20150"
+    upcode: "20150",
   },
   {
     name: "미스터블루",
@@ -17297,7 +17297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅅㅌㅂㄹ",
     mktgbcd: "Q",
-    upcode: "10350"
+    upcode: "10350",
   },
   {
     name: "삼성바이오로직스",
@@ -17305,7 +17305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅㅂㅇㅇㄹㅈㅅ",
     mktgbcd: "J",
-    upcode: "685000"
+    upcode: "685000",
   },
   {
     name: "정다운",
@@ -17313,7 +17313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㄷㅇ",
     mktgbcd: "Q",
-    upcode: "2370"
+    upcode: "2370",
   },
   {
     name: "파멥신",
@@ -17321,7 +17321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅁㅅ",
     mktgbcd: "Q",
-    upcode: "21100"
+    upcode: "21100",
   },
   {
     name: "지란지교시큐리티",
@@ -17329,7 +17329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㄹㅈㄱㅅㅋㄹㅌ",
     mktgbcd: "Q",
-    upcode: "5520"
+    upcode: "5520",
   },
   {
     name: "셀바스헬스케어",
@@ -17337,7 +17337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅂㅅㅎㅅㅋㅇ",
     mktgbcd: "Q",
-    upcode: "2490"
+    upcode: "2490",
   },
   {
     name: "SMART 선진국MSCI World(합성 H)",
@@ -17345,7 +17345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SMART ㅅㅈㄱMSCI Worldㅎㅅ H",
     mktgbcd: "J",
-    upcode: "14300"
+    upcode: "14300",
   },
   {
     name: "썸에이지",
@@ -17353,7 +17353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㅇㅇㅈ",
     mktgbcd: "Q",
-    upcode: "1400"
+    upcode: "1400",
   },
   {
     name: "바이오로그디바이스",
@@ -17361,7 +17361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅇㅇㄹㄱㄷㅂㅇㅅ",
     mktgbcd: "Q",
-    upcode: "1730"
+    upcode: "1730",
   },
   {
     name: "엔지스테크널러지",
@@ -17369,7 +17369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅅㅌㅋㄴㄹㅈ",
     mktgbcd: "Q",
-    upcode: "3845"
+    upcode: "3845",
   },
   {
     name: "디와이파워",
@@ -17377,7 +17377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅇㅍㅇ",
     mktgbcd: "J",
-    upcode: "10800"
+    upcode: "10800",
   },
   {
     name: "TIGER 코스피고배당",
@@ -17385,7 +17385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅋㅅㅍㄱㅂㄷ",
     mktgbcd: "J",
-    upcode: "9645"
+    upcode: "9645",
   },
   {
     name: "SK디앤디",
@@ -17393,7 +17393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SKㄷㅇㄷ",
     mktgbcd: "J",
-    upcode: "41500"
+    upcode: "41500",
   },
   {
     name: "KINDEX 배당성장",
@@ -17401,7 +17401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅂㄷㅅㅈ",
     mktgbcd: "J",
-    upcode: "29020"
+    upcode: "29020",
   },
   {
     name: "AP위성",
@@ -17409,7 +17409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "APㅇㅅ",
     mktgbcd: "Q",
-    upcode: "7260"
+    upcode: "7260",
   },
   {
     name: "TIGER 배당성장",
@@ -17417,7 +17417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅂㄷㅅㅈ",
     mktgbcd: "J",
-    upcode: "14355"
+    upcode: "14355",
   },
   {
     name: "KODEX 배당성장",
@@ -17425,7 +17425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅂㄷㅅㅈ",
     mktgbcd: "J",
-    upcode: "11570"
+    upcode: "11570",
   },
   {
     name: "네오오토",
@@ -17433,7 +17433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "3970"
+    upcode: "3970",
   },
   {
     name: "미래테크놀로지",
@@ -17441,7 +17441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄹㅌㅋㄴㄹㅈ",
     mktgbcd: "Q",
-    upcode: "8060"
+    upcode: "8060",
   },
   {
     name: "덕산네오룩스",
@@ -17449,7 +17449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅅㄴㅇㄹㅅ",
     mktgbcd: "Q",
-    upcode: "31500"
+    upcode: "31500",
   },
   {
     name: "한솔제지",
@@ -17457,7 +17457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㅈㅈ",
     mktgbcd: "J",
-    upcode: "13900"
+    upcode: "13900",
   },
   {
     name: "KODEX 삼성그룹밸류",
@@ -17465,7 +17465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅅㅅㄱㄹㅂㄹ",
     mktgbcd: "J",
-    upcode: "7200"
+    upcode: "7200",
   },
   {
     name: "ARIRANG 미국다우존스고배당주(합성 H)",
@@ -17473,7 +17473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㅁㄱㄷㅇㅈㅅㄱㅂㄷㅈㅎㅅ H",
     mktgbcd: "J",
-    upcode: "10580"
+    upcode: "10580",
   },
   {
     name: "클래시스",
@@ -17481,7 +17481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹㅅㅅ",
     mktgbcd: "Q",
-    upcode: "12500"
+    upcode: "12500",
   },
   {
     name: "민앤지",
@@ -17489,7 +17489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅇㅈ",
     mktgbcd: "Q",
-    upcode: "15550"
+    upcode: "15550",
   },
   {
     name: "라파스",
@@ -17497,7 +17497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅍㅅ",
     mktgbcd: "Q",
-    upcode: "18900"
+    upcode: "18900",
   },
   {
     name: "퓨쳐스트림네트웍스",
@@ -17505,7 +17505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅊㅅㅌㄹㄴㅌㅇㅅ",
     mktgbcd: "Q",
-    upcode: "1015"
+    upcode: "1015",
   },
   {
     name: "세미콘라이트",
@@ -17513,7 +17513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅁㅋㄹㅇㅌ",
     mktgbcd: "Q",
-    upcode: "943"
+    upcode: "943",
   },
   {
     name: "이노션",
@@ -17521,7 +17521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄴㅅ",
     mktgbcd: "J",
-    upcode: "50800"
+    upcode: "50800",
   },
   {
     name: "금호에이치티",
@@ -17529,7 +17529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅎㅇㅇㅊㅌ",
     mktgbcd: "J",
-    upcode: "3505"
+    upcode: "3505",
   },
   {
     name: "케어젠",
@@ -17537,7 +17537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅈ",
     mktgbcd: "Q",
-    upcode: "62900"
+    upcode: "62900",
   },
   {
     name: "경보제약",
@@ -17545,7 +17545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㅂㅈㅇ",
     mktgbcd: "J",
-    upcode: "10600"
+    upcode: "10600",
   },
   {
     name: "토니모리",
@@ -17553,7 +17553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅌㄴㅁㄹ",
     mktgbcd: "J",
-    upcode: "9700"
+    upcode: "9700",
   },
   {
     name: "아이쓰리시스템",
@@ -17561,7 +17561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅆㄹㅅㅅㅌ",
     mktgbcd: "Q",
-    upcode: "23350"
+    upcode: "23350",
   },
   {
     name: "파마리서치프로덕트",
@@ -17569,7 +17569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅁㄹㅅㅊㅍㄹㄷㅌ",
     mktgbcd: "Q",
-    upcode: "59700"
+    upcode: "59700",
   },
   {
     name: "디알텍",
@@ -17577,7 +17577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅌ",
     mktgbcd: "Q",
-    upcode: "1450"
+    upcode: "1450",
   },
   {
     name: "뉴지랩",
@@ -17585,7 +17585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅈㄹ",
     mktgbcd: "Q",
-    upcode: "15800"
+    upcode: "15800",
   },
   {
     name: "KODEX 단기채권PLUS",
@@ -17593,7 +17593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㄷㄱㅊㄱPLUS",
     mktgbcd: "J",
-    upcode: "102710"
+    upcode: "102710",
   },
   {
     name: "골프존",
@@ -17601,7 +17601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅍㅈ",
     mktgbcd: "Q",
-    upcode: "65600"
+    upcode: "65600",
   },
   {
     name: "이디티",
@@ -17609,7 +17609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄷㅌ",
     mktgbcd: "Q",
-    upcode: "835"
+    upcode: "835",
   },
   {
     name: "로보로보",
@@ -17617,7 +17617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅂㄹㅂ",
     mktgbcd: "Q",
-    upcode: "4860"
+    upcode: "4860",
   },
   {
     name: "메가스터디교육",
@@ -17625,7 +17625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄱㅅㅌㄷㄱㅇ",
     mktgbcd: "Q",
-    upcode: "29350"
+    upcode: "29350",
   },
   {
     name: "우리산업",
@@ -17633,7 +17633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅅㅇ",
     mktgbcd: "Q",
-    upcode: "18250"
+    upcode: "18250",
   },
   {
     name: "우정바이오",
@@ -17641,7 +17641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "9110"
+    upcode: "9110",
   },
   {
     name: "토박스코리아",
@@ -17649,7 +17649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅂㅅㅋㄹㅇ",
     mktgbcd: "Q",
-    upcode: "1000"
+    upcode: "1000",
   },
   {
     name: "신라젠",
@@ -17657,7 +17657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄹㅈ",
     mktgbcd: "Q",
-    upcode: "12100"
+    upcode: "12100",
   },
   {
     name: "흥국 S&P코리아로우볼",
@@ -17665,7 +17665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄱ SPㅋㄹㅇㄹㅇㅂ",
     mktgbcd: "J",
-    upcode: "9065"
+    upcode: "9065",
   },
   {
     name: "이노인스트루먼트",
@@ -17673,7 +17673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅇㅅㅌㄹㅁㅌ",
     mktgbcd: "Q",
-    upcode: "1865"
+    upcode: "1865",
   },
   {
     name: "인크로스",
@@ -17681,7 +17681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅋㄹㅅ",
     mktgbcd: "Q",
-    upcode: "44450"
+    upcode: "44450",
   },
   {
     name: "제테마",
@@ -17689,7 +17689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅌㅁ",
     mktgbcd: "Q",
-    upcode: "23950"
+    upcode: "23950",
   },
   {
     name: "제너셈",
@@ -17697,7 +17697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㄴㅅ",
     mktgbcd: "Q",
-    upcode: "3775"
+    upcode: "3775",
   },
   {
     name: "넵튠",
@@ -17705,7 +17705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅌ",
     mktgbcd: "Q",
-    upcode: "13750"
+    upcode: "13750",
   },
   {
     name: "싸이토젠",
@@ -17713,7 +17713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㅇㅌㅈ",
     mktgbcd: "Q",
-    upcode: "29600"
+    upcode: "29600",
   },
   {
     name: "에스디생명공학",
@@ -17721,7 +17721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㄷㅅㅁㄱㅎ",
     mktgbcd: "Q",
-    upcode: "6100"
+    upcode: "6100",
   },
   {
     name: "러셀",
@@ -17729,7 +17729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅅ",
     mktgbcd: "Q",
-    upcode: "2260"
+    upcode: "2260",
   },
   {
     name: "켐온",
@@ -17737,7 +17737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇ",
     mktgbcd: "Q",
-    upcode: "2980"
+    upcode: "2980",
   },
   {
     name: "디딤",
@@ -17745,7 +17745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㄷ",
     mktgbcd: "Q",
-    upcode: "1495"
+    upcode: "1495",
   },
   {
     name: "강스템바이오텍",
@@ -17753,7 +17753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅅㅌㅂㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "6900"
+    upcode: "6900",
   },
   {
     name: "TIGER 원유선물인버스(H)",
@@ -17761,7 +17761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅇㅇㅅㅁㅇㅂㅅH",
     mktgbcd: "J",
-    upcode: "11690"
+    upcode: "11690",
   },
   {
     name: "TIGER 차이나CSI300인버스(합성)",
@@ -17769,7 +17769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅊㅇㄴCSI300ㅇㅂㅅㅎㅅ",
     mktgbcd: "J",
-    upcode: "8965"
+    upcode: "8965",
   },
   {
     name: "TIGER 가격조정",
@@ -17777,7 +17777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄱㄱㅈㅈ",
     mktgbcd: "J",
-    upcode: "20470"
+    upcode: "20470",
   },
   {
     name: "엔에스",
@@ -17785,7 +17785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "15350"
+    upcode: "15350",
   },
   {
     name: "미래생명자원",
@@ -17793,7 +17793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄹㅅㅁㅈㅇ",
     mktgbcd: "Q",
-    upcode: "3015"
+    upcode: "3015",
   },
   {
     name: "RFHIC",
@@ -17801,7 +17801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "RFHIC",
     mktgbcd: "Q",
-    upcode: "41500"
+    upcode: "41500",
   },
   {
     name: "KODEX 미국S&P에너지(합성)",
@@ -17809,7 +17809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅁㄱSPㅇㄴㅈㅎㅅ",
     mktgbcd: "J",
-    upcode: "4260"
+    upcode: "4260",
   },
   {
     name: "타이거일렉",
@@ -17817,7 +17817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅇㄱㅇㄹ",
     mktgbcd: "Q",
-    upcode: "14250"
+    upcode: "14250",
   },
   {
     name: "KBSTAR 미국S&P원유생산기업(합성 H)",
@@ -17825,7 +17825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅁㄱSPㅇㅇㅅㅅㄱㅇㅎㅅ H",
     mktgbcd: "J",
-    upcode: "1955"
+    upcode: "1955",
   },
   {
     name: "링크제니시스",
@@ -17833,7 +17833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅋㅈㄴㅅㅅ",
     mktgbcd: "Q",
-    upcode: "6130"
+    upcode: "6130",
   },
   {
     name: "KODEX 미국S&P500선물(H)",
@@ -17841,7 +17841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅁㄱSP500ㅅㅁH",
     mktgbcd: "J",
-    upcode: "15900"
+    upcode: "15900",
   },
   {
     name: "MP한강",
@@ -17849,7 +17849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "MPㅎㄱ",
     mktgbcd: "Q",
-    upcode: "1305"
+    upcode: "1305",
   },
   {
     name: "지티지웰니스",
@@ -17857,7 +17857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅌㅈㅇㄴㅅ",
     mktgbcd: "Q",
-    upcode: "5710"
+    upcode: "5710",
   },
   {
     name: "KINDEX 중국본토CSI300레버리지(합성)",
@@ -17865,7 +17865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅈㄱㅂㅌCSI300ㄹㅂㄹㅈㅎㅅ",
     mktgbcd: "J",
-    upcode: "4460"
+    upcode: "4460",
   },
   {
     name: "퓨쳐켐",
@@ -17873,7 +17873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅊㅋ",
     mktgbcd: "Q",
-    upcode: "11400"
+    upcode: "11400",
   },
   {
     name: "SMART 중국본토 중소형 CSI500(합성 H)",
@@ -17881,7 +17881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SMART ㅈㄱㅂㅌ ㅈㅅㅎ CSI500ㅎㅅ H",
     mktgbcd: "J",
-    upcode: "4960"
+    upcode: "4960",
   },
   {
     name: "핸디소프트",
@@ -17889,7 +17889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄷㅅㅍㅌ",
     mktgbcd: "Q",
-    upcode: "3465"
+    upcode: "3465",
   },
   {
     name: "켐트로스",
@@ -17897,7 +17897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅌㄹㅅ",
     mktgbcd: "Q",
-    upcode: "6390"
+    upcode: "6390",
   },
   {
     name: "해마로푸드서비스",
@@ -17905,7 +17905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅁㄹㅍㄷㅅㅂㅅ",
     mktgbcd: "Q",
-    upcode: "2610"
+    upcode: "2610",
   },
   {
     name: "자안",
@@ -17913,7 +17913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇ",
     mktgbcd: "Q",
-    upcode: "347"
+    upcode: "347",
   },
   {
     name: "하이즈항공",
@@ -17921,7 +17921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅇㅈㅎㄱ",
     mktgbcd: "Q",
-    upcode: "3455"
+    upcode: "3455",
   },
   {
     name: "케이디켐",
@@ -17929,7 +17929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㄷㅋ",
     mktgbcd: "Q",
-    upcode: "11350"
+    upcode: "11350",
   },
   {
     name: "코스맥스엔비티",
@@ -17937,7 +17937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅅㅁㅅㅇㅂㅌ",
     mktgbcd: "Q",
-    upcode: "9090"
+    upcode: "9090",
   },
   {
     name: "씨아이에스",
@@ -17945,7 +17945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㅇㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "7130"
+    upcode: "7130",
   },
   {
     name: "팬젠",
@@ -17953,7 +17953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅈ",
     mktgbcd: "Q",
-    upcode: "8780"
+    upcode: "8780",
   },
   {
     name: "쎄노텍",
@@ -17961,7 +17961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㄴㅌ",
     mktgbcd: "Q",
-    upcode: "2035"
+    upcode: "2035",
   },
   {
     name: "심텍",
@@ -17969,7 +17969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅌ",
     mktgbcd: "Q",
-    upcode: "18300"
+    upcode: "18300",
   },
   {
     name: "마이더스AI",
@@ -17977,7 +17977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅇㄷㅅAI",
     mktgbcd: "Q",
-    upcode: "637"
+    upcode: "637",
   },
   {
     name: "한국맥널티",
@@ -17985,7 +17985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅁㄴㅌ",
     mktgbcd: "Q",
-    upcode: "6820"
+    upcode: "6820",
   },
   {
     name: "KODEX 200가치저변동",
@@ -17993,7 +17993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX 200ㄱㅊㅈㅂㄷ",
     mktgbcd: "J",
-    upcode: "8040"
+    upcode: "8040",
   },
   {
     name: "드림씨아이에스",
@@ -18001,7 +18001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㄹㅆㅇㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "19750"
+    upcode: "19750",
   },
   {
     name: "경남제약헬스케어",
@@ -18009,7 +18009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㄴㅈㅇㅎㅅㅋㅇ",
     mktgbcd: "Q",
-    upcode: "3320"
+    upcode: "3320",
   },
   {
     name: "코디엠",
@@ -18017,7 +18017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄷㅇ",
     mktgbcd: "Q",
-    upcode: "219"
+    upcode: "219",
   },
   {
     name: "에이텍티앤",
@@ -18025,7 +18025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅌㅌㅇ",
     mktgbcd: "Q",
-    upcode: "20000"
+    upcode: "20000",
   },
   {
     name: "TIGER 미국S&P500선물인버스(H)",
@@ -18033,7 +18033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅁㄱSP500ㅅㅁㅇㅂㅅH",
     mktgbcd: "J",
-    upcode: "5195"
+    upcode: "5195",
   },
   {
     name: "TIGER 미국S&P500레버리지(합성 H)",
@@ -18041,7 +18041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅁㄱSP500ㄹㅂㄹㅈㅎㅅ H",
     mktgbcd: "J",
-    upcode: "19360"
+    upcode: "19360",
   },
   {
     name: "TIGER 유로스탁스레버리지(합성 H)",
@@ -18049,7 +18049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅇㄹㅅㅌㅅㄹㅂㄹㅈㅎㅅ H",
     mktgbcd: "J",
-    upcode: "6205"
+    upcode: "6205",
   },
   {
     name: "TIGER 이머징마켓MSCI레버리지(합성 H)",
@@ -18057,7 +18057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅇㅁㅈㅁㅋMSCIㄹㅂㄹㅈㅎㅅ H",
     mktgbcd: "J",
-    upcode: "10125"
+    upcode: "10125",
   },
   {
     name: "KINDEX 골드선물 레버리지(합성 H)",
@@ -18065,7 +18065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㄱㄷㅅㅁ ㄹㅂㄹㅈㅎㅅ H",
     mktgbcd: "J",
-    upcode: "19365"
+    upcode: "19365",
   },
   {
     name: "삼양옵틱스",
@@ -18073,7 +18073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅇㅌㅅ",
     mktgbcd: "Q",
-    upcode: "8910"
+    upcode: "8910",
   },
   {
     name: "제놀루션",
@@ -18081,7 +18081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㄴㄹㅅ",
     mktgbcd: "Q",
-    upcode: "33100"
+    upcode: "33100",
   },
   {
     name: "씨엠에스에듀",
@@ -18089,7 +18089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㅇㅇㅅㅇㄷ",
     mktgbcd: "Q",
-    upcode: "6140"
+    upcode: "6140",
   },
   {
     name: "케이엠제약",
@@ -18097,7 +18097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅇㅈㅇ",
     mktgbcd: "Q",
-    upcode: "3220"
+    upcode: "3220",
   },
   {
     name: "보광산업",
@@ -18105,7 +18105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㄱㅅㅇ",
     mktgbcd: "Q",
-    upcode: "7500"
+    upcode: "7500",
   },
   {
     name: "넷게임즈",
@@ -18113,7 +18113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㄱㅇㅈ",
     mktgbcd: "Q",
-    upcode: "8670"
+    upcode: "8670",
   },
   {
     name: "패션플랫폼",
@@ -18121,7 +18121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅅㅍㄹㅍ",
     mktgbcd: "Q",
-    upcode: "1130"
+    upcode: "1130",
   },
   {
     name: "KOSEF 미국달러선물레버리지",
@@ -18129,7 +18129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF ㅁㄱㄷㄹㅅㅁㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "9565"
+    upcode: "9565",
   },
   {
     name: "잇츠한불",
@@ -18137,7 +18137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅊㅎㅂ",
     mktgbcd: "J",
-    upcode: "25350"
+    upcode: "25350",
   },
   {
     name: "신테카바이오",
@@ -18145,7 +18145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅌㅋㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "29950"
+    upcode: "29950",
   },
   {
     name: "본느",
@@ -18153,7 +18153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㄴ",
     mktgbcd: "Q",
-    upcode: "2430"
+    upcode: "2430",
   },
   {
     name: "아이엠텍",
@@ -18161,7 +18161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "214"
+    upcode: "214",
   },
   {
     name: "이엑스티",
@@ -18169,7 +18169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅅㅌ",
     mktgbcd: "Q",
-    upcode: "3200"
+    upcode: "3200",
   },
   {
     name: "KINDEX Fn성장소비주도주",
@@ -18177,7 +18177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX Fnㅅㅈㅅㅂㅈㄷㅈ",
     mktgbcd: "J",
-    upcode: "6565"
+    upcode: "6565",
   },
   {
     name: "오스테오닉",
@@ -18185,7 +18185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅌㅇㄴ",
     mktgbcd: "Q",
-    upcode: "2815"
+    upcode: "2815",
   },
   {
     name: "한송네오텍",
@@ -18193,7 +18193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅅㄴㅇㅌ",
     mktgbcd: "Q",
-    upcode: "1430"
+    upcode: "1430",
   },
   {
     name: "KODEX 코스피",
@@ -18201,7 +18201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅋㅅㅍ",
     mktgbcd: "J",
-    upcode: "23135"
+    upcode: "23135",
   },
   {
     name: "올릭스",
@@ -18209,7 +18209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅅ",
     mktgbcd: "Q",
-    upcode: "64100"
+    upcode: "64100",
   },
   {
     name: "KODEX 200 중소형",
@@ -18217,7 +18217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX 200 ㅈㅅㅎ",
     mktgbcd: "J",
-    upcode: "9290"
+    upcode: "9290",
   },
   {
     name: "디자인",
@@ -18225,7 +18225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅈㅇ",
     mktgbcd: "Q",
-    upcode: "8470"
+    upcode: "8470",
   },
   {
     name: "TIGER 200 헬스케어",
@@ -18233,7 +18233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 200 ㅎㅅㅋㅇ",
     mktgbcd: "J",
-    upcode: "26125"
+    upcode: "26125",
   },
   {
     name: "TIGER 200 산업재",
@@ -18241,7 +18241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 200 ㅅㅇㅈ",
     mktgbcd: "J",
-    upcode: "4120"
+    upcode: "4120",
   },
   {
     name: "TIGER 200 생활소비재",
@@ -18249,7 +18249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 200 ㅅㅎㅅㅂㅈ",
     mktgbcd: "J",
-    upcode: "10215"
+    upcode: "10215",
   },
   {
     name: "TIGER 우량가치",
@@ -18257,7 +18257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅇㄹㄱㅊ",
     mktgbcd: "J",
-    upcode: "8695"
+    upcode: "8695",
   },
   {
     name: "아우딘퓨쳐스",
@@ -18265,7 +18265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㄷㅍㅊㅅ",
     mktgbcd: "Q",
-    upcode: "3750"
+    upcode: "3750",
   },
   {
     name: "ARIRANG 코스피",
@@ -18273,7 +18273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㅋㅅㅍ",
     mktgbcd: "J",
-    upcode: "23410"
+    upcode: "23410",
   },
   {
     name: "현대코퍼레이션홀딩스",
@@ -18281,7 +18281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅋㅍㄹㅇㅅㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "10450"
+    upcode: "10450",
   },
   {
     name: "마이크로텍",
@@ -18289,7 +18289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅇㅋㄹㅌ",
     mktgbcd: "Q",
-    upcode: "4315"
+    upcode: "4315",
   },
   {
     name: "동양파일",
@@ -18297,7 +18297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅍㅇ",
     mktgbcd: "Q",
-    upcode: "2520"
+    upcode: "2520",
   },
   {
     name: "레이",
@@ -18305,7 +18305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅇ",
     mktgbcd: "Q",
-    upcode: "41250"
+    upcode: "41250",
   },
   {
     name: "지노믹트리",
@@ -18313,7 +18313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㄴㅁㅌㄹ",
     mktgbcd: "Q",
-    upcode: "16550"
+    upcode: "16550",
   },
   {
     name: "TIGER 화장품",
@@ -18321,7 +18321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅎㅈㅍ",
     mktgbcd: "J",
-    upcode: "3350"
+    upcode: "3350",
   },
   {
     name: "TIGER 여행레저",
@@ -18329,7 +18329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅇㅎㄹㅈ",
     mktgbcd: "J",
-    upcode: "3785"
+    upcode: "3785",
   },
   {
     name: "TIGER 미디어컨텐츠",
@@ -18337,7 +18337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅁㄷㅇㅋㅌㅊ",
     mktgbcd: "J",
-    upcode: "6070"
+    upcode: "6070",
   },
   {
     name: "TIGER KTOP30",
@@ -18345,7 +18345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER KTOP30",
     mktgbcd: "J",
-    upcode: "8380"
+    upcode: "8380",
   },
   {
     name: "레이언스",
@@ -18353,7 +18353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "11250"
+    upcode: "11250",
   },
   {
     name: "젠큐릭스",
@@ -18361,7 +18361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅋㄹㅅ",
     mktgbcd: "Q",
-    upcode: "18700"
+    upcode: "18700",
   },
   {
     name: "KODEX 코스닥 150",
@@ -18369,7 +18369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅋㅅㄷ 150",
     mktgbcd: "J",
-    upcode: "13055"
+    upcode: "13055",
   },
   {
     name: "LS전선아시아",
@@ -18377,7 +18377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "LSㅈㅅㅇㅅㅇ",
     mktgbcd: "J",
-    upcode: "7020"
+    upcode: "7020",
   },
   {
     name: "KODEX KTOP30",
@@ -18385,7 +18385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX KTOP30",
     mktgbcd: "J",
-    upcode: "16900"
+    upcode: "16900",
   },
   {
     name: "에치에프알",
@@ -18393,7 +18393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅊㅇㅍㅇ",
     mktgbcd: "Q",
-    upcode: "35500"
+    upcode: "35500",
   },
   {
     name: "에코마케팅",
@@ -18401,7 +18401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅋㅁㅋㅌ",
     mktgbcd: "Q",
-    upcode: "27800"
+    upcode: "27800",
   },
   {
     name: "KOSEF 미국달러선물인버스2X",
@@ -18409,7 +18409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF ㅁㄱㄷㄹㅅㅁㅇㅂㅅ2X",
     mktgbcd: "J",
-    upcode: "8100"
+    upcode: "8100",
   },
   {
     name: "솔트웍스",
@@ -18417,7 +18417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅌㅇㅅ",
     mktgbcd: "Q",
-    upcode: "4500"
+    upcode: "4500",
   },
   {
     name: "TIGER 코스닥150",
@@ -18425,7 +18425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅋㅅㄷ150",
     mktgbcd: "J",
-    upcode: "13095"
+    upcode: "13095",
   },
   {
     name: "와이아이케이",
@@ -18433,7 +18433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅇㅋㅇ",
     mktgbcd: "Q",
-    upcode: "5110"
+    upcode: "5110",
   },
   {
     name: "TIGER 코스닥150 레버리지",
@@ -18441,7 +18441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅋㅅㄷ150 ㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "13320"
+    upcode: "13320",
   },
   {
     name: "KODEX 코스닥150 레버리지",
@@ -18449,7 +18449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅋㅅㄷ150 ㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "12345"
+    upcode: "12345",
   },
   {
     name: "JW생명과학",
@@ -18457,7 +18457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "JWㅅㅁㄱㅎ",
     mktgbcd: "J",
-    upcode: "18850"
+    upcode: "18850",
   },
   {
     name: "세원",
@@ -18465,7 +18465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇ",
     mktgbcd: "Q",
-    upcode: "4285"
+    upcode: "4285",
   },
   {
     name: "에스트래픽",
@@ -18473,7 +18473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅌㄹㅍ",
     mktgbcd: "Q",
-    upcode: "5240"
+    upcode: "5240",
   },
   {
     name: "KBSTAR V&S셀렉트밸류",
@@ -18481,7 +18481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR VSㅅㄹㅌㅂㄹ",
     mktgbcd: "J",
-    upcode: "11720"
+    upcode: "11720",
   },
   {
     name: "세틀뱅크",
@@ -18489,7 +18489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅌㅂㅋ",
     mktgbcd: "Q",
-    upcode: "29900"
+    upcode: "29900",
   },
   {
     name: "녹십자웰빙",
@@ -18497,7 +18497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅅㅈㅇㅂ",
     mktgbcd: "Q",
-    upcode: "14200"
+    upcode: "14200",
   },
   {
     name: "자이글",
@@ -18505,7 +18505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㄱ",
     mktgbcd: "Q",
-    upcode: "2985"
+    upcode: "2985",
   },
   {
     name: "메드팩토",
@@ -18513,7 +18513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄷㅍㅌ",
     mktgbcd: "Q",
-    upcode: "105000"
+    upcode: "105000",
   },
   {
     name: "슈프리마",
@@ -18521,7 +18521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅍㄹㅁ",
     mktgbcd: "Q",
-    upcode: "31500"
+    upcode: "31500",
   },
   {
     name: "TIGER 인도니프티50레버리지(합성)",
@@ -18529,7 +18529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅇㄷㄴㅍㅌ50ㄹㅂㄹㅈㅎㅅ",
     mktgbcd: "J",
-    upcode: "11475"
+    upcode: "11475",
   },
   {
     name: "KODEX 코스피100",
@@ -18537,7 +18537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅋㅅㅍ100",
     mktgbcd: "J",
-    upcode: "23915"
+    upcode: "23915",
   },
   {
     name: "KODEX 배당성장채권혼합",
@@ -18545,7 +18545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅂㄷㅅㅈㅊㄱㅎㅎ",
     mktgbcd: "J",
-    upcode: "10890"
+    upcode: "10890",
   },
   {
     name: "TIGER 경기방어채권혼합",
@@ -18553,7 +18553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄱㄱㅂㅇㅊㄱㅎㅎ",
     mktgbcd: "J",
-    upcode: "9705"
+    upcode: "9705",
   },
   {
     name: "에스티팜",
@@ -18561,7 +18561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅌㅍ",
     mktgbcd: "Q",
-    upcode: "71300"
+    upcode: "71300",
   },
   {
     name: "피앤씨테크",
@@ -18569,7 +18569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅇㅆㅌㅋ",
     mktgbcd: "Q",
-    upcode: "6200"
+    upcode: "6200",
   },
   {
     name: "플레이디",
@@ -18577,7 +18577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㄹㅇㄷ",
     mktgbcd: "Q",
-    upcode: "9160"
+    upcode: "9160",
   },
   {
     name: "클리오",
@@ -18585,7 +18585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹㅇ",
     mktgbcd: "Q",
-    upcode: "16300"
+    upcode: "16300",
   },
   {
     name: "앤디포스",
@@ -18593,7 +18593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄷㅍㅅ",
     mktgbcd: "Q",
-    upcode: "8170"
+    upcode: "8170",
   },
   {
     name: "얼라인드",
@@ -18601,7 +18601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅇㄷ",
     mktgbcd: "Q",
-    upcode: "12050"
+    upcode: "12050",
   },
   {
     name: "비피도",
@@ -18609,7 +18609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅍㄷ",
     mktgbcd: "Q",
-    upcode: "17400"
+    upcode: "17400",
   },
   {
     name: "힘스",
@@ -18617,7 +18617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅅ",
     mktgbcd: "Q",
-    upcode: "12550"
+    upcode: "12550",
   },
   {
     name: "ARIRANG 스마트베타Quality채권혼합",
@@ -18625,7 +18625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㅅㅁㅌㅂㅌQualityㅊㄱㅎㅎ",
     mktgbcd: "J",
-    upcode: "10320"
+    upcode: "10320",
   },
   {
     name: "KINDEX 일본Nikkei225(H)",
@@ -18633,7 +18633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅇㅂNikkei225H",
     mktgbcd: "J",
-    upcode: "15315"
+    upcode: "15315",
   },
   {
     name: "줌인터넷",
@@ -18641,7 +18641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅌㄴ",
     mktgbcd: "Q",
-    upcode: "5880"
+    upcode: "5880",
   },
   {
     name: "에이치엘사이언스",
@@ -18649,7 +18649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅊㅇㅅㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "46250"
+    upcode: "46250",
   },
   {
     name: "ARIRANG 우량회사채50 1년",
@@ -18657,7 +18657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㅇㄹㅎㅅㅊ50 1ㄴ",
     mktgbcd: "J",
-    upcode: "108260"
+    upcode: "108260",
   },
   {
     name: "원익IPS",
@@ -18665,7 +18665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇIPS",
     mktgbcd: "Q",
-    upcode: "33450"
+    upcode: "33450",
   },
   {
     name: "TIGER 일본니케이225",
@@ -18673,7 +18673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅇㅂㄴㅋㅇ225",
     mktgbcd: "J",
-    upcode: "15455"
+    upcode: "15455",
   },
   {
     name: "KBSTAR V&S셀렉트밸류채권혼합",
@@ -18681,7 +18681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR VSㅅㄹㅌㅂㄹㅊㄱㅎㅎ",
     mktgbcd: "J",
-    upcode: "10910"
+    upcode: "10910",
   },
   {
     name: "DSC인베스트먼트",
@@ -18689,7 +18689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "DSCㅇㅂㅅㅌㅁㅌ",
     mktgbcd: "Q",
-    upcode: "3400"
+    upcode: "3400",
   },
   {
     name: "두산밥캣",
@@ -18697,7 +18697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅂㅋ",
     mktgbcd: "J",
-    upcode: "26400"
+    upcode: "26400",
   },
   {
     name: "화승엔터프라이즈",
@@ -18705,7 +18705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㅇㅌㅍㄹㅇㅈ",
     mktgbcd: "J",
-    upcode: "14000"
+    upcode: "14000",
   },
   {
     name: "유니테크노",
@@ -18713,7 +18713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅌㅋㄴ",
     mktgbcd: "Q",
-    upcode: "9820"
+    upcode: "9820",
   },
   {
     name: "코스메카코리아",
@@ -18721,7 +18721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅅㅁㅋㅋㄹㅇ",
     mktgbcd: "Q",
-    upcode: "11400"
+    upcode: "11400",
   },
   {
     name: "메카로",
@@ -18729,7 +18729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅋㄹ",
     mktgbcd: "Q",
-    upcode: "11850"
+    upcode: "11850",
   },
   {
     name: "오션브릿지",
@@ -18737,7 +18737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅂㄹㅈ",
     mktgbcd: "Q",
-    upcode: "14950"
+    upcode: "14950",
   },
   {
     name: "피씨엘",
@@ -18745,7 +18745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅆㅇ",
     mktgbcd: "Q",
-    upcode: "40600"
+    upcode: "40600",
   },
   {
     name: "에이스토리",
@@ -18753,7 +18753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅅㅌㄹ",
     mktgbcd: "Q",
-    upcode: "10000"
+    upcode: "10000",
   },
   {
     name: "나무기술",
@@ -18761,7 +18761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅁㄱㅅ",
     mktgbcd: "Q",
-    upcode: "3525"
+    upcode: "3525",
   },
   {
     name: "휴온스",
@@ -18769,7 +18769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅇㅅ",
     mktgbcd: "Q",
-    upcode: "61400"
+    upcode: "61400",
   },
   {
     name: "신흥에스이씨",
@@ -18777,7 +18777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅎㅇㅅㅇㅆ",
     mktgbcd: "Q",
-    upcode: "41000"
+    upcode: "41000",
   },
   {
     name: "TIGER 200IT레버리지",
@@ -18785,7 +18785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 200ITㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "31270"
+    upcode: "31270",
   },
   {
     name: "TIGER 200에너지화학레버리지",
@@ -18793,7 +18793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 200ㅇㄴㅈㅎㅎㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "10005"
+    upcode: "10005",
   },
   {
     name: "올리패스",
@@ -18801,7 +18801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅍㅅ",
     mktgbcd: "Q",
-    upcode: "18000"
+    upcode: "18000",
   },
   {
     name: "KODEX 바이오",
@@ -18809,7 +18809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅂㅇㅇ",
     mktgbcd: "J",
-    upcode: "13835"
+    upcode: "13835",
   },
   {
     name: "KODEX 모멘텀Plus",
@@ -18817,7 +18817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅁㅁㅌPlus",
     mktgbcd: "J",
-    upcode: "11230"
+    upcode: "11230",
   },
   {
     name: "KODEX 퀄리티Plus",
@@ -18825,7 +18825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅋㄹㅌPlus",
     mktgbcd: "J",
-    upcode: "9160"
+    upcode: "9160",
   },
   {
     name: "KODEX 밸류Plus",
@@ -18833,7 +18833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅂㄹPlus",
     mktgbcd: "J",
-    upcode: "7120"
+    upcode: "7120",
   },
   {
     name: "TIGER 미국다우존스30",
@@ -18841,7 +18841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅁㄱㄷㅇㅈㅅ30",
     mktgbcd: "J",
-    upcode: "16250"
+    upcode: "16250",
   },
   {
     name: "TIGER 유로스탁스배당30",
@@ -18849,7 +18849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅇㄹㅅㅌㅅㅂㄷ30",
     mktgbcd: "J",
-    upcode: "9590"
+    upcode: "9590",
   },
   {
     name: "TIGER 차이나HSCEI",
@@ -18857,7 +18857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅊㅇㄴHSCEI",
     mktgbcd: "J",
-    upcode: "11835"
+    upcode: "11835",
   },
   {
     name: "EDGC",
@@ -18865,7 +18865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "EDGC",
     mktgbcd: "Q",
-    upcode: "13750"
+    upcode: "13750",
   },
   {
     name: "KINDEX 베트남VN30(합성)",
@@ -18873,7 +18873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅂㅌㄴVN30ㅎㅅ",
     mktgbcd: "J",
-    upcode: "12780"
+    upcode: "12780",
   },
   {
     name: "TS인베스트먼트",
@@ -18881,7 +18881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "TSㅇㅂㅅㅌㅁㅌ",
     mktgbcd: "Q",
-    upcode: "2425"
+    upcode: "2425",
   },
   {
     name: "티앤알바이오팹",
@@ -18889,7 +18889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅇㅇㅂㅇㅇㅍ",
     mktgbcd: "Q",
-    upcode: "13600"
+    upcode: "13600",
   },
   {
     name: "아스타",
@@ -18897,7 +18897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅌ",
     mktgbcd: "Q",
-    upcode: "7060"
+    upcode: "7060",
   },
   {
     name: "이노테라피",
@@ -18905,7 +18905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅌㄹㅍ",
     mktgbcd: "Q",
-    upcode: "12150"
+    upcode: "12150",
   },
   {
     name: "에코프로비엠",
@@ -18913,7 +18913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅋㅍㄹㅂㅇ",
     mktgbcd: "Q",
-    upcode: "133500"
+    upcode: "133500",
   },
   {
     name: "샘표식품",
@@ -18921,7 +18921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅍㅅㅍ",
     mktgbcd: "J",
-    upcode: "43500"
+    upcode: "43500",
   },
   {
     name: "TIGER 일본TOPIX헬스케어(합성)",
@@ -18929,7 +18929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅇㅂTOPIXㅎㅅㅋㅇㅎㅅ",
     mktgbcd: "J",
-    upcode: "13405"
+    upcode: "13405",
   },
   {
     name: "TIGER S&P글로벌헬스케어(합성)",
@@ -18937,7 +18937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER SPㄱㄹㅂㅎㅅㅋㅇㅎㅅ",
     mktgbcd: "J",
-    upcode: "14985"
+    upcode: "14985",
   },
   {
     name: "일동제약",
@@ -18945,7 +18945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄷㅈㅇ",
     mktgbcd: "J",
-    upcode: "16050"
+    upcode: "16050",
   },
   {
     name: "보라티알",
@@ -18953,7 +18953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㄹㅌㅇ",
     mktgbcd: "Q",
-    upcode: "12300"
+    upcode: "12300",
   },
   {
     name: "모비스",
@@ -18961,7 +18961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅂㅅ",
     mktgbcd: "Q",
-    upcode: "2310"
+    upcode: "2310",
   },
   {
     name: "KBSTAR 차이나HSCEI(H)",
@@ -18969,7 +18969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅊㅇㄴHSCEIH",
     mktgbcd: "J",
-    upcode: "10865"
+    upcode: "10865",
   },
   {
     name: "TIGER 코스닥150선물인버스",
@@ -18977,7 +18977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅋㅅㄷ150ㅅㅁㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "5425"
+    upcode: "5425",
   },
   {
     name: "예선테크",
@@ -18985,7 +18985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅌㅋ",
     mktgbcd: "Q",
-    upcode: "2550"
+    upcode: "2550",
   },
   {
     name: "넷마블",
@@ -18993,7 +18993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄴㅁㅂ",
     mktgbcd: "J",
-    upcode: "167000"
+    upcode: "167000",
   },
   {
     name: "KODEX 코스닥150선물인버스",
@@ -19001,7 +19001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅋㅅㄷ150ㅅㅁㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "5335"
+    upcode: "5335",
   },
   {
     name: "KODEX 선진국MSCI World",
@@ -19009,7 +19009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅅㅈㄱMSCI World",
     mktgbcd: "J",
-    upcode: "15200"
+    upcode: "15200",
   },
   {
     name: "와이엠티",
@@ -19017,7 +19017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "17800"
+    upcode: "17800",
   },
   {
     name: "ARIRANG 고배당저변동50",
@@ -19025,7 +19025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㄱㅂㄷㅈㅂㄷ50",
     mktgbcd: "J",
-    upcode: "8520"
+    upcode: "8520",
   },
   {
     name: "ARIRANG 고배당주채권혼합",
@@ -19033,7 +19033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㄱㅂㄷㅈㅊㄱㅎㅎ",
     mktgbcd: "J",
-    upcode: "9720"
+    upcode: "9720",
   },
   {
     name: "브이원텍",
@@ -19041,7 +19041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "9070"
+    upcode: "9070",
   },
   {
     name: "KINDEX 코스닥(합성)",
@@ -19049,7 +19049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅋㅅㄷㅎㅅ",
     mktgbcd: "J",
-    upcode: "12020"
+    upcode: "12020",
   },
   {
     name: "펌텍코리아",
@@ -19057,7 +19057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅌㅋㄹㅇ",
     mktgbcd: "Q",
-    upcode: "15150"
+    upcode: "15150",
   },
   {
     name: "TIGER 200동일가중",
@@ -19065,7 +19065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 200ㄷㅇㄱㅈ",
     mktgbcd: "J",
-    upcode: "9125"
+    upcode: "9125",
   },
   {
     name: "KBSTAR 200선물레버리지",
@@ -19073,7 +19073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR 200ㅅㅁㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "13110"
+    upcode: "13110",
   },
   {
     name: "KBSTAR 200선물인버스",
@@ -19081,7 +19081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR 200ㅅㅁㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "7150"
+    upcode: "7150",
   },
   {
     name: "KBSTAR 200선물인버스2X",
@@ -19089,7 +19089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR 200ㅅㅁㅇㅂㅅ2X",
     mktgbcd: "J",
-    upcode: "4275"
+    upcode: "4275",
   },
   {
     name: "세화피앤씨",
@@ -19097,7 +19097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅎㅍㅇㅆ",
     mktgbcd: "Q",
-    upcode: "3955"
+    upcode: "3955",
   },
   {
     name: "KODEX 200동일가중",
@@ -19105,7 +19105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX 200ㄷㅇㄱㅈ",
     mktgbcd: "J",
-    upcode: "9055"
+    upcode: "9055",
   },
   {
     name: "KODEX 200선물인버스2X",
@@ -19113,7 +19113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX 200ㅅㅁㅇㅂㅅ2X",
     mktgbcd: "J",
-    upcode: "4265"
+    upcode: "4265",
   },
   {
     name: "TIGER 200선물인버스2X",
@@ -19121,7 +19121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 200ㅅㅁㅇㅂㅅ2X",
     mktgbcd: "J",
-    upcode: "4410"
+    upcode: "4410",
   },
   {
     name: "KBSTAR 모멘텀밸류",
@@ -19129,7 +19129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅁㅁㅌㅂㄹ",
     mktgbcd: "J",
-    upcode: "10410"
+    upcode: "10410",
   },
   {
     name: "KBSTAR 모멘텀로우볼",
@@ -19137,7 +19137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅁㅁㅌㄹㅇㅂ",
     mktgbcd: "J",
-    upcode: "12040"
+    upcode: "12040",
   },
   {
     name: "ARIRANG 200선물레버리지",
@@ -19145,7 +19145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG 200ㅅㅁㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "25990"
+    upcode: "25990",
   },
   {
     name: "ARIRANG 200선물인버스2X",
@@ -19153,7 +19153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG 200ㅅㅁㅇㅂㅅ2X",
     mktgbcd: "J",
-    upcode: "8515"
+    upcode: "8515",
   },
   {
     name: "KOSEF 200선물인버스2X",
@@ -19161,7 +19161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF 200ㅅㅁㅇㅂㅅ2X",
     mktgbcd: "J",
-    upcode: "4245"
+    upcode: "4245",
   },
   {
     name: "KOSEF 200선물인버스",
@@ -19169,7 +19169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF 200ㅅㅁㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "7150"
+    upcode: "7150",
   },
   {
     name: "KOSEF 200선물레버리지",
@@ -19177,7 +19177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF 200ㅅㅁㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "12985"
+    upcode: "12985",
   },
   {
     name: "KBSTAR 헬스케어",
@@ -19185,7 +19185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅎㅅㅋㅇ",
     mktgbcd: "J",
-    upcode: "15485"
+    upcode: "15485",
   },
   {
     name: "KBSTAR 헬스케어채권혼합",
@@ -19193,7 +19193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅎㅅㅋㅇㅊㄱㅎㅎ",
     mktgbcd: "J",
-    upcode: "12250"
+    upcode: "12250",
   },
   {
     name: "스튜디오드래곤",
@@ -19201,7 +19201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅌㄷㅇㄷㄹㄱ",
     mktgbcd: "Q",
-    upcode: "83000"
+    upcode: "83000",
   },
   {
     name: "네오셈",
@@ -19209,7 +19209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅇㅅ",
     mktgbcd: "Q",
-    upcode: "3175"
+    upcode: "3175",
   },
   {
     name: "수젠텍",
@@ -19217,7 +19217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅈㅌ",
     mktgbcd: "Q",
-    upcode: "40800"
+    upcode: "40800",
   },
   {
     name: "자비스",
@@ -19225,7 +19225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅂㅅ",
     mktgbcd: "Q",
-    upcode: "1695"
+    upcode: "1695",
   },
   {
     name: "SG",
@@ -19233,7 +19233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SG",
     mktgbcd: "Q",
-    upcode: "2150"
+    upcode: "2150",
   },
   {
     name: "야스",
@@ -19241,7 +19241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅ",
     mktgbcd: "Q",
-    upcode: "13000"
+    upcode: "13000",
   },
   {
     name: "한독크린텍",
@@ -19249,7 +19249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄷㅋㄹㅌ",
     mktgbcd: "Q",
-    upcode: "20900"
+    upcode: "20900",
   },
   {
     name: "KINDEX 인도네시아MSCI(합성)",
@@ -19257,7 +19257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅇㄷㄴㅅㅇMSCIㅎㅅ",
     mktgbcd: "J",
-    upcode: "7310"
+    upcode: "7310",
   },
   {
     name: "ARIRANG 심천차이넥스트(합성)",
@@ -19265,7 +19265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㅅㅊㅊㅇㄴㅅㅌㅎㅅ",
     mktgbcd: "J",
-    upcode: "10950"
+    upcode: "10950",
   },
   {
     name: "포인트엔지니어링",
@@ -19273,7 +19273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅇㅌㅇㅈㄴㅇㄹ",
     mktgbcd: "Q",
-    upcode: "3320"
+    upcode: "3320",
   },
   {
     name: "KODEX 심천ChiNext(합성)",
@@ -19281,7 +19281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅅㅊChiNextㅎㅅ",
     mktgbcd: "J",
-    upcode: "10980"
+    upcode: "10980",
   },
   {
     name: "한국비엔씨",
@@ -19289,7 +19289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅂㅇㅆ",
     mktgbcd: "Q",
-    upcode: "4250"
+    upcode: "4250",
   },
   {
     name: "케이피에스",
@@ -19297,7 +19297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅍㅇㅅ",
     mktgbcd: "Q",
-    upcode: "15850"
+    upcode: "15850",
   },
   {
     name: "명성티엔에스",
@@ -19305,7 +19305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅅㅌㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "15250"
+    upcode: "15250",
   },
   {
     name: "이더블유케이",
@@ -19313,7 +19313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄷㅂㅇㅋㅇ",
     mktgbcd: "Q",
-    upcode: "10300"
+    upcode: "10300",
   },
   {
     name: "소프트캠프",
@@ -19321,7 +19321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅍㅌㅋㅍ",
     mktgbcd: "Q",
-    upcode: "2560"
+    upcode: "2560",
   },
   {
     name: "세종메디칼",
@@ -19329,7 +19329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅈㅁㄷㅋ",
     mktgbcd: "Q",
-    upcode: "12900"
+    upcode: "12900",
   },
   {
     name: "엠플러스",
@@ -19337,7 +19337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅍㄹㅅ",
     mktgbcd: "Q",
-    upcode: "17200"
+    upcode: "17200",
   },
   {
     name: "KOSEF 배당바이백Plus",
@@ -19345,7 +19345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF ㅂㄷㅂㅇㅂPlus",
     mktgbcd: "J",
-    upcode: "12680"
+    upcode: "12680",
   },
   {
     name: "KOSEF 저PBR가중",
@@ -19353,7 +19353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF ㅈPBRㄱㅈ",
     mktgbcd: "J",
-    upcode: "11050"
+    upcode: "11050",
   },
   {
     name: "알리코제약",
@@ -19361,7 +19361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅋㅈㅇ",
     mktgbcd: "Q",
-    upcode: "13050"
+    upcode: "13050",
   },
   {
     name: "씨티케이코스메틱스",
@@ -19369,7 +19369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㅌㅋㅇㅋㅅㅁㅌㅅ",
     mktgbcd: "Q",
-    upcode: "13150"
+    upcode: "13150",
   },
   {
     name: "TIGER 코스닥150IT",
@@ -19377,7 +19377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅋㅅㄷ150IT",
     mktgbcd: "J",
-    upcode: "14385"
+    upcode: "14385",
   },
   {
     name: "TIGER 코스닥150바이오테크",
@@ -19385,7 +19385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅋㅅㄷ150ㅂㅇㅇㅌㅋ",
     mktgbcd: "J",
-    upcode: "13380"
+    upcode: "13380",
   },
   {
     name: "TIGER 미국달러선물레버리지",
@@ -19393,7 +19393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅁㄱㄷㄹㅅㅁㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "10090"
+    upcode: "10090",
   },
   {
     name: "TIGER 미국달러선물인버스2X",
@@ -19401,7 +19401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅁㄱㄷㄹㅅㅁㅇㅂㅅ2X",
     mktgbcd: "J",
-    upcode: "9180"
+    upcode: "9180",
   },
   {
     name: "TIGER 우선주",
@@ -19409,7 +19409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅇㅅㅈ",
     mktgbcd: "J",
-    upcode: "10880"
+    upcode: "10880",
   },
   {
     name: "덴티스",
@@ -19417,7 +19417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅌㅅ",
     mktgbcd: "Q",
-    upcode: "1735"
+    upcode: "1735",
   },
   {
     name: "KODEX WTI원유선물(H)",
@@ -19425,7 +19425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX WTIㅇㅇㅅㅁH",
     mktgbcd: "J",
-    upcode: "6200"
+    upcode: "6200",
   },
   {
     name: "KODEX 미국달러선물",
@@ -19433,7 +19433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅁㄱㄷㄹㅅㅁ",
     mktgbcd: "J",
-    upcode: "10370"
+    upcode: "10370",
   },
   {
     name: "KODEX 미국달러선물레버리지",
@@ -19441,7 +19441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅁㄱㄷㄹㅅㅁㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "9980"
+    upcode: "9980",
   },
   {
     name: "KODEX 미국달러선물인버스2X",
@@ -19449,7 +19449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅁㄱㄷㄹㅅㅁㅇㅂㅅ2X",
     mktgbcd: "J",
-    upcode: "9170"
+    upcode: "9170",
   },
   {
     name: "KODEX 미국달러선물인버스",
@@ -19457,7 +19457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅁㄱㄷㄹㅅㅁㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "9820"
+    upcode: "9820",
   },
   {
     name: "KINDEX 필리핀MSCI(합성)",
@@ -19465,7 +19465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅍㄹㅍMSCIㅎㅅ",
     mktgbcd: "J",
-    upcode: "12115"
+    upcode: "12115",
   },
   {
     name: "에이프로",
@@ -19473,7 +19473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅍㄹ",
     mktgbcd: "Q",
-    upcode: "38000"
+    upcode: "38000",
   },
   {
     name: "디케이앤디",
@@ -19481,7 +19481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅋㅇㅇㄷ",
     mktgbcd: "Q",
-    upcode: "5990"
+    upcode: "5990",
   },
   {
     name: "유틸렉스",
@@ -19489,7 +19489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㄹㅅ",
     mktgbcd: "Q",
-    upcode: "35500"
+    upcode: "35500",
   },
   {
     name: "샘코",
@@ -19497,7 +19497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅋ",
     mktgbcd: "Q",
-    upcode: "2015"
+    upcode: "2015",
   },
   {
     name: "덕우전자",
@@ -19505,7 +19505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅈㅈ",
     mktgbcd: "Q",
-    upcode: "7280"
+    upcode: "7280",
   },
   {
     name: "디알젬",
@@ -19513,7 +19513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅈ",
     mktgbcd: "Q",
-    upcode: "16400"
+    upcode: "16400",
   },
   {
     name: "케어랩스",
@@ -19521,7 +19521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㄹㅅ",
     mktgbcd: "Q",
-    upcode: "8670"
+    upcode: "8670",
   },
   {
     name: "디앤씨미디어",
@@ -19529,7 +19529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅆㅁㄷㅇ",
     mktgbcd: "Q",
-    upcode: "36400"
+    upcode: "36400",
   },
   {
     name: "펄어비스",
@@ -19537,7 +19537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅇㅂㅅ",
     mktgbcd: "Q",
-    upcode: "195000"
+    upcode: "195000",
   },
   {
     name: "유에스티",
@@ -19545,7 +19545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅅㅌ",
     mktgbcd: "Q",
-    upcode: "5250"
+    upcode: "5250",
   },
   {
     name: "데이타솔루션",
@@ -19553,7 +19553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅌㅅㄹㅅ",
     mktgbcd: "Q",
-    upcode: "7740"
+    upcode: "7740",
   },
   {
     name: "상신전자",
@@ -19561,7 +19561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅅㅈㅈ",
     mktgbcd: "Q",
-    upcode: "3420"
+    upcode: "3420",
   },
   {
     name: "지니언스",
@@ -19569,7 +19569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㄴㅇㅅ",
     mktgbcd: "Q",
-    upcode: "5230"
+    upcode: "5230",
   },
   {
     name: "블러썸엠앤씨",
@@ -19577,7 +19577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㄹㅆㅇㅇㅆ",
     mktgbcd: "Q",
-    upcode: "4555"
+    upcode: "4555",
   },
   {
     name: "유비쿼스",
@@ -19585,7 +19585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅂㅋㅅ",
     mktgbcd: "Q",
-    upcode: "36200"
+    upcode: "36200",
   },
   {
     name: "씨앤지하이테크",
@@ -19593,7 +19593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㅇㅈㅎㅇㅌㅋ",
     mktgbcd: "Q",
-    upcode: "9030"
+    upcode: "9030",
   },
   {
     name: "이랜시스",
@@ -19601,7 +19601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅅㅅ",
     mktgbcd: "Q",
-    upcode: "2085"
+    upcode: "2085",
   },
   {
     name: "크라운제과",
@@ -19609,7 +19609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㄹㅇㅈㄱ",
     mktgbcd: "J",
-    upcode: "8180"
+    upcode: "8180",
   },
   {
     name: "크라운제과우",
@@ -19617,7 +19617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㄹㅇㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "10150"
+    upcode: "10150",
   },
   {
     name: "AP시스템",
@@ -19625,7 +19625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "APㅅㅅㅌ",
     mktgbcd: "Q",
-    upcode: "21950"
+    upcode: "21950",
   },
   {
     name: "영화테크",
@@ -19633,7 +19633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅎㅌㅋ",
     mktgbcd: "Q",
-    upcode: "15300"
+    upcode: "15300",
   },
   {
     name: "KINDEX 러시아MSCI(합성)",
@@ -19641,7 +19641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㄹㅅㅇMSCIㅎㅅ",
     mktgbcd: "J",
-    upcode: "22665"
+    upcode: "22665",
   },
   {
     name: "KBSTAR 고배당",
@@ -19649,7 +19649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㄱㅂㄷ",
     mktgbcd: "J",
-    upcode: "9135"
+    upcode: "9135",
   },
   {
     name: "KODEX 미디어&엔터테인먼트",
@@ -19657,7 +19657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅁㄷㅇㅇㅌㅌㅇㅁㅌ",
     mktgbcd: "J",
-    upcode: "19270"
+    upcode: "19270",
   },
   {
     name: "KODEX IT",
@@ -19665,7 +19665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX IT",
     mktgbcd: "J",
-    upcode: "15030"
+    upcode: "15030",
   },
   {
     name: "KODEX 경기소비재",
@@ -19673,7 +19673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㄱㄱㅅㅂㅈ",
     mktgbcd: "J",
-    upcode: "9835"
+    upcode: "9835",
   },
   {
     name: "KODEX 필수소비재",
@@ -19681,7 +19681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅍㅅㅅㅂㅈ",
     mktgbcd: "J",
-    upcode: "8640"
+    upcode: "8640",
   },
   {
     name: "KODEX 헬스케어",
@@ -19689,7 +19689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅎㅅㅋㅇ",
     mktgbcd: "J",
-    upcode: "19175"
+    upcode: "19175",
   },
   {
     name: "ARIRANG 중형주저변동50",
@@ -19697,7 +19697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㅈㅎㅈㅈㅂㄷ50",
     mktgbcd: "J",
-    upcode: "8850"
+    upcode: "8850",
   },
   {
     name: "현대중공업지주",
@@ -19705,7 +19705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅈㄱㅇㅈㅈ",
     mktgbcd: "J",
-    upcode: "211000"
+    upcode: "211000",
   },
   {
     name: "현대일렉트릭",
@@ -19713,7 +19713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅇㄹㅌㄹ",
     mktgbcd: "J",
-    upcode: "16200"
+    upcode: "16200",
   },
   {
     name: "현대건설기계",
@@ -19721,7 +19721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㄱㅅㄱㄱ",
     mktgbcd: "J",
-    upcode: "26800"
+    upcode: "26800",
   },
   {
     name: "경동도시가스",
@@ -19729,7 +19729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄱㄷㄷㅅㄱㅅ",
     mktgbcd: "J",
-    upcode: "18200"
+    upcode: "18200",
   },
   {
     name: "나인테크",
@@ -19737,7 +19737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅇㅌㅋ",
     mktgbcd: "Q",
-    upcode: "3970"
+    upcode: "3970",
   },
   {
     name: "KBSTAR 미국장기국채선물(H)",
@@ -19745,7 +19745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅁㄱㅈㄱㄱㅊㅅㅁH",
     mktgbcd: "J",
-    upcode: "12675"
+    upcode: "12675",
   },
   {
     name: "KBSTAR 미국장기국채선물인버스(H)",
@@ -19753,7 +19753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅁㄱㅈㄱㄱㅊㅅㅁㅇㅂㅅH",
     mktgbcd: "J",
-    upcode: "7515"
+    upcode: "7515",
   },
   {
     name: "KBSTAR 미국장기국채선물레버리지(합성 H)",
@@ -19761,7 +19761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅁㄱㅈㄱㄱㅊㅅㅁㄹㅂㄹㅈㅎㅅ H",
     mktgbcd: "J",
-    upcode: "15305"
+    upcode: "15305",
   },
   {
     name: "KBSTAR 미국장기국채선물인버스2X(합성 H)",
@@ -19769,7 +19769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅁㄱㅈㄱㄱㅊㅅㅁㅇㅂㅅ2Xㅎㅅ H",
     mktgbcd: "J",
-    upcode: "5440"
+    upcode: "5440",
   },
   {
     name: "TIGER 200선물레버리지",
@@ -19777,7 +19777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 200ㅅㅁㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "10835"
+    upcode: "10835",
   },
   {
     name: "배럴",
@@ -19785,7 +19785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㄹ",
     mktgbcd: "Q",
-    upcode: "7460"
+    upcode: "7460",
   },
   {
     name: "아시아나IDT",
@@ -19793,7 +19793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅅㅇㄴIDT",
     mktgbcd: "J",
-    upcode: "19600"
+    upcode: "19600",
   },
   {
     name: "매일유업",
@@ -19801,7 +19801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅇㅇㅇ",
     mktgbcd: "Q",
-    upcode: "67700"
+    upcode: "67700",
   },
   {
     name: "미원에스씨",
@@ -19809,7 +19809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㅇㅇㅅㅆ",
     mktgbcd: "J",
-    upcode: "94000"
+    upcode: "94000",
   },
   {
     name: "셀리버리",
@@ -19817,7 +19817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄹㅂㄹ",
     mktgbcd: "Q",
-    upcode: "205600"
+    upcode: "205600",
   },
   {
     name: "TIGER S&P글로벌인프라(합성)",
@@ -19825,7 +19825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER SPㄱㄹㅂㅇㅍㄹㅎㅅ",
     mktgbcd: "J",
-    upcode: "9100"
+    upcode: "9100",
   },
   {
     name: "KODEX S&P글로벌인프라(합성)",
@@ -19833,7 +19833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX SPㄱㄹㅂㅇㅍㄹㅎㅅ",
     mktgbcd: "J",
-    upcode: "10070"
+    upcode: "10070",
   },
   {
     name: "ARIRANG S&P글로벌인프라",
@@ -19841,7 +19841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG SPㄱㄹㅂㅇㅍㄹ",
     mktgbcd: "J",
-    upcode: "9765"
+    upcode: "9765",
   },
   {
     name: "ARIRANG 미국S&P500(H)",
@@ -19849,7 +19849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㅁㄱSP500H",
     mktgbcd: "J",
-    upcode: "13530"
+    upcode: "13530",
   },
   {
     name: "시스웍",
@@ -19857,7 +19857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅅㅇ",
     mktgbcd: "Q",
-    upcode: "7660"
+    upcode: "7660",
   },
   {
     name: "지엔원에너지",
@@ -19865,7 +19865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅇㅇㄴㅈ",
     mktgbcd: "Q",
-    upcode: "2600"
+    upcode: "2600",
   },
   {
     name: "KBSTAR KQ고배당",
@@ -19873,7 +19873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR KQㄱㅂㄷ",
     mktgbcd: "J",
-    upcode: "12285"
+    upcode: "12285",
   },
   {
     name: "KBSTAR 코스닥150",
@@ -19881,7 +19881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅋㅅㄷ150",
     mktgbcd: "J",
-    upcode: "12895"
+    upcode: "12895",
   },
   {
     name: "뉴트리",
@@ -19889,7 +19889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅌㄹ",
     mktgbcd: "Q",
-    upcode: "20250"
+    upcode: "20250",
   },
   {
     name: "KODEX WTI원유선물인버스(H)",
@@ -19897,7 +19897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX WTIㅇㅇㅅㅁㅇㅂㅅH",
     mktgbcd: "J",
-    upcode: "16240"
+    upcode: "16240",
   },
   {
     name: "KODEX 3대농산물선물(H)",
@@ -19905,7 +19905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX 3ㄷㄴㅅㅁㅅㅁH",
     mktgbcd: "J",
-    upcode: "7545"
+    upcode: "7545",
   },
   {
     name: "오리온",
@@ -19913,7 +19913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄹㅇ",
     mktgbcd: "J",
-    upcode: "133000"
+    upcode: "133000",
   },
   {
     name: "제일약품",
@@ -19921,7 +19921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅇㅇㅍ",
     mktgbcd: "J",
-    upcode: "43300"
+    upcode: "43300",
   },
   {
     name: "케이엔제이",
@@ -19929,7 +19929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅇㅈㅇ",
     mktgbcd: "Q",
-    upcode: "12800"
+    upcode: "12800",
   },
   {
     name: "한화시스템",
@@ -19937,7 +19937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅎㅅㅅㅌ",
     mktgbcd: "J",
-    upcode: "11150"
+    upcode: "11150",
   },
   {
     name: "KINDEX 스마트모멘텀",
@@ -19945,7 +19945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅅㅁㅌㅁㅁㅌ",
     mktgbcd: "J",
-    upcode: "13355"
+    upcode: "13355",
   },
   {
     name: "KINDEX 스마트밸류",
@@ -19953,7 +19953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅅㅁㅌㅂㄹ",
     mktgbcd: "J",
-    upcode: "11380"
+    upcode: "11380",
   },
   {
     name: "이녹스첨단소재",
@@ -19961,7 +19961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅅㅊㄷㅅㅈ",
     mktgbcd: "Q",
-    upcode: "47900"
+    upcode: "47900",
   },
   {
     name: "진에어",
@@ -19969,7 +19969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅇㅇ",
     mktgbcd: "J",
-    upcode: "9240"
+    upcode: "9240",
   },
   {
     name: "삼양패키징",
@@ -19977,7 +19977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅍㅋㅈ",
     mktgbcd: "J",
-    upcode: "20550"
+    upcode: "20550",
   },
   {
     name: "KBSTAR 단기국공채액티브",
@@ -19985,7 +19985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㄷㄱㄱㄱㅊㅇㅌㅂ",
     mktgbcd: "J",
-    upcode: "101440"
+    upcode: "101440",
   },
   {
     name: "KBSTAR 중장기국공채액티브",
@@ -19993,7 +19993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅈㅈㄱㄱㄱㅊㅇㅌㅂ",
     mktgbcd: "J",
-    upcode: "104530"
+    upcode: "104530",
   },
   {
     name: "TIGER 단기채권액티브",
@@ -20001,7 +20001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄷㄱㅊㄱㅇㅌㅂ",
     mktgbcd: "J",
-    upcode: "50470"
+    upcode: "50470",
   },
   {
     name: "KINDEX 중장기국공채액티브",
@@ -20009,7 +20009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅈㅈㄱㄱㄱㅊㅇㅌㅂ",
     mktgbcd: "J",
-    upcode: "103480"
+    upcode: "103480",
   },
   {
     name: "와이즈버즈",
@@ -20017,7 +20017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅈㅂㅈ",
     mktgbcd: "Q",
-    upcode: "1735"
+    upcode: "1735",
   },
   {
     name: "KODEX 종합채권(AA-이상)액티브",
@@ -20025,7 +20025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅈㅎㅊㄱAA-ㅇㅅㅇㅌㅂ",
     mktgbcd: "J",
-    upcode: "111060"
+    upcode: "111060",
   },
   {
     name: "KODEX 단기변동금리부채권액티브",
@@ -20033,7 +20033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㄷㄱㅂㄷㄱㄹㅂㅊㄱㅇㅌㅂ",
     mktgbcd: "J",
-    upcode: "102195"
+    upcode: "102195",
   },
   {
     name: "켄코아에어로스페이스",
@@ -20041,7 +20041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅋㅇㅇㅇㄹㅅㅍㅇㅅ",
     mktgbcd: "Q",
-    upcode: "7120"
+    upcode: "7120",
   },
   {
     name: "KODEX MSCI모멘텀",
@@ -20049,7 +20049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX MSCIㅁㅁㅌ",
     mktgbcd: "J",
-    upcode: "10655"
+    upcode: "10655",
   },
   {
     name: "KODEX MSCI밸류",
@@ -20057,7 +20057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX MSCIㅂㄹ",
     mktgbcd: "J",
-    upcode: "9320"
+    upcode: "9320",
   },
   {
     name: "KODEX MSCI퀄리티",
@@ -20065,7 +20065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX MSCIㅋㄹㅌ",
     mktgbcd: "J",
-    upcode: "10420"
+    upcode: "10420",
   },
   {
     name: "에스에스알",
@@ -20073,7 +20073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅇㅅㅇ",
     mktgbcd: "Q",
-    upcode: "5380"
+    upcode: "5380",
   },
   {
     name: "KBSTAR 코스닥150선물인버스",
@@ -20081,7 +20081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅋㅅㄷ150ㅅㅁㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "5630"
+    upcode: "5630",
   },
   {
     name: "TIGER 글로벌4차산업혁신기술(합성 H)",
@@ -20089,7 +20089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄱㄹㅂ4ㅊㅅㅇㅎㅅㄱㅅㅎㅅ H",
     mktgbcd: "J",
-    upcode: "14295"
+    upcode: "14295",
   },
   {
     name: "TIGER 글로벌자원생산기업(합성 H)",
@@ -20097,7 +20097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄱㄹㅂㅈㅇㅅㅅㄱㅇㅎㅅ H",
     mktgbcd: "J",
-    upcode: "9580"
+    upcode: "9580",
   },
   {
     name: "KBSTAR 글로벌4차산업IT(합성 H)",
@@ -20105,7 +20105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㄱㄹㅂ4ㅊㅅㅇITㅎㅅ H",
     mktgbcd: "J",
-    upcode: "17160"
+    upcode: "17160",
   },
   {
     name: "KODEX 미국S&P고배당커버드콜(합성 H)",
@@ -20113,7 +20113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅁㄱSPㄱㅂㄷㅋㅂㄷㅋㅎㅅ H",
     mktgbcd: "J",
-    upcode: "8730"
+    upcode: "8730",
   },
   {
     name: "KODEX 글로벌4차산업로보틱스(합성)",
@@ -20121,7 +20121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㄱㄹㅂ4ㅊㅅㅇㄹㅂㅌㅅㅎㅅ",
     mktgbcd: "J",
-    upcode: "13170"
+    upcode: "13170",
   },
   {
     name: "린드먼아시아",
@@ -20129,7 +20129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㄷㅁㅇㅅㅇ",
     mktgbcd: "Q",
-    upcode: "4865"
+    upcode: "4865",
   },
   {
     name: "인산가",
@@ -20137,7 +20137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㄱ",
     mktgbcd: "Q",
-    upcode: "1905"
+    upcode: "1905",
   },
   {
     name: "KINDEX S&P아시아TOP50",
@@ -20145,7 +20145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX SPㅇㅅㅇTOP50",
     mktgbcd: "J",
-    upcode: "12715"
+    upcode: "12715",
   },
   {
     name: "TIGER 코스피",
@@ -20153,7 +20153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅋㅅㅍ",
     mktgbcd: "J",
-    upcode: "23170"
+    upcode: "23170",
   },
   {
     name: "TIGER 코스피대형주",
@@ -20161,7 +20161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅋㅅㅍㄷㅎㅈ",
     mktgbcd: "J",
-    upcode: "11325"
+    upcode: "11325",
   },
   {
     name: "TIGER 코스피중형주",
@@ -20169,7 +20169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅋㅅㅍㅈㅎㅈ",
     mktgbcd: "J",
-    upcode: "12190"
+    upcode: "12190",
   },
   {
     name: "티에스아이",
@@ -20177,7 +20177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅇㅅㅇㅇ",
     mktgbcd: "Q",
-    upcode: "14000"
+    upcode: "14000",
   },
   {
     name: "KBSTAR 코스닥150선물레버리지",
@@ -20185,7 +20185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅋㅅㄷ150ㅅㅁㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "12345"
+    upcode: "12345",
   },
   {
     name: "천보",
@@ -20193,7 +20193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅊㅂ",
     mktgbcd: "Q",
-    upcode: "160400"
+    upcode: "160400",
   },
   {
     name: "ARIRANG ESG우수기업",
@@ -20201,7 +20201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ESGㅇㅅㄱㅇ",
     mktgbcd: "J",
-    upcode: "7555"
+    upcode: "7555",
   },
   {
     name: "KODEX 200TR",
@@ -20209,7 +20209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX 200TR",
     mktgbcd: "J",
-    upcode: "9875"
+    upcode: "9875",
   },
   {
     name: "KODEX MSCI Korea TR",
@@ -20217,7 +20217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX MSCI Korea TR",
     mktgbcd: "J",
-    upcode: "9810"
+    upcode: "9810",
   },
   {
     name: "ARIRANG 단기채권액티브",
@@ -20225,7 +20225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㄷㄱㅊㄱㅇㅌㅂ",
     mktgbcd: "J",
-    upcode: "105625"
+    upcode: "105625",
   },
   {
     name: "노터스",
@@ -20233,7 +20233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅌㅅ",
     mktgbcd: "Q",
-    upcode: "25050"
+    upcode: "25050",
   },
   {
     name: "KODEX 고배당",
@@ -20241,7 +20241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㄱㅂㄷ",
     mktgbcd: "J",
-    upcode: "7400"
+    upcode: "7400",
   },
   {
     name: "KODEX 최소변동성",
@@ -20249,7 +20249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅊㅅㅂㄷㅅ",
     mktgbcd: "J",
-    upcode: "10590"
+    upcode: "10590",
   },
   {
     name: "미디어젠",
@@ -20257,7 +20257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄷㅇㅈ",
     mktgbcd: "Q",
-    upcode: "8590"
+    upcode: "8590",
   },
   {
     name: "KINDEX 미국IT인터넷S&P(합성 H)",
@@ -20265,7 +20265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅁㄱITㅇㅌㄴSPㅎㅅ H",
     mktgbcd: "J",
-    upcode: "16290"
+    upcode: "16290",
   },
   {
     name: "롯데제과",
@@ -20273,7 +20273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄹㄷㅈㄱ",
     mktgbcd: "J",
-    upcode: "98600"
+    upcode: "98600",
   },
   {
     name: "ARIRANG 주도업종",
@@ -20281,7 +20281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㅈㄷㅇㅈ",
     mktgbcd: "J",
-    upcode: "8860"
+    upcode: "8860",
   },
   {
     name: "KODEX 미국러셀2000(H)",
@@ -20289,7 +20289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅁㄱㄹㅅ2000H",
     mktgbcd: "J",
-    upcode: "9710"
+    upcode: "9710",
   },
   {
     name: "KODEX 골드선물인버스(H)",
@@ -20297,7 +20297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㄱㄷㅅㅁㅇㅂㅅH",
     mktgbcd: "J",
-    upcode: "7095"
+    upcode: "7095",
   },
   {
     name: "레이크머티리얼즈",
@@ -20305,7 +20305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅇㅋㅁㅌㄹㅇㅈ",
     mktgbcd: "Q",
-    upcode: "2160"
+    upcode: "2160",
   },
   {
     name: "케이씨텍",
@@ -20313,7 +20313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅇㅆㅌ",
     mktgbcd: "J",
-    upcode: "22450"
+    upcode: "22450",
   },
   {
     name: "KBSTAR 중소형고배당",
@@ -20321,7 +20321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅈㅅㅎㄱㅂㄷ",
     mktgbcd: "J",
-    upcode: "9025"
+    upcode: "9025",
   },
   {
     name: "KBSTAR 국고채3년선물인버스",
@@ -20329,7 +20329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㄱㄱㅊ3ㄴㅅㅁㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "99050"
+    upcode: "99050",
   },
   {
     name: "BGF리테일",
@@ -20337,7 +20337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "BGFㄹㅌㅇ",
     mktgbcd: "J",
-    upcode: "120500"
+    upcode: "120500",
   },
   {
     name: "동아타이어",
@@ -20345,7 +20345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅇㅌㅇㅇ",
     mktgbcd: "J",
-    upcode: "9560"
+    upcode: "9560",
   },
   {
     name: "코윈테크",
@@ -20353,7 +20353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅌㅋ",
     mktgbcd: "Q",
-    upcode: "21850"
+    upcode: "21850",
   },
   {
     name: "KODEX 중국본토CSI300",
@@ -20361,7 +20361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅈㄱㅂㅌCSI300",
     mktgbcd: "J",
-    upcode: "12550"
+    upcode: "12550",
   },
   {
     name: "KODEX 200미국채혼합",
@@ -20369,7 +20369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX 200ㅁㄱㅊㅎㅎ",
     mktgbcd: "J",
-    upcode: "12055"
+    upcode: "12055",
   },
   {
     name: "카이노스메드",
@@ -20377,7 +20377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㄴㅅㅁㄷ",
     mktgbcd: "Q",
-    upcode: "4740"
+    upcode: "4740",
   },
   {
     name: "쿠쿠홈시스",
@@ -20385,7 +20385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅋㅎㅅㅅ",
     mktgbcd: "J",
-    upcode: "42800"
+    upcode: "42800",
   },
   {
     name: "KBSTAR 200금융",
@@ -20393,7 +20393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR 200ㄱㅇ",
     mktgbcd: "J",
-    upcode: "6475"
+    upcode: "6475",
   },
   {
     name: "KBSTAR 200에너지화학",
@@ -20401,7 +20401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR 200ㅇㄴㅈㅎㅎ",
     mktgbcd: "J",
-    upcode: "8980"
+    upcode: "8980",
   },
   {
     name: "KBSTAR 200IT",
@@ -20409,7 +20409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR 200IT",
     mktgbcd: "J",
-    upcode: "11610"
+    upcode: "11610",
   },
   {
     name: "KBSTAR 200중공업",
@@ -20417,7 +20417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR 200ㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "7150"
+    upcode: "7150",
   },
   {
     name: "KBSTAR 200철강소재",
@@ -20425,7 +20425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR 200ㅊㄱㅅㅈ",
     mktgbcd: "J",
-    upcode: "5280"
+    upcode: "5280",
   },
   {
     name: "SK케미칼",
@@ -20433,7 +20433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SKㅋㅁㅋ",
     mktgbcd: "J",
-    upcode: "289000"
+    upcode: "289000",
   },
   {
     name: "SK케미칼우",
@@ -20441,7 +20441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SKㅋㅁㅋㅇ",
     mktgbcd: "J",
-    upcode: "153500"
+    upcode: "153500",
   },
   {
     name: "노바텍",
@@ -20449,7 +20449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅂㅌ",
     mktgbcd: "Q",
-    upcode: "33400"
+    upcode: "33400",
   },
   {
     name: "FOCUS ESG리더스",
@@ -20457,7 +20457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "FOCUS ESGㄹㄷㅅ",
     mktgbcd: "J",
-    upcode: "7870"
+    upcode: "7870",
   },
   {
     name: "나노브릭",
@@ -20465,7 +20465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㄴㅂㄹ",
     mktgbcd: "Q",
-    upcode: "21950"
+    upcode: "21950",
   },
   {
     name: "롯데정보통신",
@@ -20473,7 +20473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄹㄷㅈㅂㅌㅅ",
     mktgbcd: "J",
-    upcode: "34600"
+    upcode: "34600",
   },
   {
     name: "ARIRANG 미국나스닥기술주",
@@ -20481,7 +20481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㅁㄱㄴㅅㄷㄱㅅㅈ",
     mktgbcd: "J",
-    upcode: "17305"
+    upcode: "17305",
   },
   {
     name: "KBSTAR 200건설",
@@ -20489,7 +20489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR 200ㄱㅅ",
     mktgbcd: "J",
-    upcode: "7430"
+    upcode: "7430",
   },
   {
     name: "KBSTAR 200경기소비재",
@@ -20497,7 +20497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR 200ㄱㄱㅅㅂㅈ",
     mktgbcd: "J",
-    upcode: "8620"
+    upcode: "8620",
   },
   {
     name: "KBSTAR 200산업재",
@@ -20505,7 +20505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR 200ㅅㅇㅈ",
     mktgbcd: "J",
-    upcode: "7470"
+    upcode: "7470",
   },
   {
     name: "KBSTAR 200생활소비재",
@@ -20513,7 +20513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR 200ㅅㅎㅅㅂㅈ",
     mktgbcd: "J",
-    upcode: "7770"
+    upcode: "7770",
   },
   {
     name: "유안타제3호스팩",
@@ -20521,7 +20521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅌㅈ3ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2070"
+    upcode: "2070",
   },
   {
     name: "브릿지바이오테라퓨틱스",
@@ -20529,7 +20529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㄹㅈㅂㅇㅇㅌㄹㅍㅌㅅ",
     mktgbcd: "Q",
-    upcode: "13800"
+    upcode: "13800",
   },
   {
     name: "에스퓨얼셀",
@@ -20537,7 +20537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅍㅇㅅ",
     mktgbcd: "Q",
-    upcode: "37600"
+    upcode: "37600",
   },
   {
     name: "아이스크림에듀",
@@ -20545,7 +20545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅅㅋㄹㅇㄷ",
     mktgbcd: "Q",
-    upcode: "8230"
+    upcode: "8230",
   },
   {
     name: "KODEX MSCI KOREA ESG유니버설",
@@ -20553,7 +20553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX MSCI KOREA ESGㅇㄴㅂㅅ",
     mktgbcd: "J",
-    upcode: "9205"
+    upcode: "9205",
   },
   {
     name: "SV인베스트먼트",
@@ -20561,7 +20561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SVㅇㅂㅅㅌㅁㅌ",
     mktgbcd: "Q",
-    upcode: "4970"
+    upcode: "4970",
   },
   {
     name: "TIGER MSCI KOREA ESG유니버설",
@@ -20569,7 +20569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER MSCI KOREA ESGㅇㄴㅂㅅ",
     mktgbcd: "J",
-    upcode: "9200"
+    upcode: "9200",
   },
   {
     name: "TIGER MSCI KOREA ESG리더스",
@@ -20577,7 +20577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER MSCI KOREA ESGㄹㄷㅅ",
     mktgbcd: "J",
-    upcode: "8680"
+    upcode: "8680",
   },
   {
     name: "TIGER 200커버드콜ATM",
@@ -20585,7 +20585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 200ㅋㅂㄷㅋATM",
     mktgbcd: "J",
-    upcode: "9595"
+    upcode: "9595",
   },
   {
     name: "ARIRANG 국채선물10년",
@@ -20593,7 +20593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㄱㅊㅅㅁ10ㄴ",
     mktgbcd: "J",
-    upcode: "58600"
+    upcode: "58600",
   },
   {
     name: "KBSTAR 200고배당커버드콜ATM",
@@ -20601,7 +20601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR 200ㄱㅂㄷㅋㅂㄷㅋATM",
     mktgbcd: "J",
-    upcode: "7110"
+    upcode: "7110",
   },
   {
     name: "대유에이피",
@@ -20609,7 +20609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇㅇㅇㅍ",
     mktgbcd: "Q",
-    upcode: "6650"
+    upcode: "6650",
   },
   {
     name: "KBSTAR ESG사회책임투자",
@@ -20617,7 +20617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ESGㅅㅎㅊㅇㅌㅈ",
     mktgbcd: "J",
-    upcode: "9865"
+    upcode: "9865",
   },
   {
     name: "휴네시온",
@@ -20625,7 +20625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄴㅅㅇ",
     mktgbcd: "Q",
-    upcode: "5120"
+    upcode: "5120",
   },
   {
     name: "대유",
@@ -20633,7 +20633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅇ",
     mktgbcd: "Q",
-    upcode: "12250"
+    upcode: "12250",
   },
   {
     name: "코리아센터",
@@ -20641,7 +20641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹㅇㅅㅌ",
     mktgbcd: "Q",
-    upcode: "19150"
+    upcode: "19150",
   },
   {
     name: "신도기연",
@@ -20649,7 +20649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄷㄱㅇ",
     mktgbcd: "Q",
-    upcode: "22250"
+    upcode: "22250",
   },
   {
     name: "디케이티",
@@ -20657,7 +20657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅋㅇㅌ",
     mktgbcd: "Q",
-    upcode: "19450"
+    upcode: "19450",
   },
   {
     name: "엘앤씨바이오",
@@ -20665,7 +20665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅆㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "137100"
+    upcode: "137100",
   },
   {
     name: "네오펙트",
@@ -20673,7 +20673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅇㅍㅌ",
     mktgbcd: "Q",
-    upcode: "3990"
+    upcode: "3990",
   },
   {
     name: "대보마그네틱",
@@ -20681,7 +20681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅂㅁㄱㄴㅌ",
     mktgbcd: "Q",
-    upcode: "32550"
+    upcode: "32550",
   },
   {
     name: "푸드나무",
@@ -20689,7 +20689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㄷㄴㅁ",
     mktgbcd: "Q",
-    upcode: "23900"
+    upcode: "23900",
   },
   {
     name: "액트로",
@@ -20697,7 +20697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㄹ",
     mktgbcd: "Q",
-    upcode: "11250"
+    upcode: "11250",
   },
   {
     name: "KINDEX 멕시코MSCI(합성)",
@@ -20705,7 +20705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅁㅅㅋMSCIㅎㅅ",
     mktgbcd: "J",
-    upcode: "6910"
+    upcode: "6910",
   },
   {
     name: "한국제7호스팩",
@@ -20713,7 +20713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅈ7ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2000"
+    upcode: "2000",
   },
   {
     name: "삼성스팩2호",
@@ -20721,7 +20721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅅㅅㅍ2ㅎ",
     mktgbcd: "Q",
-    upcode: "2015"
+    upcode: "2015",
   },
   {
     name: "KOSEF 코스닥150선물",
@@ -20729,7 +20729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF ㅋㅅㄷ150ㅅㅁ",
     mktgbcd: "J",
-    upcode: "8360"
+    upcode: "8360",
   },
   {
     name: "KOSEF 코스닥150선물인버스",
@@ -20737,7 +20737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF ㅋㅅㄷ150ㅅㅁㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "9620"
+    upcode: "9620",
   },
   {
     name: "KOSEF 코스닥150선물레버리지",
@@ -20745,7 +20745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF ㅋㅅㄷ150ㅅㅁㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "5250"
+    upcode: "5250",
   },
   {
     name: "압타머사이언스",
@@ -20753,7 +20753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅁㅅㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "22650"
+    upcode: "22650",
   },
   {
     name: "KODEX China H선물인버스(H)",
@@ -20761,7 +20761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX China HㅅㅁㅇㅂㅅH",
     mktgbcd: "J",
-    upcode: "11460"
+    upcode: "11460",
   },
   {
     name: "KBSTAR 차이나H선물인버스(H)",
@@ -20769,7 +20769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅊㅇㄴHㅅㅁㅇㅂㅅH",
     mktgbcd: "J",
-    upcode: "11295"
+    upcode: "11295",
   },
   {
     name: "KODEX MSCI EM선물(H)",
@@ -20777,7 +20777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX MSCI EMㅅㅁH",
     mktgbcd: "J",
-    upcode: "8605"
+    upcode: "8605",
   },
   {
     name: "KBSTAR KRX300",
@@ -20785,7 +20785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR KRX300",
     mktgbcd: "J",
-    upcode: "14505"
+    upcode: "14505",
   },
   {
     name: "TIGER 대형성장",
@@ -20793,7 +20793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄷㅎㅅㅈ",
     mktgbcd: "J",
-    upcode: "10045"
+    upcode: "10045",
   },
   {
     name: "TIGER 대형가치",
@@ -20801,7 +20801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄷㅎㄱㅊ",
     mktgbcd: "J",
-    upcode: "8835"
+    upcode: "8835",
   },
   {
     name: "TIGER 중소형",
@@ -20809,7 +20809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅈㅅㅎ",
     mktgbcd: "J",
-    upcode: "9720"
+    upcode: "9720",
   },
   {
     name: "TIGER 중소형성장",
@@ -20817,7 +20817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅈㅅㅎㅅㅈ",
     mktgbcd: "J",
-    upcode: "10395"
+    upcode: "10395",
   },
   {
     name: "TIGER 중소형가치",
@@ -20825,7 +20825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅈㅅㅎㄱㅊ",
     mktgbcd: "J",
-    upcode: "8955"
+    upcode: "8955",
   },
   {
     name: "TIGER TOP10",
@@ -20833,7 +20833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER TOP10",
     mktgbcd: "J",
-    upcode: "10540"
+    upcode: "10540",
   },
   {
     name: "TIGER KRX300",
@@ -20841,7 +20841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER KRX300",
     mktgbcd: "J",
-    upcode: "14380"
+    upcode: "14380",
   },
   {
     name: "KODEX KRX300",
@@ -20849,7 +20849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX KRX300",
     mktgbcd: "J",
-    upcode: "14410"
+    upcode: "14410",
   },
   {
     name: "마이티 200커버드콜ATM레버리지",
@@ -20857,7 +20857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㅇㅌ 200ㅋㅂㄷㅋATMㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "7800"
+    upcode: "7800",
   },
   {
     name: "SMART KRX300",
@@ -20865,7 +20865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SMART KRX300",
     mktgbcd: "J",
-    upcode: "14485"
+    upcode: "14485",
   },
   {
     name: "TIGER 일본엔선물",
@@ -20873,7 +20873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅇㅂㅇㅅㅁ",
     mktgbcd: "J",
-    upcode: "11030"
+    upcode: "11030",
   },
   {
     name: "TIGER 일본엔선물레버리지",
@@ -20881,7 +20881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅇㅂㅇㅅㅁㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "11400"
+    upcode: "11400",
   },
   {
     name: "TIGER 일본엔선물인버스",
@@ -20889,7 +20889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅇㅂㅇㅅㅁㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "9055"
+    upcode: "9055",
   },
   {
     name: "TIGER 일본엔선물인버스2X",
@@ -20897,7 +20897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅇㅂㅇㅅㅁㅇㅂㅅ2X",
     mktgbcd: "J",
-    upcode: "7795"
+    upcode: "7795",
   },
   {
     name: "FOCUS KRX300",
@@ -20905,7 +20905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "FOCUS KRX300",
     mktgbcd: "J",
-    upcode: "14505"
+    upcode: "14505",
   },
   {
     name: "ARIRANG KRX300",
@@ -20913,7 +20913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG KRX300",
     mktgbcd: "J",
-    upcode: "14410"
+    upcode: "14410",
   },
   {
     name: "KODEX 국채선물3년인버스",
@@ -20921,7 +20921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㄱㅊㅅㅁ3ㄴㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "49460"
+    upcode: "49460",
   },
   {
     name: "HANARO 200",
@@ -20929,7 +20929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "HANARO 200",
     mktgbcd: "J",
-    upcode: "30820"
+    upcode: "30820",
   },
   {
     name: "하나제약",
@@ -20937,7 +20937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄴㅈㅇ",
     mktgbcd: "J",
-    upcode: "23550"
+    upcode: "23550",
   },
   {
     name: "카카오게임즈",
@@ -20945,7 +20945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅋㅇㄱㅇㅈ",
     mktgbcd: "Q",
-    upcode: "51200"
+    upcode: "51200",
   },
   {
     name: "나우IB",
@@ -20953,7 +20953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅇIB",
     mktgbcd: "Q",
-    upcode: "6330"
+    upcode: "6330",
   },
   {
     name: "압타바이오",
@@ -20961,7 +20961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "26900"
+    upcode: "26900",
   },
   {
     name: "신한알파리츠",
@@ -20969,7 +20969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎㅇㅍㄹㅊ",
     mktgbcd: "J",
-    upcode: "6730"
+    upcode: "6730",
   },
   {
     name: "이오플로우",
@@ -20977,7 +20977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅍㄹㅇ",
     mktgbcd: "Q",
-    upcode: "20600"
+    upcode: "20600",
   },
   {
     name: "레몬",
@@ -20985,7 +20985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅁ",
     mktgbcd: "Q",
-    upcode: "14550"
+    upcode: "14550",
   },
   {
     name: "KOSEF 200TR",
@@ -20993,7 +20993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF 200TR",
     mktgbcd: "J",
-    upcode: "35840"
+    upcode: "35840",
   },
   {
     name: "서남",
@@ -21001,7 +21001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄴ",
     mktgbcd: "Q",
-    upcode: "3070"
+    upcode: "3070",
   },
   {
     name: "HDC현대산업개발",
@@ -21009,7 +21009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "HDCㅎㄷㅅㅇㄱㅂ",
     mktgbcd: "J",
-    upcode: "20950"
+    upcode: "20950",
   },
   {
     name: "KBSTAR 국채선물10년",
@@ -21017,7 +21017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㄱㅊㅅㅁ10ㄴ",
     mktgbcd: "J",
-    upcode: "57740"
+    upcode: "57740",
   },
   {
     name: "KBSTAR 국채선물10년인버스",
@@ -21025,7 +21025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㄱㅊㅅㅁ10ㄴㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "45660"
+    upcode: "45660",
   },
   {
     name: "SMART 200TR",
@@ -21033,7 +21033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SMART 200TR",
     mktgbcd: "J",
-    upcode: "10275"
+    upcode: "10275",
   },
   {
     name: "ARIRANG 200동일가중",
@@ -21041,7 +21041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG 200ㄷㅇㄱㅈ",
     mktgbcd: "J",
-    upcode: "8260"
+    upcode: "8260",
   },
   {
     name: "KODEX FnKorea50",
@@ -21049,7 +21049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX FnKorea50",
     mktgbcd: "J",
-    upcode: "8580"
+    upcode: "8580",
   },
   {
     name: "씨에스베어링",
@@ -21057,7 +21057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㅇㅅㅂㅇㄹ",
     mktgbcd: "Q",
-    upcode: "29550"
+    upcode: "29550",
   },
   {
     name: "알로이스",
@@ -21065,7 +21065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅇㅅ",
     mktgbcd: "Q",
-    upcode: "2305"
+    upcode: "2305",
   },
   {
     name: "엘이티",
@@ -21073,7 +21073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅌ",
     mktgbcd: "Q",
-    upcode: "16150"
+    upcode: "16150",
   },
   {
     name: "효성화학",
@@ -21081,7 +21081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㅎㅎ",
     mktgbcd: "J",
-    upcode: "125500"
+    upcode: "125500",
   },
   {
     name: "효성티앤씨",
@@ -21089,7 +21089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㅌㅇㅆ",
     mktgbcd: "J",
-    upcode: "125000"
+    upcode: "125000",
   },
   {
     name: "효성중공업",
@@ -21097,7 +21097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㅈㄱㅇ",
     mktgbcd: "J",
-    upcode: "55900"
+    upcode: "55900",
   },
   {
     name: "효성첨단소재",
@@ -21105,7 +21105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅅㅊㄷㅅㅈ",
     mktgbcd: "J",
-    upcode: "139000"
+    upcode: "139000",
   },
   {
     name: "에스씨엠생명과학",
@@ -21113,7 +21113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅆㅇㅅㅁㄱㅎ",
     mktgbcd: "Q",
-    upcode: "29850"
+    upcode: "29850",
   },
   {
     name: "ARIRANG 국채선물3년",
@@ -21121,7 +21121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㄱㅊㅅㅁ3ㄴ",
     mktgbcd: "J",
-    upcode: "53590"
+    upcode: "53590",
   },
   {
     name: "에이비엘바이오",
@@ -21129,7 +21129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅂㅇㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "30300"
+    upcode: "30300",
   },
   {
     name: "더네이쳐홀딩스",
@@ -21137,7 +21137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㄴㅇㅊㅎㄷㅅ",
     mktgbcd: "Q",
-    upcode: "37000"
+    upcode: "37000",
   },
   {
     name: "에어부산",
@@ -21145,7 +21145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "3845"
+    upcode: "3845",
   },
   {
     name: "KODEX 한국대만IT프리미어",
@@ -21153,7 +21153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅎㄱㄷㅁITㅍㄹㅁㅇ",
     mktgbcd: "J",
-    upcode: "14260"
+    upcode: "14260",
   },
   {
     name: "KINDEX 국채선물10년인버스",
@@ -21161,7 +21161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㄱㅊㅅㅁ10ㄴㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "91630"
+    upcode: "91630",
   },
   {
     name: "KINDEX 국채선물3년인버스",
@@ -21169,7 +21169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㄱㅊㅅㅁ3ㄴㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "98765"
+    upcode: "98765",
   },
   {
     name: "IBKS제10호스팩",
@@ -21177,7 +21177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "IBKSㅈ10ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2010"
+    upcode: "2010",
   },
   {
     name: "셀리드",
@@ -21185,7 +21185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄹㄷ",
     mktgbcd: "Q",
-    upcode: "38550"
+    upcode: "38550",
   },
   {
     name: "위지윅스튜디오",
@@ -21193,7 +21193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅇㅅㅌㄷㅇ",
     mktgbcd: "Q",
-    upcode: "4300"
+    upcode: "4300",
   },
   {
     name: "베스파",
@@ -21201,7 +21201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅅㅍ",
     mktgbcd: "Q",
-    upcode: "11250"
+    upcode: "11250",
   },
   {
     name: "플리토",
@@ -21209,7 +21209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㄹㅌ",
     mktgbcd: "Q",
-    upcode: "13600"
+    upcode: "13600",
   },
   {
     name: "라온피플",
@@ -21217,7 +21217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅇㅍㅍ",
     mktgbcd: "Q",
-    upcode: "21450"
+    upcode: "21450",
   },
   {
     name: "KBSTAR 중소형모멘텀로우볼",
@@ -21225,7 +21225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅈㅅㅎㅁㅁㅌㄹㅇㅂ",
     mktgbcd: "J",
-    upcode: "8985"
+    upcode: "8985",
   },
   {
     name: "KBSTAR 중소형모멘텀밸류",
@@ -21233,7 +21233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅈㅅㅎㅁㅁㅌㅂㄹ",
     mktgbcd: "J",
-    upcode: "9580"
+    upcode: "9580",
   },
   {
     name: "TIGER K게임",
@@ -21241,7 +21241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER Kㄱㅇ",
     mktgbcd: "J",
-    upcode: "10990"
+    upcode: "10990",
   },
   {
     name: "KBSTAR 게임테마",
@@ -21249,7 +21249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㄱㅇㅌㅁ",
     mktgbcd: "J",
-    upcode: "12540"
+    upcode: "12540",
   },
   {
     name: "한일시멘트",
@@ -21257,7 +21257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㅇㅅㅁㅌ",
     mktgbcd: "J",
-    upcode: "79600"
+    upcode: "79600",
   },
   {
     name: "KODEX 게임산업",
@@ -21265,7 +21265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㄱㅇㅅㅇ",
     mktgbcd: "J",
-    upcode: "12810"
+    upcode: "12810",
   },
   {
     name: "ARIRANG 코스닥150",
@@ -21273,7 +21273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㅋㅅㄷ150",
     mktgbcd: "J",
-    upcode: "12910"
+    upcode: "12910",
   },
   {
     name: "ARIRANG 코스닥150선물인버스",
@@ -21281,7 +21281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㅋㅅㄷ150ㅅㅁㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "8415"
+    upcode: "8415",
   },
   {
     name: "ARIRANG 코스피중형주",
@@ -21289,7 +21289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㅋㅅㅍㅈㅎㅈ",
     mktgbcd: "J",
-    upcode: "9070"
+    upcode: "9070",
   },
   {
     name: "TIGER 국채선물3년인버스",
@@ -21297,7 +21297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄱㅊㅅㅁ3ㄴㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "49470"
+    upcode: "49470",
   },
   {
     name: "TIGER 국채선물10년인버스",
@@ -21305,7 +21305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄱㅊㅅㅁ10ㄴㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "46400"
+    upcode: "46400",
   },
   {
     name: "TIGER 중장기국채",
@@ -21313,7 +21313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅈㅈㄱㄱㅊ",
     mktgbcd: "J",
-    upcode: "54145"
+    upcode: "54145",
   },
   {
     name: "TIGER 중장기국채선물인버스",
@@ -21321,7 +21321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅈㅈㄱㄱㅊㅅㅁㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "47815"
+    upcode: "47815",
   },
   {
     name: "TIGER 중장기국채선물인버스2X",
@@ -21329,7 +21329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅈㅈㄱㄱㅊㅅㅁㅇㅂㅅ2X",
     mktgbcd: "J",
-    upcode: "44720"
+    upcode: "44720",
   },
   {
     name: "이노메트리",
@@ -21337,7 +21337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅁㅌㄹ",
     mktgbcd: "Q",
-    upcode: "21100"
+    upcode: "21100",
   },
   {
     name: "KBSTAR 코스피",
@@ -21345,7 +21345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅋㅅㅍ",
     mktgbcd: "J",
-    upcode: "23070"
+    upcode: "23070",
   },
   {
     name: "리메드",
@@ -21353,7 +21353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅁㄷ",
     mktgbcd: "Q",
-    upcode: "27300"
+    upcode: "27300",
   },
   {
     name: "지니틱스",
@@ -21361,7 +21361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㄴㅌㅅ",
     mktgbcd: "Q",
-    upcode: "2500"
+    upcode: "2500",
   },
   {
     name: "솔트룩스",
@@ -21369,7 +21369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅌㄹㅅ",
     mktgbcd: "Q",
-    upcode: "31050"
+    upcode: "31050",
   },
   {
     name: "KODEX 미국채울트라30년선물(H)",
@@ -21377,7 +21377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅁㄱㅊㅇㅌㄹ30ㄴㅅㅁH",
     mktgbcd: "J",
-    upcode: "13840"
+    upcode: "13840",
   },
   {
     name: "KODEX 미국채울트라30년선물인버스(H)",
@@ -21385,7 +21385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅁㄱㅊㅇㅌㄹ30ㄴㅅㅁㅇㅂㅅH",
     mktgbcd: "J",
-    upcode: "6780"
+    upcode: "6780",
   },
   {
     name: "HANARO KRX300",
@@ -21393,7 +21393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "HANARO KRX300",
     mktgbcd: "J",
-    upcode: "14255"
+    upcode: "14255",
   },
   {
     name: "HANARO 코스닥150",
@@ -21401,7 +21401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "HANARO ㅋㅅㄷ150",
     mktgbcd: "J",
-    upcode: "12945"
+    upcode: "12945",
   },
   {
     name: "HANARO 200선물레버리지",
@@ -21409,7 +21409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "HANARO 200ㅅㅁㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "15690"
+    upcode: "15690",
   },
   {
     name: "KODEX 미국나스닥100선물(H)",
@@ -21417,7 +21417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅁㄱㄴㅅㄷ100ㅅㅁH",
     mktgbcd: "J",
-    upcode: "14340"
+    upcode: "14340",
   },
   {
     name: "KINDEX 코스피",
@@ -21425,7 +21425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅋㅅㅍ",
     mktgbcd: "J",
-    upcode: "23325"
+    upcode: "23325",
   },
   {
     name: "TIGER 미국채10년선물",
@@ -21433,7 +21433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅁㄱㅊ10ㄴㅅㅁ",
     mktgbcd: "J",
-    upcode: "12540"
+    upcode: "12540",
   },
   {
     name: "마이크로디지탈",
@@ -21441,7 +21441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅇㅋㄹㄷㅈㅌ",
     mktgbcd: "Q",
-    upcode: "21600"
+    upcode: "21600",
   },
   {
     name: "TIGER 2차전지테마",
@@ -21449,7 +21449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 2ㅊㅈㅈㅌㅁ",
     mktgbcd: "J",
-    upcode: "11245"
+    upcode: "11245",
   },
   {
     name: "KODEX 2차전지산업",
@@ -21457,7 +21457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX 2ㅊㅈㅈㅅㅇ",
     mktgbcd: "J",
-    upcode: "11580"
+    upcode: "11580",
   },
   {
     name: "에스제이그룹",
@@ -21465,7 +21465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅈㅇㄱㄹ",
     mktgbcd: "Q",
-    upcode: "14700"
+    upcode: "14700",
   },
   {
     name: "세아제강",
@@ -21473,7 +21473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅇㅈㄱ",
     mktgbcd: "J",
-    upcode: "80700"
+    upcode: "80700",
   },
   {
     name: "HANARO 200선물인버스",
@@ -21481,7 +21481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "HANARO 200ㅅㅁㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "12670"
+    upcode: "12670",
   },
   {
     name: "HANARO 코스닥150선물레버리지",
@@ -21489,7 +21489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "HANARO ㅋㅅㄷ150ㅅㅁㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "10580"
+    upcode: "10580",
   },
   {
     name: "HANARO 단기통안채",
@@ -21497,7 +21497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "HANARO ㄷㄱㅌㅇㅊ",
     mktgbcd: "J",
-    upcode: "102745"
+    upcode: "102745",
   },
   {
     name: "네온테크",
@@ -21505,7 +21505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅇㅌㅋ",
     mktgbcd: "Q",
-    upcode: "2545"
+    upcode: "2545",
   },
   {
     name: "KODEX KRX300레버리지",
@@ -21513,7 +21513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX KRX300ㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "11675"
+    upcode: "11675",
   },
   {
     name: "KBSTAR KRX300레버리지",
@@ -21521,7 +21521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR KRX300ㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "11580"
+    upcode: "11580",
   },
   {
     name: "KBSTAR KRX300선물인버스",
@@ -21529,7 +21529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR KRX300ㅅㅁㅇㅂㅅ",
     mktgbcd: "J",
-    upcode: "8150"
+    upcode: "8150",
   },
   {
     name: "SK4호스팩",
@@ -21537,7 +21537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SK4ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2005"
+    upcode: "2005",
   },
   {
     name: "하나머스트제6호스팩",
@@ -21545,7 +21545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄴㅁㅅㅌㅈ6ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2075"
+    upcode: "2075",
   },
   {
     name: "아이엘사이언스",
@@ -21553,7 +21553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅅㅇㅇㅅ",
     mktgbcd: "Q",
-    upcode: "3290"
+    upcode: "3290",
   },
   {
     name: "교보8호스팩",
@@ -21561,7 +21561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅂ8ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2165"
+    upcode: "2165",
   },
   {
     name: "TIGER 의료기기",
@@ -21569,7 +21569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅇㄹㄱㄱ",
     mktgbcd: "J",
-    upcode: "20720"
+    upcode: "20720",
   },
   {
     name: "TIGER 지주회사",
@@ -21577,7 +21577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅈㅈㅎㅅ",
     mktgbcd: "J",
-    upcode: "9590"
+    upcode: "9590",
   },
   {
     name: "TIGER KRX300레버리지",
@@ -21585,7 +21585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER KRX300ㄹㅂㄹㅈ",
     mktgbcd: "J",
-    upcode: "11445"
+    upcode: "11445",
   },
   {
     name: "대신밸런스제6호스팩",
@@ -21593,7 +21593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅅㅂㄹㅅㅈ6ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "3805"
+    upcode: "3805",
   },
   {
     name: "상상인이안1호스팩",
@@ -21601,7 +21601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅅㅇㅇㅇ1ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2000"
+    upcode: "2000",
   },
   {
     name: "컴퍼니케이",
@@ -21609,7 +21609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅍㄴㅋㅇ",
     mktgbcd: "Q",
-    upcode: "6120"
+    upcode: "6120",
   },
   {
     name: "현대오토에버",
@@ -21617,7 +21617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅇㅌㅇㅂ",
     mktgbcd: "J",
-    upcode: "62500"
+    upcode: "62500",
   },
   {
     name: "까스텔바작",
@@ -21625,7 +21625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄲㅅㅌㅂㅈ",
     mktgbcd: "Q",
-    upcode: "9320"
+    upcode: "9320",
   },
   {
     name: "센트랄모텍",
@@ -21633,7 +21633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅌㄹㅁㅌ",
     mktgbcd: "J",
-    upcode: "21300"
+    upcode: "21300",
   },
   {
     name: "KODEX 미국채10년선물",
@@ -21641,7 +21641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅁㄱㅊ10ㄴㅅㅁ",
     mktgbcd: "J",
-    upcode: "12260"
+    upcode: "12260",
   },
   {
     name: "ARIRANG KRX300IT",
@@ -21649,7 +21649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG KRX300IT",
     mktgbcd: "J",
-    upcode: "13785"
+    upcode: "13785",
   },
   {
     name: "ARIRANG KRX300헬스케어",
@@ -21657,7 +21657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG KRX300ㅎㅅㅋㅇ",
     mktgbcd: "J",
-    upcode: "13205"
+    upcode: "13205",
   },
   {
     name: "KINDEX 미국WideMoat가치주",
@@ -21665,7 +21665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅁㄱWideMoatㄱㅊㅈ",
     mktgbcd: "J",
-    upcode: "12640"
+    upcode: "12640",
   },
   {
     name: "삼성머스트스팩3호",
@@ -21673,7 +21673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅅㅁㅅㅌㅅㅍ3ㅎ",
     mktgbcd: "Q",
-    upcode: "2130"
+    upcode: "2130",
   },
   {
     name: "KBSTAR 중국MSCI China선물(H)",
@@ -21681,7 +21681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅈㄱMSCI ChinaㅅㅁH",
     mktgbcd: "J",
-    upcode: "12585"
+    upcode: "12585",
   },
   {
     name: "애니플러스",
@@ -21689,7 +21689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄴㅍㄹㅅ",
     mktgbcd: "Q",
-    upcode: "1600"
+    upcode: "1600",
   },
   {
     name: "엔에이치스팩13호",
@@ -21697,7 +21697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅊㅅㅍ13ㅎ",
     mktgbcd: "Q",
-    upcode: "2020"
+    upcode: "2020",
   },
   {
     name: "한국제8호스팩",
@@ -21705,7 +21705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅈ8ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2030"
+    upcode: "2030",
   },
   {
     name: "TIGER 200TR",
@@ -21713,7 +21713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 200TR",
     mktgbcd: "J",
-    upcode: "16085"
+    upcode: "16085",
   },
   {
     name: "TIGER MSCI Korea TR",
@@ -21721,7 +21721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER MSCI Korea TR",
     mktgbcd: "J",
-    upcode: "12325"
+    upcode: "12325",
   },
   {
     name: "키움제5호스팩",
@@ -21729,7 +21729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅈ5ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2015"
+    upcode: "2015",
   },
   {
     name: "네오크레마",
@@ -21737,7 +21737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅇㅋㄹㅁ",
     mktgbcd: "Q",
-    upcode: "8090"
+    upcode: "8090",
   },
   {
     name: "천랩",
@@ -21745,7 +21745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅊㄹ",
     mktgbcd: "Q",
-    upcode: "42950"
+    upcode: "42950",
   },
   {
     name: "에이에프더블류",
@@ -21753,7 +21753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅍㄷㅂㄹ",
     mktgbcd: "Q",
-    upcode: "13150"
+    upcode: "13150",
   },
   {
     name: "유안타제4호스팩",
@@ -21761,7 +21761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅌㅈ4ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2000"
+    upcode: "2000",
   },
   {
     name: "윌링스",
@@ -21769,7 +21769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄹㅅ",
     mktgbcd: "Q",
-    upcode: "16500"
+    upcode: "16500",
   },
   {
     name: "KODEX 미국FANG플러스(H)",
@@ -21777,7 +21777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅁㄱFANGㅍㄹㅅH",
     mktgbcd: "J",
-    upcode: "21220"
+    upcode: "21220",
   },
   {
     name: "HANARO 농업융복합산업",
@@ -21785,7 +21785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "HANARO ㄴㅇㅇㅂㅎㅅㅇ",
     mktgbcd: "J",
-    upcode: "9800"
+    upcode: "9800",
   },
   {
     name: "TIGER 200커뮤니케이션서비스",
@@ -21793,7 +21793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER 200ㅋㅁㄴㅋㅇㅅㅅㅂㅅ",
     mktgbcd: "J",
-    upcode: "25425"
+    upcode: "25425",
   },
   {
     name: "KBSTAR 200커뮤니케이션서비스",
@@ -21801,7 +21801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR 200ㅋㅁㄴㅋㅇㅅㅅㅂㅅ",
     mktgbcd: "J",
-    upcode: "15790"
+    upcode: "15790",
   },
   {
     name: "KODEX Top5PlusTR",
@@ -21809,7 +21809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX Top5PlusTR",
     mktgbcd: "J",
-    upcode: "13800"
+    upcode: "13800",
   },
   {
     name: "KBSTAR 대형고배당10TR",
@@ -21817,7 +21817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㄷㅎㄱㅂㄷ10TR",
     mktgbcd: "J",
-    upcode: "11575"
+    upcode: "11575",
   },
   {
     name: "우리금융지주",
@@ -21825,7 +21825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㄹㄱㅇㅈㅈ",
     mktgbcd: "J",
-    upcode: "8430"
+    upcode: "8430",
   },
   {
     name: "KINDEX 싱가포르리츠",
@@ -21833,7 +21833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅅㄱㅍㄹㄹㅊ",
     mktgbcd: "J",
-    upcode: "11690"
+    upcode: "11690",
   },
   {
     name: "KOSEF 코스닥150",
@@ -21841,7 +21841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF ㅋㅅㄷ150",
     mktgbcd: "J",
-    upcode: "6500"
+    upcode: "6500",
   },
   {
     name: "케이비17호스팩",
@@ -21849,7 +21849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅂ17ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2010"
+    upcode: "2010",
   },
   {
     name: "라닉스",
@@ -21857,7 +21857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㄴㅅ",
     mktgbcd: "Q",
-    upcode: "8200"
+    upcode: "8200",
   },
   {
     name: "하이제4호스팩",
@@ -21865,7 +21865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅇㅈ4ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2025"
+    upcode: "2025",
   },
   {
     name: "한화에스비아이스팩",
@@ -21873,7 +21873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅎㅇㅅㅂㅇㅇㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2595"
+    upcode: "2595",
   },
   {
     name: "덕산테코피아",
@@ -21881,7 +21881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅅㅌㅋㅍㅇ",
     mktgbcd: "Q",
-    upcode: "17100"
+    upcode: "17100",
   },
   {
     name: "자이에스앤디",
@@ -21889,7 +21889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅇㅇㅅㅇㄷ",
     mktgbcd: "J",
-    upcode: "7980"
+    upcode: "7980",
   },
   {
     name: "캐리소프트",
@@ -21897,7 +21897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹㅅㅍㅌ",
     mktgbcd: "Q",
-    upcode: "4320"
+    upcode: "4320",
   },
   {
     name: "슈프리마아이디",
@@ -21905,7 +21905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅍㄹㅁㅇㅇㄷ",
     mktgbcd: "Q",
-    upcode: "14250"
+    upcode: "14250",
   },
   {
     name: "에스피시스템스",
@@ -21913,7 +21913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅍㅅㅅㅌㅅ",
     mktgbcd: "Q",
-    upcode: "5840"
+    upcode: "5840",
   },
   {
     name: "대모",
@@ -21921,7 +21921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅁ",
     mktgbcd: "Q",
-    upcode: "4725"
+    upcode: "4725",
   },
   {
     name: "엔바이오니아",
@@ -21929,7 +21929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅂㅇㅇㄴㅇ",
     mktgbcd: "Q",
-    upcode: "6540"
+    upcode: "6540",
   },
   {
     name: "한국바이오젠",
@@ -21937,7 +21937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄱㅂㅇㅇㅈ",
     mktgbcd: "Q",
-    upcode: "8000"
+    upcode: "8000",
   },
   {
     name: "팜스빌",
@@ -21945,7 +21945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅅㅂ",
     mktgbcd: "Q",
-    upcode: "11350"
+    upcode: "11350",
   },
   {
     name: "비비씨",
@@ -21953,7 +21953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅂㅆ",
     mktgbcd: "Q",
-    upcode: "21200"
+    upcode: "21200",
   },
   {
     name: "엔에이치스팩14호",
@@ -21961,7 +21961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅊㅅㅍ14ㅎ",
     mktgbcd: "Q",
-    upcode: "2010"
+    upcode: "2010",
   },
   {
     name: "TIGER 골드선물(H)",
@@ -21969,7 +21969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㄱㄷㅅㅁH",
     mktgbcd: "J",
-    upcode: "13660"
+    upcode: "13660",
   },
   {
     name: "피에스케이",
@@ -21977,7 +21977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅇㅅㅋㅇ",
     mktgbcd: "Q",
-    upcode: "30850"
+    upcode: "30850",
   },
   {
     name: "KBSTAR KRX300미국달러선물혼합",
@@ -21985,7 +21985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR KRX300ㅁㄱㄷㄹㅅㅁㅎㅎ",
     mktgbcd: "J",
-    upcode: "11930"
+    upcode: "11930",
   },
   {
     name: "윈텍",
@@ -21993,7 +21993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌ",
     mktgbcd: "Q",
-    upcode: "2510"
+    upcode: "2510",
   },
   {
     name: "유진스팩4호",
@@ -22001,7 +22001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅅㅍ4ㅎ",
     mktgbcd: "Q",
-    upcode: "2005"
+    upcode: "2005",
   },
   {
     name: "KODEX 멀티에셋하이인컴(H)",
@@ -22009,7 +22009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅁㅌㅇㅅㅎㅇㅇㅋH",
     mktgbcd: "J",
-    upcode: "9815"
+    upcode: "9815",
   },
   {
     name: "티움바이오",
@@ -22017,7 +22017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㅇㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "15150"
+    upcode: "15150",
   },
   {
     name: "현대에너지솔루션",
@@ -22025,7 +22025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄷㅇㄴㅈㅅㄹㅅ",
     mktgbcd: "J",
-    upcode: "32200"
+    upcode: "32200",
   },
   {
     name: "KINDEX 스마트퀄리티",
@@ -22033,7 +22033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅅㅁㅌㅋㄹㅌ",
     mktgbcd: "J",
-    upcode: "14460"
+    upcode: "14460",
   },
   {
     name: "KINDEX 스마트로우볼",
@@ -22041,7 +22041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅅㅁㅌㄹㅇㅂ",
     mktgbcd: "J",
-    upcode: "12910"
+    upcode: "12910",
   },
   {
     name: "KINDEX 스마트하이베타",
@@ -22049,7 +22049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅅㅁㅌㅎㅇㅂㅌ",
     mktgbcd: "J",
-    upcode: "10585"
+    upcode: "10585",
   },
   {
     name: "티라유텍",
@@ -22057,7 +22057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅌㄹㅇㅌ",
     mktgbcd: "Q",
-    upcode: "13350"
+    upcode: "13350",
   },
   {
     name: "HANARO e커머스",
@@ -22065,7 +22065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "HANARO eㅋㅁㅅ",
     mktgbcd: "J",
-    upcode: "13915"
+    upcode: "13915",
   },
   {
     name: "HANARO 고배당",
@@ -22073,7 +22073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "HANARO ㄱㅂㄷ",
     mktgbcd: "J",
-    upcode: "7595"
+    upcode: "7595",
   },
   {
     name: "제이엘케이",
@@ -22081,7 +22081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅈㅇㅇㅋㅇ",
     mktgbcd: "Q",
-    upcode: "13400"
+    upcode: "13400",
   },
   {
     name: "DB금융스팩7호",
@@ -22089,7 +22089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "DBㄱㅇㅅㅍ7ㅎ",
     mktgbcd: "Q",
-    upcode: "2015"
+    upcode: "2015",
   },
   {
     name: "이베스트이안스팩1호",
@@ -22097,7 +22097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅂㅅㅌㅇㅇㅅㅍ1ㅎ",
     mktgbcd: "Q",
-    upcode: "2005"
+    upcode: "2005",
   },
   {
     name: "신한제5호스팩",
@@ -22105,7 +22105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅎㅈ5ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "1990"
+    upcode: "1990",
   },
   {
     name: "신영스팩5호",
@@ -22113,7 +22113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅅㅍ5ㅎ",
     mktgbcd: "Q",
-    upcode: "2025"
+    upcode: "2025",
   },
   {
     name: "케이비제18호스팩",
@@ -22121,7 +22121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅂㅈ18ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2000"
+    upcode: "2000",
   },
   {
     name: "박셀바이오",
@@ -22129,7 +22129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㅅㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "28000"
+    upcode: "28000",
   },
   {
     name: "KODEX Fn성장",
@@ -22137,7 +22137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX Fnㅅㅈ",
     mktgbcd: "J",
-    upcode: "13880"
+    upcode: "13880",
   },
   {
     name: "KODEX 배당가치",
@@ -22145,7 +22145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅂㄷㄱㅊ",
     mktgbcd: "J",
-    upcode: "9625"
+    upcode: "9625",
   },
   {
     name: "SK바이오팜",
@@ -22153,7 +22153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SKㅂㅇㅇㅍ",
     mktgbcd: "J",
-    upcode: "155000"
+    upcode: "155000",
   },
   {
     name: "KBSTAR 내수주플러스",
@@ -22161,7 +22161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㄴㅅㅈㅍㄹㅅ",
     mktgbcd: "J",
-    upcode: "9365"
+    upcode: "9365",
   },
   {
     name: "KBSTAR IT플러스",
@@ -22169,7 +22169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ITㅍㄹㅅ",
     mktgbcd: "J",
-    upcode: "15825"
+    upcode: "15825",
   },
   {
     name: "메탈라이프",
@@ -22177,7 +22177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅌㄹㅇㅍ",
     mktgbcd: "Q",
-    upcode: "19650"
+    upcode: "19650",
   },
   {
     name: "ARIRANG 코스피TR",
@@ -22185,7 +22185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㅋㅅㅍTR",
     mktgbcd: "J",
-    upcode: "11330"
+    upcode: "11330",
   },
   {
     name: "미래에셋대우스팩3호",
@@ -22193,7 +22193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄹㅇㅅㄷㅇㅅㅍ3ㅎ",
     mktgbcd: "Q",
-    upcode: "2000"
+    upcode: "2000",
   },
   {
     name: "TIGER 부동산인프라고배당",
@@ -22201,7 +22201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅂㄷㅅㅇㅍㄹㄱㅂㄷ",
     mktgbcd: "J",
-    upcode: "4505"
+    upcode: "4505",
   },
   {
     name: "상상인이안제2호스팩",
@@ -22209,7 +22209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅅㅇㅇㅇㅈ2ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "1990"
+    upcode: "1990",
   },
   {
     name: "KODEX TRF3070",
@@ -22217,7 +22217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX TRF3070",
     mktgbcd: "J",
-    upcode: "10600"
+    upcode: "10600",
   },
   {
     name: "KODEX TRF5050",
@@ -22225,7 +22225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX TRF5050",
     mktgbcd: "J",
-    upcode: "10835"
+    upcode: "10835",
   },
   {
     name: "KODEX TRF7030",
@@ -22233,7 +22233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX TRF7030",
     mktgbcd: "J",
-    upcode: "10995"
+    upcode: "10995",
   },
   {
     name: "TIGER 미국달러단기채권액티브",
@@ -22241,7 +22241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅁㄱㄷㄹㄷㄱㅊㄱㅇㅌㅂ",
     mktgbcd: "J",
-    upcode: "10060"
+    upcode: "10060",
   },
   {
     name: "위더스제약",
@@ -22249,7 +22249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄷㅅㅈㅇ",
     mktgbcd: "Q",
-    upcode: "21450"
+    upcode: "21450",
   },
   {
     name: "롯데리츠",
@@ -22257,7 +22257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄹㄷㄹㅊ",
     mktgbcd: "J",
-    upcode: "5110"
+    upcode: "5110",
   },
   {
     name: "케이비제19호스팩",
@@ -22265,7 +22265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅂㅈ19ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2005"
+    upcode: "2005",
   },
   {
     name: "유진스팩5호",
@@ -22273,7 +22273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅅㅍ5ㅎ",
     mktgbcd: "Q",
-    upcode: "2000"
+    upcode: "2000",
   },
   {
     name: "교보9호스팩",
@@ -22281,7 +22281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅂ9ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2010"
+    upcode: "2010",
   },
   {
     name: "KOSEF Fn중소형",
@@ -22289,7 +22289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KOSEF Fnㅈㅅㅎ",
     mktgbcd: "J",
-    upcode: "17175"
+    upcode: "17175",
   },
   {
     name: "셀레믹스",
@@ -22297,7 +22297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㄹㅁㅅ",
     mktgbcd: "Q",
-    upcode: "20600"
+    upcode: "20600",
   },
   {
     name: "대신밸런스제7호스팩",
@@ -22305,7 +22305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅅㅂㄹㅅㅈ7ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2010"
+    upcode: "2010",
   },
   {
     name: "아이디피",
@@ -22313,7 +22313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㄷㅍ",
     mktgbcd: "Q",
-    upcode: "8550"
+    upcode: "8550",
   },
   {
     name: "KINDEX 200TR",
@@ -22321,7 +22321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX 200TR",
     mktgbcd: "J",
-    upcode: "18395"
+    upcode: "18395",
   },
   {
     name: "와이팜",
@@ -22329,7 +22329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅍ",
     mktgbcd: "Q",
-    upcode: "15050"
+    upcode: "15050",
   },
   {
     name: "ARIRANG 미국단기우량회사채",
@@ -22337,7 +22337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㅁㄱㄷㄱㅇㄹㅎㅅㅊ",
     mktgbcd: "J",
-    upcode: "99015"
+    upcode: "99015",
   },
   {
     name: "ARIRANG 미국장기우량회사채",
@@ -22345,7 +22345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG ㅁㄱㅈㄱㅇㄹㅎㅅㅊ",
     mktgbcd: "J",
-    upcode: "105050"
+    upcode: "105050",
   },
   {
     name: "하나금융14호스팩",
@@ -22353,7 +22353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄴㄱㅇ14ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2030"
+    upcode: "2030",
   },
   {
     name: "HANARO 200TR",
@@ -22361,7 +22361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "HANARO 200TR",
     mktgbcd: "J",
-    upcode: "35875"
+    upcode: "35875",
   },
   {
     name: "HANARO MSCI Korea TR",
@@ -22369,7 +22369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "HANARO MSCI Korea TR",
     mktgbcd: "J",
-    upcode: "12340"
+    upcode: "12340",
   },
   {
     name: "신한제6호스팩",
@@ -22377,7 +22377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅎㅈ6ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "1995"
+    upcode: "1995",
   },
   {
     name: "미래에셋대우스팩4호",
@@ -22385,7 +22385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄹㅇㅅㄷㅇㅅㅍ4ㅎ",
     mktgbcd: "Q",
-    upcode: "2050"
+    upcode: "2050",
   },
   {
     name: "ARIRANG KS로우볼가중TR",
@@ -22393,7 +22393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG KSㄹㅇㅂㄱㅈTR",
     mktgbcd: "J",
-    upcode: "10390"
+    upcode: "10390",
   },
   {
     name: "ARIRANG KS로우사이즈가중TR",
@@ -22401,7 +22401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG KSㄹㅇㅅㅇㅈㄱㅈTR",
     mktgbcd: "J",
-    upcode: "12140"
+    upcode: "12140",
   },
   {
     name: "ARIRANG KS모멘텀가중TR",
@@ -22409,7 +22409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG KSㅁㅁㅌㄱㅈTR",
     mktgbcd: "J",
-    upcode: "12305"
+    upcode: "12305",
   },
   {
     name: "ARIRANG KS밸류가중TR",
@@ -22417,7 +22417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG KSㅂㄹㄱㅈTR",
     mktgbcd: "J",
-    upcode: "11095"
+    upcode: "11095",
   },
   {
     name: "ARIRANG KS퀄리티가중TR",
@@ -22425,7 +22425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ARIRANG KSㅋㄹㅌㄱㅈTR",
     mktgbcd: "J",
-    upcode: "12035"
+    upcode: "12035",
   },
   {
     name: "KBSTAR 팔라듐선물(H)",
@@ -22433,7 +22433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅍㄹㄷㅅㅁH",
     mktgbcd: "J",
-    upcode: "13155"
+    upcode: "13155",
   },
   {
     name: "KBSTAR 팔라듐선물인버스(H)",
@@ -22441,7 +22441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅍㄹㄷㅅㅁㅇㅂㅅH",
     mktgbcd: "J",
-    upcode: "5640"
+    upcode: "5640",
   },
   {
     name: "이지스밸류리츠",
@@ -22449,7 +22449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅈㅅㅂㄹㄹㅊ",
     mktgbcd: "J",
-    upcode: "4560"
+    upcode: "4560",
   },
   {
     name: "IBKS제12호스팩",
@@ -22457,7 +22457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "IBKSㅈ12ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2135"
+    upcode: "2135",
   },
   {
     name: "IBKS제11호스팩",
@@ -22465,7 +22465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "IBKSㅈ11ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2250"
+    upcode: "2250",
   },
   {
     name: "유안타제5호스팩",
@@ -22473,7 +22473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅌㅈ5ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "1985"
+    upcode: "1985",
   },
   {
     name: "KBSTAR 금융채액티브",
@@ -22481,7 +22481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㄱㅇㅊㅇㅌㅂ",
     mktgbcd: "J",
-    upcode: "102900"
+    upcode: "102900",
   },
   {
     name: "두산퓨얼셀",
@@ -22489,7 +22489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅍㅇㅅ",
     mktgbcd: "J",
-    upcode: "40500"
+    upcode: "40500",
   },
   {
     name: "두산퓨얼셀1우",
@@ -22497,7 +22497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅍㅇㅅ1ㅇ",
     mktgbcd: "J",
-    upcode: "17550"
+    upcode: "17550",
   },
   {
     name: "두산퓨얼셀2우B",
@@ -22505,7 +22505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅍㅇㅅ2ㅇB",
     mktgbcd: "J",
-    upcode: "24000"
+    upcode: "24000",
   },
   {
     name: "두산솔루스",
@@ -22513,7 +22513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅅㄹㅅ",
     mktgbcd: "J",
-    upcode: "39350"
+    upcode: "39350",
   },
   {
     name: "두산솔루스1우",
@@ -22521,7 +22521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅅㄹㅅ1ㅇ",
     mktgbcd: "J",
-    upcode: "17250"
+    upcode: "17250",
   },
   {
     name: "두산솔루스2우B",
@@ -22529,7 +22529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅㅅㄹㅅ2ㅇB",
     mktgbcd: "J",
-    upcode: "34600"
+    upcode: "34600",
   },
   {
     name: "대신밸런스제8호스팩",
@@ -22537,7 +22537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄷㅅㅂㄹㅅㅈ8ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2015"
+    upcode: "2015",
   },
   {
     name: "KODEX Fn멀티팩터",
@@ -22545,7 +22545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX Fnㅁㅌㅍㅌ",
     mktgbcd: "J",
-    upcode: "10800"
+    upcode: "10800",
   },
   {
     name: "KODEX 코스피대형주",
@@ -22553,7 +22553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅋㅅㅍㄷㅎㅈ",
     mktgbcd: "J",
-    upcode: "10855"
+    upcode: "10855",
   },
   {
     name: "KODEX 200exTOP",
@@ -22561,7 +22561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX 200exTOP",
     mktgbcd: "J",
-    upcode: "10580"
+    upcode: "10580",
   },
   {
     name: "KODEX 200ESG",
@@ -22569,7 +22569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX 200ESG",
     mktgbcd: "J",
-    upcode: "10545"
+    upcode: "10545",
   },
   {
     name: "SK5호스팩",
@@ -22577,7 +22577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SK5ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2005"
+    upcode: "2005",
   },
   {
     name: "브랜드엑스코퍼레이션",
@@ -22585,7 +22585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅂㄹㄷㅇㅅㅋㅍㄹㅇㅅ",
     mktgbcd: "Q",
-    upcode: "12100"
+    upcode: "12100",
   },
   {
     name: "NH프라임리츠",
@@ -22593,7 +22593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "NHㅍㄹㅇㄹㅊ",
     mktgbcd: "J",
-    upcode: "4250"
+    upcode: "4250",
   },
   {
     name: "엔에이치스팩15호",
@@ -22601,7 +22601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅊㅅㅍ15ㅎ",
     mktgbcd: "Q",
-    upcode: "1895"
+    upcode: "1895",
   },
   {
     name: "하이제5호스팩",
@@ -22609,7 +22609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅇㅈ5ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2010"
+    upcode: "2010",
   },
   {
     name: "SK6호스팩",
@@ -22617,7 +22617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SK6ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2000"
+    upcode: "2000",
   },
   {
     name: "유안타제6호스팩",
@@ -22625,7 +22625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅌㅈ6ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "1995"
+    upcode: "1995",
   },
   {
     name: "한화플러스제1호스팩",
@@ -22633,7 +22633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅎㅍㄹㅅㅈ1ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2005"
+    upcode: "2005",
   },
   {
     name: "하나금융15호스팩",
@@ -22641,7 +22641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄴㄱㅇ15ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2030"
+    upcode: "2030",
   },
   {
     name: "TIGER KIS부동산인프라채권TR",
@@ -22649,7 +22649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER KISㅂㄷㅅㅇㅍㄹㅊㄱTR",
     mktgbcd: "J",
-    upcode: "5195"
+    upcode: "5195",
   },
   {
     name: "KINDEX 모닝스타싱가포르리츠채권혼합",
@@ -22657,7 +22657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅁㄴㅅㅌㅅㄱㅍㄹㄹㅊㅊㄱㅎㅎ",
     mktgbcd: "J",
-    upcode: "10220"
+    upcode: "10220",
   },
   {
     name: "KBSTAR KRX국채선물3년10년스티프너",
@@ -22665,7 +22665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR KRXㄱㅊㅅㅁ3ㄴ10ㄴㅅㅌㅍㄴ",
     mktgbcd: "J",
-    upcode: "50785"
+    upcode: "50785",
   },
   {
     name: "케이비제20호스팩",
@@ -22673,7 +22673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅂㅈ20ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2000"
+    upcode: "2000",
   },
   {
     name: "KBSTAR KRX국채선물3년10년스티프너2X",
@@ -22681,7 +22681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR KRXㄱㅊㅅㅁ3ㄴ10ㄴㅅㅌㅍㄴ2X",
     mktgbcd: "J",
-    upcode: "51225"
+    upcode: "51225",
   },
   {
     name: "KBSTAR KRX국채선물3년10년플래트너",
@@ -22689,7 +22689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR KRXㄱㅊㅅㅁ3ㄴ10ㄴㅍㄹㅌㄴ",
     mktgbcd: "J",
-    upcode: "49940"
+    upcode: "49940",
   },
   {
     name: "KBSTAR KRX국채선물3년10년플래트너2X",
@@ -22697,7 +22697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR KRXㄱㅊㅅㅁ3ㄴ10ㄴㅍㄹㅌㄴ2X",
     mktgbcd: "J",
-    upcode: "49550"
+    upcode: "49550",
   },
   {
     name: "하나금융16호스팩",
@@ -22705,7 +22705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㄴㄱㅇ16ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2030"
+    upcode: "2030",
   },
   {
     name: "신영스팩6호",
@@ -22713,7 +22713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅇㅅㅍ6ㅎ",
     mktgbcd: "Q",
-    upcode: "2005"
+    upcode: "2005",
   },
   {
     name: "케이씨씨글라스",
@@ -22721,7 +22721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㅇㅆㅆㄱㄹㅅ",
     mktgbcd: "J",
-    upcode: "29000"
+    upcode: "29000",
   },
   {
     name: "HANARO KAP초장기국고채",
@@ -22729,7 +22729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "HANARO KAPㅊㅈㄱㄱㄱㅊ",
     mktgbcd: "J",
-    upcode: "50870"
+    upcode: "50870",
   },
   {
     name: "케이프이에스제4호",
@@ -22737,7 +22737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㅍㅇㅇㅅㅈ4ㅎ",
     mktgbcd: "Q",
-    upcode: "2015"
+    upcode: "2015",
   },
   {
     name: "피엔케이피부임상연구센타",
@@ -22745,7 +22745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅇㅋㅇㅍㅂㅇㅅㅇㄱㅅㅌ",
     mktgbcd: "Q",
-    upcode: "21450"
+    upcode: "21450",
   },
   {
     name: "핌스",
@@ -22753,7 +22753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅍㅅ",
     mktgbcd: "Q",
-    upcode: "15950"
+    upcode: "15950",
   },
   {
     name: "엠투아이",
@@ -22761,7 +22761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅌㅇㅇ",
     mktgbcd: "Q",
-    upcode: "14450"
+    upcode: "14450",
   },
   {
     name: "제이알글로벌리츠",
@@ -22769,7 +22769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅈㅇㅇㄱㄹㅂㄹㅊ",
     mktgbcd: "J",
-    upcode: "4945"
+    upcode: "4945",
   },
   {
     name: "이베스트스팩5호",
@@ -22777,7 +22777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅂㅅㅌㅅㅍ5ㅎ",
     mktgbcd: "Q",
-    upcode: "2000"
+    upcode: "2000",
   },
   {
     name: "이지스레지던스리츠",
@@ -22785,7 +22785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅈㅅㄹㅈㄷㅅㄹㅊ",
     mktgbcd: "J",
-    upcode: "4690"
+    upcode: "4690",
   },
   {
     name: "IBKS제14호스팩",
@@ -22793,7 +22793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "IBKSㅈ14ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2085"
+    upcode: "2085",
   },
   {
     name: "IBKS제13호스팩",
@@ -22801,7 +22801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "IBKSㅈ13ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2050"
+    upcode: "2050",
   },
   {
     name: "KODEX TSE일본리츠(H)",
@@ -22809,7 +22809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX TSEㅇㅂㄹㅊH",
     mktgbcd: "J",
-    upcode: "10640"
+    upcode: "10640",
   },
   {
     name: "KODEX 다우존스미국리츠(H)",
@@ -22817,7 +22817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㄷㅇㅈㅅㅁㄱㄹㅊH",
     mktgbcd: "J",
-    upcode: "10545"
+    upcode: "10545",
   },
   {
     name: "에이치엠씨제4호스팩",
@@ -22825,7 +22825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅊㅇㅆㅈ4ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2000"
+    upcode: "2000",
   },
   {
     name: "엔에이치스팩16호",
@@ -22833,7 +22833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅊㅅㅍ16ㅎ",
     mktgbcd: "Q",
-    upcode: "2030"
+    upcode: "2030",
   },
   {
     name: "대덕전자",
@@ -22841,7 +22841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㄷㅈㅈ",
     mktgbcd: "J",
-    upcode: "10700"
+    upcode: "10700",
   },
   {
     name: "대덕전자1우",
@@ -22849,7 +22849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㄷㅈㅈ1ㅇ",
     mktgbcd: "J",
-    upcode: "7250"
+    upcode: "7250",
   },
   {
     name: "미래에셋대우스팩 5호",
@@ -22857,7 +22857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㄹㅇㅅㄷㅇㅅㅍ 5ㅎ",
     mktgbcd: "Q",
-    upcode: "2260"
+    upcode: "2260",
   },
   {
     name: "이지바이오",
@@ -22865,7 +22865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅈㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "62500"
+    upcode: "62500",
   },
   {
     name: "KBSTAR 미국고정배당우선증권ICE TR",
@@ -22873,7 +22873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅁㄱㄱㅈㅂㄷㅇㅅㅈㄱICE TR",
     mktgbcd: "J",
-    upcode: "10155"
+    upcode: "10155",
   },
   {
     name: "HANARO 글로벌럭셔리S&P(합성)",
@@ -22881,7 +22881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "HANARO ㄱㄹㅂㄹㅅㄹSPㅎㅅ",
     mktgbcd: "J",
-    upcode: "12430"
+    upcode: "12430",
   },
   {
     name: "KINDEX 코스닥150",
@@ -22889,7 +22889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅋㅅㄷ150",
     mktgbcd: "J",
-    upcode: "13000"
+    upcode: "13000",
   },
   {
     name: "교보10호스팩",
@@ -22897,7 +22897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㅂ10ㅎㅅㅍ",
     mktgbcd: "Q",
-    upcode: "2020"
+    upcode: "2020",
   },
   {
     name: "KINDEX KIS종합채권(AA-이상)액티브",
@@ -22905,7 +22905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX KISㅈㅎㅊㄱAA-ㅇㅅㅇㅌㅂ",
     mktgbcd: "J",
-    upcode: "100380"
+    upcode: "100380",
   },
   {
     name: "코람코에너지리츠",
@@ -22913,7 +22913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅋㄹㅋㅇㄴㅈㄹㅊ",
     mktgbcd: "J",
-    upcode: "4715"
+    upcode: "4715",
   },
   {
     name: "미래에셋맵스리츠",
@@ -22921,7 +22921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅㅁㅅㄹㅊ",
     mktgbcd: "J",
-    upcode: "4750"
+    upcode: "4750",
   },
   {
     name: "솔브레인",
@@ -22929,7 +22929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅂㄹㅇ",
     mktgbcd: "Q",
-    upcode: "215900"
+    upcode: "215900",
   },
   {
     name: "TIGER CD금리투자KIS(합성)",
@@ -22937,7 +22937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER CDㄱㄹㅌㅈKISㅎㅅ",
     mktgbcd: "J",
-    upcode: "50095"
+    upcode: "50095",
   },
   {
     name: "엔에이치스팩17호",
@@ -22945,7 +22945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅇㅊㅅㅍ17ㅎ",
     mktgbcd: "Q",
-    upcode: "1990"
+    upcode: "1990",
   },
   {
     name: "KODEX 코스피TR",
@@ -22953,7 +22953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅋㅅㅍTR",
     mktgbcd: "J",
-    upcode: "10495"
+    upcode: "10495",
   },
   {
     name: "KODEX 200롱코스닥150숏선물",
@@ -22961,7 +22961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX 200ㄹㅋㅅㄷ150ㅅㅅㅁ",
     mktgbcd: "J",
-    upcode: "9855"
+    upcode: "9855",
   },
   {
     name: "KODEX 코스닥150롱코스피200숏선물",
@@ -22969,7 +22969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅋㅅㄷ150ㄹㅋㅅㅍ200ㅅㅅㅁ",
     mktgbcd: "J",
-    upcode: "10120"
+    upcode: "10120",
   },
   {
     name: "KINDEX 미국S&P500",
@@ -22977,7 +22977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KINDEX ㅁㄱSP500",
     mktgbcd: "J",
-    upcode: "9945"
+    upcode: "9945",
   },
   {
     name: "TIGER 미국S&P500",
@@ -22985,7 +22985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER ㅁㄱSP500",
     mktgbcd: "J",
-    upcode: "9830"
+    upcode: "9830",
   },
   {
     name: "KBSTAR 200TR",
@@ -22993,7 +22993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR 200TR",
     mktgbcd: "J",
-    upcode: "15425"
+    upcode: "15425",
   },
   {
     name: "KBSTAR 코스피ex200",
@@ -23001,7 +23001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KBSTAR ㅋㅅㅍex200",
     mktgbcd: "J",
-    upcode: "9970"
+    upcode: "9970",
   },
   {
     name: "티와이홀딩스",
@@ -23009,7 +23009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅌㅇㅇㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "22950"
+    upcode: "22950",
   },
   {
     name: "티와이홀딩스우",
@@ -23017,7 +23017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅌㅇㅇㅎㄷㅅㅇ",
     mktgbcd: "J",
-    upcode: "35700"
+    upcode: "35700",
   },
   {
     name: "SMART KIS단기통안채",
@@ -23025,7 +23025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "SMART KISㄷㄱㅌㅇㅊ",
     mktgbcd: "J",
-    upcode: "100015"
+    upcode: "100015",
   },
   {
     name: "KODEX 장기종합채권(AA-이상)액티브KAP",
@@ -23033,7 +23033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅈㄱㅈㅎㅊㄱAA-ㅇㅅㅇㅌㅂKAP",
     mktgbcd: "J",
-    upcode: "100320"
+    upcode: "100320",
   },
   {
     name: "KODEX 200IT TR",
@@ -23041,7 +23041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX 200IT TR",
     mktgbcd: "J",
-    upcode: "9725"
+    upcode: "9725",
   },
   {
     name: "KODEX 혁신기술테마액티브",
@@ -23049,7 +23049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KODEX ㅎㅅㄱㅅㅌㅁㅇㅌㅂ",
     mktgbcd: "J",
-    upcode: "9915"
+    upcode: "9915",
   },
   {
     name: "TIGER AI코리아그로스액티브",
@@ -23057,7 +23057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TIGER AIㅋㄹㅇㄱㄹㅅㅇㅌㅂ",
     mktgbcd: "J",
-    upcode: "10005"
+    upcode: "10005",
   },
   {
     name: "글로벌에스엠",
@@ -23065,7 +23065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㄹㅂㅇㅅㅇ",
     mktgbcd: "Q",
-    upcode: "512"
+    upcode: "512",
   },
   {
     name: "에스앤씨엔진그룹",
@@ -23073,7 +23073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅇㅆㅇㅈㄱㄹ",
     mktgbcd: "Q",
-    upcode: "197"
+    upcode: "197",
   },
   {
     name: "뉴프라이드",
@@ -23081,7 +23081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄴㅍㄹㅇㄷ",
     mktgbcd: "Q",
-    upcode: "717"
+    upcode: "717",
   },
   {
     name: "이스트아시아홀딩스",
@@ -23089,7 +23089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅌㅇㅅㅇㅎㄷㅅ",
     mktgbcd: "Q",
-    upcode: "265"
+    upcode: "265",
   },
   {
     name: "씨케이에이치",
@@ -23097,7 +23097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅆㅋㅇㅇㅇㅊ",
     mktgbcd: "Q",
-    upcode: "272"
+    upcode: "272",
   },
   {
     name: "엘브이엠씨홀딩스",
@@ -23105,7 +23105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅇㅂㅇㅇㅆㅎㄷㅅ",
     mktgbcd: "J",
-    upcode: "3560"
+    upcode: "3560",
   },
   {
     name: "크리스탈신소재",
@@ -23113,7 +23113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹㅅㅌㅅㅅㅈ",
     mktgbcd: "Q",
-    upcode: "1580"
+    upcode: "1580",
   },
   {
     name: "로스웰",
@@ -23121,7 +23121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄹㅅㅇ",
     mktgbcd: "Q",
-    upcode: "314"
+    upcode: "314",
   },
   {
     name: "헝셩그룹",
@@ -23129,7 +23129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅎㅅㄱㄹ",
     mktgbcd: "Q",
-    upcode: "625"
+    upcode: "625",
   },
   {
     name: "골든센츄리",
@@ -23137,7 +23137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㄱㄷㅅㅊㄹ",
     mktgbcd: "Q",
-    upcode: "241"
+    upcode: "241",
   },
   {
     name: "GRT",
@@ -23145,7 +23145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "GRT",
     mktgbcd: "Q",
-    upcode: "1370"
+    upcode: "1370",
   },
   {
     name: "오가닉티코스메틱",
@@ -23153,7 +23153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄱㄴㅌㅋㅅㅁㅌ",
     mktgbcd: "Q",
-    upcode: "720"
+    upcode: "720",
   },
   {
     name: "컬러레이",
@@ -23161,7 +23161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㄹㄹㅇ",
     mktgbcd: "Q",
-    upcode: "1650"
+    upcode: "1650",
   },
   {
     name: "윙입푸드",
@@ -23169,7 +23169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅇㅍㄷ",
     mktgbcd: "Q",
-    upcode: "1270"
+    upcode: "1270",
   },
   {
     name: "SBI핀테크솔루션즈",
@@ -23177,7 +23177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SBIㅍㅌㅋㅅㄹㅅㅈ",
     mktgbcd: "Q",
-    upcode: "7000"
+    upcode: "7000",
   },
   {
     name: "엑세스바이오",
@@ -23185,7 +23185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㅅㅅㅂㅇㅇ",
     mktgbcd: "Q",
-    upcode: "23200"
+    upcode: "23200",
   },
   {
     name: "잉글우드랩",
@@ -23193,7 +23193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅇㄱㅇㄷㄹ",
     mktgbcd: "Q",
-    upcode: "3975"
+    upcode: "3975",
   },
   {
     name: "코오롱티슈진",
@@ -23201,7 +23201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅋㅇㄹㅌㅅㅈ",
     mktgbcd: "Q",
-    upcode: "8010"
+    upcode: "8010",
   },
   {
     name: "JTC",
@@ -23209,7 +23209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "JTC",
     mktgbcd: "Q",
-    upcode: "3900"
+    upcode: "3900",
   },
   {
     name: "SNK",
@@ -23217,7 +23217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "SNK",
     mktgbcd: "Q",
-    upcode: "12800"
+    upcode: "12800",
   },
   {
     name: "미투젠",
@@ -23225,7 +23225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅁㅌㅈ",
     mktgbcd: "Q",
-    upcode: "27950"
+    upcode: "27950",
   },
   {
     name: "소마젠(Reg.S)",
@@ -23233,7 +23233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSDAQ",
     csname: "ㅅㅁㅈRegS",
     mktgbcd: "Q",
-    upcode: "13900"
+    upcode: "13900",
   },
   {
     name: "신한 K200 USD 선물 바이셀 ETN",
@@ -23241,7 +23241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ K200 USD ㅅㅁ ㅂㅇㅅ ETN",
     mktgbcd: "M",
-    upcode: "10410"
+    upcode: "10410",
   },
   {
     name: "신한 USD K200 선물 바이셀 ETN",
@@ -23249,7 +23249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ USD K200 ㅅㅁ ㅂㅇㅅ ETN",
     mktgbcd: "M",
-    upcode: "6920"
+    upcode: "6920",
   },
   {
     name: "신한 인버스 WTI원유 선물 ETN(H)",
@@ -23257,7 +23257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇㅂㅅ WTIㅇㅇ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "10385"
+    upcode: "10385",
   },
   {
     name: "신한 브렌트원유 선물 ETN(H)",
@@ -23265,7 +23265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅂㄹㅌㅇㅇ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "4985"
+    upcode: "4985",
   },
   {
     name: "신한 인버스 브렌트원유 선물 ETN(H)",
@@ -23273,7 +23273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇㅂㅅ ㅂㄹㅌㅇㅇ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "9000"
+    upcode: "9000",
   },
   {
     name: "신한 인버스 금 선물 ETN(H)",
@@ -23281,7 +23281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇㅂㅅ ㄱ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "6520"
+    upcode: "6520",
   },
   {
     name: "신한 인버스 은 선물 ETN(H)",
@@ -23289,7 +23289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇㅂㅅ ㅇ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "5670"
+    upcode: "5670",
   },
   {
     name: "신한 인버스 구리 선물 ETN(H)",
@@ -23297,7 +23297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇㅂㅅ ㄱㄹ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "8490"
+    upcode: "8490",
   },
   {
     name: "신한 다우존스지수 선물 ETN(H)",
@@ -23305,7 +23305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㄷㅇㅈㅅㅈㅅ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "16300"
+    upcode: "16300",
   },
   {
     name: "신한 인버스 다우존스지수 선물 ETN(H)",
@@ -23313,7 +23313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇㅂㅅ ㄷㅇㅈㅅㅈㅅ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "5200"
+    upcode: "5200",
   },
   {
     name: "신한 달러인덱스 선물 ETN(H)",
@@ -23321,7 +23321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㄷㄹㅇㄷㅅ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "10570"
+    upcode: "10570",
   },
   {
     name: "신한 인버스 달러인덱스 선물 ETN(H)",
@@ -23329,7 +23329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇㅂㅅ ㄷㄹㅇㄷㅅ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "9530"
+    upcode: "9530",
   },
   {
     name: "신한 옥수수 선물 ETN(H)",
@@ -23337,7 +23337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇㅅㅅ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "5595"
+    upcode: "5595",
   },
   {
     name: "신한 인버스 옥수수 선물 ETN(H)",
@@ -23345,7 +23345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇㅂㅅ ㅇㅅㅅ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "15255"
+    upcode: "15255",
   },
   {
     name: "신한 WTI원유 선물 ETN(H)",
@@ -23353,7 +23353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ WTIㅇㅇ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "2880"
+    upcode: "2880",
   },
   {
     name: "신한 금 선물 ETN(H)",
@@ -23361,7 +23361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㄱ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "14430"
+    upcode: "14430",
   },
   {
     name: "신한 은 선물 ETN(H)",
@@ -23369,7 +23369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "12635"
+    upcode: "12635",
   },
   {
     name: "신한 구리 선물 ETN(H)",
@@ -23377,7 +23377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㄱㄹ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "13215"
+    upcode: "13215",
   },
   {
     name: "신한 레버리지 WTI원유 선물 ETN(H)",
@@ -23385,7 +23385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㄹㅂㄹㅈ WTIㅇㅇ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "280"
+    upcode: "280",
   },
   {
     name: "신한 레버리지 다우존스지수 선물 ETN(H)",
@@ -23393,7 +23393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㄹㅂㄹㅈ ㄷㅇㅈㅅㅈㅅ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "22050"
+    upcode: "22050",
   },
   {
     name: "신한 천연가스 선물 ETN(H)",
@@ -23401,7 +23401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅊㅇㄱㅅ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "3255"
+    upcode: "3255",
   },
   {
     name: "신한 인버스 천연가스 선물 ETN(H)",
@@ -23409,7 +23409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇㅂㅅ ㅊㅇㄱㅅ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "14645"
+    upcode: "14645",
   },
   {
     name: "신한 콩 선물 ETN(H)",
@@ -23417,7 +23417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅋ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "7945"
+    upcode: "7945",
   },
   {
     name: "신한 인버스 콩 선물 ETN(H)",
@@ -23425,7 +23425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇㅂㅅ ㅋ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "11810"
+    upcode: "11810",
   },
   {
     name: "신한 인버스 2X WTI원유 선물 ETN(H)",
@@ -23433,7 +23433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇㅂㅅ 2X WTIㅇㅇ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "2225"
+    upcode: "2225",
   },
   {
     name: "신한 인버스 2X 다우존스지수 선물 ETN(H)",
@@ -23441,7 +23441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇㅂㅅ 2X ㄷㅇㅈㅅㅈㅅ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "3835"
+    upcode: "3835",
   },
   {
     name: "신한 레버리지 은 선물 ETN(H)",
@@ -23449,7 +23449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㄹㅂㄹㅈ ㅇ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "10125"
+    upcode: "10125",
   },
   {
     name: "신한 인버스 2X 은 선물 ETN(H)",
@@ -23457,7 +23457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇㅂㅅ 2X ㅇ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "3675"
+    upcode: "3675",
   },
   {
     name: "신한 레버리지 천연가스 선물 ETN(H)",
@@ -23465,7 +23465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㄹㅂㄹㅈ ㅊㅇㄱㅅ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "2450"
+    upcode: "2450",
   },
   {
     name: "신한 인버스 2X 천연가스 선물 ETN(H)",
@@ -23473,7 +23473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇㅂㅅ 2X ㅊㅇㄱㅅ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "6315"
+    upcode: "6315",
   },
   {
     name: "신한 레버리지 미국달러 선물 ETN",
@@ -23481,7 +23481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㄹㅂㄹㅈ ㅁㄱㄷㄹ ㅅㅁ ETN",
     mktgbcd: "M",
-    upcode: "11775"
+    upcode: "11775",
   },
   {
     name: "신한 인버스 2X 미국달러 선물 ETN",
@@ -23489,7 +23489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇㅂㅅ 2X ㅁㄱㄷㄹ ㅅㅁ ETN",
     mktgbcd: "M",
-    upcode: "7580"
+    upcode: "7580",
   },
   {
     name: "신한 레버리지 금 선물 ETN",
@@ -23497,7 +23497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㄹㅂㄹㅈ ㄱ ㅅㅁ ETN",
     mktgbcd: "M",
-    upcode: "18770"
+    upcode: "18770",
   },
   {
     name: "신한 인버스 2X 금 선물 ETN",
@@ -23505,7 +23505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇㅂㅅ 2X ㄱ ㅅㅁ ETN",
     mktgbcd: "M",
-    upcode: "5230"
+    upcode: "5230",
   },
   {
     name: "신한 코스피 콘도르 4/10% ETN",
@@ -23513,7 +23513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅋㅅㅍ ㅋㄷㄹ 4/10 ETN",
     mktgbcd: "M",
-    upcode: "8340"
+    upcode: "8340",
   },
   {
     name: "신한 레버리지 구리 선물 ETN",
@@ -23521,7 +23521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㄹㅂㄹㅈ ㄱㄹ ㅅㅁ ETN",
     mktgbcd: "M",
-    upcode: "11290"
+    upcode: "11290",
   },
   {
     name: "신한 인버스 2X 구리 선물 ETN",
@@ -23529,7 +23529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇㅂㅅ 2X ㄱㄹ ㅅㅁ ETN",
     mktgbcd: "M",
-    upcode: "7145"
+    upcode: "7145",
   },
   {
     name: "신한 코스피 콘도르 6/10% ETN",
@@ -23537,7 +23537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅋㅅㅍ ㅋㄷㄹ 6/10 ETN",
     mktgbcd: "M",
-    upcode: "9195"
+    upcode: "9195",
   },
   {
     name: "신한 코스피 콘도르 4/10% 콜 2204-01 ETN",
@@ -23545,7 +23545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅋㅅㅍ ㅋㄷㄹ 4/10 ㅋ 2204-01 ETN",
     mktgbcd: "M",
-    upcode: "8805"
+    upcode: "8805",
   },
   {
     name: "신한 코스피 콘도르 6/10% 콜 2204-01 ETN",
@@ -23553,7 +23553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅋㅅㅍ ㅋㄷㄹ 6/10 ㅋ 2204-01 ETN",
     mktgbcd: "M",
-    upcode: "9465"
+    upcode: "9465",
   },
   {
     name: "신한 S&P500 VIX S/T 선물 ETN B",
@@ -23561,7 +23561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ SP500 VIX S/T ㅅㅁ ETN B",
     mktgbcd: "M",
-    upcode: "19580"
+    upcode: "19580",
   },
   {
     name: "신한 코스피 월별 양매도 3% OTM ETN",
@@ -23569,7 +23569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅋㅅㅍ ㅇㅂ ㅇㅁㄷ 3 OTM ETN",
     mktgbcd: "M",
-    upcode: "8995"
+    upcode: "8995",
   },
   {
     name: "신한 코스피 월별 양매도 5% OTM ETN",
@@ -23577,7 +23577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅋㅅㅍ ㅇㅂ ㅇㅁㄷ 5 OTM ETN",
     mktgbcd: "M",
-    upcode: "9190"
+    upcode: "9190",
   },
   {
     name: "신한 코스피 월별 양매도 3% 콜 2206-1 ETN",
@@ -23585,7 +23585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅋㅅㅍ ㅇㅂ ㅇㅁㄷ 3 ㅋ 2206-1 ETN",
     mktgbcd: "M",
-    upcode: "8980"
+    upcode: "8980",
   },
   {
     name: "신한 코스피 월별 양매도 5% 콜 2206-1 ETN",
@@ -23593,7 +23593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅋㅅㅍ ㅇㅂ ㅇㅁㄷ 5 ㅋ 2206-1 ETN",
     mktgbcd: "M",
-    upcode: "9240"
+    upcode: "9240",
   },
   {
     name: "신한 레버리지 S&P500 선물 ETN",
@@ -23601,7 +23601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㄹㅂㄹㅈ SP500 ㅅㅁ ETN",
     mktgbcd: "M",
-    upcode: "11170"
+    upcode: "11170",
   },
   {
     name: "신한 인버스 2X S&P500 선물 ETN",
@@ -23609,7 +23609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇㅂㅅ 2X SP500 ㅅㅁ ETN",
     mktgbcd: "M",
-    upcode: "5710"
+    upcode: "5710",
   },
   {
     name: "신한 FnGuide 5G 테마주 ETN",
@@ -23617,7 +23617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ FnGuide 5G ㅌㅁㅈ ETN",
     mktgbcd: "M",
-    upcode: "14530"
+    upcode: "14530",
   },
   {
     name: "신한 레버리지 천연가스 선물 ETN",
@@ -23625,7 +23625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㄹㅂㄹㅈ ㅊㅇㄱㅅ ㅅㅁ ETN",
     mktgbcd: "M",
-    upcode: "8220"
+    upcode: "8220",
   },
   {
     name: "신한 인버스 2X 천연가스 선물 ETN",
@@ -23633,7 +23633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅎ ㅇㅂㅅ 2X ㅊㅇㄱㅅ ㅅㅁ ETN",
     mktgbcd: "M",
-    upcode: "9245"
+    upcode: "9245",
   },
   {
     name: "대신 WTI원유 선물 ETN(H)",
@@ -23641,7 +23641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅ WTIㅇㅇ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "3960"
+    upcode: "3960",
   },
   {
     name: "대신 아연선물 ETN(H)",
@@ -23649,7 +23649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅ ㅇㅇㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "9335"
+    upcode: "9335",
   },
   {
     name: "대신 니켈선물 ETN(H)",
@@ -23657,7 +23657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅ ㄴㅋㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "13655"
+    upcode: "13655",
   },
   {
     name: "대신 인버스 아연선물 ETN(H)",
@@ -23665,7 +23665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅ ㅇㅂㅅ ㅇㅇㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "10705"
+    upcode: "10705",
   },
   {
     name: "대신 2X 아연선물 ETN(H)",
@@ -23673,7 +23673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅ 2X ㅇㅇㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "5765"
+    upcode: "5765",
   },
   {
     name: "대신 인버스 니켈선물 ETN(H)",
@@ -23681,7 +23681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅ ㅇㅂㅅ ㄴㅋㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "6740"
+    upcode: "6740",
   },
   {
     name: "대신 2X 니켈선물 ETN(H)",
@@ -23689,7 +23689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅ 2X ㄴㅋㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "11890"
+    upcode: "11890",
   },
   {
     name: "대신 철광석 선물 ETN(H)",
@@ -23697,7 +23697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅ ㅊㄱㅅ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "28250"
+    upcode: "28250",
   },
   {
     name: "대신 인버스 철광석 선물 ETN(H)",
@@ -23705,7 +23705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅ ㅇㅂㅅ ㅊㄱㅅ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "2705"
+    upcode: "2705",
   },
   {
     name: "대신 인버스 2X 니켈선물 ETN(H)",
@@ -23713,7 +23713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅ ㅇㅂㅅ 2X ㄴㅋㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "7790"
+    upcode: "7790",
   },
   {
     name: "대신 골드 커버드콜 타겟 5%인컴 ETN(H)",
@@ -23721,7 +23721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㄷㅅ ㄱㄷ ㅋㅂㄷㅋ ㅌㄱ 5ㅇㅋ ETNH",
     mktgbcd: "M",
-    upcode: "13095"
+    upcode: "13095",
   },
   {
     name: "미래에셋 원자재 선물 ETN(H)",
@@ -23729,7 +23729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅇㅈㅈ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "7810"
+    upcode: "7810",
   },
   {
     name: "미래에셋 전기전자 Core5 ETN",
@@ -23737,7 +23737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅈㄱㅈㅈ Core5 ETN",
     mktgbcd: "M",
-    upcode: "22270"
+    upcode: "22270",
   },
   {
     name: "미래에셋 인버스 전기전자 Core5 ETN",
@@ -23745,7 +23745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅇㅂㅅ ㅈㄱㅈㅈ Core5 ETN",
     mktgbcd: "M",
-    upcode: "3640"
+    upcode: "3640",
   },
   {
     name: "미래에셋 에너지화학 Core5 ETN",
@@ -23753,7 +23753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅇㄴㅈㅎㅎ Core5 ETN",
     mktgbcd: "M",
-    upcode: "11500"
+    upcode: "11500",
   },
   {
     name: "미래에셋 인버스 에너지화학 Core5 ETN",
@@ -23761,7 +23761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅇㅂㅅ ㅇㄴㅈㅎㅎ Core5 ETN",
     mktgbcd: "M",
-    upcode: "6595"
+    upcode: "6595",
   },
   {
     name: "미래에셋 레버리지 원유선물혼합 ETN(H)",
@@ -23769,7 +23769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㄹㅂㄹㅈ ㅇㅇㅅㅁㅎㅎ ETNH",
     mktgbcd: "M",
-    upcode: "1910"
+    upcode: "1910",
   },
   {
     name: "미래에셋 원유선물혼합 ETN(H)",
@@ -23777,7 +23777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅇㅇㅅㅁㅎㅎ ETNH",
     mktgbcd: "M",
-    upcode: "11140"
+    upcode: "11140",
   },
   {
     name: "미래에셋 인버스 원유선물혼합 ETN(H)",
@@ -23785,7 +23785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅇㅂㅅ ㅇㅇㅅㅁㅎㅎ ETNH",
     mktgbcd: "M",
-    upcode: "14600"
+    upcode: "14600",
   },
   {
     name: "미래에셋 호주 ASX200 ETN(H)",
@@ -23793,7 +23793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅎㅈ ASX200 ETNH",
     mktgbcd: "M",
-    upcode: "12090"
+    upcode: "12090",
   },
   {
     name: "미래에셋 Q150 Core5 ETN",
@@ -23801,7 +23801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ Q150 Core5 ETN",
     mktgbcd: "M",
-    upcode: "10100"
+    upcode: "10100",
   },
   {
     name: "미래에셋 미디어엔터 Core5 ETN",
@@ -23809,7 +23809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅁㄷㅇㅇㅌ Core5 ETN",
     mktgbcd: "M",
-    upcode: "15865"
+    upcode: "15865",
   },
   {
     name: "미래에셋 인버스 미디어엔터 Core5 ETN",
@@ -23817,7 +23817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅇㅂㅅ ㅁㄷㅇㅇㅌ Core5 ETN",
     mktgbcd: "M",
-    upcode: "10425"
+    upcode: "10425",
   },
   {
     name: "미래에셋 미국 시니어론 100 ETN(H)",
@@ -23825,7 +23825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅁㄱ ㅅㄴㅇㄹ 100 ETNH",
     mktgbcd: "M",
-    upcode: "10745"
+    upcode: "10745",
   },
   {
     name: "미래에셋 미국 시니어론 100 ETN",
@@ -23833,7 +23833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅁㄱ ㅅㄴㅇㄹ 100 ETN",
     mktgbcd: "M",
-    upcode: "11245"
+    upcode: "11245",
   },
   {
     name: "미래에셋 코스피 양매도 5% OTM ETN",
@@ -23841,7 +23841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅋㅅㅍ ㅇㅁㄷ 5 OTM ETN",
     mktgbcd: "M",
-    upcode: "8710"
+    upcode: "8710",
   },
   {
     name: "삼성 인버스 China A50 선물 ETN(H)",
@@ -23849,7 +23849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅇㅂㅅ China A50 ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "9805"
+    upcode: "9805",
   },
   {
     name: "삼성 모멘텀 탑픽 ETN",
@@ -23857,7 +23857,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅁㅁㅌ ㅌㅍ ETN",
     mktgbcd: "M",
-    upcode: "5450"
+    upcode: "5450",
   },
   {
     name: "삼성 화장품 테마주 ETN",
@@ -23865,7 +23865,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅎㅈㅍ ㅌㅁㅈ ETN",
     mktgbcd: "M",
-    upcode: "4320"
+    upcode: "4320",
   },
   {
     name: "삼성 바이오 테마주 ETN",
@@ -23873,7 +23873,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅂㅇㅇ ㅌㅁㅈ ETN",
     mktgbcd: "M",
-    upcode: "15530"
+    upcode: "15530",
   },
   {
     name: "삼성 음식료 테마주 ETN",
@@ -23881,7 +23881,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅇㅅㄹ ㅌㅁㅈ ETN",
     mktgbcd: "M",
-    upcode: "6590"
+    upcode: "6590",
   },
   {
     name: "삼성 레저 테마주 ETN",
@@ -23889,7 +23889,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㄹㅈ ㅌㅁㅈ ETN",
     mktgbcd: "M",
-    upcode: "4220"
+    upcode: "4220",
   },
   {
     name: "삼성 미디어 테마주 ETN",
@@ -23897,7 +23897,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅁㄷㅇ ㅌㅁㅈ ETN",
     mktgbcd: "M",
-    upcode: "7020"
+    upcode: "7020",
   },
   {
     name: "삼성 증권 테마주 ETN",
@@ -23905,7 +23905,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅈㄱ ㅌㅁㅈ ETN",
     mktgbcd: "M",
-    upcode: "8285"
+    upcode: "8285",
   },
   {
     name: "삼성 건축자재 테마주 ETN",
@@ -23913,7 +23913,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㄱㅊㅈㅈ ㅌㅁㅈ ETN",
     mktgbcd: "M",
-    upcode: "3195"
+    upcode: "3195",
   },
   {
     name: "삼성 온라인쇼핑 테마주 ETN",
@@ -23921,7 +23921,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅇㄹㅇㅅㅍ ㅌㅁㅈ ETN",
     mktgbcd: "M",
-    upcode: "7805"
+    upcode: "7805",
   },
   {
     name: "삼성 화학 테마주 ETN",
@@ -23929,7 +23929,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅎㅎ ㅌㅁㅈ ETN",
     mktgbcd: "M",
-    upcode: "17200"
+    upcode: "17200",
   },
   {
     name: "삼성 KTOP30 ETN",
@@ -23937,7 +23937,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ KTOP30 ETN",
     mktgbcd: "M",
-    upcode: "13530"
+    upcode: "13530",
   },
   {
     name: "삼성 China A50 선물 ETN(H)",
@@ -23945,7 +23945,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ China A50 ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "16790"
+    upcode: "16790",
   },
   {
     name: "삼성 미국 대형 성장주 ETN(H)",
@@ -23953,7 +23953,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅁㄱ ㄷㅎ ㅅㅈㅈ ETNH",
     mktgbcd: "M",
-    upcode: "16670"
+    upcode: "16670",
   },
   {
     name: "삼성 미국 대형 가치주 ETN(H)",
@@ -23961,7 +23961,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅁㄱ ㄷㅎ ㄱㅊㅈ ETNH",
     mktgbcd: "M",
-    upcode: "9790"
+    upcode: "9790",
   },
   {
     name: "삼성 미국 중소형 성장주 ETN(H)",
@@ -23969,7 +23969,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅁㄱ ㅈㅅㅎ ㅅㅈㅈ ETNH",
     mktgbcd: "M",
-    upcode: "12145"
+    upcode: "12145",
   },
   {
     name: "삼성 미국 중소형 가치주 ETN(H)",
@@ -23977,7 +23977,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅁㄱ ㅈㅅㅎ ㄱㅊㅈ ETNH",
     mktgbcd: "M",
-    upcode: "9220"
+    upcode: "9220",
   },
   {
     name: "삼성 미국 대형 성장주 ETN",
@@ -23985,7 +23985,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅁㄱ ㄷㅎ ㅅㅈㅈ ETN",
     mktgbcd: "M",
-    upcode: "16980"
+    upcode: "16980",
   },
   {
     name: "삼성 미국 대형 가치주 ETN",
@@ -23993,7 +23993,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅁㄱ ㄷㅎ ㄱㅊㅈ ETN",
     mktgbcd: "M",
-    upcode: "9915"
+    upcode: "9915",
   },
   {
     name: "삼성 미국 중소형 성장주 ETN",
@@ -24001,7 +24001,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅁㄱ ㅈㅅㅎ ㅅㅈㅈ ETN",
     mktgbcd: "M",
-    upcode: "12370"
+    upcode: "12370",
   },
   {
     name: "삼성 미국 중소형 가치주 ETN",
@@ -24009,7 +24009,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅁㄱ ㅈㅅㅎ ㄱㅊㅈ ETN",
     mktgbcd: "M",
-    upcode: "9390"
+    upcode: "9390",
   },
   {
     name: "삼성 레버리지 China A50 선물 ETN(H)",
@@ -24017,7 +24017,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㄹㅂㄹㅈ China A50 ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "47405"
+    upcode: "47405",
   },
   {
     name: "삼성 레버리지 WTI원유 선물 ETN",
@@ -24025,7 +24025,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㄹㅂㄹㅈ WTIㅇㅇ ㅅㅁ ETN",
     mktgbcd: "M",
-    upcode: "345"
+    upcode: "345",
   },
   {
     name: "삼성 Cushing 에너지인프라 MLP ETN",
@@ -24033,7 +24033,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ Cushing ㅇㄴㅈㅇㅍㄹ MLP ETN",
     mktgbcd: "M",
-    upcode: "4935"
+    upcode: "4935",
   },
   {
     name: "삼성 Alerian 에너지인프라 MLP ETN",
@@ -24041,7 +24041,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ Alerian ㅇㄴㅈㅇㅍㄹ MLP ETN",
     mktgbcd: "M",
-    upcode: "4420"
+    upcode: "4420",
   },
   {
     name: "삼성 인버스 2X WTI원유 선물 ETN",
@@ -24049,7 +24049,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅇㅂㅅ 2X WTIㅇㅇ ㅅㅁ ETN",
     mktgbcd: "M",
-    upcode: "2205"
+    upcode: "2205",
   },
   {
     name: "삼성 레버리지 천연가스 선물 ETN",
@@ -24057,7 +24057,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㄹㅂㄹㅈ ㅊㅇㄱㅅ ㅅㅁ ETN",
     mktgbcd: "M",
-    upcode: "2575"
+    upcode: "2575",
   },
   {
     name: "삼성 인버스 2X 천연가스 선물 ETN",
@@ -24065,7 +24065,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅇㅂㅅ 2X ㅊㅇㄱㅅ ㅅㅁ ETN",
     mktgbcd: "M",
-    upcode: "13225"
+    upcode: "13225",
   },
   {
     name: "삼성 코스피 풋매도 ETN",
@@ -24073,7 +24073,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅋㅅㅍ ㅍㅁㄷ ETN",
     mktgbcd: "M",
-    upcode: "9980"
+    upcode: "9980",
   },
   {
     name: "삼성 레버리지 금 선물 ETN(H)",
@@ -24081,7 +24081,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㄹㅂㄹㅈ ㄱ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "34265"
+    upcode: "34265",
   },
   {
     name: "삼성 인버스 2X 금 선물 ETN(H)",
@@ -24089,7 +24089,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅇㅂㅅ 2X ㄱ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "9570"
+    upcode: "9570",
   },
   {
     name: "삼성 코스피 양매도 5% OTM ETN",
@@ -24097,7 +24097,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅋㅅㅍ ㅇㅁㄷ 5 OTM ETN",
     mktgbcd: "M",
-    upcode: "8700"
+    upcode: "8700",
   },
   {
     name: "삼성 레버리지 은 선물 ETN(H)",
@@ -24105,7 +24105,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㄹㅂㄹㅈ ㅇ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "16810"
+    upcode: "16810",
   },
   {
     name: "삼성 인버스 2X 은 선물 ETN(H)",
@@ -24113,7 +24113,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅇㅂㅅ 2X ㅇ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "2525"
+    upcode: "2525",
   },
   {
     name: "삼성 레버리지 구리 선물 ETN(H)",
@@ -24121,7 +24121,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㄹㅂㄹㅈ ㄱㄹ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "10260"
+    upcode: "10260",
   },
   {
     name: "삼성 인버스 2X 구리 선물 ETN(H)",
@@ -24129,7 +24129,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅇㅂㅅ 2X ㄱㄹ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "7390"
+    upcode: "7390",
   },
   {
     name: "삼성 S&P500 VIX S/T 선물 ETN(H) B",
@@ -24137,7 +24137,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ SP500 VIX S/T ㅅㅁ ETNH B",
     mktgbcd: "M",
-    upcode: "18895"
+    upcode: "18895",
   },
   {
     name: "삼성 코스피 풋매도 4% OTM ETN",
@@ -24145,7 +24145,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅋㅅㅍ ㅍㅁㄷ 4 OTM ETN",
     mktgbcd: "M",
-    upcode: "9870"
+    upcode: "9870",
   },
   {
     name: "삼성 KRX 금현물 ETN",
@@ -24153,7 +24153,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ KRX ㄱㅎㅁ ETN",
     mktgbcd: "M",
-    upcode: "12490"
+    upcode: "12490",
   },
   {
     name: "삼성 레버리지 천연가스 선물 ETN B",
@@ -24161,7 +24161,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㄹㅂㄹㅈ ㅊㅇㄱㅅ ㅅㅁ ETN B",
     mktgbcd: "M",
-    upcode: "14765"
+    upcode: "14765",
   },
   {
     name: "삼성 인버스 2X 천연가스 선물 ETN B",
@@ -24169,7 +24169,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅅㅅ ㅇㅂㅅ 2X ㅊㅇㄱㅅ ㅅㅁ ETN B",
     mktgbcd: "M",
-    upcode: "24045"
+    upcode: "24045",
   },
   {
     name: "QV Big Vol ETN",
@@ -24177,7 +24177,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV Big Vol ETN",
     mktgbcd: "M",
-    upcode: "11625"
+    upcode: "11625",
   },
   {
     name: "QV WISE 배당 ETN",
@@ -24185,7 +24185,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV WISE ㅂㄷ ETN",
     mktgbcd: "M",
-    upcode: "8470"
+    upcode: "8470",
   },
   {
     name: "QV 롱숏 K150 매수 로우볼 매도 ETN",
@@ -24193,7 +24193,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㄹㅅ K150 ㅁㅅ ㄹㅇㅂ ㅁㄷ ETN",
     mktgbcd: "M",
-    upcode: "10605"
+    upcode: "10605",
   },
   {
     name: "QV 에너지 TOP5 ETN",
@@ -24201,7 +24201,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㅇㄴㅈ TOP5 ETN",
     mktgbcd: "M",
-    upcode: "7570"
+    upcode: "7570",
   },
   {
     name: "QV 내수소비 TOP5 ETN",
@@ -24209,7 +24209,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㄴㅅㅅㅂ TOP5 ETN",
     mktgbcd: "M",
-    upcode: "6815"
+    upcode: "6815",
   },
   {
     name: "QV 조선 TOP5 ETN",
@@ -24217,7 +24217,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㅈㅅ TOP5 ETN",
     mktgbcd: "M",
-    upcode: "8400"
+    upcode: "8400",
   },
   {
     name: "QV 소프트웨어 TOP5 ETN",
@@ -24225,7 +24225,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㅅㅍㅌㅇㅇ TOP5 ETN",
     mktgbcd: "M",
-    upcode: "22845"
+    upcode: "22845",
   },
   {
     name: "QV 하드웨어 TOP5 ETN",
@@ -24233,7 +24233,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㅎㄷㅇㅇ TOP5 ETN",
     mktgbcd: "M",
-    upcode: "21235"
+    upcode: "21235",
   },
   {
     name: "QV 운송 TOP5 ETN",
@@ -24241,7 +24241,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㅇㅅ TOP5 ETN",
     mktgbcd: "M",
-    upcode: "7380"
+    upcode: "7380",
   },
   {
     name: "QV 자동차 TOP5 ETN",
@@ -24249,7 +24249,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㅈㄷㅊ TOP5 ETN",
     mktgbcd: "M",
-    upcode: "11595"
+    upcode: "11595",
   },
   {
     name: "QV 의료 TOP5 ETN",
@@ -24257,7 +24257,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㅇㄹ TOP5 ETN",
     mktgbcd: "M",
-    upcode: "13550"
+    upcode: "13550",
   },
   {
     name: "QV 화학 TOP5 ETN",
@@ -24265,7 +24265,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㅎㅎ TOP5 ETN",
     mktgbcd: "M",
-    upcode: "13510"
+    upcode: "13510",
   },
   {
     name: "QV 바이오 TOP5 ETN",
@@ -24273,7 +24273,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㅂㅇㅇ TOP5 ETN",
     mktgbcd: "M",
-    upcode: "18010"
+    upcode: "18010",
   },
   {
     name: "QV 제약 TOP5 ETN",
@@ -24281,7 +24281,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㅈㅇ TOP5 ETN",
     mktgbcd: "M",
-    upcode: "6105"
+    upcode: "6105",
   },
   {
     name: "QV 건설 TOP5 ETN",
@@ -24289,7 +24289,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㄱㅅ TOP5 ETN",
     mktgbcd: "M",
-    upcode: "5755"
+    upcode: "5755",
   },
   {
     name: "QV CHINEXT ETN(H)",
@@ -24297,7 +24297,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV CHINEXT ETNH",
     mktgbcd: "M",
-    upcode: "8575"
+    upcode: "8575",
   },
   {
     name: "QV KTOP30 ETN",
@@ -24305,7 +24305,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV KTOP30 ETN",
     mktgbcd: "M",
-    upcode: "13450"
+    upcode: "13450",
   },
   {
     name: "QV 스마트리밸런싱 260/4 ETN",
@@ -24313,7 +24313,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㅅㅁㅌㄹㅂㄹㅅ 260/4 ETN",
     mktgbcd: "M",
-    upcode: "10540"
+    upcode: "10540",
   },
   {
     name: "QV 미국 IT TOP5 ETN(H)",
@@ -24321,7 +24321,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㅁㄱ IT TOP5 ETNH",
     mktgbcd: "M",
-    upcode: "22750"
+    upcode: "22750",
   },
   {
     name: "QV 레버리지 WTI원유 선물 ETN(H)",
@@ -24329,7 +24329,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㄹㅂㄹㅈ WTIㅇㅇ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "275"
+    upcode: "275",
   },
   {
     name: "QV 인버스 레버리지 WTI원유 선물 ETN(H)",
@@ -24337,7 +24337,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㅇㅂㅅ ㄹㅂㄹㅈ WTIㅇㅇ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "2035"
+    upcode: "2035",
   },
   {
     name: "QV 레버리지 S&P500 ETN",
@@ -24345,7 +24345,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㄹㅂㄹㅈ SP500 ETN",
     mktgbcd: "M",
-    upcode: "14965"
+    upcode: "14965",
   },
   {
     name: "QV 인버스 레버리지 S&P500 ETN",
@@ -24353,7 +24353,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㅇㅂㅅ ㄹㅂㄹㅈ SP500 ETN",
     mktgbcd: "M",
-    upcode: "3845"
+    upcode: "3845",
   },
   {
     name: "QV 레버리지 10년 국채선물 ETN",
@@ -24361,7 +24361,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㄹㅂㄹㅈ 10ㄴ ㄱㅊㅅㅁ ETN",
     mktgbcd: "M",
-    upcode: "25300"
+    upcode: "25300",
   },
   {
     name: "QV 인버스 레버리지 10년 국채선물 ETN",
@@ -24369,7 +24369,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㅇㅂㅅ ㄹㅂㄹㅈ 10ㄴ ㄱㅊㅅㅁ ETN",
     mktgbcd: "M",
-    upcode: "16360"
+    upcode: "16360",
   },
   {
     name: "QV MSCI 선진국 ETN",
@@ -24377,7 +24377,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV MSCI ㅅㅈㄱ ETN",
     mktgbcd: "M",
-    upcode: "10240"
+    upcode: "10240",
   },
   {
     name: "QV 인버스 MSCI 선진국 ETN",
@@ -24385,7 +24385,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㅇㅂㅅ MSCI ㅅㅈㄱ ETN",
     mktgbcd: "M",
-    upcode: "10150"
+    upcode: "10150",
   },
   {
     name: "QV 레버리지 MSCI 선진국 ETN",
@@ -24393,7 +24393,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㄹㅂㄹㅈ MSCI ㅅㅈㄱ ETN",
     mktgbcd: "M",
-    upcode: "9100"
+    upcode: "9100",
   },
   {
     name: "QV 인버스 레버리지 MSCI 선진국 ETN",
@@ -24401,7 +24401,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㅇㅂㅅ ㄹㅂㄹㅈ MSCI ㅅㅈㄱ ETN",
     mktgbcd: "M",
-    upcode: "9045"
+    upcode: "9045",
   },
   {
     name: "QV 코스피 양매도 5% OTM ETN",
@@ -24409,7 +24409,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㅋㅅㅍ ㅇㅁㄷ 5 OTM ETN",
     mktgbcd: "M",
-    upcode: "8675"
+    upcode: "8675",
   },
   {
     name: "QV 코스피 변동성 매칭형 양매도 ETN",
@@ -24417,7 +24417,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV ㅋㅅㅍ ㅂㄷㅅ ㅁㅊㅎ ㅇㅁㄷ ETN",
     mktgbcd: "M",
-    upcode: "8300"
+    upcode: "8300",
   },
   {
     name: "QV S&P500 VIX S/T 선물 ETN B",
@@ -24425,7 +24425,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "QV SP500 VIX S/T ㅅㅁ ETN B",
     mktgbcd: "M",
-    upcode: "19485"
+    upcode: "19485",
   },
   {
     name: "TRUE 빅5 동일가중 ETN",
@@ -24433,7 +24433,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅂ5 ㄷㅇㄱㅈ ETN",
     mktgbcd: "M",
-    upcode: "14440"
+    upcode: "14440",
   },
   {
     name: "TRUE 섹터탑픽 ETN",
@@ -24441,7 +24441,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅅㅌㅌㅍ ETN",
     mktgbcd: "M",
-    upcode: "8655"
+    upcode: "8655",
   },
   {
     name: "TRUE 코리아프리미어 ETN",
@@ -24449,7 +24449,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅋㄹㅇㅍㄹㅁㅇ ETN",
     mktgbcd: "M",
-    upcode: "11150"
+    upcode: "11150",
   },
   {
     name: "TRUE 코스피 양매도 5% OTM ETN",
@@ -24457,7 +24457,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅋㅅㅍ ㅇㅁㄷ 5 OTM ETN",
     mktgbcd: "M",
-    upcode: "9080"
+    upcode: "9080",
   },
   {
     name: "TRUE 코스피 커버드콜 ETN B",
@@ -24465,7 +24465,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅋㅅㅍ ㅋㅂㄷㅋ ETN B",
     mktgbcd: "M",
-    upcode: "9420"
+    upcode: "9420",
   },
   {
     name: "TRUE 코스피 커버드풋 ETN B",
@@ -24473,7 +24473,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅋㅅㅍ ㅋㅂㄷㅍ ETN B",
     mktgbcd: "M",
-    upcode: "9325"
+    upcode: "9325",
   },
   {
     name: "TRUE 레버리지 S&P500 선물 ETN(H)",
@@ -24481,7 +24481,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㄹㅂㄹㅈ SP500 ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "14675"
+    upcode: "14675",
   },
   {
     name: "TRUE 인버스 2X S&P500 선물 ETN(H)",
@@ -24489,7 +24489,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅇㅂㅅ 2X SP500 ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "3900"
+    upcode: "3900",
   },
   {
     name: "TRUE 코스피 타겟볼20 ETN",
@@ -24497,7 +24497,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅋㅅㅍ ㅌㄱㅂ20 ETN",
     mktgbcd: "M",
-    upcode: "9050"
+    upcode: "9050",
   },
   {
     name: "TRUE 인버스 유로스탁스50 ETN(H) B",
@@ -24505,7 +24505,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅇㅂㅅ ㅇㄹㅅㅌㅅ50 ETNH B",
     mktgbcd: "M",
-    upcode: "8135"
+    upcode: "8135",
   },
   {
     name: "TRUE 레버리지 유로스탁스50 ETN(H)",
@@ -24513,7 +24513,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㄹㅂㄹㅈ ㅇㄹㅅㅌㅅ50 ETNH",
     mktgbcd: "M",
-    upcode: "9190"
+    upcode: "9190",
   },
   {
     name: "TRUE 인버스 2X 유로스탁스50 ETN(H)",
@@ -24521,7 +24521,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅇㅂㅅ 2X ㅇㄹㅅㅌㅅ50 ETNH",
     mktgbcd: "M",
-    upcode: "6030"
+    upcode: "6030",
   },
   {
     name: "TRUE 인버스 HSCEI ETN(H) B",
@@ -24529,7 +24529,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅇㅂㅅ HSCEI ETNH B",
     mktgbcd: "M",
-    upcode: "10805"
+    upcode: "10805",
   },
   {
     name: "TRUE 코스피 양매도 3% OTM ETN",
@@ -24537,7 +24537,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅋㅅㅍ ㅇㅁㄷ 3 OTM ETN",
     mktgbcd: "M",
-    upcode: "8360"
+    upcode: "8360",
   },
   {
     name: "TRUE 코스피 양매도 ATM ETN",
@@ -24545,7 +24545,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅋㅅㅍ ㅇㅁㄷ ATM ETN",
     mktgbcd: "M",
-    upcode: "8485"
+    upcode: "8485",
   },
   {
     name: "TRUE 레버리지 HSCEI ETN(H)",
@@ -24553,7 +24553,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㄹㅂㄹㅈ HSCEI ETNH",
     mktgbcd: "M",
-    upcode: "8280"
+    upcode: "8280",
   },
   {
     name: "TRUE 인버스 2X HSCEI ETN(H)",
@@ -24561,7 +24561,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅇㅂㅅ 2X HSCEI ETNH",
     mktgbcd: "M",
-    upcode: "8575"
+    upcode: "8575",
   },
   {
     name: "TRUE 엔선물 ETN B",
@@ -24569,7 +24569,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅇㅅㅁ ETN B",
     mktgbcd: "M",
-    upcode: "10600"
+    upcode: "10600",
   },
   {
     name: "TRUE 레버리지 엔선물 ETN B",
@@ -24577,7 +24577,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㄹㅂㄹㅈ ㅇㅅㅁ ETN B",
     mktgbcd: "M",
-    upcode: "10860"
+    upcode: "10860",
   },
   {
     name: "TRUE 인버스 엔선물 ETN B",
@@ -24585,7 +24585,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅇㅂㅅ ㅇㅅㅁ ETN B",
     mktgbcd: "M",
-    upcode: "9270"
+    upcode: "9270",
   },
   {
     name: "TRUE 유로선물 ETN B",
@@ -24593,7 +24593,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅇㄹㅅㅁ ETN B",
     mktgbcd: "M",
-    upcode: "10440"
+    upcode: "10440",
   },
   {
     name: "TRUE 인버스 유로선물 ETN B",
@@ -24601,7 +24601,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅇㅂㅅ ㅇㄹㅅㅁ ETN B",
     mktgbcd: "M",
-    upcode: "9470"
+    upcode: "9470",
   },
   {
     name: "TRUE 인버스 나스닥 100 ETN",
@@ -24609,7 +24609,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅇㅂㅅ ㄴㅅㄷ 100 ETN",
     mktgbcd: "M",
-    upcode: "6155"
+    upcode: "6155",
   },
   {
     name: "TRUE 레버리지 나스닥 100 ETN",
@@ -24617,7 +24617,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㄹㅂㄹㅈ ㄴㅅㄷ 100 ETN",
     mktgbcd: "M",
-    upcode: "17215"
+    upcode: "17215",
   },
   {
     name: "TRUE 인버스 2X 나스닥 100 ETN",
@@ -24625,7 +24625,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅇㅂㅅ 2X ㄴㅅㄷ 100 ETN",
     mktgbcd: "M",
-    upcode: "3345"
+    upcode: "3345",
   },
   {
     name: "TRUE 레버리지 천연가스 선물 ETN(H)",
@@ -24633,7 +24633,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㄹㅂㄹㅈ ㅊㅇㄱㅅ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "7720"
+    upcode: "7720",
   },
   {
     name: "TRUE 인버스 2X 천연가스 선물 ETN(H)",
@@ -24641,7 +24641,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅇㅂㅅ 2X ㅊㅇㄱㅅ ㅅㅁ ETNH",
     mktgbcd: "M",
-    upcode: "19130"
+    upcode: "19130",
   },
   {
     name: "TRUE FTSE100 ETN",
@@ -24649,7 +24649,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE FTSE100 ETN",
     mktgbcd: "M",
-    upcode: "10355"
+    upcode: "10355",
   },
   {
     name: "TRUE 유로스탁스50 양매도 5% OTM ETN(H)",
@@ -24657,7 +24657,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㅇㄹㅅㅌㅅ50 ㅇㅁㄷ 5 OTM ETNH",
     mktgbcd: "M",
-    upcode: "9515"
+    upcode: "9515",
   },
   {
     name: "TRUE S&P500 양매도 4% OTM ETN(H)",
@@ -24665,7 +24665,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE SP500 ㅇㅁㄷ 4 OTM ETNH",
     mktgbcd: "M",
-    upcode: "10090"
+    upcode: "10090",
   },
   {
     name: "TRUE S&P500 선물 ETN",
@@ -24673,7 +24673,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE SP500 ㅅㅁ ETN",
     mktgbcd: "M",
-    upcode: "9770"
+    upcode: "9770",
   },
   {
     name: "TRUE 나스닥 100 ETN",
@@ -24681,7 +24681,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "TRUE ㄴㅅㄷ 100 ETN",
     mktgbcd: "M",
-    upcode: "9970"
+    upcode: "9970",
   },
   {
     name: "KB KTOP30 ETN",
@@ -24689,7 +24689,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KB KTOP30 ETN",
     mktgbcd: "M",
-    upcode: "12835"
+    upcode: "12835",
   },
   {
     name: "KB KQ 우량주30 ETN",
@@ -24697,7 +24697,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KB KQ ㅇㄹㅈ30 ETN",
     mktgbcd: "M",
-    upcode: "12815"
+    upcode: "12815",
   },
   {
     name: "KB 코스피 양매도 5% OTM ETN",
@@ -24705,7 +24705,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KB ㅋㅅㅍ ㅇㅁㄷ 5 OTM ETN",
     mktgbcd: "M",
-    upcode: "8525"
+    upcode: "8525",
   },
   {
     name: "KB 코스피 마운틴 ETN",
@@ -24713,7 +24713,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KB ㅋㅅㅍ ㅁㅇㅌ ETN",
     mktgbcd: "M",
-    upcode: "8660"
+    upcode: "8660",
   },
   {
     name: "KB Wise 분할매매 ETN",
@@ -24721,7 +24721,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KB Wise ㅂㅎㅁㅁ ETN",
     mktgbcd: "M",
-    upcode: "11095"
+    upcode: "11095",
   },
   {
     name: "KB FnGuide 언택트 ETN",
@@ -24729,7 +24729,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KB FnGuide ㅇㅌㅌ ETN",
     mktgbcd: "M",
-    upcode: "9435"
+    upcode: "9435",
   },
   {
     name: "KB KRX300 ETN",
@@ -24737,7 +24737,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "KB KRX300 ETN",
     mktgbcd: "M",
-    upcode: "9675"
+    upcode: "9675",
   },
   {
     name: "미래에셋 유럽 대형주 ETN(H)",
@@ -24745,7 +24745,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅇㄹ ㄷㅎㅈ ETNH",
     mktgbcd: "M",
-    upcode: "11340"
+    upcode: "11340",
   },
   {
     name: "미래에셋 유럽 중형주 ETN(H)",
@@ -24753,7 +24753,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅇㄹ ㅈㅎㅈ ETNH",
     mktgbcd: "M",
-    upcode: "12010"
+    upcode: "12010",
   },
   {
     name: "미래에셋 일본 대형주 ETN(H)",
@@ -24761,7 +24761,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅇㅂ ㄷㅎㅈ ETNH",
     mktgbcd: "M",
-    upcode: "13750"
+    upcode: "13750",
   },
   {
     name: "미래에셋 일본 중형주 ETN(H)",
@@ -24769,7 +24769,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅇㅂ ㅈㅎㅈ ETNH",
     mktgbcd: "M",
-    upcode: "12405"
+    upcode: "12405",
   },
   {
     name: "미래에셋 미국 대형주 ETN(H)",
@@ -24777,7 +24777,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅁㄱ ㄷㅎㅈ ETNH",
     mktgbcd: "M",
-    upcode: "17230"
+    upcode: "17230",
   },
   {
     name: "미래에셋 미국 중형주 ETN(H)",
@@ -24785,7 +24785,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅁㄱ ㅈㅎㅈ ETNH",
     mktgbcd: "M",
-    upcode: "14745"
+    upcode: "14745",
   },
   {
     name: "미래에셋 미국 항공우주 ETN(H)",
@@ -24793,7 +24793,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅁㄱ ㅎㄱㅇㅈ ETNH",
     mktgbcd: "M",
-    upcode: "15665"
+    upcode: "15665",
   },
   {
     name: "미래에셋 레버리지 S&P500 ETN(H)",
@@ -24801,7 +24801,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㄹㅂㄹㅈ SP500 ETNH",
     mktgbcd: "M",
-    upcode: "21645"
+    upcode: "21645",
   },
   {
     name: "미래에셋 인버스 S&P500 ETN(H)",
@@ -24809,7 +24809,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅇㅂㅅ SP500 ETNH",
     mktgbcd: "M",
-    upcode: "5290"
+    upcode: "5290",
   },
   {
     name: "미래에셋 글로벌 리츠 ETN(H)",
@@ -24817,7 +24817,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㄱㄹㅂ ㄹㅊ ETNH",
     mktgbcd: "M",
-    upcode: "9345"
+    upcode: "9345",
   },
   {
     name: "미래에셋 미국 리츠 ETN(H)",
@@ -24825,7 +24825,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅁㄱ ㄹㅊ ETNH",
     mktgbcd: "M",
-    upcode: "9160"
+    upcode: "9160",
   },
   {
     name: "미래에셋 미국 헬스케어 ETN(H)",
@@ -24833,7 +24833,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅁㄱ ㅎㅅㅋㅇ ETNH",
     mktgbcd: "M",
-    upcode: "14255"
+    upcode: "14255",
   },
   {
     name: "미래에셋 미국 고배당주 ETN(H)",
@@ -24841,7 +24841,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅁㄱ ㄱㅂㄷㅈ ETNH",
     mktgbcd: "M",
-    upcode: "13465"
+    upcode: "13465",
   },
   {
     name: "미래에셋 중국 심천 100 ETN",
@@ -24849,7 +24849,7 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅁㄹㅇㅅ ㅈㄱ ㅅㅊ 100 ETN",
     mktgbcd: "M",
-    upcode: "15890"
+    upcode: "15890",
   },
   {
     name: "하나 코스피 변동성추세 추종 양매도 ETN",
@@ -24857,6 +24857,6 @@ g_jsonData.mastercode = [
     symbol: "KOSPI",
     csname: "ㅎㄴ ㅋㅅㅍ ㅂㄷㅅㅊㅅ ㅊㅈ ㅇㅁㄷ ETN",
     mktgbcd: "J",
-    upcode: "8275"
-  }
+    upcode: "8275",
+  },
 ];

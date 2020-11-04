@@ -12,6 +12,7 @@ inProject('10','29');
 inProject('10','30');
 inProject('11','02');
 inProject('11','03');
+inProject('11','04');
 
 //날짜를 받고 해당하는 날짜에 링크를 연결한다.
 function inProject(month, day) { // day : string

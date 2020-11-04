@@ -9,10 +9,12 @@ a{
 }
 
 footer{
-  position: relative;
-  bottom: 0px;
   color: white;
   text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 10px 0px;
 }
 
 .ft_top{
@@ -26,7 +28,6 @@ footer{
   text-align: left;
   background-color: #508fc2;
 }
-
 
 .dragtarget{
   width: 100px;
@@ -625,10 +626,13 @@ footer{
   margin: 20px;
 }
 
+/* 1103 이후 수정 */
 .top{
+  position: fixed;
+  left: 0;
+  right: 0;
   height: 50px;
 }
-
 
 .bar {
   background-color: #81d4fa;
@@ -657,23 +661,17 @@ footer{
   line-height: 50px;
 }
 
-.header_page {
-  display: flex;
-}
-
 .sidebar {
-  display: flex;
-  flex-direction: column;
-  min-width: 210px;
-  height:100%
+  position: fixed;
+  top: 50px;
+  bottom: 0px;
+  width: 200px;
+  background-color:#efefef;
+
 }
 .sidebar h3{
-  padding : 10px 0px;
 }
 .sidebar a{
-  font-size: 19px;
-  text-decoration: none;
-  padding : 5px 0px;
 }
 .sidebar a:hover{
   background-color: #7e7e7e;
@@ -681,20 +679,17 @@ footer{
   
 }
 
-.center{
-  display:flex;
-  height: 100%;
+.bar_item{
+  padding: 8px 16px;
+  display: block;
+  text-align: left;
+  color: black;
 }
 
 .main{
-  width: 100%;
+  padding-top: 60px;
+  margin-left: 200px;
   background: white;
-  height: 100%;
-}
-.main_top{
-  min-height :576px;
-  margin: 5px;
-  border-radius: 10px;
 }
 
 .round_box{
@@ -772,4 +767,9 @@ footer{
 #table_div .th{
   background-color: #7f7f7f;
   color: white;
+}
+
+
+.header_page {
+  display: flex;
 }
