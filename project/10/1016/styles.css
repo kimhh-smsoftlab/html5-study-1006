@@ -24,7 +24,6 @@
   justify-content: space-between;
   height: 6vh;
   align-items: center;
-  margin-top: 20px;
 }
 
 .header_page {
@@ -50,4 +49,8 @@
 }
 .header_page a {
   width: 80px;
+}
+
+body{
+  margin: 0;
 }

@@ -205,15 +205,16 @@ h1, h2, h3, h4, h5, h6 {
 .header {
   background-color: #81d4fa;
   display: flex;
+  justify-content: space-between;
   height: 50px;
 }
 
 .header a{
   color: white;
-  display: block;
-  text-align: center;
-  text-decoration: none;
+  display: inline-block;
   height: 100%;
+  line-height: 50px;
+  padding: 0px 20px;
 }
 
 .header a:hover {
@@ -546,9 +547,6 @@ h1, h2, h3, h4, h5, h6 {
     grid-template-columns: auto;
   }
 
-  .sidebar {
-    display: none;
-  }
   .chartviewpage__top {
     height: 10vh;
   }
@@ -669,17 +667,14 @@ h1, h2, h3, h4, h5, h6 {
   background-color:#efefef;
 
 }
-.sidebar h3{
-}
-.sidebar a{
-}
+
 .sidebar a:hover{
   background-color: #7e7e7e;
   color: white;
   
 }
 
-.bar_item{
+.sidebar_item{
   padding: 8px 16px;
   display: block;
   text-align: left;
@@ -767,9 +762,4 @@ h1, h2, h3, h4, h5, h6 {
 #table_div .th{
   background-color: #7f7f7f;
   color: white;
-}
-
-
-.header_page {
-  display: flex;
 }

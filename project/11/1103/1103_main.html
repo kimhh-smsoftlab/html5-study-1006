@@ -1,43 +1,51 @@
 <html>
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1102_Project</title>
-    <link rel="stylesheet" href="/styles.css">
-    <script defer src="/lib/w3.js"></script>
-    <script defer src="./1103_script.js"></script>
-    <script src="https://kit.fontawesome.com/d07750b879.js" crossorigin="anonymous"></script>
-</head>
-<body class="back_col_gray">
-    <div class="top" >
-        <div class="bar">
-            <a title="첫 화면으로 이동합니다." href="/index.html">
-                <i class="fas fa-home"></i></a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>1102_Project</title>
+        <link rel="stylesheet" href="/styles.css" />
+        <script defer src="/lib/w3.js"></script>
+        <script defer src="./1103_script.js"></script>
+        <script
+            src="https://kit.fontawesome.com/d07750b879.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div class="top">
+            <div class="bar">
+                <a title="첫 화면으로 이동합니다." href="/index.html">
+                    <i class="fas fa-home"></i
+                ></a>
+            </div>
         </div>
-    </div>
-    <div class="center">
         <div class="sidebar">
-            <h3 class=" "><b>Menu</b></h3>
-            <a title="폴더 URL을 컨트롤 하는 페이지" href="#">폴더URL</a>
-            <a title="테이블 컨트롤 페이지" href="./1103_sub.html">테이블 search</a>
+            <h3 class="sidebar_item">Menu</h3>
+            <a class="sidebar_item" title="폴더 URL을 컨트롤 하는 페이지" href="#">폴더URL</a>
+            <a class="sidebar_item" title="테이블 컨트롤 페이지" href="./1103_sub.html"
+                >테이블 search</a
+            >
         </div>
-        <div class="main">
-            <div class="main_top">
-                <div class="round_box">
-                    <!-- 폴더 경로 입력 -->
-                    <input id="pathinput"type="text" value="C:\Users\smsoftlab\Desktop\workspace\project\project\1008"/>
-                    <button id="pathbtn">확인</button>
-                    <label for="checkbox">Path 자르기</label>
-                    <input id="pathcheckbox" type="checkbox">
-                </div>
-                <div class="round_box fd">
-                    <div>
-                        <ul id="pathlist1" class="fp folderpath1">
-                            <!-- 프로그래스 바 -->
-                        </ul>
+            <div class="main">
+                <div class="main_top">
+                    <div class="round_box">
+                        <!-- 폴더 경로 입력 -->
+                        <input
+                            id="pathinput"
+                            type="text"
+                            value="C:\Users\smsoftlab\Desktop\workspace\project\project\1008"
+                        />
+                        <button id="pathbtn">확인</button>
+                        <label for="checkbox">Path 자르기</label>
+                        <input id="pathcheckbox" type="checkbox" />
                     </div>
-                    <!-- <div>
+                    <div class="round_box fd">
+                        <div>
+                            <ul id="pathlist1" class="fp folderpath1">
+                                <!-- 프로그래스 바 -->
+                            </ul>
+                        </div>
+                        <!-- <div>
                         <ul id="pathlist2" class="fp folderpath1">
                         </ul>
                     </div>
@@ -59,20 +67,17 @@
                         <ul id="pathlist6" class="fp folderpath2">
                         </ul>
                     </div>     -->
+                    </div>
                 </div>
+                <footer>
+                    <div class="ft_top">
+                        <h4>Footer</h4>
+                    </div>
+                    <div class="ft_bot">
+                        <p><a href="" target="_blank">Project</a></p>
+                    </div>
+                </footer>
             </div>
-            <footer>
-                <div class="ft_top">
-                    <h4>Footer</h4>
-                </div>
-                <div class="ft_bot">
-                    <p><a href="" target="_blank">Project</a></p>
-                </div>
-            </footer>
-
         </div>
-
-    </div>
-</body>
-
+    </body>
 </html>

@@ -65,3 +65,6 @@
       - folderPath의 기능 및 코드 보완 진행 
       - TableView 프로젝트를 class객체로 변환 진행 [[ code 링크 ](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/a774bb67c2b67a1494522b4db13f25a19e263d7b/project/11/1103/1103_subscript.js#L7)]
       - class 설계원리 및 방법 피드백 진행 
+    - #### 4일 
+      - folderPath 클래스 객체 재구성 [[ code 링크 ](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/8a57909ffe976ad41fafb29f1158e5b234694b3e/project/11/1104/1104_script.js#L30)]
+      - w3 template을 참고하여 프로젝트 UI 수정
