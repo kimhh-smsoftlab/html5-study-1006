@@ -39,7 +39,7 @@ class FolderPathC {
      * 초기 생성자
      * @param {object} element FolderPath가 될 Element
      */
-    constructor() {
+    constructor(element) {
         this.elem = element; // element가 없을 경우?
         element.onclick = this.onClick.bind(this);
     }
@@ -216,3 +216,4 @@ function getValue(id) {
 let path = new FolderPathC(folderpath_div);
 document.getElementById("pathbtn").addEventListener("click", clickbtn);
 document.getElementById("pathcheckbox").addEventListener("click", clickbtn);
+document.documentElement.setAttribute("data-theme", localStorage.theme);

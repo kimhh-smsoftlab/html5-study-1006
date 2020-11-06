@@ -11,7 +11,7 @@
    
 # 학습내용
   - ### 10월 학습
-    - #### 19일    
+    - #### 19일 
       - 객체의 childNodes를 이용하여 자식 요소 데이터 변경    
       - 깃허브 markdown 학습  
       - [1019 - StackBlitz 프로젝트](https://stackblitz.com/edit/html5-css-javascript-study?file=project/1019/1019_script.js)    
@@ -68,3 +68,8 @@
     - #### 4일 
       - folderPath 클래스 객체 재구성 [[ code 링크 ](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/8a57909ffe976ad41fafb29f1158e5b234694b3e/project/11/1104/1104_script.js#L30)]
       - w3 template을 참고하여 프로젝트 UI 수정
+    - #### 5일
+      - Chrome-Tabs 오픈소스 코드 분석[참조 링크](https://github.com/adamschwartz/chrome-tabs)
+      - CustomEvent, CSS Custom Property 학습 [[CustomEvent 참고자료 링크](https://im-developer.tistory.com/190)] / [[Custom Property 참고자료 링크](https://velog.io/@kim-jaemin420/CSS-Custom-PropertiesCSS-%EC%BB%A4%EC%8A%A4%ED%85%80-%EC%86%8D%EC%84%B1)]
+    - #### 6일
+      - 

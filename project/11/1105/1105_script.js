@@ -212,3 +212,5 @@ function getValue(id) {
 let path = new FolderPathC(folderpath_div);
 document.getElementById("pathbtn").addEventListener("click", clickbtn);
 document.getElementById("pathcheckbox").addEventListener("click", clickbtn);
+
+document.documentElement.setAttribute("data-theme", localStorage.theme);
