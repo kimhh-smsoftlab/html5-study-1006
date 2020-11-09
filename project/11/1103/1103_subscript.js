@@ -161,6 +161,8 @@ function getCheck() {
     return objChecklist;
 }
 
+document.documentElement.setAttribute("data-theme", localStorage.theme);
+
 // //체크박스, 버튼, text 등 Element 이벤트 리스너 등록
 // document.addEventListener('click',function(e){
 //     let target = e.target;

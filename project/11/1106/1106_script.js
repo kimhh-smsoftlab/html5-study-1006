@@ -3,12 +3,14 @@ class FolderPathC {
     __viewType = 0;
     __arPath = [];
     __template = `<span class="path-item">
-            <span class="path-item-str"></span>
-            <i class="fas fa-angle-right"></i>
-        </span>`;
+    <span class="path-item-str"></span>
+    <i class="fas fa-angle-right"></i></span>`;
 
     constructor(options) {
-        this.__height = options.height || "50px";
+        options = {
+            height: "50px",
+            ...options,
+        };
     }
 
     init(element) {
@@ -116,7 +118,7 @@ class FolderPathC {
 let viewType = 0;
 
 let el = document.querySelector(".folderpath-content"),
-    folderPath = new FolderPathC({ padding: 10 });
+    folderPath = new FolderPathC({ padding: 10, __viewType: 1, aaa: "aa" });
 folderPath.init(el);
 
 document

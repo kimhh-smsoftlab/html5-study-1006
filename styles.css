@@ -637,7 +637,7 @@ th {
     height: 50px;
 }
 
-.top > * {
+.top > {
     line-height: 50px;
 }
 
@@ -660,7 +660,6 @@ th {
 .main {
     padding-top: 60px;
     margin-left: 200px;
-    background: white;
 }
 
 .round_box {
@@ -678,7 +677,6 @@ th {
     padding: 0px;
     display: flex;
     list-style: none;
-    background-color: #8fbce031;
 }
 
 .fp > li {
@@ -742,6 +740,8 @@ th {
 /* html Elemet -> root*/
 :root {
     --button-padding: 5px 20px;
+    --background-color: #2286c3;
+    --sidebar-background-color: #64b5f6;
 }
 
 [data-theme^="blue"] {
@@ -760,7 +760,7 @@ th {
 .bar {
     background-color: var(--background-color);
     display: flex;
-    height: 100%;
+    align-items: center;
 }
 
 .sidebar {
@@ -790,15 +790,100 @@ th {
     font-size: 30px;
     line-height: 50px;
 }
-
 .data-set-buttons {
-    padding: 0px 20px;
+    margin-right: 20px;
 }
-
 .data-set-buttons > button {
     padding: var(--button-padding);
+    border-radius: 99px;
+    border: 0px;
 }
 
-[active] {
-    background-color: royalblue;
+.folderpath-content .path-item {
+    padding: 8px;
+    font-size: 18px;
+    cursor: default;
+}
+
+.folderpath-content .path-item:hover {
+    background-color: #2195f32a;
+}
+
+.folderpath-content [active] {
+    background-color: #2196f3;
+}
+
+.folderpath-content [active]:hover {
+    background-color: #2196f3;
+}
+
+.color-white {
+    color: white;
+}
+
+#fp_container {
+    padding: 0px;
+}
+
+/* 1109 */
+[data-theme^="light"] {
+    --main-background-color: white;
+    --main-color: black;
+    --item-background-color: #99d4f8;
+    --box-color: lightgray;
+    --button-hover-color: ;
+}
+
+[data-theme^="dark"] {
+    --background-color: #0f72af;
+    --sidebar-background-color: #3e83bb;
+    --main-background-color: #4d4d4d;
+    --main-color: white;
+    --item-background-color: #0f72af;
+    --box-color: gray;
+    --button-hover-color: ;
+}
+
+[data-path-input] {
+    width: 400px;
+}
+ {
+}
+.body_theme {
+    background-color: var(--main-background-color);
+    color: var(--main-color);
+}
+
+.body_theme .folderpath-content .path-item:hover {
+    background-color: var(--item-background-color);
+}
+
+.body_theme .folderpath-content [active] {
+    background-color: var(--item-background-color);
+}
+
+.body_theme .round_box {
+    background-color: var(--box-color);
+}
+
+.body_theme .sidebar * {
+    color: var(--main-color);
+}
+
+.body_theme .data-set-buttons > button,
+[data-create-path] {
+    padding: var(--button-padding);
+    border-radius: 99px;
+    border: 0px;
+    background-color: var(--main-background-color);
+    color: var(--main-color);
+}
+
+.body_theme .data-set-buttons > button:hover {
+    background-color: var(--main-color);
+    color: var(--box-color);
+}
+
+.body_theme .data-set-buttons > button {
+    transition: background-color 1s;
 }

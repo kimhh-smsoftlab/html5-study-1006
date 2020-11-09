@@ -2,16 +2,13 @@
 //날짜를 받고 해당하는 날짜에 링크를 연결한다.
 function inProject(month, day) {
     // day : string
-    let today = month + day,
-        days = document.getElementsByClassName(`day_${today}`);
-
-    Array.from(days).forEach((element) => {
-        element.className += " in_project";
-        element.setAttribute(
-            "href",
-            `/project/${month}/${today}/${today}_main.html`
-        );
-    });
+    let today = month + day;
+    let days = document.querySelector(".day_" + today); //`.day_${today}`
+    days.className += " in_project";
+    days.setAttribute(
+        "href",
+        "/project/" + month + "/" + today + "/" + today + "_main.html"
+    ); //`/project/${month}/${today}/${today}_main.html`
 }
 
 /* 실행 */
@@ -30,3 +27,4 @@ inProject("11", "03");
 inProject("11", "04");
 inProject("11", "05");
 inProject("11", "06");
+inProject("11", "09");

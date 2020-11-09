@@ -72,4 +72,7 @@
       - Chrome-Tabs 오픈소스 코드 분석[참조 링크](https://github.com/adamschwartz/chrome-tabs)
       - CustomEvent, CSS Custom Property 학습 [[CustomEvent 참고자료 링크](https://im-developer.tistory.com/190)] / [[Custom Property 참고자료 링크](https://velog.io/@kim-jaemin420/CSS-Custom-PropertiesCSS-%EC%BB%A4%EC%8A%A4%ED%85%80-%EC%86%8D%EC%84%B1)]
     - #### 6일
-      - 
+      - CSS Custom Property와 LocalStorage를 활용하여 테마 변경 기능 구현
+      - Chrome-Tabs 소스코드 분석을 토대로 FolderPath 클래스 재작성 진행
+    - #### 9일
+      -
