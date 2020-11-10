@@ -69,10 +69,13 @@
       - folderPath 클래스 객체 재구성 [[ code 링크 ](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/8a57909ffe976ad41fafb29f1158e5b234694b3e/project/11/1104/1104_script.js#L30)]
       - w3 template을 참고하여 프로젝트 UI 수정
     - #### 5일
-      - Chrome-Tabs 오픈소스 코드 분석[참조 링크](https://github.com/adamschwartz/chrome-tabs)
+      - Chrome-Tabs 오픈소스 코드 분석 - [참조 링크](https://github.com/adamschwartz/chrome-tabs)
       - CustomEvent, CSS Custom Property 학습 [[CustomEvent 참고자료 링크](https://im-developer.tistory.com/190)] / [[Custom Property 참고자료 링크](https://velog.io/@kim-jaemin420/CSS-Custom-PropertiesCSS-%EC%BB%A4%EC%8A%A4%ED%85%80-%EC%86%8D%EC%84%B1)]
     - #### 6일
       - CSS Custom Property와 LocalStorage를 활용하여 테마 변경 기능 구현
       - Chrome-Tabs 소스코드 분석을 토대로 FolderPath 클래스 재작성 진행
     - #### 9일
-      -
+      - Polyfill 및 Babel 개념 학습 - [참고자료 1](https://swimfm.tistory.com/entry/%ED%8F%B4%EB%A6%AC%ED%95%84-polyfill-%EC%82%AC%EC%9A%A9%EB%B2%95-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-feat-IE11) /
+      [참고자료 2](https://velog.io/@kwonh/Babel-%ED%8F%B4%EB%A6%AC%ED%95%84polyfill-babelpreset-env)
+      - 지난 FolderPath 프로젝트를 IE11 브라우져에 호환 되도록 리빌딩 진행
+  

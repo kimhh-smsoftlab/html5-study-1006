@@ -76,11 +76,6 @@ h6 {
     margin-right: 16px;
 }
 
-#table_group {
-    padding: 16px 32px;
-    text-align: center;
-}
-
 #table_body > div {
     border-bottom: 2px solid #dfdfdf;
 }
@@ -847,8 +842,7 @@ th {
 [data-path-input] {
     width: 400px;
 }
- {
-}
+
 .body_theme {
     background-color: var(--main-background-color);
     color: var(--main-color);
@@ -886,4 +880,31 @@ th {
 
 .body_theme .data-set-buttons > button {
     transition: background-color 1s;
+}
+
+/* 1110 추가 */
+.path-item > i {
+    padding-left: 10px;
+}
+
+.path-item:last-child > i {
+    display: none;
+}
+
+.table_contents > div {
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.table_contents > div > * {
+    flex: 1;
+}
+.table_contents > div:first-child {
+    background-color: khaki;
+    border: 0px;
+}
+
+#table_group {
+    /* padding: 16px 32px; */
+    text-align: center;
 }

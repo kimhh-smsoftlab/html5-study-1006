@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>1110_Project</title>
+        <link rel="stylesheet" href="/styles.css" />
+        <script defer src="/lib/Hangul.js"></script>
+        <script defer src="/public/simple_object3.js"></script>
+        <script defer src="./1110_sub.js"></script>
+        <script
+            src="https://kit.fontawesome.com/d07750b879.js"
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            window.MSInputMethodContext &&
+                document.documentMode &&
+                document.write(
+                    '<script src="/lib/polyfill/ie11CustomProperties.js"><\/script>'
+                );
+        </script>
+    </head>
+
+    <body class="body_theme">
+        <script>
+            document.documentElement.setAttribute(
+                "data-theme",
+                localStorage.theme || "dark"
+            );
+        </script>
+        <div class="top">
+            <div class="bar flex_space_btw">
+                <div>
+                    <a title="첫 화면으로 이동합니다." href="/index.html">
+                        <i class="fas fa-home"></i
+                    ></a>
+                </div>
+                <div class="data-set-buttons">
+                    <span class="color-white">Theme </span>
+                    <button data-set-theme="dark">Dark Mode</button>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <h3 class="sidebar_item">Menu</h3>
+            <a
+                class="sidebar_item"
+                title="폴더 URL을 컨트롤 하는 페이지"
+                href="./1110_main.html"
+                >폴더URL</a
+            >
+            <a class="sidebar_item" title="한글 검색기능 페이지" href="#"
+                >Hangul / Search</a
+            >
+        </div>
+        <div class="main">
+            <div id="search" class="round_box txt_al_center toggleshow">
+                <div>
+                    검색어:
+                    <input
+                        type="text"
+                        placeholder="검색어를 입력하세요."
+                        data-input-txt
+                    />
+                    <button data-search-btn>검색</button>
+                    <button id="clear_btn">초기화</button>
+                </div>
+                <div>
+                    <!-- <div id="checklist">
+                        <div>
+                            <input
+                                id="search_type"
+                                type="radio"
+                                value="part"
+                                name="radio"
+                                checked
+                            />부분검색
+                            <input
+                                type="radio"
+                                value="all"
+                                name="radio"
+                            />일치검색
+                        </div>
+                        <div id="checkboxs">
+                            <input
+                                type="checkbox"
+                                value="rank"
+                                class="checkbox"
+                                checked
+                            />Rank
+                            <input
+                                type="checkbox"
+                                value="company"
+                                class="checkbox"
+                                checked
+                            />Company
+                            <input
+                                type="checkbox"
+                                value="revenues"
+                                class="checkbox"
+                                checked
+                            />Revenues
+                            <input
+                                type="checkbox"
+                                value="profits"
+                                class="checkbox"
+                                checked
+                            />Profits
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div id="table_group" class="round_box toggleshow">
+                <!-- <div class="txt_al_right">
+                    <button id="sum_btn">합계 구하기</button>
+                    <button id="clearsort_btn">정렬 초기화</button>
+                </div> -->
+
+                <div id="table_div" class="table_contents">
+                    <!-- table -->
+                </div>
+                <!-- <div>
+                    <div class="sum_div">
+                        <div>합계</div>
+                        <div>0</div>
+                        <div>0</div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </body>
+</html>
