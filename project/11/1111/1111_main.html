@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>1110_Project</title>
+        <link rel="stylesheet" href="/styles.css" />
+        <script defer src="./1111_script.js"></script>
+        <script
+            src="https://kit.fontawesome.com/d07750b879.js"
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            window.MSInputMethodContext &&
+                document.documentMode &&
+                document.write(
+                    '<script src="/lib/polyfill/ie11CustomProperties.js"><\/script>'
+                );
+        </script>
+    </head>
+
+    <body class="body_theme">
+        <script>
+            document.documentElement.setAttribute(
+                "data-theme",
+                localStorage.theme || "dark"
+            );
+        </script>
+        <div class="top">
+            <div class="bar flex_space_btw">
+                <div>
+                    <a title="첫 화면으로 이동합니다." href="/index.html">
+                        <i class="fas fa-home"></i
+                    ></a>
+                </div>
+                <div class="data-set-buttons">
+                    <span class="color-white">Theme </span>
+                    <button data-set-theme="dark">Dark Mode</button>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <h3 class="sidebar_item">Menu</h3>
+            <a
+                class="sidebar_item"
+                title="폴더 URL을 컨트롤 하는 페이지"
+                href="#"
+                >폴더URL</a
+            >
+            <a
+                class="sidebar_item"
+                title="한글 검색기능 페이지"
+                href="./1111_sub.html"
+                >Hangul / Search</a
+            >
+            <a
+                class="sidebar_item"
+                title="한글 검색기능 페이지"
+                href="./test.html"
+                >무한 스크롤</a
+            >
+        </div>
+        <div class="main">
+            <div class="round_box">
+                <input
+                    data-path-input
+                    type="text"
+                    value="C:\Users\smsoftlab\Desktop\workspace\project\project\1008"
+                />
+                <!-- id="pathinput" -->
+                <button data-create-path>리스트 생성하기</button>
+                <!-- id="pathbtn" -->
+                <label for="checkbox">Path 자르기</label>
+                <input type="checkbox" data-view-type />
+                <!-- id="pathcheckbox" -->
+            </div>
+            <div id="fp_container" class="round_box">
+                <!-- folderpath -->
+                <div
+                    id="folderpath_div"
+                    class="folderpath-content fp folderpath1"
+                ></div>
+            </div>
+        </div>
+    </body>
+</html>

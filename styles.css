@@ -908,3 +908,49 @@ th {
     /* padding: 16px 32px; */
     text-align: center;
 }
+
+.table_contents > div[data-display="none"] {
+    display: none;
+}
+
+.table_contents > div[data-display="flex"] {
+    display: flex;
+}
+/* 1111 추가 */
+.fila {
+    width: 100%;
+}
+.celda {
+    position: absolute;
+    height: 18px;
+    color: black;
+    /*width:100%;*/
+    font-family: Arial;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    border-right: 1px dotted silver;
+    border-bottom-color: silver;
+    cursor: default;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.green_bg {
+    color: black;
+    background: #bada55;
+}
+
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                    not supported by any browser */
+}
+
+#container {
+    height: 300px;
+}

@@ -78,4 +78,6 @@
       - Polyfill 및 Babel 개념 학습 - [참고자료 1](https://swimfm.tistory.com/entry/%ED%8F%B4%EB%A6%AC%ED%95%84-polyfill-%EC%82%AC%EC%9A%A9%EB%B2%95-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0-feat-IE11) /
       [참고자료 2](https://velog.io/@kwonh/Babel-%ED%8F%B4%EB%A6%AC%ED%95%84polyfill-babelpreset-env)
       - 지난 FolderPath 프로젝트를 IE11 브라우져에 호환 되도록 리빌딩 진행
-  
+      - #### 10일
+        - Babel을 활용하여 IE11 브라우저 호환성 적용
+        - 지난 SearchTable 프로젝트 Class로 변환 진행
