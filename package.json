@@ -1,11 +1,13 @@
 {
-  "dependencies": {
-    "ie11-custom-properties": "^4.1.0"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.12.1",
-    "@babel/core": "^7.12.3",
-    "@babel/plugin-proposal-class-properties": "^7.12.1",
-    "@babel/preset-env": "^7.12.1"
-  }
+    "dependencies": {
+        "hyperlist": "^1.0.0",
+        "ie11-custom-properties": "^4.1.0",
+        "virtual-scroll": "^1.5.2"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.12.1",
+        "@babel/core": "^7.12.3",
+        "@babel/plugin-proposal-class-properties": "^7.12.1"
+    },
+    "type": "module"
 }

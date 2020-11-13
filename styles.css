@@ -922,7 +922,8 @@ th {
 }
 .celda {
     position: absolute;
-    height: 18px;
+    line-height: 50px;
+    height: 50px;
     color: black;
     /*width:100%;*/
     font-family: Arial;
@@ -932,15 +933,7 @@ th {
     border-right: 1px dotted silver;
     border-bottom-color: silver;
     cursor: default;
-    padding-top: 2px;
-    padding-bottom: 2px;
 }
-
-.green_bg {
-    color: black;
-    background: #bada55;
-}
-
 .noselect {
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Chrome/Safari/Opera */
@@ -953,4 +946,41 @@ th {
 
 #container {
     height: 300px;
+}
+
+/* 1113 추가*/
+
+.overflow_box {
+    width: 500px;
+    height: 500px;
+    background-color: #eeeeee;
+    overflow: scroll;
+}
+.total_div {
+    width: 400px;
+    height: 10000px;
+    background-color: #8f8f8f;
+    overflow-y: hidden;
+}
+.viewport_div {
+    width: 400px;
+    height: 700px;
+    position: relative;
+}
+
+.viewport_div > div {
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+
+.vrow {
+    display: flex;
+    width: 100%;
+}
+
+.vrow > .table-item {
+    flex: 1;
 }

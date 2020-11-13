@@ -4,7 +4,6 @@
  * @constructor
  */
 function VirtualList(config) {
-    debugger;
     var width = (config && config.w + "px") || "100%";
     var height = (config && config.h + "px") || "100%";
     var itemHeight = (this.itemHeight = config.itemHeight);
@@ -149,38 +148,20 @@ VirtualList.createScroller = function (h) {
     return scroller;
 };
 
-items = [];
-for (var i = 0; i < 100000; i++)
-    items[items.length] = { a: "a" + i, b: "b" + i, c: "c" + i };
-
+items = window.mastercode.slice();
 var columns = [
-    { id: "id1", field: "a", name: "Attr1", width: 50 },
-    { id: "id2", field: "c", name: "Attr3", width: 70 },
-    { id: "id3", field: "b", name: "Attr2", width: 70 },
-    { id: "id4", field: "d", name: "Attr4", width: 70 },
+    { id: "id1", field: "code", name: "Attr1", width: 100 },
+    { id: "id2", field: "csname", name: "Attr3", width: 100 },
+    { id: "id3", field: "name", name: "Attr2", width: 100 },
 ];
 
 /* VirtualList 생성 */
 var list = new VirtualList({
-    w: 300,
-    h: 100,
-    itemHeight: 24,
+    w: 500,
+    h: 200,
+    itemHeight: 50,
     totalRows: 1000,
     items: items,
     columns: columns,
 });
-
 document.getElementById("container").appendChild(list.container);
-
-var onClickFunct = function (e) {
-    e = e || window.event;
-    var te = e.target || e.srcElement;
-    if (te.classList.contains("celda")) te = te.parentNode;
-    if (this.old) this.old.classList.remove("green_bg");
-    this.old = te;
-    if (te.tagName.toLowerCase() == "div") {
-        te.classList.add("green_bg");
-    }
-};
-
-document.getElementById("container").onclick = onClickFunct;
