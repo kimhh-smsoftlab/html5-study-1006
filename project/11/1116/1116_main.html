@@ -6,8 +6,9 @@
         <link rel="stylesheet" href="/styles.css" />
         <script defer src="/lib/Hangul.js"></script>
         <script defer src="/public/simple_object3.js"></script>
-        <script src="/node_modules/hyperlist/dist/hyperlist.js"></script>
-        <script defer src="./1113_script.js"></script>
+        <script src="/lib/hyperlist.js"></script>
+        <script src="/lib/l10n.js"></script>
+        <script defer src="./1116_script.js"></script>
         <script
             src="https://kit.fontawesome.com/d07750b879.js"
             crossorigin="anonymous"
@@ -35,16 +36,24 @@
                         <i class="fas fa-home"></i
                     ></a>
                 </div>
-                <div class="data-set-buttons">
-                <span class="color-white">Theme </span>
-                    <button data-set-theme="dark">Dark Mode</button>
+                <div class="data-set-buttons flex_row">
+                    <span class="color-white">테마 </span>
+                    <button data-set-theme="dark">어두운 테마</button>
+                    <div class="dropdown">
+                        <a data-set-lang='ko' href="javascript:void(0);"><img src="/img/ko.png" alt="a"></a>
+                        <div class="dropdown-content">
+                            <a href="#">한국어<img src="/img/ko.png" alt="a"></a>
+                            <a href="#">English<img src="/img/en.png" alt="a"></a>
+                            <a href="#">日本語<img src="/img/ja.png" alt="a"></a>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
         <div class="sidebar">
-            <h3 class="sidebar_item">Menu</h3>
-            <a class="sidebar_item" title="" href="#">virtual scroll table</a>
-            <a class="sidebar_item" title="" href="./test.html">test</a>
+            <h3 class="sidebar_item">메뉴</h3>
+            <a class="sidebar_item" title="" href="#">가상 스크롤 테이블</a>
         </div>
         <div class="main">
             <div id="search" class="round_box txt_al_center toggleshow">

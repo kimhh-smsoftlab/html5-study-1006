@@ -85,3 +85,8 @@
       - virtual scroll 오픈소스 디버깅을 통한 코드분석 진행 - [[virtual scroll 참고링크](https://jsfiddle.net/jpeter06/y9v2um2e/)]
       - l10n 개념 및 번역 기능 학습 
     - #### 13일
+      - virtual scroll 기능 구현 및 성능 테스트 진행
+      - 오류 발생 및 성능이 좋지 않아 virtual scroll npm을 설치하여 기능구현 
+      - [[virtual scroll github](https://github.com/tbranyen/hyperlist)]
+    - #### 16일
+      - 

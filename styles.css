@@ -766,7 +766,7 @@ th {
     background-color: var(--sidebar-background-color);
 }
 
-.bar a {
+.bar > div > a {
     display: inline-block;
     height: 100%;
     color: white;
@@ -775,7 +775,7 @@ th {
     padding: 0px 40px;
 }
 
-.bar a:hover {
+.bar > div > a:hover {
     background-color: white;
     color: black;
 }
@@ -983,4 +983,39 @@ th {
 
 .vrow > .table-item {
     flex: 1;
+}
+/* 1116 */
+.data-set-buttons > * {
+    margin-right: 20px;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown > a > img {
+    width: 35px;
+}
+
+.dropdown-content {
+    background-color: #2286c3;
+    position: absolute;
+    right: 0px;
+    top: 37px;
+    display: none;
+}
+
+.dropdown-content > a > img {
+    width: 32px;
+}
+.dropdown-content > a {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+    margin: 0px 10px 8px 10px;
+}
+
+.show {
+    display: block;
 }
