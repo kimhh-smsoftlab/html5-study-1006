@@ -89,4 +89,8 @@
       - 오류 발생 및 성능이 좋지 않아 virtual scroll npm을 설치하여 기능구현 
       - [[virtual scroll github](https://github.com/tbranyen/hyperlist)]
     - #### 16일
-      - 
+      - hyperlist.js (virtual scroll 기능) 소스 코드 분석
+      - Object.defineProperty(obj, key, value) 개념 학습
+      - window.requestAnimationFrame() 개념 학습
+      - Debounce 와 Throttle의 개념 학습
+      - DOM Fragment 개념 학습

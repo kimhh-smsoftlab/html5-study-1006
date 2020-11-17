@@ -785,14 +785,6 @@ th {
     font-size: 30px;
     line-height: 50px;
 }
-.data-set-buttons {
-    margin-right: 20px;
-}
-.data-set-buttons > button {
-    padding: var(--button-padding);
-    border-radius: 99px;
-    border: 0px;
-}
 
 .folderpath-content .path-item {
     padding: 8px;
@@ -894,13 +886,15 @@ th {
 .table_contents > div {
     display: flex;
     border-bottom: 1px solid black;
+    text-align: center;
 }
 
 .table_contents > div > * {
     flex: 1;
 }
 .table_contents > div:first-child {
-    background-color: khaki;
+    background-color: gray;
+    color: white;
     border: 0px;
 }
 
@@ -994,7 +988,7 @@ th {
 }
 
 .dropdown > a > img {
-    width: 35px;
+    height: 25px;
 }
 
 .dropdown-content {
@@ -1003,19 +997,66 @@ th {
     right: 0px;
     top: 37px;
     display: none;
+    z-index: 1;
 }
 
-.dropdown-content > a > img {
-    width: 32px;
-}
-.dropdown-content > a {
+.dropdown-content ul {
     color: white;
-    display: flex;
-    justify-content: space-between;
-    width: 90px;
-    margin: 0px 10px 8px 10px;
+    cursor: pointer;
+    list-style: none;
+    width: 120px;
+}
+.dropdown-content li {
+    text-align: right;
+    padding: 2px 10px 5px 10px;
+}
+.dropdown-content img {
+    width: 40px;
+    pointer-events: none;
+    margin-left: 5px;
+}
+
+.dropdown-content li:hover {
+    background-color: #1c6da0;
 }
 
 .show {
     display: block;
+}
+
+/* 1117 */
+.data-set-buttons {
+    margin-right: 20px;
+    height: 25px;
+}
+
+.data-set-buttons > button {
+    padding: var(--button-padding);
+    border-radius: 99px;
+    border: 0px;
+}
+
+[data-theme^="Light"] {
+    --main-background-color: white;
+    --main-color: black;
+    --item-background-color: #99d4f8;
+    --box-color: lightgray;
+    --button-hover-color: ;
+}
+
+[data-theme^="Dark"] {
+    --background-color: #0f72af;
+    --sidebar-background-color: #3e83bb;
+    --main-background-color: #4d4d4d;
+    --main-color: white;
+    --item-background-color: #0f72af;
+    --box-color: gray;
+    --button-hover-color: ;
+}
+
+.table_body > div:nth-child(even) {
+    background-color: lightgray;
+}
+.table_body > div {
+    z-index: -1;
 }

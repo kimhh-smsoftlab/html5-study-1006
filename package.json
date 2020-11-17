@@ -1,7 +1,9 @@
 {
     "dependencies": {
+        "bower": "^1.8.8",
         "hyperlist": "^1.0.0",
         "ie11-custom-properties": "^4.1.0",
+        "jquery": "^3.5.1",
         "virtual-scroll": "^1.5.2"
     },
     "devDependencies": {

@@ -37,6 +37,7 @@ class TableView {
 
     createTable() {
         let tr = document.createElement("div");
+        tr.className = "table_head";
         for (let key in this.__itemNames) {
             this.addHeadItem(tr, this.__itemNames[key]);
         }
@@ -49,10 +50,9 @@ class TableView {
         let container = document.createElement("div"),
             self = this;
         container.className = "table_body";
-        debugger;
         HyperList.create(container, {
             height: "80%",
-            itemHeight: 40,
+            itemHeight: 25,
             total: data.length,
             generate(index) {
                 return self.createBodyRow(data[index]);
@@ -141,19 +141,25 @@ function clickSearchBtn() {
     }
 }
 
-let html = document.documentElement;
-document.documentElement.setAttribute("data-theme", localStorage.theme);
+let html = document.documentElement,
+    theme_btn = document.querySelector("button[data-set-theme]"),
+    theme = html.getAttribute("data-theme");
+
+theme_btn.textContent = `${theme} Mode`;
+theme_btn.setAttribute("data-set-theme", theme);
 
 document
     .querySelector("button[data-set-theme]")
     .addEventListener("click", function (e) {
         let target = e.target,
             newTheme = target.getAttribute("data-set-theme");
-        if (newTheme == "dark") {
-            target.setAttribute("data-set-theme", "light");
+        if (newTheme == "Dark") {
+            newTheme = "Light";
+            target.setAttribute("data-set-theme", "Light");
             target.textContent = "Light Mode";
         } else {
-            target.setAttribute("data-set-theme", "dark");
+            newTheme = "Dark";
+            target.setAttribute("data-set-theme", "Dark");
             target.textContent = "Dark Mode";
         }
         if (newTheme) {
@@ -169,3 +175,32 @@ document
     });
 
 document.querySelectorAll(".dropdown-content > a");
+
+document.addEventListener("click", function (e) {
+    let target = e.target,
+        country = target.dataset["country"];
+    if (country) {
+        changeCountry(country);
+        target.parentElement.classList.toggle("show");
+    }
+});
+
+let changeCountry = function (country) {
+    if (document.webL10n) document.webL10n.setLanguage(country);
+    document.querySelector("[data-set-lang] > img").src = setSrc(country);
+};
+
+let setSrc = function (country) {
+    return `/img/${country}.png`;
+};
+
+let setL10nId = function (ar) {
+    let a = document.querySelectorAll(".table_head > div");
+    let l = a.length,
+        i;
+    for (i = 0; i < l; i++) {
+        a[i].setAttribute("data-l10n-id", ar[i]);
+    }
+};
+
+setL10nId(["name", "code", "symbol"]);
