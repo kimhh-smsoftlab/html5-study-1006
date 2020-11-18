@@ -94,3 +94,7 @@
       - window.requestAnimationFrame() 개념 학습
       - Debounce 와 Throttle의 개념 학습
       - DOM Fragment 개념 학습
+    - #### 17일
+      - l10n.js를 활용하여 웹페이지 언어 변경 기능 구현
+      - select2 라이브러리 기능 파악
+      - Jquery 학습 진행(Effects, HTML)

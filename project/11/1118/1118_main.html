@@ -1,0 +1,86 @@
+<html lang='ko'>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>1118_Project</title>
+        <link rel="stylesheet" href="/styles.css" />
+        <link
+            rel="resource"
+            type="application/l10n"
+            href="/locales/locales.ini"
+        />
+        <script defer src="/public/simple_object3.js"></script>
+        <script defer src="/lib/Hangul.js"></script>
+        <script defer src="/lib/hyperlist.js"></script>
+        <script defer src="/lib/l10n.js"></script>
+        <script defer src="/lib/jquery.min.js"></script>
+        <script defer src="./1118_script.js"></script>
+        <script
+            src="https://kit.fontawesome.com/d07750b879.js"
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            window.MSInputMethodContext &&
+                document.documentMode &&
+                document.write(
+                    '<script src="/lib/polyfill/ie11CustomProperties.js"><\/script>'
+                );
+        </script>
+    </head>
+
+    <body class="body_theme">
+        <script>
+            document.documentElement.setAttribute(
+                "data-theme",
+                localStorage.theme || "Light"
+            );
+        </script>
+        <div class="top">
+            <div class="bar flex_space_btw">
+                <div>
+                    <a title="첫 화면으로 이동합니다." href="/index.html">
+                        <i class="fas fa-home"></i
+                    ></a>
+                </div>
+                <div class="data-set-buttons flex_row">
+                    <span data-l10n-id='theme' class="color-white">테마 </span>
+                    <button data-set-theme="Light">Dark Mode</button>
+                    <div class="dropdown">
+                        <a data-set-lang='ko' href="javascript:void(0);"><img src="/img/ko.png" alt="a"></a>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li data-country='ko'>한국어<img src="/img/ko.png" alt="a"></li>
+                                <li data-country='en'>English<img src="/img/en.png" alt="a"></li>
+                                <li data-country='ja'>日本語<img src="/img/ja.png" alt="a"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <h3 data-l10n-id='menu' class="sidebar_item">메뉴</h3>
+            <a data-l10n-id='virtual-scroll-page' class="sidebar_item" title="" href="#">가상 스크롤 테이블</a>
+            <a data-l10n-id='jquery' class="sidebar_item" title="" href="./1117_sub.html">Jquery</a>
+        </div>
+        <div class="main">
+            <div id="search" class="round_box txt_al_center toggleshow">
+                <div data-l10n-id='search'>
+                    검색어:
+                    <input
+                        type="text"
+                        placeholder="..."
+                        data-input-txt
+                    />
+                    <button data-l10n-id='search-btn' data-search-btn>검색</button>
+                    <button data-l10n-id='clear-btn' id="clear_btn">초기화</button>
+                </div>
+            </div>
+                <div id="table_div" class="table_contents"><!-- // -->
+                    <!-- table -->
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -989,6 +989,7 @@ th {
 
 .dropdown > a > img {
     height: 25px;
+    pointer-events: none;
 }
 
 .dropdown-content {
