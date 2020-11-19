@@ -20,7 +20,7 @@ $(document).ready(function () {
 });
 
 $(document).on("click", function (e) {
-    let target = e.target;
+    let target = $(e.target);
     if (target.dataset["setTheme"]) {
         let newTheme = target.dataset["setTheme"];
         if (newTheme == "Dark") {

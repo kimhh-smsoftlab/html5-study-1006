@@ -96,6 +96,8 @@
       - DOM Fragment 개념 학습
     - #### 17일
       - l10n.js를 활용하여 웹페이지 언어 변경 기능 구현
-      - select2 라이브러리 기능 파악
-      - Jquery 학습 진행(Effects, HTML)
+      - select2 라이브러리 기능 파악 [[select2 지원사이트](https://select2.org/)]
+      - Jquery 학습 진행(Effects, HTML) [[w3school - jQuery](https://www.w3schools.com/jquery/default.asp)]
     - #### 18일
+      - select2.js 및 jQuery를 활용하여 select 기능 구현 [[코드 참조](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/b2dbf3a70ffc96f617c5badd52152aba217b2c13/project/11/1118/1118_sub.js#L15)]
+      - github의 issue기능을 활용하여 이미지 파일 업로드 가능 확인 [[참고링크](https://cutemoomin.tistory.com/112)]

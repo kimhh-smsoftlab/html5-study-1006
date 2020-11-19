@@ -177,6 +177,9 @@ h6 {
 .flex_row {
     display: flex;
 }
+.flex_row > div {
+    flex: 1;
+}
 .flex_col {
     display: flex;
     flex-direction: column;
@@ -767,6 +770,7 @@ th {
 }
 
 .bar > div > a {
+    transition: 0.5s;
     display: inline-block;
     height: 100%;
     color: white;
@@ -836,6 +840,7 @@ th {
 }
 
 .body_theme {
+    transition: 0.5s;
     background-color: var(--main-background-color);
     color: var(--main-color);
 }
@@ -853,6 +858,7 @@ th {
 }
 
 .body_theme .sidebar * {
+    transition: 0.5s;
     color: var(--main-color);
 }
 
