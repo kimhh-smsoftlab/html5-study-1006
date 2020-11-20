@@ -1,0 +1,59 @@
+#calendar {
+    text-align: center;
+    width: 700px;
+    padding: 10px;
+}
+#calendar > div > div {
+    display: flex;
+}
+#calendar > div > div > div {
+    flex: 1;
+}
+
+#next,
+#prev {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+#current-year-month {
+    font-size: 1.5rem;
+}
+
+.calendar-body > div > div[id] {
+    height: 70px;
+    line-height: 70px;
+    font-weight: bold;
+}
+
+.calendar-body > div > div[id]:hover {
+    transition: 0.5s;
+    border-radius: 30px;
+    background-color: deepskyblue;
+}
+
+.calendar-body > div:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+.calendar-head > div {
+    height: 50px;
+    align-items: center;
+}
+
+.calendar-head > div:first-child {
+    background-color: green;
+    color: white;
+}
+.calendar-head > div:last-child {
+    background-color: lightgreen;
+    color: white;
+    font-weight: bold;
+}
+.sun {
+    color: coral;
+}
+
+.sat {
+    color: deepskyblue;
+}

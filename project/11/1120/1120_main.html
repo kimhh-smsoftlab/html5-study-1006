@@ -1,0 +1,58 @@
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>1120_Project</title>
+        <link rel="stylesheet" href="/styles.css" />
+        <script defer src="/lib/jquery.js"></script>
+        <script defer src="./1120_script.js"></script>
+        <script
+            src="https://kit.fontawesome.com/d07750b879.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body class="body_theme">
+        <script>
+            document.documentElement.setAttribute(
+                "data-theme",
+                localStorage.theme || "Light"
+            );
+        </script>
+        <div class="top">
+            <div class="bar flex_space_btw">
+                <div>
+                    <a title="첫 화면으로 이동합니다." href="/index.html">
+                        <i class="fas fa-home"></i
+                    ></a>
+                </div>
+                <div class="data-set-buttons flex_row">
+                    <span data-l10n-id="theme" class="color-white">테마 </span>
+                    <button data-set-theme="Light">Dark Mode</button>
+                    <div class="dropdown">
+                        <a data-set-lang="ko" href="javascript:void(0);"
+                            ><img src="/img/ko.png" alt="a"
+                        /></a>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li data-country="ko">
+                                    한국어<img src="/img/ko.png" alt="a" />
+                                </li>
+                                <li data-country="en">
+                                    English<img src="/img/en.png" alt="a" />
+                                </li>
+                                <li data-country="ja">
+                                    日本語<img src="/img/ja.png" alt="a" />
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <h3 data-l10n-id="menu" class="sidebar_item">메뉴</h3>
+            <a class="sidebar_item" title="Calendar" href="#">Calendar</a>
+        </div>
+        <div class="main"></div>
+    </body>
+</html>

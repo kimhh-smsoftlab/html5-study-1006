@@ -101,3 +101,6 @@
     - #### 18일
       - select2.js 및 jQuery를 활용하여 select 기능 구현 [[코드 참조](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/b2dbf3a70ffc96f617c5badd52152aba217b2c13/project/11/1118/1118_sub.js#L15)]
       - github의 issue기능을 활용하여 이미지 파일 업로드 가능 확인 [[참고링크](https://cutemoomin.tistory.com/112)]
+    - #### 19일 
+      - Hangul 라이브러리를 활용하여 select2의 search기능에 초성 검색기능 추가 [[참조 코드](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/0c188900383ca8b35537d8ac58a8a47b08748b54/project/11/1119/1119_script.js#L30)]
+      - < Issues > Array 데이터를 Object 변환하는 기능 작성 [[Issues](https://github.com/kimhh-smsoftlab/html5-study-1006/issues/9 "이슈 바로가기")]
