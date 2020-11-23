@@ -1,0 +1,89 @@
+#calendar {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+#calendar > div > div {
+    display: flex;
+    box-shadow: 2px 2px 5px #dddddd;
+}
+#calendar > div > div > div {
+    flex: 1;
+}
+
+#next,
+#prev {
+    transition: 0.2s;
+    cursor: pointer;
+    font-size: 2rem;
+}
+#next:hover,
+#prev:hover {
+    font-size: 3rem;
+}
+
+#current-year-month {
+    font-size: 1.5rem;
+}
+
+.calendar-body > div > div[data-item] {
+    height: 100px;
+    line-height: 100px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.calendar-body > div > div[data-item]:hover {
+    transition: 0.5s;
+    border-radius: 50px;
+    background-color: rgba(0, 191, 255, 0.233);
+}
+
+.calendar-body > div:nth-child(even) {
+    background-color: #f1f1f1;
+}
+
+.calendar-head > div {
+    align-items: center;
+}
+
+.calendar-head > div:nth-child(1) {
+    height: 40px;
+    background-color: #009070;
+}
+.calendar-head > div:nth-child(2) {
+    background-color: #1abc9c;
+    height: 70px;
+    color: white;
+}
+.calendar-head > div:nth-child(3) {
+    height: 50px;
+    background-color: #bbbbbb;
+    color: white;
+    font-weight: bold;
+}
+.sun {
+    color: tomato;
+}
+
+.sat {
+    color: #245dcc;
+}
+
+[data-project] {
+    color: #1abc9c;
+}
+
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 80px;
+    height: 40px;
+    font-size: 16px;
+    text-align-last: center;
+    border-radius: 10px;
+    height: 25px;
+    margin: 2.5px;
+    background-color: white;
+    border: none;
+}

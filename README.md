@@ -104,3 +104,6 @@
     - #### 19일 
       - Hangul 라이브러리를 활용하여 select2의 search기능에 초성 검색기능 추가 [[참조 코드](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/0c188900383ca8b35537d8ac58a8a47b08748b54/project/11/1119/1119_script.js#L30)]
       - < Issues > Array 데이터를 Object 변환하는 기능 작성 [[Issues](https://github.com/kimhh-smsoftlab/html5-study-1006/issues/9 "이슈 바로가기")]
+    - #### 20일 
+      - 달력 컴포넌트 생성을 위한 calendar class 작성 [[참조 코드](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/a5a11576698a7e2654e5d8932b8086aa3edbf8e9/project/11/1120/1120_script.js#L1)]
+    - #### 21일 

@@ -389,7 +389,7 @@ h6 {
     color: white;
 }
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
     .main_container {
         flex-direction: column;
     }
@@ -442,7 +442,7 @@ h6 {
     .header_page a {
         width: 100%;
     }
-}
+} */
 .box1 {
     width: 100%;
 }
@@ -778,7 +778,14 @@ th {
     font-weight: bold;
     padding: 0px 40px;
 }
-
+.bar > a {
+    display: inline-block;
+    height: 100%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 0px 40px;
+}
 .bar > div > a:hover {
     background-color: white;
     color: black;
