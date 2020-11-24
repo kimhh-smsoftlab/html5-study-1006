@@ -1,5 +1,4 @@
 #calendar {
-    text-align: center;
     width: 100%;
     padding: 10px;
 }
@@ -27,22 +26,17 @@
 }
 
 .calendar-body > div > div[data-item] {
-    height: 100px;
-    line-height: 100px;
+    height: 90px;
     font-weight: bold;
-    cursor: pointer;
-}
-
-.calendar-body > div > div[data-item]:hover {
-    transition: 0.5s;
-    border-radius: 50px;
-    background-color: rgba(0, 191, 255, 0.233);
 }
 
 .calendar-body > div:nth-child(even) {
     background-color: #f1f1f1;
 }
 
+.calendar-head {
+    text-align: center;
+}
 .calendar-head > div {
     align-items: center;
 }
@@ -70,10 +64,6 @@
     color: #245dcc;
 }
 
-[data-project] {
-    color: #1abc9c;
-}
-
 #calendar select {
     appearance: none;
     -webkit-appearance: none;
@@ -86,4 +76,54 @@
     margin: 2.5px;
     background-color: white;
     border: none;
+}
+
+.txt-rt {
+    text-align: right;
+}
+
+.txt-lt {
+    text-align: left;
+}
+/* 일요일 */
+.td-0 {
+    color: tomato;
+}
+/* 토요일 */
+.td-6 {
+    color: #245dcc;
+}
+
+[data-item] .day-txt {
+    padding: 2px 0px 2px 2px;
+}
+[data-holiday] {
+    color: tomato;
+}
+
+.content-list {
+    font-size: 12px;
+    color: gray;
+}
+
+#calendar li {
+    background-color: #9bf0dfb9;
+    list-style: none;
+    margin-bottom: 4px;
+    padding: 2px 0px 2px;
+    transition: 0.1s;
+}
+
+#calendar li:hover {
+    cursor: pointer;
+    background-color: #1abc9c;
+    color: white;
+}
+
+#calendar button {
+    background-color: white;
+    border: none;
+    height: 25px;
+    width: 70px;
+    border-radius: 10px;
 }

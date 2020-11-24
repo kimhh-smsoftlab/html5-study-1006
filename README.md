@@ -99,11 +99,14 @@
       - select2 라이브러리 기능 파악 [[select2 지원사이트](https://select2.org/)]
       - Jquery 학습 진행(Effects, HTML) [[w3school - jQuery](https://www.w3schools.com/jquery/default.asp)]
     - #### 18일
-      - select2.js 및 jQuery를 활용하여 select 기능 구현 [[코드 참조](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/b2dbf3a70ffc96f617c5badd52152aba217b2c13/project/11/1118/1118_sub.js#L15)]
+      - select2.js 및 jQuery를 활용하여 select 기능 구현 [[코드 참조](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/b2dbf3a70ffc96f617c5badd52152aba217b2c13/project/11/1118/1118_sub.js#L15 "코드 바로가기")]
       - github의 issue기능을 활용하여 이미지 파일 업로드 가능 확인 [[참고링크](https://cutemoomin.tistory.com/112)]
     - #### 19일 
-      - Hangul 라이브러리를 활용하여 select2의 search기능에 초성 검색기능 추가 [[참조 코드](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/0c188900383ca8b35537d8ac58a8a47b08748b54/project/11/1119/1119_script.js#L30)]
+      - Hangul 라이브러리를 활용하여 select2의 search기능에 초성 검색기능 추가 [[참조 코드](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/0c188900383ca8b35537d8ac58a8a47b08748b54/project/11/1119/1119_script.js#L30 "코드 바로가기")]
       - < Issues > Array 데이터를 Object 변환하는 기능 작성 [[Issues](https://github.com/kimhh-smsoftlab/html5-study-1006/issues/9 "이슈 바로가기")]
     - #### 20일 
-      - 달력 컴포넌트 생성을 위한 calendar class 작성 [[참조 코드](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/a5a11576698a7e2654e5d8932b8086aa3edbf8e9/project/11/1120/1120_script.js#L1)]
-    - #### 21일 
+      - 달력 컴포넌트 생성을 위한 calendar class 작성 [[참조 코드](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/a5a11576698a7e2654e5d8932b8086aa3edbf8e9/project/11/1120/1120_script.js#L1 "코드 바로가기")]
+    - #### 23일 
+      - calendar의 날짜를 선택하여 해당하는 프로젝트로 이동 기능 구현
+      - select 태그를 추가하여 년,월 단위로 달력 이동 기능 구현 [[참조 코드](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/63b608849e8f605b8e24322125eb9448a137a3d4/project/11/1123/calendar.js#L144 "코드 바로가기")]
+    - #### 24일
