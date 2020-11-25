@@ -126,4 +126,4 @@ class Calendar {
 }
 
 /* 실행 */
-//let a = new Calendar($(".main"));
+let a = new Calendar($(".main"));

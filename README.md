@@ -106,7 +106,13 @@
       - < Issues > Array 데이터를 Object 변환하는 기능 작성 [[Issues](https://github.com/kimhh-smsoftlab/html5-study-1006/issues/9 "이슈 바로가기")]
     - #### 20일 
       - 달력 컴포넌트 생성을 위한 calendar class 작성 [[참조 코드](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/a5a11576698a7e2654e5d8932b8086aa3edbf8e9/project/11/1120/1120_script.js#L1 "코드 바로가기")]
+      ![image](https://user-images.githubusercontent.com/19280103/100164913-4a698e00-2efc-11eb-8612-2c805f03a902.png)
     - #### 23일 
       - calendar의 날짜를 선택하여 해당하는 프로젝트로 이동 기능 구현
       - select 태그를 추가하여 년,월 단위로 달력 이동 기능 구현 [[참조 코드](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/63b608849e8f605b8e24322125eb9448a137a3d4/project/11/1123/calendar.js#L144 "코드 바로가기")]
+      ![image](https://user-images.githubusercontent.com/19280103/100165045-9583a100-2efc-11eb-93c2-1e483d5df16e.png)
     - #### 24일
+      - calendar 새로고침, 양력 공휴일 표시 기능 추가
+      ![image](https://user-images.githubusercontent.com/19280103/100164692-bd263980-2efb-11eb-88ef-2e3aceb7e1ee.png)
+      - electron 개념 및 원리 학습 [[electron](https://github.com/electron "electron 깃허브 바로가기")]
+    - #### 25일
