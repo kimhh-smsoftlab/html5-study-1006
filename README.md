@@ -116,3 +116,5 @@
       ![image](https://user-images.githubusercontent.com/19280103/100164692-bd263980-2efb-11eb-88ef-2e3aceb7e1ee.png)
       - electron 개념 및 원리 학습 [[electron](https://github.com/electron "electron 깃허브 바로가기")]
     - #### 25일
+      - electron 개념정리 [참고 자료](https://cyberx.tistory.com/206 "electron 개념정리 바로가기")
+      - [electron-quick-start](https://github.com/electron/electron-quick-start "quick-start 깃허브 바로가기"), [electron-tutorial](https://github.com/goldenthumb/electron-tutorial "electron-tutorial 깃허브 바로가기"), [electron-tutorial-app](https://github.com/crilleengvall/electron-tutorial-app "electron-tutorial-app 깃허브 바로가기") 예제를 활용한 실습 진행
