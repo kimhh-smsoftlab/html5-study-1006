@@ -118,3 +118,11 @@
     - #### 25일
       - electron 개념정리 [참고 자료](https://cyberx.tistory.com/206 "electron 개념정리 바로가기")
       - [electron-quick-start](https://github.com/electron/electron-quick-start "quick-start 깃허브 바로가기"), [electron-tutorial](https://github.com/goldenthumb/electron-tutorial "electron-tutorial 깃허브 바로가기"), [electron-tutorial-app](https://github.com/crilleengvall/electron-tutorial-app "electron-tutorial-app 깃허브 바로가기") 예제를 활용한 실습 진행
+    - #### 26일
+      - electron-tutorial-app 예제를 통해 실습 프로젝트 작성
+      - 초기 프로젝트
+      ![image](https://user-images.githubusercontent.com/19280103/100399019-73bd2200-3094-11eb-8314-a4b9ced2935e.png)
+      - 실습 프로젝트
+      ![image](https://user-images.githubusercontent.com/19280103/100398860-c64a0e80-3093-11eb-8c48-0af350b46cdc.png)
+
+    - #### 27일
