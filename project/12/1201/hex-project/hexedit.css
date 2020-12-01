@@ -1,0 +1,4 @@
+.second > div:hover {
+    background-color: aquamarine;
+    cursor: default;
+}

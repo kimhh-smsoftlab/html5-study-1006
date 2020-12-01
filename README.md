@@ -126,3 +126,14 @@
       ![image](https://user-images.githubusercontent.com/19280103/100398860-c64a0e80-3093-11eb-8c48-0af350b46cdc.png)
 
     - #### 27일
+      - ipc 통신을 이용한 서브 브라우져 기능 구현
+      ![image](https://user-images.githubusercontent.com/19280103/100431077-01236500-30db-11eb-91e3-f9df282e8c57.png)
+      - dialog를 활용하여 파일 open,save 기능 및 messagebox, errorbox 기능 구현 
+      ![image](https://user-images.githubusercontent.com/19280103/100431746-eef5f680-30db-11eb-8d46-1fa56ffacb89.png)
+
+    - #### 30일
+      - ASCII, 유니코드, UTF-8 개념 학습
+      - HexEdit npm을 활용하여 파일 hex 코드로 변환 기능 구현
+      - Node.js File System 개념 학습 및 readFile 함수 활용
+  - ### 12월 학습
+    - #### 1일
