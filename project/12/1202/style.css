@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+label {
+    display: inline-block;
+}
+
+/* input number의 버튼 제거 */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+}
+/* placeholder 색상 */
+input::placeholder {
+    color: #bbbbbb;
+    font-style: italic;
+}
+
+/* 배경 */
+.page-wrapper {
+    display: flex;
+    min-height: 100vh;
+    background: #f9fafb;
+}
+
+.page-content {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+}
+
+/* 너비 66% */
+.mx-auto {
+    flex: 0 0 66%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* 화면에 보이는 영역 */
+.card {
+    box-shadow: 0 0 10px 0 rgba(183, 192, 206, 0.5);
+    background-color: #ffffff;
+    display: flex;
+    border-radius: 0.25rem;
+    border: 1px solid #f2f4f9;
+}
+
+.left {
+    flex: 0 0 34%;
+}
+.right {
+    flex: 0 0 66%;
+}
+
+/* form 배경 */
+.form-wrapper {
+    padding: 3rem 1.5rem 3rem 1.5rem;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.5rem 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 2px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    border-color: #6db4ff;
+    background-color: #fff;
+    color: #495057;
+    outline: none;
+}
+
+.form-group {
+    margin-bottom: 0.5rem;
+}
+
+.form-group label {
+    font-size: 0.875rem;
+    line-height: 1.4rem;
+    margin-bottom: 0.3rem;
+}
+
+.form-check {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 0;
+}
+
+.left-wrapper {
+    height: 100%;
+    width: 100%;
+    /* stack blitz 확인용 */
+    background-image: url(https://user-images.githubusercontent.com/19280103/100851635-cf3e4400-34c8-11eb-8f11-9641dafb38ed.jpg);
+    background-size: cover;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    background-color: #4250f2;
+    border: 1px solid transparent;
+    border-color: #3645f1;
+    padding: 0.5rem 1rem 0.4rem;
+    font-size: 0.875rem;
+    line-height: 1;
+    border-radius: 0.1875rem;
+    text-decoration: none;
+    outline: none;
+}
+
+.btn-cancel {
+    color: #727cf5;
+    border-color: #727cf5;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.logo {
+    margin-top: 0;
+}
+
+.fx {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-4 {
+    flex: 0 0 45%;
+}
+
+.input-project {
+    position: relative;
+    padding: 0;
+    top: 1.7rem;
+}

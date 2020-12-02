@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <div class="page-wrapper">
+            <div class="page-content">
+                <div class="mx-auto">
+                    <div class="card">
+                        <div class="left">
+                            <div class="left-wrapper"></div>
+                        </div>
+                        <div class="right">
+                            <div class="form-wrapper">
+                                <h1 class="logo">
+                                    <!-- stack blitz 확인용-->
+                                    <img
+                                        src="https://user-images.githubusercontent.com/19280103/100851399-79699c00-34c8-11eb-945b-1571080be18f.png"
+                                        alt=""
+                                    />
+                                </h1>
+                                <form class="forms-sample">
+                                    <div class="form-group">
+                                        <label for="inputId">User ID</label>
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="inputId"
+                                            name="inputId"
+                                            placeholder="ID"
+                                        />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputPassword"
+                                            >Password</label
+                                        >
+                                        <input
+                                            type="password"
+                                            class="form-control"
+                                            id="inputPassword"
+                                            name="inputPassword"
+                                            autocomplete="current-password"
+                                            placeholder="Password"
+                                        />
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="inputServer">Server</label>
+                                        <input
+                                            type="text"
+                                            class="form-control"
+                                            id="inputServer"
+                                            name="inputServer"
+                                            placeholder="000.000.000.000"
+                                        />
+                                    </div>
+                                    <div class="form-group fx">
+                                        <div class="col-4">
+                                            <label for="inputPort">Port</label>
+                                            <input
+                                                type="number"
+                                                class="form-control input-port"
+                                                id="inputPort"
+                                                name="inputPort"
+                                                placeholder="Port Number"
+                                            />
+                                        </div>
+                                        <div class="col-4">
+                                            <select
+                                                name="project"
+                                                id="project"
+                                                class="form-control input-project"
+                                            >
+                                                <option value="hi5foscdb">
+                                                    fosc
+                                                </option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="form-check">
+                                        <label class="form-check-label">
+                                            <input
+                                                type="checkbox"
+                                                class="form-check-input"
+                                            />
+                                            Remember me
+                                        </label>
+                                    </div>
+                                    <div class="mt-3">
+                                        <!-- 서버로 전송 -->
+                                        <input
+                                            type="submit"
+                                            value="Login"
+                                            class="btn btn-login"
+                                        />
+                                        <button
+                                            type="button"
+                                            class="btn btn-cancel"
+                                        >
+                                            Cancel
+                                        </button>
+                                    </div>
+                                </form>
+                                <div>
+                                    <!-- stack blitz 확인용-->
+                                    <img
+                                        src="https://user-images.githubusercontent.com/19280103/100851562-bafa4700-34c8-11eb-89d4-3191baee3b8a.png"
+                                        alt="Logo"
+                                        width="150px"
+                                        style="float: right"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="/lib/jquery.min.js"></script>
+        <script src="./jquery.validate.min.js"></script>
+        <script src="./login.js"></script>
+    </body>
+</html>

@@ -5,6 +5,7 @@
         "hyperlist": "^1.0.0",
         "ie11-custom-properties": "^4.1.0",
         "jquery": "^3.5.1",
+        "jquery-validation": "^1.19.2",
         "virtual-scroll": "^1.5.2"
     },
     "devDependencies": {

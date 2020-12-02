@@ -1071,6 +1071,11 @@ th {
 .table_body > div:nth-child(even) {
     background-color: lightgray;
 }
+
 .table_body > div {
     z-index: -1;
+}
+
+.project {
+    flex: 1;
 }

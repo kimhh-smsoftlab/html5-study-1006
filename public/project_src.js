@@ -139,6 +139,10 @@ let srcData = [
         id: "2020-11-24",
         src: "/project/11/1124/1124_main.html",
     },
+    {
+        id: "2020-12-2",
+        src: "/project/12/1202/index.html",
+    },
 ];
 
 window.srcData = srcData;
