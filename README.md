@@ -133,7 +133,9 @@
 
     - #### 30일
       - ASCII, 유니코드, UTF-8 개념 학습
-      - HexEdit npm을 활용하여 파일 hex 코드로 변환 기능 구현
+      - HexEdit npm을 활용하여 파일 hex 코드로 변환 기능 구현 [url]()
       - Node.js File System 개념 학습 및 readFile 함수 활용
   - ### 12월 학습
     - #### 1일
+      - javascript 모듈화, 모듈패턴 개념 학습
+      - HexEdit 기능만 추출하여 새 모듈로 재구성 [[github code](https://github.com/kimhh-smsoftlab/html5-study-1006/blob/08f41da1bf9464cf591fed5133944a1973c60b97/project/12/1201/hex-project/assets/hexedit.js#L1 "코드 바로가기")]
