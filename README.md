@@ -147,3 +147,8 @@
     - #### 3일
       - fetch, axios를 활용한 서버 통신 기능 구현
       - Hi5 Studio 학습 및 간단한 실습 프로젝트 작성
+
+    - #### 4일
+      - Hi5 Studio Tab Control과 formlink를 활용한 탭기능 학습
+      - Hi5 Studio Tran Builder를 통한 통신 기능 구현
+      - javascript 정규식 학습 
