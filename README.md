@@ -167,3 +167,18 @@
     - #### 9일
       - gulp 라이브러리 학습 및 기능 실습[[gulp github](https://github.com/gulpjs/gulp "gulp 깃허브 바로가기")]
       - Hi5 컨트롤의 생성동작 확인, control js파일 분석 및 수정을 통한 디버깅 진행
+    - #### 10일
+      - Hi5 Studio maskedit의 마스킹기능 분석 진행
+      - markdown viewer프로젝트 생성
+      - [markdown-viewer-sample](https://github.com/kimhh-smsoftlab/markdown-viewer-sample)
+    - #### 11일
+      - markdown-it 라이브러리를 통해 text를 html로 변환
+      - [markdown-it](https://github.com/markdown-it/markdown-it "깃허브 바로가기")
+      - electron dialog, fs.readFile을 통해 파일 불러오기 구현
+    - #### 14일
+      - fetch를 통해 md 소스파일 읽기 구현
+      - 피드백 
+        > 로컬에서 파일을 실행할 경우 fetch를 통해 파일을 불러올 수 없다.
+    - #### 15일
+      - `window.location.protocol`을 통해 서버실행, 로컬실행 구분
+      - `<input type="file" accept=".md" multiple>`을 통해 파일 불러오기
