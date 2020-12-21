@@ -182,3 +182,16 @@
     - #### 15일
       - `window.location.protocol`을 통해 서버실행, 로컬실행 구분
       - `<input type="file" accept=".md" multiple>`을 통해 파일 불러오기
+    - #### 16일
+      - Hi5 실시간(real) 데이터 사용법 및 원리, 구조 학습
+      - ParamQueryGrid 라이브러리 학습 및 실습 진행
+    - #### 17일
+      - PQGrid Demo를 통해 로직 및 주요함수 파악
+      - PQGrid의 cell render, refresh 기능 분석
+    - #### 18일
+      - Hi5 views 폴더 내부 설정화면 파일 분석 및 디버깅 진행
+      - 그리도 화면 생성 시 데이터 전달 로직 분석 진행
+    - #### 21일
+      - Hi5 Manage Domain 화면 변환
+        > Combobox를 DropDownList로 재구성 진행
+        > hidden속성을 사용하여 숨겼던 기능을 disabled로 변환 진행
