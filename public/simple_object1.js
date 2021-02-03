@@ -22,3 +22,4 @@ var data = [
 ];
 
 window.mastercode = data;
+
